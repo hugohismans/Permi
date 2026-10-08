@@ -14,7 +14,7 @@
     },
     {
       "title": "Les feux de signalisation",
-      "body": "<p>Ordre des feux : <b>vert → orange → rouge → vert</b>. Il n'y a pas d'orange entre le rouge et le vert.</p><ul><li><b>Rouge</b> : interdiction de franchir la ligne d'arrêt ou, s'il n'y en a pas, le feu lui-même.</li><li><b>Orange fixe</b> : même interdiction. Seule exception : tu es si près au moment où il s'allume que tu ne peux plus t'arrêter en sécurité. Tu passes alors la ligne, mais tu ne traverses le carrefour que sans mettre les autres en danger. À 60 m, tu as le temps : tu t'arrêtes.</li><li><b>Vert</b> : tu peux passer (mais pas si tu vas rester bloqué au milieu du carrefour).</li><li><b>Orange clignotant</b> : tu peux passer en <b>redoublant de prudence</b>. Il ne change pas les priorités : panneaux ou, à défaut, priorité de droite.</li><li><b>Flèche verte avec le feu rouge</b> : tu peux aller seulement dans la direction de la flèche, en cédant le passage aux conducteurs venant d'autres directions et aux piétons.</li><li><b>Flèche verte vers la gauche seule, à la sortie du carrefour</b> (flèche d'évacuation) : la circulation d'en face est arrêtée par un feu rouge, tu peux terminer ton virage à gauche.</li></ul><p>Le panneau <b>A33</b> annonce des feux plus loin.</p>",
+      "body": "<p>Ordre des feux : <b>vert → orange → rouge → vert</b>. Il n'y a pas d'orange entre le rouge et le vert.</p><ul><li><b>Rouge</b> : interdiction de franchir la ligne d'arrêt ou, s'il n'y en a pas, le feu lui-même.</li><li><b>Orange fixe</b> : même interdiction. Seule exception : tu es si près au moment où il s'allume que tu ne peux plus t'arrêter en sécurité. Tu passes alors la ligne, mais tu ne traverses le carrefour que sans mettre les autres en danger. Encore loin (par ex. à 60 m en roulant à 50 km/h) ? Tu as le temps : tu t'arrêtes.</li><li><b>Vert</b> : tu peux passer (mais pas si tu vas rester bloqué au milieu du carrefour).</li><li><b>Orange clignotant</b> : tu peux passer en <b>redoublant de prudence</b>. Il ne change pas les priorités : panneaux ou, à défaut, priorité de droite.</li><li><b>Flèche verte avec le feu rouge</b> : tu peux aller seulement dans la direction de la flèche, en cédant le passage aux conducteurs venant d'autres directions et aux piétons.</li><li><b>Flèche verte vers la gauche seule, à la sortie du carrefour</b> (flèche d'évacuation) : la circulation d'en face est arrêtée par un feu rouge, tu peux terminer ton virage à gauche.</li></ul><p>Le panneau <b>A33</b> annonce des feux plus loin.</p>",
       "signs": [
         "FEU-rouge",
         "FEU-orange",
@@ -22,7 +22,7 @@
         "FEU-orange-cligno",
         "A33"
       ],
-      "tip": "Orange fixe = « stop si possible », pas « accélère ». Orange clignotant = feux hors service : regarde les panneaux.",
+      "tip": "Orange fixe = « stop si possible », pas « accélère ». Orange clignotant = prudence, priorités inchangées : regarde les panneaux (ou applique la priorité de droite).",
       "ref": "Art. 61, 62 et 64.1 AR 01/12/1975"
     },
     {
@@ -40,7 +40,7 @@
     },
     {
       "title": "B – Signaux de priorité",
-      "body": "<p>Ce sont les seuls panneaux aux formes « spéciales », pour être reconnus même de dos ou sous la neige :</p><ul><li><b>B1</b> : triangle <b>pointe en bas</b> – cédez le passage (arrêt seulement si nécessaire).</li><li><b>B5</b> : <b>octogone rouge</b> STOP – arrêt obligatoire, même si personne n'arrive, puis céder le passage.</li><li><b>B9</b> : <b>losange jaune</b> bordé de blanc – voie prioritaire. <b>B11</b> : le même barré – fin de voie prioritaire (la priorité de droite revient).</li><li><b>B15</b> : triangle avec une flèche épaisse – priorité au <b>prochain</b> carrefour.</li><li><b>B17</b> : triangle avec une croix – carrefour à priorité de droite.</li><li><b>B19</b> (rond, bord rouge) : passage étroit, tu cèdes à ceux d'en face. <b>B21</b> (carré bleu) : passage étroit, tu as la priorité.</li></ul>",
+      "body": "<p>Trois d'entre eux (B1, B5, B9) ont des formes uniques, pour être reconnus même de dos ou sous la neige :</p><ul><li><b>B1</b> : triangle <b>pointe en bas</b> – cédez le passage (arrêt seulement si nécessaire).</li><li><b>B5</b> : <b>octogone rouge</b> STOP – arrêt obligatoire, même si personne n'arrive, puis céder le passage.</li><li><b>B9</b> : <b>losange jaune</b> bordé de blanc – voie prioritaire. <b>B11</b> : le même barré – fin de voie prioritaire (la priorité de droite revient).</li><li><b>B15</b> : triangle avec une barre verticale épaisse coupée par un trait fin – priorité au <b>prochain</b> carrefour.</li><li><b>B17</b> : triangle avec une croix – carrefour à priorité de droite.</li><li><b>B19</b> (rond, bord rouge) : passage étroit, tu cèdes à ceux d'en face. <b>B21</b> (carré bleu) : passage étroit, tu as la priorité.</li></ul>",
       "signs": [
         "B1",
         "B5",
@@ -68,7 +68,7 @@
         "C45-50",
         "C46"
       ],
-      "tip": "Rond + bord rouge = interdit. Rond + bord rouge + barres noires/grises = fin d'interdiction.",
+      "tip": "Rond + bord rouge = interdit. Rond blanc sans bord rouge, barré de traits noirs = fin d'interdiction.",
       "ref": "Art. 68.2, 68.3 et 68.4 AR 01/12/1975"
     },
     {
@@ -117,7 +117,7 @@
   ],
   "keypoints": [
     "Ordre de force : agent, puis feux et panneaux, puis règles de circulation.",
-    "Triangle bord rouge = danger ; rond bord rouge = interdiction ; rond bleu = obligation ; rectangle = indication.",
+    "Triangle pointe en haut bord rouge = danger (sauf B15 et B17, de priorité) ; rond bord rouge = interdiction ; rond bleu = obligation ; rectangle = indication.",
     "B5 octogone : arrêt toujours. B1 triangle pointe en bas : céder, arrêt si nécessaire. B9 losange jaune : prioritaire.",
     "Feux : vert, orange, rouge. Orange fixe = arrêt sauf si trop près. Orange clignotant = prudence, priorités inchangées.",
     "E1 = stationnement interdit ; E3 = arrêt et stationnement interdits.",

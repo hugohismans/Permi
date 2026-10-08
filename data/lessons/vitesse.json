@@ -47,7 +47,7 @@
       "body": "<p>Tu passes un C43 « 70 » en ville, puis un carrefour. Que vaut la limite ? Un C43 (non zonal) vaut :</p><ul><li>jusqu'au <b>prochain carrefour inclus</b> ;</li><li>ou jusqu'à un autre C43 ;</li><li>ou jusqu'au début/fin d'agglomération, de zone résidentielle, de zone de rencontre ou de zone piétonne.</li></ul><p>Après le carrefour, la <b>limite générale</b> revient (50 en Wallonie/Flandre, 30 à Bruxelles en agglomération).</p><p>Le <b>C45</b> marque la fin de la limitation du C43 correspondant. Le <b>C46</b> annonce la fin de toutes les interdictions locales imposées aux véhicules en mouvement. Ensuite, ce sont les règles générales qui s'appliquent.</p>",
       "signs": [
         "C43-70",
-        "C45-50",
+        "C45-70",
         "C46"
       ],
       "tip": "C43 = « jusqu'au prochain carrefour ». Zone (F4a, zone de rencontre…) = « jusqu'au panneau de fin de zone », même après les carrefours.",

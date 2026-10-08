@@ -840,7 +840,8 @@
         <p><b>Fiabilité.</b> Chaque question a été rédigée à partir du texte de loi, relue par un second relecteur, puis soumise à un
         <b>audit à l’aveugle</b> : des relecteurs ont répondu à toutes les questions sans connaître la réponse attendue, uniquement avec le texte officiel ;
         chaque désaccord a été réexaminé. Sous chaque explication, « 📜 Lire l’article officiel » ouvre l’article cité sur codedelaroute.be,
-        et « 🚩 Signaler une erreur » permet de signaler un problème (compte GitHub requis).</p>
+        et « 🚩 Signaler une erreur » permet de signaler un problème (compte GitHub requis).
+        <a href="https://github.com/hugohismans/Permi/blob/main/docs/AUDIT.md" target="_blank" rel="noopener">Méthode et résultats de l’audit</a>.</p>
         <p><b>Limites.</b> Outil d’entraînement non officiel : les panneaux sont des dessins simplifiés et une erreur reste possible.
         En cas de doute, le texte officiel fait foi. Un nouveau Code de la voie publique entre en vigueur le 1<sup>er</sup> juin 2027.</p>
       </div>`;

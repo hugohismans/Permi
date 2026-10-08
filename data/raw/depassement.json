@@ -242,9 +242,9 @@
   {
     "id": "DEP-018",
     "theme": "depassement",
-    "q": "Dans un carrefour à priorité de droite, un cycliste roule devant moi. L'interdiction de dépasser dans ce carrefour s'applique-t-elle à ce cycliste ?",
+    "q": "En agglomération, dans un carrefour à priorité de droite, un cycliste roule devant moi. L'interdiction de dépasser dans ce carrefour s'applique-t-elle à ce cycliste ?",
     "choices": [
-      "Non, elle ne vise pas les bicyclettes ; je dois cependant dépasser sans danger et à au moins 1 m",
+      "Non, elle ne vise pas les bicyclettes ; je dois cependant dépasser sans danger et à au moins 1 m (1,5 m hors agglomération)",
       "Oui, comme pour une voiture"
     ],
     "answer": 0,

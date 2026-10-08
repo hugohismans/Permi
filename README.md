@@ -32,6 +32,8 @@ Les questions ont été **rédigées pour ce projet**. Aucune n'est copiée d'un
 
 ⚠️ Le **1er juin 2027**, un nouveau *Code de la voie publique* (fédéral, bruxellois, flamand, wallon) remplacera l'AR de 1975. L'app couvre les règles en vigueur aujourd'hui.
 
+**Fiabilité** : tout le contenu a été rédigé et vérifié par des agents d'IA, sans relecture humaine. Il est passé par une relecture puis par un audit à l'aveugle (557 questions, 0 désaccord) : voir [docs/AUDIT.md](docs/AUDIT.md). Pour signaler une erreur, utilise le lien « 🚩 Signaler une erreur » dans l'app ou ouvre une issue.
+
 Les panneaux sont des dessins SVG simplifiés (`js/signs.js`). Il s'agit d'un outil d'entraînement **non officiel** : en cas de doute, le texte légal fait foi.
 
 ## Ajouter ou corriger des questions

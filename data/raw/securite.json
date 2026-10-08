@@ -589,7 +589,7 @@
   {
     "id": "SEC-044",
     "theme": "securite",
-    "q": "Je transporte de longues planches dans ma voiture. Dans le cas général, de combien le chargement peut-il dépasser l'arrière du véhicule ?",
+    "q": "Je transporte des planches dans ma voiture (chargement ordinaire, pas une pièce indivisible). De combien le chargement peut-il dépasser l'arrière du véhicule ?",
     "choices": [
       "De 0,50 mètre au maximum",
       "De 3 mètres au maximum",
@@ -686,7 +686,7 @@
     "theme": "securite",
     "q": "Je suis titulaire d'un permis provisoire B. Un samedi soir, puis-je conduire à 23 h ?",
     "choices": [
-      "Non, c'est interdit de 22 h à 6 h les nuits du week-end et des jours fériés",
+      "Non : c'est interdit de 22 h à 6 h le vendredi, le samedi, le dimanche, la veille des jours fériés et les jours fériés",
       "Oui, si mon guide est à côté de moi"
     ],
     "answer": 0,

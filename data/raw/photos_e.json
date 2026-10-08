@@ -35,7 +35,7 @@
   "id": "PHE-004",
   "theme": "stationnement",
   "photo": "4d22f628-e3e3-46b5-9be5-ac86de257e77",
-  "q": "Un signal E1 (stationnement interdit) est placé à droite. Sauf indication contraire sur un panneau additionnel, où l'interdiction s'applique-t-elle ?",
+  "q": "Un signal d'interdiction d'arrêt et de stationnement (E3, croix rouge sur fond bleu) est placé à droite. Sauf indication contraire sur un panneau additionnel, où l'interdiction s'applique-t-elle ?",
   "choices": [
    "Des deux côtés de la rue, sur 50 mètres",
    "Du côté où le signal est placé, à partir du signal jusqu'au prochain carrefour",
@@ -243,7 +243,7 @@
   "id": "PHE-018",
   "theme": "signalisation",
   "photo": "5ba803ca-3901-4b30-ad57-1a2ba8ee7804",
-  "q": "Le panneau rond bleu à droite montre une flèche blanche qui tourne vers la droite (signal D1). Que m'impose-t-il, sauf exception indiquée sur un panneau additionnel ?",
+  "q": "Le panneau rond bleu à droite montre une flèche blanche qui va vers la droite (signal d'obligation de type D1). Que m'impose-t-il, sauf exception indiquée sur un panneau additionnel ?",
   "choices": [
    "Il interdit de tourner à droite",
    "Il indique une simple recommandation de direction",

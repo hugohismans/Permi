@@ -277,7 +277,7 @@
   "q": "Le panneau à droite montre une flèche tournant à gauche, barrée de rouge, avec un panneau additionnel vélo « EXCEPTÉ ». Puis-je tourner à gauche au prochain carrefour ?",
   "choices": [
    "Oui, si personne n'arrive en face",
-   "Non, seuls les cyclistes y sont autorisés",
+   "Non : c'est interdit, sauf pour les cyclistes",
    "Oui, mais seulement pour faire demi-tour"
   ],
   "answer": 1,

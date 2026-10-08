@@ -380,9 +380,9 @@
     "theme": "usagers",
     "q": "Au feu rouge, une zone avancée pour cyclistes (bicyclette peinte entre deux lignes d'arrêt) se trouve devant moi. Où dois-je m'arrêter ?",
     "choices": [
-      "Devant la première ligne d'arrêt",
+      "Devant la première ligne d'arrêt, celle que j'atteins avant la zone vélo",
       "Dans la zone, si aucun cycliste n'est présent",
-      "Devant la seconde ligne d'arrêt"
+      "Devant la seconde ligne d'arrêt, après la zone vélo"
     ],
     "answer": 0,
     "grave": false,
