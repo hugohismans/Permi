@@ -3,7 +3,7 @@
   "id": "PHA-001",
   "theme": "signalisation",
   "photo": "0fd37312-d591-4b8a-902d-929db8078e00",
-  "q": "Je conduis une voiture particulière. À droite se trouve un panneau rond à bord rouge avec un camion, complété par « +10t » et « excepté circulation locale ». Puis-je continuer tout droit ?",
+  "q": "Je conduis une voiture particulière. À droite se trouve un panneau rond à bord rouge avec un camion, complété par « +10t » et « excepté circulation locale ». Puis-je emprunter la voie où ce panneau est placé ?",
   "choices": [
    "Non, l'accès est interdit à tous les véhicules à moteur",
    "Oui, l'interdiction ne vise que les véhicules de transport de marchandises de plus de 10 tonnes",
@@ -35,7 +35,7 @@
   "id": "PHA-003",
   "theme": "signalisation",
   "photo": "31f298a6-e9cb-41a2-a533-76790779a29d",
-  "q": "Le feu est rouge. Sous le feu, un panneau triangulaire montre une bicyclette jaune et une flèche vers la droite. Avec ma voiture, puis-je tourner à droite ?",
+  "q": "Sous ce feu, un panneau triangulaire montre une bicyclette jaune et une flèche vers la droite. Lorsque ce feu est rouge, puis-je tourner à droite avec ma voiture ?",
   "choices": [
    "Oui, à condition de céder le passage",
    "Non, ce panneau ne concerne que les cyclistes et les speed pedelecs",
@@ -43,7 +43,7 @@
   ],
   "answer": 1,
   "grave": true,
-  "explain": "Le panneau B22 autorise uniquement les cyclistes et les conducteurs de speed pedelecs à franchir le feu rouge pour tourner à droite, en cédant le passage. Pour un automobiliste, le feu rouge reste une interdiction de passer.",
+  "explain": "Le panneau B22 autorise uniquement les cyclistes et les conducteurs de speed pedelecs à franchir le feu rouge ou jaune-orange pour tourner à droite, en cédant le passage. Pour un automobiliste, le feu rouge reste une interdiction de franchir la ligne d'arrêt.",
   "ref": "Art. 67.3 (B22) et 61.1 AR 01/12/1975",
   "focus": "panneau triangulaire jaune sous le feu"
  },
@@ -51,7 +51,7 @@
   "id": "PHA-004",
   "theme": "vitesse",
   "photo": "5650e541-8ec7-4a2d-ba1a-e8ae9ff5aa12",
-  "q": "Je quitte la ville par cette route à une seule chaussée, en Wallonie. Je viens de passer le panneau visible à droite (nom de localité barré). Sauf autre signalisation, quelle est ma vitesse maximale ?",
+  "q": "Je quitte la localité par cette route, en Wallonie. Je viens de passer le panneau blanc visible à droite (silhouette de bâtiments barrée de rouge). Sauf autre signalisation, quelle est ma vitesse maximale ?",
   "choices": [
    "50 km/h",
    "70 km/h",
@@ -59,9 +59,9 @@
   ],
   "answer": 2,
   "grave": false,
-  "explain": "Le panneau F3a marque la fin de l'agglomération. En Wallonie, hors agglomération, la vitesse est limitée à 90 km/h sur ce type de route (hors autoroute et route à 2x2 bandes séparées physiquement).",
-  "ref": "Art. 11.2 (Région wallonne) et 71 (F3a) AR 01/12/1975",
-  "focus": "panneau blanc barré à droite"
+  "explain": "Le panneau F3b marque la fin de l'agglomération. En Wallonie, hors agglomération, la vitesse est limitée à 90 km/h sur ce type de route (hors autoroute et route à 2x2 bandes dont les sens sont séparés autrement que par des marques routières).",
+  "ref": "Art. 2.12 (F3b) et 11.2 (Région wallonne) AR 01/12/1975",
+  "focus": "panneau blanc barré à droite, au fond"
  },
  {
   "id": "PHA-005",
@@ -99,7 +99,7 @@
   "id": "PHA-007",
   "theme": "signalisation",
   "photo": "96ac2f7b-fbb3-43cd-8595-09297b0e8de0",
-  "q": "Sur la droite de la chaussée se trouve une zone marquée de lignes blanches obliques. Puis-je y rouler ou m'y arrêter un instant ?",
+  "q": "À droite de ma bande se trouve une zone marquée de lignes blanches obliques. Puis-je y rouler ou m'y arrêter un instant ?",
   "choices": [
    "Oui, pour un arrêt bref",
    "Oui, pour dépasser un véhicule lent",
@@ -109,7 +109,7 @@
   "grave": false,
   "explain": "Les lignes parallèles obliques blanches marquent une zone d'évitement : il est interdit d'y circuler, de s'y arrêter et d'y stationner.",
   "ref": "Art. 77.4 AR 01/12/1975",
-  "focus": "zone hachurée à droite"
+  "focus": "zone hachurée à droite de ma bande"
  },
  {
   "id": "PHA-008",
@@ -268,14 +268,14 @@
   "answer": 2,
   "grave": false,
   "explain": "Entrer dans un rond-point est un changement de direction qui n'implique pas l'usage des indicateurs de direction. En revanche, il faut mettre le clignotant pour en sortir.",
-  "ref": "Art. 19.2 AR 01/12/1975",
+  "ref": "Art. 19.2, 1° AR 01/12/1975",
   "focus": "panneaux au centre"
  },
  {
   "id": "PHA-018",
   "theme": "usagers",
   "photo": "7880a546-9e7d-4f52-a6c1-f6b67d8c7f5e",
-  "q": "Je roule en voiture. Puis-je emprunter ce couloir coloré marqué d'un vélo, séparé de la chaussée par une bordure, pour éviter les véhicules garés ?",
+  "q": "Je roule en voiture. Puis-je emprunter ce couloir coloré marqué d'un vélo, à droite des voitures garées, pour circuler plus facilement ?",
   "choices": [
    "Oui, si aucun cycliste n'arrive",
    "Oui, au pas",
@@ -315,15 +315,15 @@
   ],
   "answer": 0,
   "grave": true,
-  "explain": "Le conducteur doit céder le passage aux piétons engagés sur un passage pour piétons et, aux carrefours à feux, leur permettre d'achever leur traversée même si la circulation est ouverte pour lui.",
-  "ref": "Art. 40.4.1 et 40.4.2 AR 01/12/1975",
+  "explain": "Le conducteur qui change de direction doit céder le passage aux piétons qui traversent la chaussée sur laquelle il va s'engager ; il doit aussi céder le passage aux piétons engagés sur un passage pour piétons (et, aux carrefours à feux, les laisser achever leur traversée même si le feu est vert pour lui).",
+  "ref": "Art. 19.5 et 40.4 AR 01/12/1975",
   "focus": "piétonne à droite"
  },
  {
   "id": "PHA-021",
   "theme": "priorite",
   "photo": "44533adc-43d7-4638-9ca5-e2b6ca4e4fd7",
-  "q": "Les feux de ce carrefour sont éteints. Sous le feu de droite se trouve un panneau triangulaire pointe en bas. Quelle règle dois-je appliquer ?",
+  "q": "Sous le feu de droite se trouve un panneau triangulaire pointe en bas. Si les feux de ce carrefour sont éteints (hors service), quelle règle dois-je appliquer ?",
   "choices": [
    "La priorité de droite",
    "Je dois céder le passage aux usagers de la voie que j'aborde",

@@ -108,8 +108,8 @@
     "answer": 0,
     "grave": false,
     "focus": "panneau P à droite",
-    "explain": "Les signaux E9a et les signaux d'interdiction de stationnement ont effet du côté de la voie publique où ils sont placés, à partir du signal jusqu'au prochain carrefour.",
-    "ref": "Art. 70.2.1 AR 01/12/1975"
+    "explain": "Les signaux E1, E3, E5, E7 et E9a à E9j ont effet du côté de la voie publique où ils sont placés, à partir du signal jusqu'au prochain carrefour.",
+    "ref": "Art. 70.2.2 AR 01/12/1975"
   },
   {
     "id": "PHB-008",
@@ -131,7 +131,7 @@
     "id": "PHB-009",
     "theme": "usagers",
     "photo": "7b75ec09-4c75-44bc-a53f-6c35364b75d2",
-    "q": "Le panneau bleu « Fahrrad Zone » (zone cyclable) marque l'entrée de cette rue à Eupen. J'y roule en voiture derrière un cycliste. Puis-je le dépasser ?",
+    "q": "Le panneau bleu « Fahrrad Zone » (zone cyclable) est visible sur le poteau, à Eupen. Dans la zone qu'il annonce, je roule en voiture derrière un cycliste. Puis-je le dépasser ?",
     "choices": [
       "Oui, si je laisse au moins 1 mètre",
       "Oui, si je ne dépasse pas 30 km/h",
@@ -141,7 +141,7 @@
     "grave": true,
     "focus": "panneau bleu « Fahrrad Zone » sur le poteau",
     "explain": "Le signal F111 indique le début d'une zone cyclable. Les véhicules à moteur y sont admis mais ne peuvent pas dépasser les cyclistes, et la vitesse n'y est jamais supérieure à 30 km/h.",
-    "ref": "Art. 22novies et 71 (F111) AR 01/12/1975"
+    "ref": "Art. 2.61, 22novies et 71 (F111) AR 01/12/1975"
   },
   {
     "id": "PHB-010",
@@ -189,7 +189,7 @@
     "grave": false,
     "focus": "panneau rond sur le mur à droite",
     "explain": "Le signal E1 interdit le stationnement du côté où il est placé, jusqu'au prochain carrefour. Rester une heure immobilisé, c'est du stationnement.",
-    "ref": "Art. 2.23 et 70.2.1 (E1) AR 01/12/1975"
+    "ref": "Art. 2.23, 70.2.1 et 70.2.2 (E1) AR 01/12/1975"
   },
   {
     "id": "PHB-013",
@@ -259,7 +259,7 @@
     "id": "PHB-017",
     "theme": "usagers",
     "photo": "bea00f5f-6d81-40a8-ae4c-f5236eb39cd2",
-    "q": "J'approche de ce passage pour piétons, sans feux ni agent. Un piéton attend sur le trottoir, sur le point de traverser. Que dois-je faire ?",
+    "q": "J'approche de ce passage pour piétons, sans feux ni agent. Un piéton se trouve sur le trottoir, sur le point de traverser. Que dois-je faire ?",
     "choices": [
       "Continuer : il doit attendre que la rue soit libre",
       "Lui céder le passage",
@@ -284,7 +284,8 @@
     "answer": 0,
     "grave": false,
     "explain": "En Région wallonne, la vitesse est limitée à 50 km/h dans les agglomérations, sauf autre limitation imposée par un signal C43 ou une zone 30. (À Bruxelles, la règle générale en agglomération est 30 km/h.)",
-    "ref": "Art. 11.1 (Région wallonne) AR 01/12/1975"
+    "ref": "Art. 11.1 (Région wallonne) AR 01/12/1975",
+    "focus": "rue commerçante bordée de magasins"
   },
   {
     "id": "PHB-019",
