@@ -60,6 +60,8 @@
   // --- Badges
   const BADGES = [
     { id: 'first', icon: '🚗', name: 'Premier tour de roue', desc: 'Répondre à ta première question' },
+    { id: 'lesson1', icon: '📖', name: 'Bon élève', desc: 'Terminer ton premier cours' },
+    { id: 'scholar', icon: '📚', name: 'Studieux', desc: 'Terminer tous les cours' },
     { id: 'goal', icon: '🎯', name: 'Objectif atteint', desc: 'Atteindre ton objectif quotidien' },
     { id: 'streak3', icon: '🔥', name: 'Ça chauffe', desc: 'Série de 3 jours' },
     { id: 'streak7', icon: '🔥', name: 'Une semaine', desc: 'Série de 7 jours' },

@@ -1,0 +1,370 @@
+[
+ {
+  "id": "PHH-001",
+  "theme": "stationnement",
+  "photo": "d167b5b6-69fc-49a7-a0b3-cfd46cfa4353",
+  "q": "Je voudrais m'arrêter un instant juste avant ce passage pour piétons pour déposer un passager. Est-ce permis ?",
+  "choices": [
+   "Oui, si l'arrêt ne dure que le temps de faire descendre le passager",
+   "Non, l'arrêt est interdit sur le passage et à moins de 5 mètres en deçà",
+   "Oui, à condition d'allumer mes feux de détresse"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "L'arrêt et le stationnement sont interdits sur les passages pour piétons et sur la chaussée à moins de 5 mètres en deçà de ceux-ci, même pour un court instant.",
+  "ref": "Art. 24, 4° AR 01/12/1975",
+  "focus": "passage pour piétons à droite"
+ },
+ {
+  "id": "PHH-002",
+  "theme": "priorite",
+  "photo": "74d6ba68-571e-42f4-a609-ac69533dbdee",
+  "q": "Je vois ce panneau triangulaire (croix noire). Au carrefour suivant, qui a la priorité ?",
+  "choices": [
+   "Je suis prioritaire sur tous les conducteurs",
+   "Je dois céder le passage aux conducteurs venant de ma gauche",
+   "Je dois céder le passage aux conducteurs venant de ma droite"
+  ],
+  "answer": 2,
+  "grave": true,
+  "explain": "Le signal B17 annonce un carrefour où la priorité de droite est applicable : je dois céder le passage à celui qui vient de ma droite.",
+  "ref": "Art. 67.3 (B17) et art. 12.3.1 AR 01/12/1975",
+  "focus": "panneau triangulaire au-dessus du P"
+ },
+ {
+  "id": "PHH-003",
+  "theme": "vitesse",
+  "photo": "c2439304-d12c-4a71-ba9e-cf302295b7f3",
+  "q": "À quelle vitesse maximale puis-je rouler à hauteur de ces panneaux ?",
+  "choices": [
+   "50 km/h",
+   "30 km/h",
+   "70 km/h"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal C43 « 50 », accompagné ici de la mention « RAPPEL », rappelle que la vitesse est limitée à 50 km/h.",
+  "ref": "Art. 68.3 (C43) AR 01/12/1975",
+  "focus": "panneau rond « 50 »"
+ },
+ {
+  "id": "PHH-004",
+  "theme": "signalisation",
+  "photo": "c2439304-d12c-4a71-ba9e-cf302295b7f3",
+  "q": "Que m'annonce le panneau triangulaire placé au-dessus de la limitation de vitesse ?",
+  "choices": [
+   "Une chaussée glissante",
+   "Un ou plusieurs dispositifs surélevés (ralentisseurs)",
+   "Un passage pour piétons"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal A14 annonce un ou plusieurs dispositifs surélevés. Je dois l'aborder prudemment et à allure modérée.",
+  "ref": "Art. 66.4 (A14) et art. 22ter AR 01/12/1975",
+  "focus": "triangle en haut du poteau"
+ },
+ {
+  "id": "PHH-005",
+  "theme": "signalisation",
+  "photo": "22ea78a4-2c32-49f6-b88b-34cdb6169d20",
+  "q": "La voiture devant moi roule lentement. Puis-je circuler sur la zone à lignes obliques blanches, à gauche de ma bande, pour la dépasser ?",
+  "choices": [
+   "Oui, si personne ne vient en sens inverse",
+   "Oui, mais seulement pour tourner à gauche",
+   "Non, il est interdit d'y circuler, de s'y arrêter et d'y stationner"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Les lignes parallèles obliques blanches délimitent une zone d'évitement ou un îlot directionnel : on ne peut ni y circuler, ni s'y arrêter, ni y stationner.",
+  "ref": "Art. 77.4 AR 01/12/1975",
+  "focus": "zone hachurée au milieu de la chaussée"
+ },
+ {
+  "id": "PHH-006",
+  "theme": "depassement",
+  "photo": "50c68f8e-56c0-4545-83c4-64556ef6dc14",
+  "q": "Plus loin se trouve un passage pour piétons (panneau bleu à droite), sans feux ni agent. Si le véhicule devant moi ralentit en s'approchant de ce passage, puis-je le dépasser ?",
+  "choices": [
+   "Oui, si aucun piéton n'est visible",
+   "Non, ce dépassement est interdit",
+   "Oui, si la ligne médiane est discontinue"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Il est interdit de dépasser un véhicule qui s'approche d'un passage pour piétons ou qui s'arrête devant celui-ci, là où la circulation n'est pas réglée par des feux ou un agent : il peut masquer un piéton.",
+  "ref": "Art. 17.2, 5° AR 01/12/1975",
+  "focus": "panneau bleu « passage pour piétons » à droite"
+ },
+ {
+  "id": "PHH-007",
+  "theme": "vitesse",
+  "photo": "ebfaa109-0e2f-49d9-a913-fbad6a6309ba",
+  "q": "J'entre dans la zone signalée par le panneau bleu à droite. Quelle est la vitesse maximale autorisée ?",
+  "choices": [
+   "50 km/h",
+   "30 km/h",
+   "20 km/h"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal F111 marque le début d'une zone cyclable. La vitesse n'y peut jamais être supérieure à 30 km/h.",
+  "ref": "Art. 22novies et art. 71 (F111) AR 01/12/1975",
+  "focus": "panneau « Zone cyclable » à droite"
+ },
+ {
+  "id": "PHH-008",
+  "theme": "depassement",
+  "photo": "ebfaa109-0e2f-49d9-a913-fbad6a6309ba",
+  "q": "Dans cette zone cyclable, un cycliste roule devant moi à 20 km/h. Puis-je le dépasser avec ma voiture ?",
+  "choices": [
+   "Non, les véhicules à moteur ne peuvent pas y dépasser les cyclistes",
+   "Oui, en laissant au moins 1 mètre d'écart latéral",
+   "Oui, mais seulement si la chaussée est à sens unique"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Les véhicules à moteur peuvent circuler dans une zone cyclable, mais ils ne peuvent pas y dépasser les cyclistes.",
+  "ref": "Art. 22novies AR 01/12/1975",
+  "focus": "panneau « Zone cyclable » à droite"
+ },
+ {
+  "id": "PHH-009",
+  "theme": "signalisation",
+  "photo": "036e5482-7d9e-4972-9fae-bc5f13e0deec",
+  "q": "Puis-je m'engager en voiture dans cette rue ?",
+  "choices": [
+   "Oui, car le panneau ne vise que les cyclistes",
+   "Oui, mais seulement pour accéder à une propriété",
+   "Non, c'est un sens interdit pour moi"
+  ],
+  "answer": 2,
+  "grave": true,
+  "explain": "Le signal C1 interdit l'accès à tout conducteur dans ce sens. Le panneau additionnel n'autorise que les cyclistes à y entrer.",
+  "ref": "Art. 68.3 (C1) AR 01/12/1975",
+  "focus": "panneau rond rouge à barre blanche"
+ },
+ {
+  "id": "PHH-010",
+  "theme": "signalisation",
+  "photo": "036e5482-7d9e-4972-9fae-bc5f13e0deec",
+  "q": "Que signifie le panneau additionnel « EXCEPTÉ » avec une bicyclette, sous le sens interdit ?",
+  "choices": [
+   "Les cyclistes peuvent entrer dans cette rue malgré le sens interdit",
+   "Les cyclistes doivent descendre de leur vélo",
+   "La rue est réservée aux seuls cyclistes"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le panneau additionnel M2 complète le signal C1 : l'interdiction ne s'applique pas aux cyclistes, qui peuvent circuler à contresens. Le marquage vélo au sol le rappelle.",
+  "ref": "Art. 65.2 (M2) et art. 68.3 (C1) AR 01/12/1975",
+  "focus": "panneau blanc sous le sens interdit"
+ },
+ {
+  "id": "PHH-011",
+  "theme": "vitesse",
+  "photo": "5a1de192-d922-4327-9b6e-ceb3a7de4274",
+  "q": "Je passe à hauteur du panneau « ZONE 30 » à droite. À quelle vitesse maximale puis-je rouler ensuite ?",
+  "choices": [
+   "50 km/h, sauf près des écoles",
+   "30 km/h dans toute la zone",
+   "30 km/h uniquement sur les ralentisseurs"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal F4a marque le début d'une zone 30 : la vitesse y est limitée à 30 km/h jusqu'au signal F4b de fin de zone.",
+  "ref": "Art. 22quater AR 01/12/1975",
+  "focus": "panneau « zone 30 » en haut à droite"
+ },
+ {
+  "id": "PHH-012",
+  "theme": "priorite",
+  "photo": "9019b681-3510-4cec-b0b0-27bc98d87291",
+  "q": "J'arrive à ce panneau STOP. Que dois-je faire ?",
+  "choices": [
+   "Ralentir fortement et passer si personne n'arrive",
+   "Marquer l'arrêt complet, puis céder le passage aux conducteurs de la voie que j'aborde",
+   "Céder le passage uniquement aux conducteurs venant de droite"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le signal B5 impose de marquer l'arrêt (à la ligne d'arrêt s'il y en a une) et de céder le passage à tous les conducteurs circulant sur la voie abordée.",
+  "ref": "Art. 67.3 (B5), art. 12.3.1 a) et art. 76.1 AR 01/12/1975",
+  "focus": "panneau STOP à droite"
+ },
+ {
+  "id": "PHH-013",
+  "theme": "usagers",
+  "photo": "9ff28b60-3d19-4c68-9727-cf619fa19f10",
+  "q": "Ce passage pour piétons est équipé de feux. Si le feu passe au vert pour moi alors que ces piétons sont encore en train de traverser, que dois-je faire ?",
+  "choices": [
+   "Les laisser achever leur traversée avant de passer",
+   "Passer, car le feu vert me donne la priorité",
+   "Klaxonner pour qu'ils se dépêchent"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Même lorsque la circulation est ouverte dans mon sens, je dois permettre aux piétons régulièrement engagés sur la chaussée d'achever leur traversée à allure normale.",
+  "ref": "Art. 40.4.1 AR 01/12/1975",
+  "focus": "piétons sur le passage à gauche"
+ },
+ {
+  "id": "PHH-014",
+  "theme": "usagers",
+  "photo": "9be9722a-d2eb-4a69-be6d-f0f93cdb0ee4",
+  "q": "Je veux tourner à droite dans la rue latérale. Si un cycliste arrive derrière moi sur la piste cyclable rouge, qui passe en premier ?",
+  "choices": [
+   "Moi, car je suis sur la chaussée principale",
+   "Le cycliste : je dois lui céder le passage",
+   "Celui qui arrive le premier au croisement"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le conducteur qui change de direction doit céder le passage aux conducteurs qui circulent sur les autres parties de la même voie publique, comme la piste cyclable, ainsi qu'aux piétons qui traversent la chaussée où il s'engage.",
+  "ref": "Art. 19.4, 19.5 et 12.4bis AR 01/12/1975",
+  "focus": "piste cyclable rouge à droite"
+ },
+ {
+  "id": "PHH-015",
+  "theme": "stationnement",
+  "photo": "9be9722a-d2eb-4a69-be6d-f0f93cdb0ee4",
+  "q": "Puis-je m'arrêter quelques instants sur la traversée cyclable rouge (bordée de pointillés blancs) devant moi ?",
+  "choices": [
+   "Oui, si je reste au volant",
+   "Oui, pendant moins de 2 minutes",
+   "Non, l'arrêt y est interdit"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "L'arrêt et le stationnement sont interdits sur les passages pour cyclistes et sur la chaussée à moins de 5 mètres en deçà, comme sur les passages pour piétons.",
+  "ref": "Art. 24, 4° et art. 76.4 AR 01/12/1975",
+  "focus": "traversée cyclable rouge au premier plan"
+ },
+ {
+  "id": "PHH-016",
+  "theme": "priorite",
+  "photo": "164a04e8-0764-4fae-b3eb-5c993de4d9f3",
+  "q": "Un rétrécissement est annoncé à 100 m. Avec le panneau carré bleu placé au-dessus, qui a la priorité dans le passage étroit ?",
+  "choices": [
+   "Moi, par rapport aux conducteurs venant en sens inverse",
+   "Les conducteurs venant en sens inverse",
+   "Le premier arrivé, sans règle particulière"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal B21 (flèche blanche vers le haut, flèche rouge vers le bas) donne la priorité de passage par rapport aux conducteurs venant en sens opposé. Je reste toutefois prudent.",
+  "ref": "Art. 67.3 (B21) AR 01/12/1975",
+  "focus": "panneau carré bleu à droite"
+ },
+ {
+  "id": "PHH-017",
+  "theme": "signalisation",
+  "photo": "164a04e8-0764-4fae-b3eb-5c993de4d9f3",
+  "q": "Que m'annonce le panneau triangulaire avec la mention « 100 m » ?",
+  "choices": [
+   "Un rétrécissement de la chaussée à environ 100 m",
+   "Une route à deux bandes de circulation",
+   "La fin d'une route prioritaire"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Les signaux A7 annoncent un rétrécissement de la chaussée ; le panneau additionnel indique la distance approximative jusqu'au danger.",
+  "ref": "Art. 66.4 (A7) AR 01/12/1975",
+  "focus": "triangle sous le panneau bleu"
+ },
+ {
+  "id": "PHH-018",
+  "theme": "vitesse",
+  "photo": "cb32abad-e7fe-462b-be31-522c0819c1fd",
+  "q": "Je quitte la localité (Région wallonne). Après ces panneaux, à quelle vitesse maximale puis-je rouler ?",
+  "choices": [
+   "90 km/h, car je sors de l'agglomération",
+   "50 km/h jusqu'au prochain carrefour",
+   "70 km/h"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Hors agglomération en Wallonie, la limite générale est de 90 km/h, mais le signal C43 « 70 » impose ici une limitation inférieure qui prime.",
+  "ref": "Art. 11.2 (Région wallonne) et art. 68.3 (C43) AR 01/12/1975",
+  "focus": "panneau « 70 » au-dessus du nom barré"
+ },
+ {
+  "id": "PHH-019",
+  "theme": "signalisation",
+  "photo": "cb32abad-e7fe-462b-be31-522c0819c1fd",
+  "q": "Que signifie le panneau blanc portant le nom « Branchon » barré d'une bande rouge ?",
+  "choices": [
+   "La fin de l'agglomération",
+   "Un sens interdit vers ce village",
+   "La fin d'une zone résidentielle"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal F3a indique la sortie d'une agglomération. Les règles propres aux agglomérations cessent de s'appliquer.",
+  "ref": "Art. 2.12 et art. 71 (F3a) AR 01/12/1975",
+  "focus": "panneau blanc au nom barré"
+ },
+ {
+  "id": "PHH-020",
+  "theme": "usagers",
+  "photo": "141cae8a-cd5a-4171-b118-52a4dedd42f6",
+  "q": "Le panneau bleu annonce un passage pour piétons. En supposant qu'il n'est réglé ni par des feux ni par un agent, comment dois-je l'aborder ?",
+  "choices": [
+   "À allure modérée, en cédant le passage aux piétons engagés ou sur le point de s'y engager",
+   "À vitesse normale ; je ne m'arrête que si un piéton est déjà au milieu",
+   "En klaxonnant pour avertir les piétons"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Là où la circulation n'est pas réglée par des feux ou un agent, je ne peux m'approcher d'un passage pour piétons qu'à allure modérée et je dois céder le passage aux piétons qui y sont engagés ou sur le point de s'y engager.",
+  "ref": "Art. 40.4.2 et art. 71 (F49) AR 01/12/1975",
+  "focus": "panneau bleu à droite"
+ },
+ {
+  "id": "PHH-021",
+  "theme": "signalisation",
+  "photo": "933a1a6a-dd69-4db7-8b3a-5db1774c8dab",
+  "q": "Puis-je emprunter ce chemin avec ma voiture ?",
+  "choices": [
+   "Oui, à 30 km/h maximum",
+   "Non, l'accès y est interdit à tout conducteur, sauf aux cyclistes",
+   "Oui, mais uniquement dans un sens"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal C3 interdit l'accès, dans les deux sens, à tout conducteur. Le panneau additionnel « EXCEPTÉ » vélo autorise seulement les cyclistes.",
+  "ref": "Art. 68.3 (C3) et art. 65.2 AR 01/12/1975",
+  "focus": "panneau rond blanc bordé de rouge"
+ },
+ {
+  "id": "PHH-022",
+  "theme": "signalisation",
+  "photo": "47756446-eff2-48bd-b1b4-23e46bf33ec4",
+  "q": "Le panneau carré bleu à droite montre notamment un piéton, un cycliste et un cavalier. Puis-je circuler sur ce chemin en voiture ?",
+  "choices": [
+   "Oui, à 30 km/h maximum",
+   "Oui, si je roule au pas",
+   "Non, seuls les usagers représentés sur le panneau peuvent y circuler"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le signal F99a indique un chemin réservé aux catégories d'usagers dont le symbole figure sur le panneau. Les voitures ne peuvent pas y circuler (sauf exceptions comme les véhicules prioritaires en mission ou autorisés).",
+  "ref": "Art. 22quinquies.1 et art. 71 (F99a) AR 01/12/1975",
+  "focus": "panneau carré bleu à droite"
+ },
+ {
+  "id": "PHH-023",
+  "theme": "stationnement",
+  "photo": "766635f8-5f1a-49ef-8f83-56bce4d1e783",
+  "q": "Je n'ai pas de carte spéciale de stationnement pour personnes handicapées. Puis-je stationner à l'emplacement signalé par ce panneau ?",
+  "choices": [
+   "Oui, pendant 15 minutes maximum",
+   "Non, il est réservé aux véhicules des titulaires de cette carte",
+   "Oui, si je reste dans le véhicule"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal E9a avec le symbole du fauteuil roulant réserve le stationnement aux véhicules utilisés par des personnes handicapées titulaires de la carte spéciale.",
+  "ref": "Art. 27bis et art. 70.2.1, 3° c) AR 01/12/1975",
+  "focus": "panneau P avec fauteuil roulant"
+ }
+]

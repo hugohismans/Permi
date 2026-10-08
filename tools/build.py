@@ -74,3 +74,31 @@ OUT.write_text(
 )
 by = {t["key"]: sum(q["theme"] == t["key"] for q in out) for t in present}
 print(f"{len(out)} questions -> {OUT.relative_to(ROOT)}  {by}  graves={sum(1 for q in out if q.get('grave'))}  photos={len(used_photos)}")
+
+# --- Cours par thème : data/lessons/*.json -> data/lessons.js
+LESSONS_DIR = ROOT / "data" / "lessons"
+lessons, lerr = {}, []
+ALLOWED = re.compile(r"</?(p|ul|ol|li|b|em|br)\s*/?>")
+for f in sorted(LESSONS_DIR.glob("*.json")):
+    L = json.loads(f.read_text(encoding="utf-8"))
+    if L.get("theme") not in keys:
+        lerr.append(f"{f.name}: thème inconnu {L.get('theme')}")
+        continue
+    for i, sec in enumerate(L.get("sections", [])):
+        for code in sec.get("signs", []):
+            if code not in SIGNS:
+                lerr.append(f"{f.name} section {i + 1}: panneau inconnu {code}")
+        bad = [t for t in re.findall(r"</?[a-zA-Z][^>]*>", sec.get("body", "")) if not ALLOWED.fullmatch(t)]
+        if bad:
+            lerr.append(f"{f.name} section {i + 1}: balises non autorisées {sorted(set(bad))}")
+    lessons[L["theme"]] = L
+if lerr:
+    print("\n".join(lerr))
+    sys.exit(1)
+(ROOT / "data" / "lessons.js").write_text(
+    "/* Fichier généré par tools/build.py à partir de data/lessons/*.json — ne pas modifier à la main. */\n"
+    f"window.LESSONS = {json.dumps(lessons, ensure_ascii=False, separators=(',', ':'))};\n",
+    encoding="utf-8",
+)
+print(f"{len(lessons)} cours -> data/lessons.js")
+

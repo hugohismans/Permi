@@ -5,6 +5,7 @@
   const QUESTIONS = window.QUESTIONS || [];
   const THEMES = window.THEMES || [];
   const MEMO = window.MEMO || [];
+  const LESSONS = window.LESSONS || {};
   const THEME_LABEL = Object.fromEntries(THEMES.map((t) => [t.key, t.label]));
   const G = window.Game;
   const CREDITS = window.PHOTO_CREDITS || {};
@@ -22,7 +23,7 @@
   // ---------- Stockage de la progression par question ----------
   const STORE_KEY = 'permi.v1';
   const store = (() => {
-    let data = { q: {}, exams: [], themesPlayed: {} };
+    let data = { q: {}, exams: [], themesPlayed: {}, lessons: {} };
     try {
       const raw = localStorage.getItem(STORE_KEY);
       if (raw) data = Object.assign(data, JSON.parse(raw));
@@ -36,7 +37,7 @@
         data.q[id] = r; save();
       },
       addExam(e) { data.exams.unshift(e); data.exams = data.exams.slice(0, 30); save(); },
-      reset() { data.q = {}; data.exams = []; data.themesPlayed = {}; save(); },
+      reset() { data.q = {}; data.exams = []; data.themesPlayed = {}; data.lessons = {}; save(); },
       get: (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } },
       set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* ignore */ } },
     };
@@ -547,6 +548,73 @@
     if (celebrate) { fx.fanfare(); confetti(); }
   }
 
+  // ---------- Cours ----------
+  const lessonDone = (key) => !!(store.data.lessons || {})[key];
+  let lessonPos = {};
+
+  function viewLessons() {
+    const rows = THEMES.filter((t) => LESSONS[t.key]).map((t) => {
+      const L = LESSONS[t.key];
+      return `<button class="card theme-row" data-lesson="${t.key}">
+        <span class="t"><b>${esc(L.title)}</b><small>${L.sections.length} sections · ~${Math.max(3, Math.round(L.sections.length * 1.2))} min</small></span>
+        <span class="pct">${lessonDone(t.key) ? '✅' : '📖'}</span></button>`;
+    }).join('');
+    const n = THEMES.filter((t) => lessonDone(t.key)).length;
+    $app.innerHTML = `<h1>Cours</h1>
+      <p class="lead">Lis le cours d’un thème, puis teste-toi. ${n}/${Object.keys(LESSONS).length} cours terminés · +30 XP par cours terminé.</p>
+      <div class="theme-list">${rows}</div>`;
+    $app.querySelectorAll('[data-lesson]').forEach((b) => b.addEventListener('click', () => go('#/cours/' + b.dataset.lesson)));
+  }
+
+  function viewLesson(key) {
+    const L = LESSONS[key];
+    if (!L) return go('#/cours');
+    const total = L.sections.length + 1; // + écran « À retenir »
+    const i = Math.min(lessonPos[key] || 0, total - 1);
+    const last = i === total - 1;
+    let body;
+    if (!last) {
+      const sec = L.sections[i];
+      body = `${i === 0 ? `<p class="lesson-intro">${esc(L.intro)}</p>` : ''}
+        <h2 class="lesson-h">${esc(sec.title)}</h2>
+        ${sec.signs && sec.signs.length ? `<div class="lesson-signs">${sec.signs.map((c) => `<figure>${signHTML(c)}<figcaption>${esc(Signs.label(c))}</figcaption></figure>`).join('')}</div>` : ''}
+        <div class="lesson-body">${sec.body}</div>
+        ${sec.tip ? `<div class="tip">💡 ${esc(sec.tip)}</div>` : ''}
+        ${sec.ref ? `<div class="ref">${esc(sec.ref)}</div>` : ''}`;
+    } else {
+      body = `<h2 class="lesson-h">🧠 À retenir</h2>
+        <ul class="keypoints">${L.keypoints.map((k) => `<li>${esc(k)}</li>`).join('')}</ul>`;
+    }
+    $app.innerHTML = `
+      <div class="quiz-head">
+        <button class="icon-btn small" id="lquit" aria-label="Fermer le cours">✕</button>
+        <div class="progress"><i style="width:${pct(i + 1, total)}%"></i></div>
+        <span class="tag">${i + 1}/${total}</span>
+      </div>
+      <div class="quiz-sub"><span>📖 ${esc(L.title)}</span></div>
+      <article class="card lesson">${body}
+        <div class="btn-row">
+          ${i > 0 ? '<button class="btn" id="lprev">Précédent</button>' : ''}
+          ${last ? '<button class="btn primary" id="ltest">Tester ce chapitre</button>' : '<button class="btn primary" id="lnext">Suivant</button>'}
+        </div>
+      </article>`;
+    document.getElementById('lquit').onclick = () => go('#/cours');
+    const pv = document.getElementById('lprev'); if (pv) pv.onclick = () => { lessonPos[key] = i - 1; viewLesson(key); window.scrollTo(0, 0); };
+    const nx = document.getElementById('lnext');
+    if (nx) nx.onclick = () => { lessonPos[key] = i + 1; if (i + 1 === total - 1) completeLesson(key); viewLesson(key); window.scrollTo(0, 0); };
+    const t = document.getElementById('ltest'); if (t) t.onclick = () => { lessonPos[key] = 0; startTheme(key); };
+  }
+
+  function completeLesson(key) {
+    if (lessonDone(key)) return;
+    store.data.lessons[key] = Date.now(); store.save();
+    G.addXP(30, 'lesson');
+    G.unlock('lesson1');
+    toast(`📖 Cours terminé : <b>+30 XP</b>`, 'goal');
+    if (Object.keys(LESSONS).every((k) => lessonDone(k))) G.unlock('scholar');
+    fx.fanfare();
+  }
+
   // ---------- Vues ----------
   function weekStrip() {
     const today = G.dayKey();
@@ -590,6 +658,7 @@
 
       <h2>Modes de jeu</h2>
       <div class="modes">
+        ${Object.keys(LESSONS).length ? `<button class="card mode m-cours" data-go="cours"><span class="mi">📖</span><strong>Cours</strong><span>${THEMES.filter((t) => lessonDone(t.key)).length}/${Object.keys(LESSONS).length} terminés · commence ici</span></button>` : ''}
         <button class="card mode m-exam" id="exam"><span class="mi">🎓</span><strong>Examen blanc</strong><span>50 questions · 41/50 pour réussir</span></button>
         <button class="card mode m-swipe" id="swipe"><span class="mi">👆</span><strong>Vrai ou Faux</strong><span>Swipe à gauche ou à droite</span></button>
         <button class="card mode m-chrono" id="chrono"><span class="mi">⏱️</span><strong>Défi chrono</strong><span>60 s · record ${G.state.chronoBest}</span></button>
@@ -621,16 +690,19 @@
       const st = themeStats(t.key);
       const p = pct(st.mastered, st.total);
       const crown = p >= 90 ? '👑' : p >= 60 ? '🥈' : p >= 30 ? '🥉' : '';
-      return `<button class="card theme-row" data-theme="${t.key}">
-        <span class="t"><b>${esc(t.label)} ${crown}</b><small>${esc(t.desc || '')} · ${st.total} questions</small>
+      return `<div class="card theme-row">
+        <span class="t"><b>${esc(t.label)} ${crown}</b><small>${esc(t.desc || '')} · ${st.total} questions · ${p} %</small>
           <span class="bar"><i style="width:${p}%"></i></span></span>
-        <span class="pct">${p}%</span></button>`;
+        <span class="row-actions">
+          ${LESSONS[t.key] ? `<button class="btn small" data-lesson="${t.key}">${lessonDone(t.key) ? '✅' : '📖'} Cours</button>` : ''}
+          <button class="btn small primary" data-theme="${t.key}">S’entraîner</button></span></div>`;
     }).join('');
     $app.innerHTML = `<h1>Entraînement par thème</h1>
       <p class="lead">Séries de ${TRAIN_SIZE} questions : les questions jamais vues et ratées passent en premier. 🥉 30 % · 🥈 60 % · 👑 90 % maîtrisé.</p>
       <div class="theme-list">${rows}</div>
       <div class="btn-row"><button class="btn" id="all">Série mélangée (tous thèmes)</button></div>`;
     $app.querySelectorAll('[data-theme]').forEach((b) => b.addEventListener('click', () => startTheme(b.dataset.theme)));
+    $app.querySelectorAll('[data-lesson]').forEach((b) => b.addEventListener('click', () => go('#/cours/' + b.dataset.lesson)));
     document.getElementById('all').onclick = () => startSession('train', pickForTraining(QUESTIONS, TRAIN_SIZE), 'Tous thèmes', '#/themes');
   }
 
@@ -755,6 +827,7 @@
       case 'quiz': return viewQuiz();
       case 'swipe': return viewSwipe();
       case 'themes': return viewThemes();
+      case 'cours': return arg ? viewLesson(arg) : viewLessons();
       case 'theme': return THEME_LABEL[arg] ? startTheme(arg) : go('#/themes');
       case 'signs': return viewSigns();
       case 'memo': return viewMemo();
