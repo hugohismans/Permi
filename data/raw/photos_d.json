@@ -2,7 +2,7 @@
  {
   "id": "PHD-001",
   "theme": "priorite",
-  "q": "J'arrive à ce rond-point : un panneau triangulaire rouge et blanc pointe vers le bas à droite et des triangles blancs sont peints au sol. Une voiture circule déjà sur l'anneau, à ma gauche. Que dois-je faire ?",
+  "q": "J'arrive à ce rond-point : un panneau triangulaire rouge et blanc pointe vers le bas à droite et des triangles blancs sont peints au sol. Si une voiture circule déjà sur l'anneau, à ma gauche, que dois-je faire ?",
   "choices": [
    "M'engager : elle vient de ma gauche, j'ai donc la priorité",
    "Lui céder le passage avant de m'engager",
@@ -34,7 +34,7 @@
  {
   "id": "PHD-003",
   "theme": "priorite",
-  "q": "Un cycliste circule sur la bande rouge qui longe l'anneau, juste devant l'endroit où je vais m'engager. Qui passe en premier ?",
+  "q": "Si un cycliste circule sur la bande rouge qui longe l'anneau, juste devant l'endroit où je vais m'engager, qui passe en premier ?",
   "choices": [
    "Moi, car le cycliste doit céder le passage aux voitures",
    "Le cycliste, car je dois céder le passage à tout usager circulant sur la voie que j'aborde"
@@ -206,22 +206,6 @@
   "focus": "bord droit de la chaussée"
  },
  {
-  "id": "PHD-014",
-  "theme": "usagers",
-  "q": "Je veux dépasser le cycliste devant moi. Quelle distance latérale minimale dois-je laisser ?",
-  "choices": [
-   "50 cm",
-   "1 m en agglomération, 1,5 m hors agglomération",
-   "2 m partout"
-  ],
-  "answer": 1,
-  "grave": true,
-  "explain": "Le conducteur doit laisser au moins 1 mètre entre son véhicule et le cycliste ; hors agglomération, au moins 1,5 mètre. Sinon, j'attends de pouvoir dépasser en sécurité.",
-  "ref": "Art. 40ter AR 01/12/1975",
-  "photo": "8bea607f-4ff8-4b07-9613-709081235c8c",
-  "focus": "cycliste à droite"
- },
- {
   "id": "PHD-015",
   "theme": "usagers",
   "q": "À droite, un panneau rond bleu montrant un vélo signale le chemin pavé qui longe la route. Puis-je y rouler avec ma voiture pour éviter un bouchon ?",
@@ -288,7 +272,7 @@
  {
   "id": "PHD-019",
   "theme": "usagers",
-  "q": "J'approche de ce passage pour piétons, sans feux. Un piéton attend au bord du trottoir, sur le point de traverser. Que dois-je faire ?",
+  "q": "J'approche de ce passage pour piétons, sans feux. Si un piéton attend au bord du trottoir, sur le point de traverser, que dois-je faire ?",
   "choices": [
    "Passer : il n'est pas encore engagé sur le passage",
    "Lui céder le passage",
@@ -320,7 +304,7 @@
  {
   "id": "PHD-021",
   "theme": "usagers",
-  "q": "Le feu à droite est vert pour moi. Au moment de passer, des piétons se sont engagés régulièrement sur la chaussée que je vais traverser. Que dois-je faire ?",
+  "q": "Le feu à droite est vert pour moi. Si, au moment de passer, des piétons se sont engagés régulièrement sur la chaussée que je vais traverser, que dois-je faire ?",
   "choices": [
    "Les laisser achever leur traversée",
    "Passer, car mon feu est vert",

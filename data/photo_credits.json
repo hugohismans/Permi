@@ -153,13 +153,6 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=44533adc-43d7-4638-9ca5-e2b6ca4e4fd7",
   "reprojected": true
  },
- "4e8a1c8d-44b2-45d7-aca3-18f657996c7d": {
-  "author": "multimob",
-  "license": "CC-BY-SA-4.0",
-  "date": "2025-10-04",
-  "url": "https://api.panoramax.xyz/#focus=pic&pic=4e8a1c8d-44b2-45d7-aca3-18f657996c7d",
-  "reprojected": false
- },
  "51892c78-31cb-4588-a58f-b9f74605655d": {
   "author": "RaphaelPasloin",
   "license": "CC-BY-SA-4.0",
@@ -278,13 +271,6 @@
   "date": "2019-02-09",
   "url": "https://api.panoramax.xyz/#focus=pic&pic=88dd0d72-d6b7-4d64-9cb0-fafbf1ae91d2",
   "reprojected": false
- },
- "8bea607f-4ff8-4b07-9613-709081235c8c": {
-  "author": "motocultrice",
-  "license": "CC-BY-SA-4.0",
-  "date": "2023-03-11",
-  "url": "https://api.panoramax.xyz/#focus=pic&pic=8bea607f-4ff8-4b07-9613-709081235c8c",
-  "reprojected": true
  },
  "8c3a0ffb-6fd0-45a3-9bef-cd0fff16e3be": {
   "author": "Mizuna",
