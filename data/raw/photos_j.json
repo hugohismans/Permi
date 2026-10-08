@@ -34,7 +34,7 @@
  {
   "id": "PHJ-003",
   "theme": "signalisation",
-  "q": "Le feu à droite est rouge. Je veux tourner à droite et aucun véhicule ni piéton n'est en vue. Puis-je franchir la ligne d'arrêt ?",
+  "q": "Supposons que le feu à droite, dont la lampe rouge est allumée, règle ma circulation. Je veux tourner à droite et aucun véhicule ni piéton n'est en vue. Puis-je franchir la ligne d'arrêt ?",
   "choices": [
    "Non, le feu rouge interdit de franchir la ligne d'arrêt (ou le feu), quelle que soit la direction",
    "Oui, tourner à droite est toujours permis au feu rouge",
@@ -66,7 +66,7 @@
  {
   "id": "PHJ-005",
   "theme": "stationnement",
-  "q": "Le panneau rond bleu bordé de rouge, barré d'une seule diagonale (E1), est fixé sur la façade à droite, sans panneau additionnel. Où l'interdiction de stationner s'applique-t-elle ?",
+  "q": "Un panneau rond bleu bordé de rouge, barré (interdiction de stationner ou d'arrêt et de stationnement), est placé sur un poteau à droite. Sauf indication contraire d'un panneau additionnel, où cette interdiction s'applique-t-elle ?",
   "choices": [
    "Des deux côtés de la rue, sur toute sa longueur",
    "Uniquement sur 15 m autour du panneau",
@@ -77,7 +77,7 @@
   "explain": "Les signaux E1 et E3 ont effet du côté de la voie publique où ils sont placés, à partir du signal et jusqu'au prochain carrefour, sauf panneau additionnel indiquant autre chose.",
   "ref": "Art. 70.2.2 AR 01/12/1975",
   "photo": "514bfffa-6d7c-4bc6-a68d-8bd5aff97454",
-  "focus": "panneau sur la façade à droite"
+  "focus": "panneau rond sur le poteau à droite"
  },
  {
   "id": "PHJ-006",
@@ -242,7 +242,7 @@
  {
   "id": "PHJ-016",
   "theme": "autoroute",
-  "q": "Sur cette autoroute, la voiture rouge roule sur la bande de gauche. Si la bande à sa droite est libre devant elle et qu'elle ne dépasse personne, que doit faire son conducteur ?",
+  "q": "Sur cette autoroute à trois bandes, la voiture rouge roule sur la bande du milieu. Si la bande de droite est libre devant elle et qu'elle ne dépasse personne, que doit faire son conducteur ?",
   "choices": [
    "Rester à gauche, c'est permis sur autoroute",
    "Se rabattre sur la droite, car on doit se tenir le plus près possible du bord droit",
@@ -250,10 +250,10 @@
   ],
   "answer": 1,
   "grave": false,
-  "explain": "Tout conducteur doit se tenir le plus près possible du bord droit de la chaussée. Sur autoroute, la bande de gauche sert au dépassement.",
+  "explain": "Tout conducteur doit se tenir le plus près possible du bord droit de la chaussée. Les bandes de gauche servent au dépassement : après celui-ci, on reprend sa place à droite.",
   "ref": "Art. 9.3.1 et 16.6 AR 01/12/1975",
   "photo": "1c2e5ed2-5280-4528-9470-41fdba8a2c64",
-  "focus": "voiture rouge à gauche"
+  "focus": "voiture rouge sur la bande du milieu"
  },
  {
   "id": "PHJ-017",
