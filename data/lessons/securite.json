@@ -11,7 +11,7 @@
     },
     {
       "title": "Feux à l'arrêt, feux de détresse et bus scolaire",
-      "body": "<p><b>Stationné la nuit</b> sur une route non éclairée : feux de <b>position</b> à l'avant et feux <b>rouges</b> à l'arrière.</p><ul><li><b>En agglomération</b>, garé parallèlement à la chaussée et sans remorque : un seul <b>feu de stationnement</b> suffit, celui du <b>côté de la chaussée</b>.</li><li>Si l'éclairage public permet de voir ta voiture à environ <b>100 m</b>, ces feux ne sont pas obligatoires.</li></ul><p><b>Feux de détresse</b> (tous les clignotants) : seulement pour une <b>panne</b>, un <b>chargement tombé</b>, un <b>bus scolaire</b> qui fait monter ou descendre des enfants, ou un <b>risque d'accident imminent</b> (ex. bouchon soudain sur l'autoroute).</p><p>Un bus scolaire arrêté avec tous ses clignotants ? Des enfants montent ou descendent : <b>ralentis fortement</b> et arrête-toi si nécessaire.</p>",
+      "body": "<p><b>Stationné la nuit</b> sur une route non éclairée : feux de <b>position</b> à l'avant et feux <b>rouges</b> à l'arrière.</p><ul><li><b>En agglomération</b>, garé parallèlement à la chaussée et sans remorque : un seul <b>feu de stationnement</b> suffit, celui du <b>côté de l'axe de la chaussée</b> (côté circulation).</li><li>Si l'éclairage public permet de voir ta voiture à environ <b>100 m</b>, ces feux ne sont pas obligatoires.</li></ul><p><b>Feux de détresse</b> (tous les clignotants) : seulement pour une <b>panne</b>, un <b>chargement tombé</b>, un <b>bus scolaire</b> qui fait monter ou descendre des enfants, ou un <b>risque d'accident imminent</b> (ex. bouchon soudain sur l'autoroute).</p><p>Un bus scolaire arrêté avec tous ses clignotants ? Des enfants montent ou descendent : <b>ralentis fortement</b> et arrête-toi si nécessaire.</p>",
       "tip": "Les feux de détresse ne servent pas à « se garer en double file deux minutes ».",
       "ref": "Art. 31, 32bis et 39bis AR 01/12/1975"
     },
@@ -35,8 +35,8 @@
     },
     {
       "title": "Chargement et remorque",
-      "body": "<ul><li>Le chargement ne doit masquer <b>ni les feux, ni la plaque</b>, ni gêner ta vue. Un porte-vélos qui cache la plaque : interdit.</li><li><b>À l'avant</b> : le chargement ne dépasse <b>jamais</b>.</li><li><b>À l'arrière</b> (voiture) : <b>1 m maximum</b> en général.</li><li>Dépassement de <b>plus de 1 m</b> à l'arrière : <b>panneau carré de 0,50 m</b> à bandes rouges et blanches. La nuit, ajoute un <b>feu rouge</b> vers l'arrière et des <b>catadioptres orange</b> sur les côtés.</li></ul><p><b>Remorque avec le permis B</b> : toujours permis si la remorque fait <b>750 kg</b> MMA maximum. Plus lourde : permis si l'<b>ensemble</b> voiture + remorque ne dépasse pas <b>3.500 kg</b> MMA (4.250 kg avec le code 96).</p>",
-      "tip": "Voiture 2.000 kg + remorque 1.000 kg = 3.000 kg : OK avec un permis B simple.",
+      "body": "<ul><li>Le chargement ne doit masquer <b>ni les feux, ni la plaque</b>, ni gêner ta vue. Un porte-vélos qui cache la plaque : interdit.</li><li><b>À l'avant</b> : le chargement ne dépasse <b>jamais</b>.</li><li><b>À l'arrière</b> (voiture) : <b>1 m maximum</b> en général, jusqu'à <b>3 m</b> pour des pièces indivisibles de grande longueur.</li><li>Dépassement de <b>plus de 1 m</b> à l'arrière : <b>panneau carré de 0,50 m</b> à bandes rouges et blanches. La nuit, ajoute un <b>feu rouge</b> vers l'arrière et des <b>catadioptres orange</b> sur les côtés.</li></ul><p><b>Remorque avec le permis B</b> : toujours permis si la remorque fait <b>750 kg</b> MMA maximum. Plus lourde : permis si l'<b>ensemble</b> voiture + remorque ne dépasse pas <b>3.500 kg</b> MMA (4.250 kg avec le code 96).</p>",
+      "tip": "Voiture de 2.000 kg MMA + remorque de 1.000 kg MMA = 3.000 kg : OK avec un permis B simple. Ce sont les MMA (masses maximales autorisées) qui comptent, pas le poids réel.",
       "ref": "Art. 45, 46.2 et 47 AR 01/12/1975 ; AR 23/03/1998"
     },
     {
@@ -53,9 +53,9 @@
     },
     {
       "title": "Permis provisoire et guide",
-      "body": "<ul><li>Tu peux conduire avec un permis provisoire B dès <b>17 ans</b>.</li><li>Le <b>guide</b> : titulaire du permis B depuis au moins <b>8 ans</b>, pas de déchéance du droit de conduire ces <b>3 dernières années</b>, et <b>inscrit sur ton permis provisoire</b>.</li><li>À bord : uniquement ton ou tes <b>guides</b> et/ou un <b>instructeur</b>. Pas d'autre passager, même ton petit frère.</li><li><b>Pas de conduite de 22 h à 6 h</b> les nuits du vendredi, samedi, dimanche, la veille des jours fériés et les jours fériés.</li><li>Signe <b>« L » à l'arrière</b>, bien visible, et ton permis provisoire valide sur toi.</li></ul>",
+      "body": "<ul><li>Tu peux conduire avec un permis provisoire B <b>avec guide</b> dès <b>17 ans</b>.</li><li>Le <b>guide</b> : titulaire du permis B depuis au moins <b>8 ans</b>, pas de déchéance du droit de conduire ces <b>3 dernières années</b>, et <b>inscrit sur ton permis provisoire</b>.</li><li>À bord : uniquement ton ou tes <b>guides</b> et/ou un <b>instructeur</b>. Avec guide : pas d'autre passager que le(s) guide(s) ou un instructeur, même pas ton petit frère (la filière sans guide, dès 18 ans, a ses propres règles).</li><li><b>Pas de conduite de 22 h à 6 h</b> les nuits du vendredi, samedi, dimanche, la veille des jours fériés et les jours fériés.</li><li>Signe <b>« L » à l'arrière</b>, bien visible, et ton permis provisoire valide sur toi.</li></ul>",
       "tip": "8 ans de permis pour le guide ; 22 h – 6 h le week-end : interdit.",
-      "ref": "Art. 3 et 6 AR 10/07/2006 ; art. 8.2 AR 01/12/1975"
+      "ref": "Art. 3 et 6 AR 10/07/2006 ; art. 6 AR 23/03/1998 ; art. 8.2 AR 01/12/1975"
     }
   ],
   "keypoints": [

@@ -20,7 +20,7 @@
     },
     {
       "title": "Arrêt ET stationnement interdits",
-      "body": "<p>Ici, tu ne peux <b>même pas t'arrêter</b> quelques secondes :</p><ul><li>sur les <b>trottoirs</b> et, en agglomération, les accotements en saillie (sauf réglementation locale) ;</li><li>sur les <b>pistes cyclables</b> et à moins de 5 m de l'endroit où les cyclistes y entrent ou en sortent ;</li><li>sur les <b>passages à niveau</b> ;</li><li>sur les passages pour piétons et pour cyclistes, et à moins de <b>5 m avant</b> ceux-ci ;</li><li>dans les <b>tunnels</b>, passages inférieurs et sous les ponts (sauf réglementation locale) ;</li><li>près du <b>sommet d'une côte</b> ou dans un <b>virage</b> sans visibilité suffisante ;</li><li>à moins de <b>5 m d'un carrefour</b> (mesurés depuis le prolongement du bord de la chaussée transversale) ;</li><li>à moins de <b>20 m avant un feu</b> ou un <b>panneau routier</b> ;</li><li>sur les <b>dispositifs surélevés</b> (casse-vitesse) et sur les <b>marques obliques blanches</b> (zones d'évitement).</li></ul><p>Exception pour les 20 m avant un panneau ou un feu hors carrefour : elle ne s'applique pas si ton véhicule fait <b>1,65 m de haut maximum</b> et que le bas du signal est à <b>2 m au moins</b> du sol.</p>",
+      "body": "<p>Ici, tu ne peux <b>même pas t'arrêter</b> quelques secondes :</p><ul><li>sur les <b>trottoirs</b> et, en agglomération, les accotements en saillie (sauf réglementation locale) ;</li><li>sur les <b>pistes cyclables</b> et à moins de 5 m de l'endroit où les cyclistes y entrent ou en sortent ;</li><li>sur les <b>passages à niveau</b> ;</li><li>sur les passages pour piétons et pour cyclistes, et à moins de <b>5 m avant</b> ceux-ci ;</li><li>dans les <b>tunnels</b> et passages inférieurs, et sous les ponts (sauf réglementation locale) ;</li><li>près du <b>sommet d'une côte</b> ou dans un <b>virage</b> sans visibilité suffisante ;</li><li>à moins de <b>5 m d'un carrefour</b> (mesurés depuis le prolongement du bord de la chaussée transversale) ;</li><li>à moins de <b>20 m avant un feu</b> ou un <b>panneau routier</b> ;</li><li>sur les <b>dispositifs surélevés</b> (casse-vitesse) et sur les <b>marques obliques blanches</b> (zones d'évitement).</li></ul><p>Exception : l'interdiction des 20 m avant un panneau ou un feu hors carrefour ne s'applique pas si ton véhicule (chargement compris) fait <b>1,65 m de haut maximum</b> et que le bas du signal est à <b>2 m au moins</b> du sol.</p>",
       "signs": [
         "FEU-rouge"
       ],
@@ -58,7 +58,7 @@
       "title": "Stationnement alterné semi-mensuel",
       "body": "<p>Certaines communes l'imposent dans toute l'agglomération (panneau à l'entrée).</p><ul><li>Du <b>1er au 15</b> du mois : côté des numéros <b>impairs</b>.</li><li>Du <b>16 à la fin</b> du mois : côté des numéros <b>pairs</b>.</li><li>Tu changes de côté <b>le dernier jour de la période, entre 19 h 30 et 20 h</b>.</li></ul>",
       "tip": "Début du mois = impair (1 est impair). Fin du mois = pair.",
-      "ref": "Art. 26 et 70.2.1.2° AR 01/12/1975"
+      "ref": "Art. 26, 70.2.1.2° et 70.3 AR 01/12/1975"
     },
     {
       "title": "Ouvrir ta portière en sécurité",

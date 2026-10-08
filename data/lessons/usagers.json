@@ -21,12 +21,12 @@
     },
     {
       "title": "Cyclistes, speed pedelecs et trottinettes",
-      "body": "<p>Tu dépasses un cycliste ? Laisse au moins <b>1 m en agglomération</b> et <b>1,5 m hors agglomération</b>. Les <b>trottinettes électriques</b> (engins de déplacement motorisés) sont <b>assimilées aux cyclistes</b> : mêmes règles envers elles.</p><ul><li>Les cyclistes peuvent rouler <b>à deux de front</b>, sauf si le croisement est impossible. <b>Hors agglomération</b>, ils se mettent en file quand un véhicule arrive derrière eux.</li><li>Un enfant de <b>moins de 10 ans</b> à vélo peut rouler sur le <b>trottoir</b>.</li><li><b>Speed pedelec</b> (vélo électrique rapide) : là où la vitesse autorisée dépasse <b>50 km/h</b>, il <b>doit</b> prendre la piste cyclable (D7 ou marquée) si elle existe et est praticable ; à <b>50 km/h ou moins</b>, il <b>peut</b> la prendre.</li><li>Sens unique avec panneau additionnel « vélo » (M4) : les cyclistes roulent <b>dans les deux sens</b> ; attends-toi à en croiser.</li><li>Panneau <b>B22</b> au feu : le cycliste peut tourner à droite au rouge ou à l'orange, en cédant le passage.</li></ul>",
+      "body": "<p>Tu dépasses un cycliste ? Laisse au moins <b>1 m en agglomération</b> et <b>1,5 m hors agglomération</b>. Les <b>trottinettes électriques</b> (engins de déplacement motorisés) sont <b>assimilées aux cyclistes</b> : mêmes règles envers elles.</p><ul><li>Les cyclistes peuvent rouler <b>à deux de front</b>, sauf si le croisement est impossible. <b>Hors agglomération</b>, ils se mettent en file quand un véhicule arrive derrière eux.</li><li>Un enfant de <b>moins de 10 ans</b> à vélo peut rouler sur le <b>trottoir</b>.</li><li><b>Speed pedelec</b> (vélo électrique rapide) : là où la vitesse autorisée dépasse <b>50 km/h</b>, il <b>doit</b> prendre la piste cyclable (D7, D9 ou marquée) si elle existe et est praticable ; à <b>50 km/h ou moins</b>, il <b>peut</b> la prendre.</li><li>Sens unique avec panneau additionnel « vélo » (M4) : les cyclistes roulent <b>dans les deux sens</b> ; attends-toi à en croiser.</li><li>Panneau <b>B22</b> au feu : le cycliste peut tourner à droite au rouge ou à l'orange, en cédant le passage.</li></ul>",
       "signs": [
         "F19"
       ],
       "tip": "1 et 1,5 : le même chiffre vaut pour les piétons et les cyclistes. En agglo 1 m, hors agglo 1,5 m.",
-      "ref": "Art. 7bis, 9.1.2, 40ter, 43.2 et 71.3 AR 01/12/1975"
+      "ref": "Art. 7bis, 9.1.2, 40ter, 43.2, 67.3 et 71.3 AR 01/12/1975"
     },
     {
       "title": "Pistes cyclables : céder le passage",
