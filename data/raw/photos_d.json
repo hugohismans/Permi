@@ -1,0 +1,336 @@
+[
+ {
+  "id": "PHD-001",
+  "theme": "priorite",
+  "q": "J'arrive à ce rond-point : un panneau triangulaire rouge et blanc pointe vers le bas à droite et des triangles blancs sont peints au sol. Une voiture circule déjà sur l'anneau, à ma gauche. Que dois-je faire ?",
+  "choices": [
+   "M'engager : elle vient de ma gauche, j'ai donc la priorité",
+   "Lui céder le passage avant de m'engager",
+   "M'engager si je roule plus vite qu'elle"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le panneau B1 (cédez le passage) m'oblige à céder le passage à tout conducteur circulant sur la voie que j'aborde, ici l'anneau du rond-point. La priorité de droite ne s'applique pas.",
+  "ref": "Art. 12.3.1, a) et 67.3 (B1) AR 01/12/1975",
+  "photo": "8c3a0ffb-6fd0-45a3-9bef-cd0fff16e3be",
+  "focus": "panneau triangulaire à droite"
+ },
+ {
+  "id": "PHD-002",
+  "theme": "signalisation",
+  "q": "Que signifie la ligne de triangles blancs peinte en travers de ma bande, juste avant l'anneau ?",
+  "choices": [
+   "L'endroit où je dois, s'il y a lieu, m'arrêter pour céder le passage",
+   "Un ralentisseur qui impose 30 km/h",
+   "Une ligne d'arrêt où je dois toujours m'arrêter, même si l'anneau est libre"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Les « dents de requin » indiquent où s'arrêter si nécessaire pour céder le passage imposé par le signal B1. Si la voie est libre, je ne dois pas obligatoirement m'arrêter.",
+  "ref": "Art. 76.2 AR 01/12/1975",
+  "photo": "8c3a0ffb-6fd0-45a3-9bef-cd0fff16e3be",
+  "focus": "triangles blancs au sol"
+ },
+ {
+  "id": "PHD-003",
+  "theme": "priorite",
+  "q": "Un cycliste circule sur la bande rouge qui longe l'anneau, juste devant l'endroit où je vais m'engager. Qui passe en premier ?",
+  "choices": [
+   "Moi, car le cycliste doit céder le passage aux voitures",
+   "Le cycliste, car je dois céder le passage à tout usager circulant sur la voie que j'aborde"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le signal B1 m'impose de céder le passage à tout autre conducteur circulant sur la voie publique que j'aborde, y compris les cyclistes qui circulent dans le rond-point.",
+  "ref": "Art. 12.3.1, a) AR 01/12/1975",
+  "photo": "8c3a0ffb-6fd0-45a3-9bef-cd0fff16e3be",
+  "focus": "bande rouge autour de l'anneau"
+ },
+ {
+  "id": "PHD-004",
+  "theme": "signalisation",
+  "q": "Que signifie le panneau rond bleu à flèches blanches en cercle, placé sur l'îlot central ?",
+  "choices": [
+   "Parking circulaire",
+   "Priorité aux véhicules qui entrent dans le rond-point",
+   "Sens giratoire obligatoire"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le signal D5 impose de tourner autour de l'îlot dans le sens indiqué par les flèches. Ce n'est pas un signal de priorité : celle-ci est réglée ici par le B1.",
+  "ref": "Art. 69 (D5) AR 01/12/1975",
+  "photo": "8c3a0ffb-6fd0-45a3-9bef-cd0fff16e3be",
+  "focus": "panneau bleu sur l'îlot central"
+ },
+ {
+  "id": "PHD-005",
+  "theme": "priorite",
+  "q": "Le panneau carré jaune bordé de blanc, posé sur la pointe, sur le poteau rouge et blanc à droite, m'indique que…",
+  "choices": [
+   "je circule sur une voie prioritaire",
+   "je dois céder le passage au prochain carrefour",
+   "la priorité de droite s'applique au prochain carrefour"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal B9 indique une voie prioritaire : aux carrefours, les conducteurs venant des voies transversales doivent me céder le passage.",
+  "ref": "Art. 67.3 (B9) AR 01/12/1975",
+  "photo": "264a16a7-76b6-4ae2-8781-0dbd1c38b3b8",
+  "focus": "panneau jaune sur le poteau rouge et blanc"
+ },
+ {
+  "id": "PHD-006",
+  "theme": "stationnement",
+  "q": "Puis-je arrêter ma voiture sur le passage pour piétons au premier plan, ou à 3 mètres juste avant ?",
+  "choices": [
+   "Oui, pour un arrêt de moins de deux minutes",
+   "Non, c'est interdit sur le passage et à moins de 5 m en deçà",
+   "Oui, si j'allume mes feux de détresse"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "L'arrêt et le stationnement sont interdits sur les passages pour piétons et sur la chaussée à moins de 5 mètres en deçà de ceux-ci.",
+  "ref": "Art. 24, 4° AR 01/12/1975",
+  "photo": "264a16a7-76b6-4ae2-8781-0dbd1c38b3b8",
+  "focus": "passage pour piétons au premier plan"
+ },
+ {
+  "id": "PHD-007",
+  "theme": "usagers",
+  "q": "La file avance lentement. Puis-je emprunter la bande marquée « BUS », à droite, pour remonter la file ?",
+  "choices": [
+   "Oui, si aucun bus n'arrive",
+   "Non : je ne peux y circuler que dans des cas précis, par exemple pour contourner un obstacle ou tourner à l'approche immédiate d'un carrefour",
+   "Oui, en agglomération uniquement"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "La bande bus est réservée aux transports en commun réguliers (et aux véhicules autorisés par le signal). Les autres véhicules peuvent seulement l'emprunter pour contourner un obstacle, tourner à l'approche immédiate d'un carrefour ou la traverser.",
+  "ref": "Art. 72.5 AR 01/12/1975",
+  "photo": "2cdf4b43-4ab4-41dd-a92e-2b2eff0cc095",
+  "focus": "bande « BUS » à droite"
+ },
+ {
+  "id": "PHD-008",
+  "theme": "signalisation",
+  "q": "Je suis dans la bande où est peinte une flèche tout droit. Puis-je tourner à gauche au carrefour ?",
+  "choices": [
+   "Non, je dois suivre la direction indiquée par la flèche de ma bande",
+   "Oui, si personne ne vient en face"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Les flèches de sélection marquent la bande à suivre pour chaque direction : au carrefour, je dois suivre la direction indiquée sur ma bande. Pour tourner à gauche, il fallait se placer dans la bande de gauche.",
+  "ref": "Art. 77.1 AR 01/12/1975",
+  "photo": "2cdf4b43-4ab4-41dd-a92e-2b2eff0cc095",
+  "focus": "flèche au sol dans ma bande"
+ },
+ {
+  "id": "PHD-009",
+  "theme": "signalisation",
+  "q": "Les feux au fond sont rouges. Que dois-je faire ?",
+  "choices": [
+   "Passer si je tourne à droite et que personne ne vient",
+   "M'arrêter avant la ligne d'arrêt ou, à défaut, avant le feu",
+   "Ralentir et passer prudemment"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le feu rouge interdit de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt, le signal lui-même. Le franchir est une faute grave.",
+  "ref": "Art. 61.1, 1° AR 01/12/1975",
+  "photo": "2cdf4b43-4ab4-41dd-a92e-2b2eff0cc095",
+  "focus": "feux au fond"
+ },
+ {
+  "id": "PHD-010",
+  "theme": "stationnement",
+  "q": "Puis-je stationner sur la chaussée de cette route divisée en bandes de circulation (aucun panneau de stationnement visible) ?",
+  "choices": [
+   "Oui, le long du bord droit",
+   "Oui, si je laisse 3 m de passage",
+   "Non, sauf aux endroits pourvus d'un signal E9a ou E9b"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le stationnement est interdit sur la chaussée lorsque celle-ci est divisée en bandes de circulation, sauf aux endroits signalés par un E9a ou E9b.",
+  "ref": "Art. 25.1, 9° AR 01/12/1975",
+  "photo": "2cdf4b43-4ab4-41dd-a92e-2b2eff0cc095",
+  "focus": "bandes de circulation"
+ },
+ {
+  "id": "PHD-011",
+  "theme": "vitesse",
+  "q": "Je roule dans cette rue commerçante du centre de Verviers (Wallonie), en agglomération. Si aucun signal n'impose une autre limite, quelle est ma vitesse maximale ?",
+  "choices": [
+   "30 km/h",
+   "50 km/h",
+   "70 km/h"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "En Région wallonne, la vitesse est limitée à 50 km/h dans les agglomérations, sauf si un signal C43 ou une zone 30 impose une autre limite. (À Bruxelles, la règle générale est 30 km/h.)",
+  "ref": "Art. 11.1 (Région wallonne) AR 01/12/1975",
+  "photo": "818b86bc-773f-4c10-a769-550117b44c8d",
+  "focus": "bâtiments urbains, agglomération"
+ },
+ {
+  "id": "PHD-012",
+  "theme": "usagers",
+  "q": "Je veux rejoindre une place de stationnement située le long de la bande « BUS » à droite. Puis-je traverser la bande bus ?",
+  "choices": [
+   "Non, jamais",
+   "Oui, et je peux ensuite rouler dessus jusqu'au bout de la rue",
+   "Oui, pour accéder à un emplacement de stationnement situé le long de la bande bus"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Les véhicules non autorisés peuvent traverser la bande bus pour accéder à une propriété riveraine ou à un emplacement de stationnement situé le long de celle-ci, mais pas y circuler.",
+  "ref": "Art. 72.5, 3°, d) AR 01/12/1975",
+  "photo": "818b86bc-773f-4c10-a769-550117b44c8d",
+  "focus": "inscription « BUS » au sol"
+ },
+ {
+  "id": "PHD-013",
+  "theme": "stationnement",
+  "q": "Si cette rue résidentielle est à double sens, de quel côté dois-je ranger ma voiture pour stationner ?",
+  "choices": [
+   "À droite par rapport à mon sens de marche",
+   "Du côté où il y a le plus de place",
+   "À gauche, pour repartir plus facilement"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Tout véhicule à l'arrêt ou en stationnement doit être rangé à droite par rapport à son sens de marche. Ce n'est que dans une rue à sens unique qu'on peut choisir l'un ou l'autre côté.",
+  "ref": "Art. 23.1, 1° AR 01/12/1975",
+  "photo": "40e28737-d157-4747-8ea7-38f906a45446",
+  "focus": "bord droit de la chaussée"
+ },
+ {
+  "id": "PHD-014",
+  "theme": "usagers",
+  "q": "Je veux dépasser le cycliste devant moi. Quelle distance latérale minimale dois-je laisser ?",
+  "choices": [
+   "50 cm",
+   "1 m en agglomération, 1,5 m hors agglomération",
+   "2 m partout"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le conducteur doit laisser au moins 1 mètre entre son véhicule et le cycliste ; hors agglomération, au moins 1,5 mètre. Sinon, j'attends de pouvoir dépasser en sécurité.",
+  "ref": "Art. 40ter AR 01/12/1975",
+  "photo": "8bea607f-4ff8-4b07-9613-709081235c8c",
+  "focus": "cycliste à droite"
+ },
+ {
+  "id": "PHD-015",
+  "theme": "usagers",
+  "q": "À droite, un panneau rond bleu montrant un vélo signale le chemin pavé qui longe la route. Puis-je y rouler avec ma voiture pour éviter un bouchon ?",
+  "choices": [
+   "Oui, à moins de 20 km/h",
+   "Oui, si aucun cycliste n'y circule",
+   "Non, ce chemin est réservé aux cyclistes : je dois rester sur la chaussée"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le panneau rond bleu à vélo désigne une piste cyclable, qui ne fait pas partie de la chaussée. Les conducteurs de voitures doivent emprunter la chaussée.",
+  "ref": "Art. 2.7, 9.1.1 et 69 (D7) AR 01/12/1975",
+  "photo": "b9bc0951-d4f3-4e68-9978-a7c6665e5093",
+  "focus": "panneau rond bleu à droite"
+ },
+ {
+  "id": "PHD-016",
+  "theme": "stationnement",
+  "q": "Puis-je m'arrêter un instant sur ce chemin cyclable pour déposer un passager ?",
+  "choices": [
+   "Non, l'arrêt et le stationnement sont interdits sur les pistes cyclables",
+   "Oui, si je reste au volant",
+   "Oui, avec les feux de détresse allumés"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Il est interdit de mettre un véhicule à l'arrêt ou en stationnement sur une piste cyclable, même pour un court instant.",
+  "ref": "Art. 24, 2° AR 01/12/1975",
+  "photo": "b9bc0951-d4f3-4e68-9978-a7c6665e5093",
+  "focus": "chemin pavé à droite"
+ },
+ {
+  "id": "PHD-017",
+  "theme": "signalisation",
+  "q": "Que m'indique le panneau rond rouge barré d'une bande blanche horizontale, devant la haie ?",
+  "choices": [
+   "Stationnement interdit",
+   "Sens interdit pour tout conducteur",
+   "Fin de toutes les interdictions"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal C1 interdit l'accès dans ce sens à tout conducteur. Il faut suivre le sens de circulation du parking (flèche au sol).",
+  "ref": "Art. 68 (C1) AR 01/12/1975",
+  "photo": "a3960254-b3d4-4f43-9394-1d69acdc1695",
+  "focus": "panneau rond rouge à droite"
+ },
+ {
+  "id": "PHD-018",
+  "theme": "stationnement",
+  "q": "Je veux stationner sur la chaussée près de cet abribus, signalé par un panneau jaune d'arrêt de bus. Quelle distance dois-je respecter ?",
+  "choices": [
+   "Au moins 15 m de part et d'autre du panneau",
+   "Au moins 5 m avant le panneau seulement",
+   "Aucune, si aucun bus n'est en vue"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le stationnement est interdit à moins de 15 mètres de part et d'autre d'un panneau indiquant un arrêt d'autobus, de trolleybus ou de tram.",
+  "ref": "Art. 25.1, 2° AR 01/12/1975",
+  "photo": "a1f04928-7174-48c7-88bc-b790c134179e",
+  "focus": "panneau jaune au-dessus de l'abribus"
+ },
+ {
+  "id": "PHD-019",
+  "theme": "usagers",
+  "q": "J'approche de ce passage pour piétons, sans feux. Un piéton attend au bord du trottoir, sur le point de traverser. Que dois-je faire ?",
+  "choices": [
+   "Passer : il n'est pas encore engagé sur le passage",
+   "Lui céder le passage",
+   "Klaxonner pour qu'il attende"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Là où la circulation n'est pas réglée par des feux ou un agent, je dois m'approcher du passage à allure modérée et céder le passage aux piétons qui y sont engagés ou sur le point de s'y engager.",
+  "ref": "Art. 40.4.2 AR 01/12/1975",
+  "photo": "9f282297-4b76-449a-9bb6-b5f37b4e6aaa",
+  "focus": "passage pour piétons"
+ },
+ {
+  "id": "PHD-020",
+  "theme": "stationnement",
+  "q": "Je veux stationner dans la rue de gauche, juste à l'angle de ce carrefour. Quelle distance minimale dois-je laisser (sauf réglementation locale) ?",
+  "choices": [
+   "5 m du prolongement du bord le plus proche de la chaussée transversale",
+   "1 m suffit",
+   "Aucune en agglomération"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "L'arrêt et le stationnement sont interdits aux abords des carrefours, à moins de 5 mètres du prolongement du bord le plus rapproché de la chaussée transversale, sauf réglementation locale.",
+  "ref": "Art. 24, 7° AR 01/12/1975",
+  "photo": "a01e597b-c3e4-4dc6-9625-d876adb88958",
+  "focus": "angle du carrefour"
+ },
+ {
+  "id": "PHD-021",
+  "theme": "usagers",
+  "q": "Le feu à droite est vert pour moi. Au moment de passer, des piétons se sont engagés régulièrement sur la chaussée que je vais traverser. Que dois-je faire ?",
+  "choices": [
+   "Les laisser achever leur traversée",
+   "Passer, car mon feu est vert",
+   "Passer en klaxonnant"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Même si la circulation est ouverte dans mon sens, je dois permettre aux piétons engagés régulièrement sur la chaussée d'achever leur traversée à allure normale.",
+  "ref": "Art. 40.4.1 AR 01/12/1975",
+  "photo": "01ac2565-7580-4a47-89c3-9afe5295af91",
+  "focus": "feu vert à droite"
+ }
+]

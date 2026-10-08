@@ -1,0 +1,319 @@
+[
+  {
+    "id": "PHC-001",
+    "theme": "vitesse",
+    "photo": "2044356e-cd70-4ccb-b710-147cd33436c7",
+    "q": "Je roule en ville à Liège, sur cette avenue bordée d'immeubles. Aucun panneau de limitation n'est visible. Quelle est ma vitesse maximale ?",
+    "choices": [
+      "30 km/h",
+      "50 km/h",
+      "70 km/h"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "En agglomération en Région wallonne, la vitesse est limitée à 50 km/h, sauf signal C43 contraire. (À Bruxelles, la règle générale est 30 km/h.)",
+    "ref": "Art. 11.1 AR 01/12/1975",
+    "focus": "immeubles des deux côtés : agglomération"
+  },
+  {
+    "id": "PHC-002",
+    "theme": "signalisation",
+    "photo": "3590b816-adb5-497e-8daf-a689249c484c",
+    "q": "Le feu au-dessus de la chaussée est rouge. Jusqu'où puis-je avancer ?",
+    "choices": [
+      "Je peux m'engager lentement si personne ne vient",
+      "Je ne peux pas franchir la ligne d'arrêt ou, à défaut, le feu lui-même",
+      "Je peux avancer jusqu'au milieu du carrefour"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le feu rouge interdit de franchir la ligne d'arrêt ou, s'il n'y en a pas, le signal lui-même. Brûler un feu rouge est une faute grave.",
+    "ref": "Art. 61.1.1° AR 01/12/1975",
+    "focus": "feu rouge au-dessus de la chaussée"
+  },
+  {
+    "id": "PHC-003",
+    "theme": "priorite",
+    "photo": "37607a92-1aed-4e57-bfa4-a45c5422ac36",
+    "q": "Je circule dans cette rue et je vois le panneau triangulaire fixé au poteau à droite. Que signifie-t-il pour moi ?",
+    "choices": [
+      "Au prochain carrefour, j'ai la priorité",
+      "Au prochain carrefour, je dois céder le passage à droite",
+      "Fin de la route prioritaire"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Le signal B15 (flèche noire épaisse croisant une barre) annonce que j'ai priorité de passage au prochain carrefour. Je reste prudent à l'approche du carrefour.",
+    "ref": "Art. 67.3 (B15) et 12.2 AR 01/12/1975",
+    "focus": "panneau triangulaire sur le poteau à droite"
+  },
+  {
+    "id": "PHC-004",
+    "theme": "usagers",
+    "photo": "37607a92-1aed-4e57-bfa4-a45c5422ac36",
+    "q": "La bande de droite porte l'inscription « BUS ». Avec ma voiture, puis-je y rouler pour avancer plus vite ?",
+    "choices": [
+      "Oui, si aucun bus n'arrive",
+      "Non, sauf exceptions (contourner un obstacle, tourner au carrefour tout proche, accéder à une propriété ou un stationnement)"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "La bande bus est réservée aux transports en commun et aux véhicules autorisés par la signalisation. Une voiture ne peut l'emprunter que dans les cas limités prévus par le code.",
+    "ref": "Art. 72.5 AR 01/12/1975",
+    "focus": "marquage « BUS » au sol"
+  },
+  {
+    "id": "PHC-005",
+    "theme": "stationnement",
+    "photo": "53576ac0-e4be-4854-8fdd-a5700e498d4b",
+    "q": "Devant moi, la route entre dans un tunnel. Puis-je m'arrêter sur la chaussée dans ce tunnel pour attendre un passager ?",
+    "choices": [
+      "Oui, avec les feux de détresse allumés",
+      "Oui, pendant moins de 2 minutes",
+      "Non, l'arrêt et le stationnement y sont interdits"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Il est interdit de s'arrêter ou de stationner sur la chaussée dans les tunnels et les passages inférieurs (sauf panne ou nécessité de la circulation).",
+    "ref": "Art. 24, 5° AR 01/12/1975",
+    "focus": "entrée du tunnel au fond"
+  },
+  {
+    "id": "PHC-006",
+    "theme": "vitesse",
+    "photo": "3f7a2882-d7df-4844-b6d5-dcc5143517b3",
+    "q": "Le panneau rond à droite affiche « 50 » avec un panneau additionnel « RAPPEL ». À quelle vitesse maximale puis-je rouler ?",
+    "choices": [
+      "50 km/h",
+      "70 km/h",
+      "90 km/h"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le signal C43 « 50 » impose une vitesse maximale de 50 km/h. Le panneau « RAPPEL » rappelle simplement une limitation déjà en vigueur.",
+    "ref": "Art. 11.1 et 68.3 (C43) AR 01/12/1975",
+    "focus": "panneau rond « 50 » à droite"
+  },
+  {
+    "id": "PHC-007",
+    "theme": "stationnement",
+    "photo": "7dbfacc8-e241-4b64-82e1-b06b9c286c00",
+    "q": "Le panneau « P » à droite est complété par un panneau additionnel « TAXIS ». Puis-je y stationner ma voiture personnelle ?",
+    "choices": [
+      "Oui, c'est un parking public",
+      "Non, le stationnement y est réservé aux taxis",
+      "Oui, mais seulement 15 minutes"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Une inscription sous le signal E9a peut indiquer la catégorie de véhicules à laquelle le stationnement est réservé, par exemple les taxis.",
+    "ref": "Art. 70.2.1, 3° a) AR 01/12/1975",
+    "focus": "panneau « P » + « TAXIS » à droite"
+  },
+  {
+    "id": "PHC-008",
+    "theme": "stationnement",
+    "photo": "847e85bf-6e52-4e1d-ab0b-b5fb01a282f8",
+    "q": "Je veux déposer un passager juste avant ce passage pour piétons, à environ 3 mètres des bandes blanches. Est-ce permis ?",
+    "choices": [
+      "Oui, l'arrêt est toujours permis pour déposer quelqu'un",
+      "Non, l'arrêt est interdit sur le passage et à moins de 5 m en deçà"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Il est interdit de s'arrêter ou de stationner sur un passage pour piétons et sur la chaussée à moins de 5 mètres en deçà de celui-ci.",
+    "ref": "Art. 24, 4° AR 01/12/1975",
+    "focus": "passage pour piétons devant moi"
+  },
+  {
+    "id": "PHC-009",
+    "theme": "signalisation",
+    "photo": "88dd0d72-d6b7-4d64-9cb0-fafbf1ae91d2",
+    "q": "Que m'annonce le panneau triangulaire à droite, avec un cycliste ?",
+    "choices": [
+      "Une piste cyclable obligatoire pour moi",
+      "Un passage pour cyclistes ou un endroit où des cyclistes débouchent d'une piste cyclable",
+      "Une rue interdite aux voitures"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le signal A25 annonce un passage pour cyclistes et cyclomotoristes, ou un endroit où ils quittent une piste cyclable pour rejoindre la chaussée. Je ralentis et je reste attentif.",
+    "ref": "Art. 66 (A25) AR 01/12/1975",
+    "focus": "triangle avec vélo à droite"
+  },
+  {
+    "id": "PHC-010",
+    "theme": "vitesse",
+    "photo": "e5738aeb-7287-43a4-b0d2-cc8618dcb126",
+    "q": "Le panneau « 50 » à gauche est complété par un panneau additionnel « 150 m ». Que signifie cette indication ?",
+    "choices": [
+      "La limitation de 50 km/h commence environ 150 m plus loin",
+      "La limitation ne vaut que sur 150 m",
+      "Je dois rouler à 50 km/h dès maintenant"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Un signal d'interdiction complété par une distance annonce l'endroit où l'interdiction commence, ici environ 150 m plus loin.",
+    "ref": "Art. 68.2 AR 01/12/1975",
+    "focus": "panneau « 50 » + « 150 m »"
+  },
+  {
+    "id": "PHC-011",
+    "theme": "usagers",
+    "photo": "e5738aeb-7287-43a4-b0d2-cc8618dcb126",
+    "q": "La bande de droite porte l'inscription « BUS ». Puis-je l'emprunter avec ma voiture pour dépasser la file ?",
+    "choices": [
+      "Non",
+      "Oui, si je roule à 50 km/h maximum",
+      "Oui, s'il n'y a pas de bus en vue"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Une bande réservée aux bus n'est pas destinée aux voitures : on ne peut l'emprunter que pour contourner un obstacle, accéder à une propriété ou un stationnement, ou (bande bus) tourner au carrefour tout proche.",
+    "ref": "Art. 72.5 et 72.6 AR 01/12/1975",
+    "focus": "marquage « BUS » à droite"
+  },
+  {
+    "id": "PHC-012",
+    "theme": "priorite",
+    "photo": "74d09b8e-59db-4c6e-a310-2ead17b247cd",
+    "q": "Le panneau bleu carré (grande flèche blanche vers le haut, petite flèche rouge vers le bas) est placé au-dessus du triangle. Au passage étroit, qui passe en premier ?",
+    "choices": [
+      "Moi, j'ai la priorité sur les conducteurs venant en sens inverse",
+      "Les conducteurs venant en sens inverse",
+      "Celui qui vient de droite"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le signal B21 donne la priorité de passage par rapport aux conducteurs venant en sens opposé. Je dois tout de même éviter un accident si l'autre est déjà engagé.",
+    "ref": "Art. 67.3 (B21) AR 01/12/1975",
+    "focus": "panneau bleu à droite"
+  },
+  {
+    "id": "PHC-013",
+    "theme": "signalisation",
+    "photo": "74d09b8e-59db-4c6e-a310-2ead17b247cd",
+    "q": "Que m'annonce le panneau triangulaire placé sous le panneau bleu ?",
+    "choices": [
+      "Une route à deux sens de circulation",
+      "Un rétrécissement de la chaussée",
+      "Un pont mobile"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le signal A7 (deux lignes qui se rapprochent) annonce un rétrécissement de la chaussée.",
+    "ref": "Art. 66 (A7) AR 01/12/1975",
+    "focus": "triangle à droite"
+  },
+  {
+    "id": "PHC-014",
+    "theme": "usagers",
+    "photo": "74d09b8e-59db-4c6e-a310-2ead17b247cd",
+    "q": "Un joggeur court sur la chaussée et vient vers moi. Que dois-je faire ?",
+    "choices": [
+      "Klaxonner pour qu'il dégage la chaussée",
+      "Ralentir et le croiser en lui laissant suffisamment d'espace",
+      "Garder ma vitesse, il doit se ranger"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le conducteur ne peut pas mettre en danger les piétons qui circulent sur la chaussée. Je ralentis et garde une distance latérale suffisante en le croisant.",
+    "ref": "Art. 40.1 et 15.2 AR 01/12/1975",
+    "focus": "joggeur au centre"
+  },
+  {
+    "id": "PHC-015",
+    "theme": "usagers",
+    "photo": "4e8a1c8d-44b2-45d7-aca3-18f657996c7d",
+    "q": "Une bande est marquée « BUS ». Je veux tourner à droite au carrefour qui se trouve juste devant. Puis-je emprunter la bande bus ?",
+    "choices": [
+      "Non, jamais",
+      "Oui, à l'approche immédiate du carrefour pour changer de direction",
+      "Oui, sur toute la longueur de la rue"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les autres véhicules peuvent circuler sur la bande bus pour changer de direction à l'approche immédiate d'un carrefour, pour contourner un obstacle ou accéder à une propriété riveraine.",
+    "ref": "Art. 72.5, 3° AR 01/12/1975",
+    "focus": "marquages « BUS » au sol"
+  },
+  {
+    "id": "PHC-016",
+    "theme": "stationnement",
+    "photo": "7c34dd00-03d7-4c3e-955d-2a8aadbbaa20",
+    "q": "Je cherche une place près de cet arrêt de bus (poteau jaune à gauche). À quelle distance minimale du panneau d'arrêt puis-je stationner ?",
+    "choices": [
+      "5 mètres",
+      "10 mètres",
+      "15 mètres de part et d'autre"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Il est interdit de stationner à moins de 15 mètres de part et d'autre d'un panneau indiquant un arrêt d'autobus, de trolleybus ou de tram.",
+    "ref": "Art. 25.1, 2° AR 01/12/1975",
+    "focus": "poteau jaune de l'arrêt"
+  },
+  {
+    "id": "PHC-017",
+    "theme": "usagers",
+    "photo": "7c34dd00-03d7-4c3e-955d-2a8aadbbaa20",
+    "q": "Le bus est arrêté à son arrêt pour l'embarquement des voyageurs. Je dois le longer. Que dois-je faire ?",
+    "choices": [
+      "Modérer ma vitesse",
+      "Klaxonner pour signaler ma présence",
+      "Accélérer pour le dépasser avant qu'il ne reparte"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le conducteur doit modérer sa vitesse pour longer un autobus arrêté pour l'embarquement ou le débarquement des voyageurs.",
+    "ref": "Art. 40.3.1 AR 01/12/1975",
+    "focus": "bus à l'arrêt"
+  },
+  {
+    "id": "PHC-018",
+    "theme": "vitesse",
+    "photo": "a020b120-188b-4b7d-9407-313c18eadf0b",
+    "q": "Je suis en ville à Nivelles (Wallonie), dans cette rue bordée de maisons. Aucun panneau de vitesse n'est visible. Vitesse maximale ?",
+    "choices": [
+      "70 km/h",
+      "30 km/h",
+      "50 km/h"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "En agglomération en Région wallonne, la vitesse est limitée à 50 km/h, sauf signal C43 imposant une autre limite.",
+    "ref": "Art. 11.1 AR 01/12/1975"
+  },
+  {
+    "id": "PHC-019",
+    "theme": "priorite",
+    "photo": "a49b447f-9b02-48c7-9931-db438907aab2",
+    "q": "J'arrive à ce rond-point (signal bleu D5 sur l'îlot central). Un véhicule circule déjà sur l'anneau. Qui a la priorité ?",
+    "choices": [
+      "Moi, car il vient de ma gauche",
+      "Le véhicule qui circule dans le rond-point",
+      "Celui qui roule le plus vite"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Celui qui circule dans un rond-point n'est pas tenu de céder le passage à droite ; les voies d'accès sont pourvues d'un B1 ou B5. En entrant, je cède le passage aux usagers sur l'anneau.",
+    "ref": "Art. 2.39 et 12.3.1 AR 01/12/1975",
+    "focus": "îlot central avec signal D5"
+  },
+  {
+    "id": "PHC-020",
+    "theme": "signalisation",
+    "photo": "a49b447f-9b02-48c7-9931-db438907aab2",
+    "q": "Dans ce rond-point, quand dois-je utiliser mes clignotants ?",
+    "choices": [
+      "En entrant et en sortant",
+      "Seulement en entrant",
+      "Seulement en sortant"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Entrer dans un rond-point n'implique pas l'usage des indicateurs de direction ; en sortir est un changement de direction qui l'impose.",
+    "ref": "Art. 19.2, 1° AR 01/12/1975",
+    "focus": "rond-point"
+  }
+]
