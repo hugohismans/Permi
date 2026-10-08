@@ -29,34 +29,6 @@
     "ref": "Art. 6.2 et 67.3 AR 01/12/1975"
   },
   {
-    "id": "SIG-003",
-    "theme": "signalisation",
-    "q": "À un carrefour, les feux tricolores fonctionnent normalement (feu vert pour moi), mais un panneau « Cédez le passage » est aussi placé sur ma voie. Que dois-je respecter ?",
-    "choices": [
-      "Le feu : il rend sans effet le panneau de priorité",
-      "Le panneau : je dois céder le passage malgré le feu vert"
-    ],
-    "answer": 0,
-    "grave": false,
-    "explain": "Lorsque des signaux lumineux fonctionnent à un endroit, ils rendent sans effet les signaux routiers relatifs à la priorité placés sur la même voie. Hiérarchie : agent > signaux lumineux > panneaux > règles.",
-    "ref": "Art. 6.3 AR 01/12/1975"
-  },
-  {
-    "id": "SIG-004",
-    "theme": "signalisation",
-    "q": "Le feu de mon carrefour est orange clignotant. Ce panneau est placé sur ma voie. Que dois-je faire ?",
-    "choices": [
-      "Passer, car le feu orange clignotant annule le panneau",
-      "M'arrêter obligatoirement à la ligne d'arrêt",
-      "Céder le passage aux usagers de la voie que j'aborde"
-    ],
-    "answer": 2,
-    "grave": true,
-    "sign": "B1",
-    "explain": "Le feu jaune-orange clignotant autorise à passer en redoublant de prudence, mais il ne modifie pas les règles de priorité. Il ne rend pas sans effet les signaux de priorité : le B1 reste d'application.",
-    "ref": "Art. 6.3 et 64.1 AR 01/12/1975"
-  },
-  {
     "id": "SIG-005",
     "theme": "signalisation",
     "q": "Que signifie ce feu ?",
@@ -143,20 +115,6 @@
     "ref": "Art. 61.3.1 AR 01/12/1975"
   },
   {
-    "id": "SIG-011",
-    "theme": "signalisation",
-    "q": "Le feu est vert, mais le carrefour est tellement encombré que je risque d'y rester bloqué. Puis-je m'y engager ?",
-    "choices": [
-      "Oui, le feu vert me le permet",
-      "Non"
-    ],
-    "answer": 1,
-    "grave": false,
-    "sign": "FEU-vert",
-    "explain": "Même si les feux l'y autorisent, un conducteur ne peut s'engager dans un carrefour s'il risque d'y être immobilisé et de gêner la circulation transversale.",
-    "ref": "Art. 14.2 AR 01/12/1975"
-  },
-  {
     "id": "SIG-012",
     "theme": "signalisation",
     "q": "Je tourne à gauche dans un carrefour à feux. Une flèche verte orientée vers la gauche est placée seule à la sortie du carrefour et s'allume. Que signifie-t-elle ?",
@@ -212,65 +170,6 @@
     "grave": false,
     "sign": "B11",
     "explain": "Le signal B11 indique la fin de la voie prioritaire. Aux carrefours suivants, les règles générales (priorité de droite) s'appliquent sauf autre signalisation.",
-    "ref": "Art. 67.3 AR 01/12/1975"
-  },
-  {
-    "id": "SIG-016",
-    "theme": "signalisation",
-    "q": "Ce panneau est placé avant un carrefour. Que signifie-t-il ?",
-    "choices": [
-      "Je dois céder le passage au prochain carrefour",
-      "La priorité de droite s'applique au prochain carrefour",
-      "J'ai la priorité de passage au prochain carrefour"
-    ],
-    "answer": 2,
-    "grave": false,
-    "sign": "B15",
-    "explain": "Le signal B15 annonce que j'ai la priorité de passage au carrefour suivant. La barre horizontale peut être adaptée pour représenter la disposition des lieux.",
-    "ref": "Art. 67.3 AR 01/12/1975"
-  },
-  {
-    "id": "SIG-017",
-    "theme": "signalisation",
-    "q": "Ce panneau est placé avant un carrefour. Un véhicule arrive de ma droite. Que dois-je faire ?",
-    "choices": [
-      "Lui céder le passage",
-      "Continuer : j'ai la priorité",
-      "Klaxonner pour l'avertir"
-    ],
-    "answer": 0,
-    "grave": true,
-    "sign": "B17",
-    "explain": "Le signal B17 annonce un carrefour où la priorité de droite est applicable : je dois céder le passage à celui qui vient de ma droite.",
-    "ref": "Art. 12.3.1 et 67.3 AR 01/12/1975"
-  },
-  {
-    "id": "SIG-018",
-    "theme": "signalisation",
-    "q": "J'arrive à un passage étroit signalé par ce panneau. Un véhicule s'y engage en sens inverse. Que dois-je faire ?",
-    "choices": [
-      "Passer en premier, j'ai la priorité",
-      "Le laisser passer"
-    ],
-    "answer": 1,
-    "grave": true,
-    "sign": "B19",
-    "explain": "Le signal B19 (passage étroit) impose de céder le passage aux conducteurs venant en sens opposé.",
-    "ref": "Art. 67.3 AR 01/12/1975"
-  },
-  {
-    "id": "SIG-019",
-    "theme": "signalisation",
-    "q": "Que signifie ce panneau placé avant un passage étroit ?",
-    "choices": [
-      "Je dois céder le passage aux conducteurs venant en sens inverse",
-      "J'ai la priorité par rapport aux conducteurs venant en sens inverse",
-      "Circulation à double sens"
-    ],
-    "answer": 1,
-    "grave": false,
-    "sign": "B21",
-    "explain": "Le signal B21 (passage étroit) donne la priorité de passage par rapport aux conducteurs venant en sens opposé. Il faut néanmoins rester prudent si l'autre s'est déjà engagé.",
     "ref": "Art. 67.3 AR 01/12/1975"
   },
   {
@@ -495,7 +394,7 @@
     "grave": true,
     "sign": "D1-downright",
     "explain": "Le signal D1 impose de suivre la direction indiquée par la flèche. Placé sur un obstacle, il oblige à passer du côté indiqué par la flèche, ici à droite.",
-    "ref": "Art. 69.3 AR 01/12/1975"
+    "ref": "Art. 9.6 et 69.3 AR 01/12/1975"
   },
   {
     "id": "SIG-035",
@@ -805,34 +704,6 @@
     "ref": "Art. 73.1 et 73.4 AR 01/12/1975"
   },
   {
-    "id": "SIG-056",
-    "theme": "signalisation",
-    "q": "Que signifie une ligne blanche continue tracée perpendiculairement au bord de la chaussée, devant un panneau stop ou un feu ?",
-    "choices": [
-      "C'est un passage pour piétons",
-      "C'est la fin d'une zone 30",
-      "C'est la ligne où je dois marquer l'arrêt"
-    ],
-    "answer": 2,
-    "grave": false,
-    "explain": "La ligne d'arrêt indique l'endroit où les conducteurs doivent marquer l'arrêt imposé par un signal B5 ou par un signal lumineux de circulation.",
-    "ref": "Art. 76.1 AR 01/12/1975"
-  },
-  {
-    "id": "SIG-057",
-    "theme": "signalisation",
-    "q": "Que signifie une ligne transversale formée de triangles blancs tracée sur la chaussée à l'approche d'un carrefour ?",
-    "choices": [
-      "L'endroit où je dois, s'il y a lieu, m'arrêter pour céder le passage",
-      "Un dos d'âne",
-      "Une zone où l'arrêt est obligatoire dans tous les cas"
-    ],
-    "answer": 0,
-    "grave": false,
-    "explain": "La ligne de triangles blancs indique où il faut, s'il y a lieu, s'arrêter pour céder le passage en vertu d'un signal B1.",
-    "ref": "Art. 76.2 AR 01/12/1975"
-  },
-  {
     "id": "SIG-058",
     "theme": "signalisation",
     "q": "À l'approche d'un carrefour, je suis sur une bande marquée d'une flèche de sélection vers la droite. Puis-je continuer tout droit au carrefour ?",
@@ -915,18 +786,5 @@
     "sign": "C43-70",
     "explain": "Les signaux routiers se divisent en six catégories (danger, priorité, interdiction, obligation, arrêt et stationnement, indication). Le C43 (vitesse maximale) est un signal d'interdiction.",
     "ref": "Art. 65.1 et 68.3 AR 01/12/1975"
-  },
-  {
-    "id": "SIG-064",
-    "theme": "signalisation",
-    "q": "Un agent qualifié tend les bras horizontalement face à moi alors que j'arrive dans une direction qui coupe celle indiquée par ses bras. Que dois-je faire ?",
-    "choices": [
-      "Passer, car il me montre le chemin",
-      "M'arrêter"
-    ],
-    "answer": 1,
-    "grave": true,
-    "explain": "Le ou les bras tendus horizontalement signifient arrêt pour les usagers venant des directions qui coupent celle indiquée par les bras. Les injonctions des agents priment sur toute autre signalisation.",
-    "ref": "Art. 4.2 et 6.1 AR 01/12/1975"
   }
 ]

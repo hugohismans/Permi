@@ -2,11 +2,14 @@
 
 Petite web app gratuite et hors ligne pour réviser le **code de la route belge** :
 
-- **Examen blanc** : 50 questions tirées dans tous les thèmes, avec le barème de l'examen (une erreur = −1, une faute grave = −5, réussite à 41/50), puis la correction détaillée.
-- **Entraînement par thème** : séries de 20 questions corrigées tout de suite, avec une explication et l'article de loi.
+- **Examen blanc** : 50 questions avec le barème de l'examen (une erreur = −1, une faute grave = −5, réussite à 41/50).
+- **Vrai ou Faux** : une question et une réponse proposée ; swipe à droite si c'est vrai, à gauche si c'est faux.
+- **Défi chrono** : un maximum de Vrai/Faux en 60 secondes, pour battre ton record.
+- **Entraînement par thème** : correction immédiate, explication et article de loi (🥉 🥈 👑 selon ta maîtrise).
 - **Mes erreurs** : les questions ratées reviennent jusqu'à ce que tu les réussisses.
-- **Panneaux** : une galerie et un mode « devine ».
-- **Mémo** : les chiffres clés à connaître (vitesses, distances, alcool…).
+- **Panneaux** (galerie + devinettes) et **mémo** des chiffres clés.
+
+Gamification façon Duolingo : XP, objectif quotidien réglable, série de jours 🔥 avec gels de série 🧊, niveaux, combos, 19 badges, confettis, sons et statistiques.
 
 La progression est enregistrée dans le navigateur (`localStorage`). L'app n'a pas de compte ni de serveur.
 

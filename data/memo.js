@@ -67,6 +67,16 @@ window.MEMO = [
     ref: 'Art. 9.7, 9.8, 21, 51, 62bis',
   },
   {
+    title: 'Permis provisoire (filière avec guide)',
+    items: [
+      'Guide : titulaire du permis B depuis au moins <b>8 ans</b>, sans déchéance du droit de conduire au cours des 3 dernières années.',
+      'Aucun autre passager que le(s) guide(s) et/ou un instructeur.',
+      'Pas de conduite de <b>22 h à 6 h</b> les vendredis, samedis, dimanches, jours fériés et leurs veilles.',
+      'Signe distinctif « <b>L</b> » à l’arrière du véhicule.',
+    ],
+    ref: 'AR du 10 juillet 2006, art. 3 et 6 · AR du 23 mars 1998, art. 6',
+  },
+  {
     title: 'Alcool',
     items: [
       'Limite générale : <b>0,5 g/l</b> de sang (= <b>0,22 mg/l</b> d’air alvéolaire expiré).',

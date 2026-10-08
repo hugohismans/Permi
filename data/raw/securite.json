@@ -147,7 +147,7 @@
     ],
     "answer": 0,
     "grave": false,
-    "explain": "Les feux de stationnement ne sont obligatoires que si l'éclairage public ne permet pas d'apercevoir distinctement le véhicule à environ 100 mètres.",
+    "explain": "Les feux prescrits à l'arrêt ou en stationnement (feux de position et feux rouges arrière, ou feu de stationnement) ne sont obligatoires que si l'éclairage public ne permet pas d'apercevoir distinctement le véhicule à environ 100 mètres.",
     "ref": "Art. 31.2 AR 01/12/1975"
   },
   {
@@ -476,7 +476,7 @@
     "answer": 0,
     "grave": true,
     "explain": "La loi punit de la même manière la personne qui conduit et celle qui accompagne un conducteur en vue de l'apprentissage avec un taux d'alcool supérieur aux limites.",
-    "ref": "Art. 34 Loi du 16/03/1968"
+    "ref": "Art. 34 §1 et §2 Loi du 16/03/1968"
   },
   {
     "id": "SEC-036",
@@ -706,7 +706,7 @@
     "answer": 0,
     "grave": false,
     "explain": "Le véhicule conduit sous le couvert d'un permis de conduire provisoire doit être muni du signe « L » à l'arrière, à un endroit apparent. Le candidat doit aussi être porteur de son permis provisoire en cours de validité.",
-    "ref": "Art. 6 AR 23/03/1998"
+    "ref": "Art. 6, 2°, d) AR 23/03/1998 (applicable au permis provisoire B via art. 11 AR 10/07/2006)"
   },
   {
     "id": "SEC-053",

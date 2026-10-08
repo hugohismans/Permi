@@ -466,20 +466,6 @@
     "ref": "Art. 28 AR 01/12/1975"
   },
   {
-    "id": "STA-035",
-    "theme": "stationnement",
-    "q": "Sur autoroute, puis-je m'arrêter sur la bande d'arrêt d'urgence pour passer un coup de téléphone ?",
-    "choices": [
-      "Non, l'arrêt y est interdit sauf sur les aires signalées par le signal E9a",
-      "Oui, si j'allume mes feux de détresse"
-    ],
-    "answer": 0,
-    "grave": true,
-    "sign": "F5",
-    "explain": "Sur autoroute, il est interdit de mettre un véhicule à l'arrêt ou en stationnement, sauf sur les aires de stationnement signalées par le signal E9a.",
-    "ref": "Art. 21.4.4° AR 01/12/1975"
-  },
-  {
     "id": "STA-036",
     "theme": "stationnement",
     "q": "Puis-je m'arrêter ou stationner sur des marques blanches obliques parallèles (zone d'évitement) tracées sur la chaussée ?",

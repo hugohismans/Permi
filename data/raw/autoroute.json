@@ -101,21 +101,6 @@
     "ref": "Art. 21.2 AR 01/12/1975"
   },
   {
-    "id": "AUT-008",
-    "theme": "autoroute",
-    "q": "Je circule en voiture sur l'autoroute, sans signal particulier ni circonstance spéciale. Quelle est la vitesse maximale autorisée ?",
-    "choices": [
-      "100 km/h",
-      "130 km/h",
-      "120 km/h"
-    ],
-    "answer": 2,
-    "grave": false,
-    "sign": "F5",
-    "explain": "Sur les autoroutes, la vitesse est limitée à 120 km/h (90 km/h pour les véhicules de plus de 3,5 t et les autobus), dans les trois Régions.",
-    "ref": "Art. 11.2.1° AR 01/12/1975"
-  },
-  {
     "id": "AUT-009",
     "theme": "autoroute",
     "q": "À partir de quel endroit les règles particulières des autoroutes s'appliquent-elles ?",
@@ -480,18 +465,5 @@
     "grave": false,
     "explain": "La flèche verte dirigée vers le bas signifie que la circulation est autorisée sur cette bande.",
     "ref": "Art. 62bis.2° AR 01/12/1975"
-  },
-  {
-    "id": "AUT-035",
-    "theme": "autoroute",
-    "q": "Dans un tunnel, je souhaite m'arrêter quelques secondes sur la chaussée pour vérifier mon itinéraire. Est-ce permis ?",
-    "choices": [
-      "Oui, avec les feux de détresse",
-      "Non"
-    ],
-    "answer": 1,
-    "grave": false,
-    "explain": "L'arrêt et le stationnement sont interdits sur la chaussée dans les tunnels (et dans les passages inférieurs).",
-    "ref": "Art. 24.5° AR 01/12/1975"
   }
 ]

@@ -98,19 +98,6 @@
     "ref": "Art. 11.2 (Région wallonne) 2° a) AR 01/12/1975"
   },
   {
-    "id": "VIT-008",
-    "theme": "vitesse",
-    "q": "Sur l'autoroute, la circulation est fluide et aucun panneau ne limite la vitesse. Puis-je rouler à 60 km/h simplement parce que je ne suis pas pressé ?",
-    "choices": [
-      "Oui",
-      "Non"
-    ],
-    "answer": 1,
-    "grave": false,
-    "explain": "Sur autoroute, il est interdit de rouler à moins de 70 km/h, sauf limitation inférieure imposée par un C43 ; la vitesse doit toutefois toujours être adaptée aux circonstances (brouillard, embouteillage…).",
-    "ref": "Art. 21.2 AR 01/12/1975"
-  },
-  {
     "id": "VIT-009",
     "theme": "vitesse",
     "q": "Je conduis une camionnette dont la masse maximale autorisée est de 5 tonnes. Sur l'autoroute, ma vitesse maximale est de…",
@@ -450,18 +437,5 @@
     "grave": false,
     "explain": "Le C43 cesse de valoir au signal de début de zone de rencontre ; dans une zone de rencontre ou résidentielle, la vitesse est limitée à 20 km/h.",
     "ref": "Art. 68 (C43) et 22bis AR 01/12/1975"
-  },
-  {
-    "id": "VIT-033",
-    "theme": "vitesse",
-    "q": "Je circule dans une zone cyclable où plusieurs cyclistes roulent devant moi. Est-ce que je peux les dépasser ?",
-    "choices": [
-      "Non, les véhicules à moteur ne peuvent pas y dépasser les cyclistes",
-      "Oui, si je reste sous 30 km/h"
-    ],
-    "answer": 0,
-    "grave": false,
-    "explain": "Les véhicules à moteur ont accès aux zones cyclables mais ne peuvent pas y dépasser les cyclistes ; la vitesse n'y peut jamais dépasser 30 km/h.",
-    "ref": "Art. 22novies AR 01/12/1975"
   }
 ]

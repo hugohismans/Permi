@@ -486,20 +486,6 @@
     "ref": "Art. 4.2, 2° AR 01/12/1975"
   },
   {
-    "id": "PRI-036",
-    "theme": "priorite",
-    "q": "Le feu est vert pour moi, mais un agent qualifié me fait signe de m'arrêter. Que dois-je faire ?",
-    "choices": [
-      "M'arrêter, l'injonction de l'agent prévaut",
-      "Passer, le feu vert prévaut"
-    ],
-    "answer": 0,
-    "grave": true,
-    "sign": "FEU-vert",
-    "explain": "Les injonctions des agents qualifiés prévalent sur la signalisation routière et sur les règles de circulation ; elles doivent être suivies immédiatement.",
-    "ref": "Art. 4.1 et 6.1 AR 01/12/1975"
-  },
-  {
     "id": "PRI-037",
     "theme": "priorite",
     "q": "À un carrefour, des feux tricolores fonctionnent normalement et un signal « cédez le passage » est placé sur ma route. Le feu est vert pour moi. Dois-je céder le passage aux véhicules de la route transversale ?",
@@ -541,18 +527,5 @@
     "sign": "C3",
     "explain": "Les signaleurs habilités font usage d'un disque représentant le signal C3 pour arrêter la circulation ; les usagers doivent obéir à leurs indications.",
     "ref": "Art. 41.3.1 et 41.3.2 AR 01/12/1975"
-  },
-  {
-    "id": "PRI-040",
-    "theme": "priorite",
-    "q": "La circulation est fortement ralentie et ma bande se termine un peu plus loin. Où dois-je m'insérer sur la bande libre voisine ?",
-    "choices": [
-      "Le plus tôt possible, dès que je vois l'annonce",
-      "Seulement juste devant le rétrécissement, en alternance (tirette)"
-    ],
-    "answer": 1,
-    "grave": false,
-    "explain": "En circulation fortement ralentie, les conducteurs de la bande qui se termine ne peuvent s'intercaler que juste devant le rétrécissement ; ceux de la bande libre leur cèdent le passage tour à tour.",
-    "ref": "Art. 12bis AR 01/12/1975"
   }
 ]

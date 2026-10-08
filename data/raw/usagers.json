@@ -238,20 +238,6 @@
     "ref": "Art. 40bis.1 AR 01/12/1975"
   },
   {
-    "id": "USR-018",
-    "theme": "usagers",
-    "q": "Quelle est la vitesse maximale autorisée dans une zone résidentielle ou une zone de rencontre ?",
-    "choices": [
-      "20 km/h",
-      "30 km/h",
-      "L'allure du pas"
-    ],
-    "answer": 0,
-    "grave": false,
-    "explain": "Dans les zones résidentielles et les zones de rencontre, la vitesse est limitée à 20 km/h.",
-    "ref": "Art. 22bis, 3° AR 01/12/1975"
-  },
-  {
     "id": "USR-019",
     "theme": "usagers",
     "q": "Dans une zone de rencontre, des enfants jouent au ballon au milieu de la rue. Est-ce autorisé ?",
@@ -346,21 +332,6 @@
     "grave": false,
     "explain": "Sur ces chemins, la vitesse est limitée à 30 km/h.",
     "ref": "Art. 22quinquies.4 AR 01/12/1975"
-  },
-  {
-    "id": "USR-026",
-    "theme": "usagers",
-    "q": "J'entre dans les abords d'une école, dont le début est indiqué par ce signal. Quelle est la vitesse maximale ?",
-    "choices": [
-      "50 km/h",
-      "30 km/h",
-      "20 km/h"
-    ],
-    "answer": 1,
-    "grave": false,
-    "sign": "F4a",
-    "explain": "Les abords d'école sont délimités par les signaux F4a et F4b ; dans les zones délimitées par ces signaux, la vitesse est limitée à 30 km/h.",
-    "ref": "Art. 2.37 et 22quater AR 01/12/1975"
   },
   {
     "id": "USR-027",
@@ -477,34 +448,6 @@
     "ref": "Art. 12.4 et 12.4bis AR 01/12/1975"
   },
   {
-    "id": "USR-035",
-    "theme": "usagers",
-    "q": "Puis-je m'arrêter quelques instants sur une piste cyclable pour déposer un passager ?",
-    "choices": [
-      "Oui, si je reste au volant",
-      "Oui, avec les feux de détresse",
-      "Non"
-    ],
-    "answer": 2,
-    "grave": false,
-    "explain": "L'arrêt et le stationnement sont interdits sur les pistes cyclables et à moins de 5 m de l'endroit où les cyclistes doivent passer de la piste à la chaussée ou inversement.",
-    "ref": "Art. 24, 2° AR 01/12/1975"
-  },
-  {
-    "id": "USR-036",
-    "theme": "usagers",
-    "q": "Garé le long du trottoir, je veux ouvrir ma portière côté chaussée. Que dois-je faire d'abord ?",
-    "choices": [
-      "M'assurer qu'aucun cycliste ou autre usager n'arrive",
-      "Rien, les cyclistes doivent garder leurs distances",
-      "Allumer mes feux de détresse"
-    ],
-    "answer": 0,
-    "grave": false,
-    "explain": "Il est interdit d'ouvrir une portière sans s'être assuré qu'il ne peut en résulter ni danger ni gêne pour les autres usagers, en particulier les piétons et les conducteurs de deux-roues.",
-    "ref": "Art. 28 AR 01/12/1975"
-  },
-  {
     "id": "USR-037",
     "theme": "usagers",
     "q": "En agglomération, deux cyclistes roulent côte à côte devant moi sur une chaussée large où l'on peut se croiser. Est-ce permis ?",
@@ -529,20 +472,6 @@
     "grave": false,
     "explain": "Les cyclistes âgés de moins de 10 ans peuvent emprunter en toutes circonstances les trottoirs et les accotements en saillie.",
     "ref": "Art. 9.1.2, 5° AR 01/12/1975"
-  },
-  {
-    "id": "USR-039",
-    "theme": "usagers",
-    "q": "Je m'approche d'un cheval monté sur la route. L'animal se cabre et montre des signes de frayeur. Que dois-je faire ?",
-    "choices": [
-      "M'arrêter",
-      "Le dépasser rapidement pour m'éloigner",
-      "Klaxonner pour avertir le cavalier"
-    ],
-    "answer": 0,
-    "grave": false,
-    "explain": "Tout conducteur doit ralentir à l'approche d'animaux de monture, de trait, de charge ou de bestiaux, et s'arrêter lorsque ces animaux montrent des signes de frayeur.",
-    "ref": "Art. 10.3 AR 01/12/1975"
   },
   {
     "id": "USR-040",

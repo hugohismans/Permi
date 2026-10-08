@@ -294,20 +294,6 @@
     "ref": "Art. 17.2.4° AR 01/12/1975"
   },
   {
-    "id": "DEP-022",
-    "theme": "depassement",
-    "q": "Je viens de passer ce signal. Une voiture lente roule devant moi. Puis-je la dépasser par la gauche ?",
-    "choices": [
-      "Non",
-      "Oui, si la visibilité est bonne"
-    ],
-    "answer": 0,
-    "grave": false,
-    "sign": "C35",
-    "explain": "Le signal C35 interdit de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues, à partir du signal jusqu'au prochain carrefour inclus.",
-    "ref": "Art. 68 (signal C35) AR 01/12/1975"
-  },
-  {
     "id": "DEP-023",
     "theme": "depassement",
     "q": "Après ce signal, un cycliste roule devant moi. Le signal m'interdit-il de le dépasser ?",
@@ -379,19 +365,6 @@
     "ref": "Art. 72.2 et 40ter AR 01/12/1975"
   },
   {
-    "id": "DEP-028",
-    "theme": "depassement",
-    "q": "Une ligne continue et une ligne discontinue sont juxtaposées au milieu de la chaussée ; la ligne discontinue est de mon côté. Puis-je les franchir pour dépasser ?",
-    "choices": [
-      "Oui, je ne dois tenir compte que de la ligne de mon côté",
-      "Non, la ligne continue l'interdit"
-    ],
-    "answer": 0,
-    "grave": false,
-    "explain": "Lorsqu'une ligne continue et une ligne discontinue sont juxtaposées, on ne tient compte que de la ligne qui se trouve de son côté.",
-    "ref": "Art. 72.4 AR 01/12/1975"
-  },
-  {
     "id": "DEP-029",
     "theme": "depassement",
     "q": "Je veux tourner à droite pour quitter la chaussée. Que dois-je faire ?",
@@ -404,33 +377,6 @@
     "grave": false,
     "explain": "Pour tourner à droite : annoncer à temps avec le clignoteur droit, serrer le plus possible le bord droit, tourner à allure modérée et faire le mouvement aussi court que possible.",
     "ref": "Art. 19.2 AR 01/12/1975"
-  },
-  {
-    "id": "DEP-030",
-    "theme": "depassement",
-    "q": "Je tourne à droite et une piste cyclable longe la chaussée que je quitte. Un cycliste arrive tout droit sur cette piste. Que dois-je faire ?",
-    "choices": [
-      "Passer avant lui, je suis sur la chaussée",
-      "Lui céder le passage"
-    ],
-    "answer": 1,
-    "grave": true,
-    "explain": "Le conducteur qui change de direction doit céder le passage aux conducteurs et piétons qui circulent sur les autres parties de la même voie publique, notamment les cyclistes sur la piste cyclable.",
-    "ref": "Art. 19.4 AR 01/12/1975"
-  },
-  {
-    "id": "DEP-031",
-    "theme": "depassement",
-    "q": "Je tourne dans une rue. Un piéton traverse cette rue dans laquelle je m'engage. Que dois-je faire ?",
-    "choices": [
-      "Klaxonner et passer",
-      "Passer, car il n'est pas sur un passage pour piétons",
-      "Lui céder le passage"
-    ],
-    "answer": 2,
-    "grave": true,
-    "explain": "Le conducteur qui change de direction doit céder le passage aux piétons qui traversent la chaussée sur laquelle il va s'engager.",
-    "ref": "Art. 19.5 AR 01/12/1975"
   },
   {
     "id": "DEP-032",
@@ -460,21 +406,6 @@
     "sign": "F19",
     "explain": "Sur une chaussée à sens unique, le conducteur qui tourne à gauche doit serrer le plus possible le bord gauche de celle-ci.",
     "ref": "Art. 19.3.2°b AR 01/12/1975"
-  },
-  {
-    "id": "DEP-034",
-    "theme": "depassement",
-    "q": "Pour entrer dans un rond-point, l'usage du clignoteur est-il obligatoire ? Et pour en sortir ?",
-    "choices": [
-      "Obligatoire pour entrer, pas pour sortir",
-      "Obligatoire pour entrer et pour sortir",
-      "Pas obligatoire pour entrer, obligatoire pour sortir"
-    ],
-    "answer": 2,
-    "grave": false,
-    "sign": "D5",
-    "explain": "Entrer dans un rond-point est un changement de direction n'impliquant pas l'usage des indicateurs ; en sortir est un changement de direction impliquant leur usage.",
-    "ref": "Art. 19.2 AR 01/12/1975"
   },
   {
     "id": "DEP-035",
@@ -517,21 +448,6 @@
     "sign": "F5",
     "explain": "Sur l'autoroute, il est interdit de faire demi-tour, de faire marche arrière ou de rouler en sens contraire. Il faut continuer jusqu'à la sortie suivante.",
     "ref": "Art. 21.4 et 9.7 AR 01/12/1975"
-  },
-  {
-    "id": "DEP-038",
-    "theme": "depassement",
-    "q": "Je vois ce signal. Jusqu'où m'est-il interdit de faire demi-tour ?",
-    "choices": [
-      "Sur 100 mètres",
-      "Jusqu'au prochain carrefour, mais il est permis dans le carrefour",
-      "Jusqu'au prochain carrefour inclus"
-    ],
-    "answer": 2,
-    "grave": false,
-    "sign": "C33",
-    "explain": "Le signal C33 interdit le demi-tour à partir du signal jusqu'au prochain carrefour inclus.",
-    "ref": "Art. 68 (signal C33) AR 01/12/1975"
   },
   {
     "id": "DEP-039",
