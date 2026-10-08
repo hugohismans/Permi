@@ -1,0 +1,80 @@
+{
+  "theme": "priorite",
+  "title": "Priorités, carrefours et manœuvres",
+  "intro": "Les questions de priorité sont parmi les plus fréquentes à l'examen, et beaucoup sont des fautes graves. Une erreur de priorité au carrefour, c'est l'accident assuré. Bonne nouvelle : avec quelques règles simples et dans le bon ordre, tu peux répondre à presque tout.",
+  "sections": [
+    {
+      "title": "La règle de base : la priorité de droite",
+      "body": "<p>Tu arrives à un carrefour sans panneau, sans feu, sans agent ? Tu cèdes le passage à celui qui vient de <b>ta droite</b>. Peu importe la largeur de la route ou la vitesse de l'autre.</p><ul><li>Une voiture arrive de ta gauche ? C'est elle qui doit te céder le passage. Mais tu restes prudent : à un carrefour, tu dois toujours <b>redoubler de prudence</b>.</li><li>Le panneau <b>B17</b> (triangle avec une croix) annonce justement un carrefour où la priorité de droite s'applique.</li></ul><p><b>Deux exceptions</b> : la priorité de droite ne joue pas pour celui qui</p><ul><li>circule <b>dans un rond-point</b> ;</li><li>vient d'un <b>sens interdit</b> (il roule à contresens : il n'a pas la priorité, mais tu évites quand même l'accident).</li></ul><p><b>Chemin de terre</b> : si tu sors d'un chemin de terre ou d'un sentier pour t'engager sur une route avec chaussée, tu cèdes le passage à <b>tout le monde</b>, de droite comme de gauche.</p>",
+      "signs": [
+        "B17"
+      ],
+      "tip": "Piège classique : « je suis sur la route la plus large » ou « je roule plus vite ». Ça ne compte jamais. Seule la droite compte.",
+      "ref": "Art. 12.2 et 12.3.1 AR 01/12/1975"
+    },
+    {
+      "title": "Les panneaux de priorité",
+      "body": "<p>Les panneaux passent avant la priorité de droite. Connais-les par cœur :</p><ul><li><b>B1 – Cédez le passage</b> (triangle pointe en bas) : tu cèdes à <b>tous</b> les conducteurs de la route que tu abordes, de gauche comme de droite. Si personne n'arrive, tu peux continuer sans t'arrêter. Au sol : une ligne de <b>triangles blancs</b> montre où t'arrêter s'il le faut.</li><li><b>B5 – Stop</b> (octogone rouge) : arrêt <b>obligatoire</b>, même si la route est vide et la visibilité parfaite. Tu t'arrêtes à la <b>ligne d'arrêt</b> (ligne blanche continue en travers), puis tu cèdes le passage.</li><li><b>B9 – Voie prioritaire</b> (losange jaune bordé de blanc) : tu as la priorité aux carrefours, même sur ceux qui viennent de droite.</li><li><b>B11 – Fin de voie prioritaire</b> (losange barré) : sans autre panneau, la priorité de droite revient.</li><li><b>B15 – Priorité de passage</b> : priorité au <b>prochain carrefour</b> seulement.</li><li><b>B19</b> (passage étroit) : tu cèdes le passage à ceux qui arrivent <b>en face</b>.</li><li><b>B21</b> (passage étroit, carré bleu) : <b>toi</b>, tu as la priorité sur ceux d'en face. Si l'autre est déjà engagé, reste prudent.</li></ul><p>Céder le passage, c'est ne repartir que si tu peux le faire <b>sans risque d'accident</b>, en tenant compte de la position, de la vitesse et de la distance des autres. Si c'est « juste », tu attends.</p>",
+      "signs": [
+        "B1",
+        "B5",
+        "B9",
+        "B11",
+        "B15",
+        "B19",
+        "B21"
+      ],
+      "tip": "B1 = je cède, je m'arrête seulement si nécessaire. B5 = je m'arrête toujours, puis je cède. B19 rond à bord rouge = je cède ; B21 carré bleu = j'ai la priorité.",
+      "ref": "Art. 12.3.1, 12.5, 67.3, 76.1 et 76.2 AR 01/12/1975"
+    },
+    {
+      "title": "Les ronds-points",
+      "body": "<p>Un rond-point, c'est une voirie à sens unique autour d'un îlot central, signalée par des panneaux <b>D5</b> (sens giratoire), avec des accès munis d'un <b>B1</b> ou d'un <b>B5</b>.</p><ul><li><b>Tu entres</b> : tu cèdes le passage à ceux qui sont déjà dans l'anneau (ils viennent de ta gauche).</li><li><b>Tu es dans l'anneau</b> : tu as la priorité, même sur une voiture qui veut entrer par ta droite.</li><li><b>Clignotant</b> : pas obligatoire pour <b>entrer</b>, mais <b>obligatoire pour sortir</b> (clignotant droit avant ta sortie).</li></ul>",
+      "signs": [
+        "D5",
+        "B1"
+      ],
+      "tip": "Retiens « on entre sans clignoter, on sort en clignotant à droite ».",
+      "ref": "Art. 2.39, 12.3.1 et 19.2, 1° AR 01/12/1975"
+    },
+    {
+      "title": "Les manœuvres : tu cèdes à tout le monde",
+      "body": "<p>Quand tu fais une <b>manœuvre</b>, tu dois céder le passage à <b>tous les autres usagers</b> (voitures, cyclistes, piétons). Sont des manœuvres :</p><ul><li>changer de bande ou de file ;</li><li>traverser la chaussée ;</li><li>quitter une place de stationnement ou y entrer ;</li><li>sortir d'une <b>propriété riveraine</b> (garage, parking de supermarché…) ;</li><li>faire un <b>demi-tour</b> ou une <b>marche arrière</b>.</li></ul><p>Le <b>clignotant</b> annonce la manœuvre, mais il ne te donne <b>aucune priorité</b>.</p><p>Tu traverses un <b>trottoir</b> ou une <b>piste cyclable</b> (sortie de garage) ? Tu cèdes le passage aux piétons et cyclistes qui y circulent.</p><p><b>Tirette</b> : quand le trafic est fortement ralenti et qu'une bande se termine, on s'insère <b>juste devant le rétrécissement</b>, une voiture sur deux.</p><p><b>Bus en agglomération</b> : quand un bus met son clignotant pour quitter son arrêt, tu ralentis et au besoin tu t'arrêtes pour le laisser partir.</p>",
+      "tip": "Tu sors d'un parking ou d'un garage ? Même une voiture qui vient de ta gauche passe avant toi.",
+      "ref": "Art. 12.4, 12.4bis, 12bis, 13 et 39 AR 01/12/1975"
+    },
+    {
+      "title": "Tourner à gauche ou à droite",
+      "body": "<p>Quand tu changes de direction au carrefour, tu restes le « petit » face aux autres :</p><ul><li><b>Tu tournes à gauche</b> : tu cèdes le passage aux véhicules qui arrivent <b>en sens inverse</b> (même s'ils vont tout droit).</li><li><b>Tu tournes à droite</b> : tu cèdes le passage au cycliste qui continue tout droit sur la <b>piste cyclable</b> à ta droite. Regarde dans ton rétro et ton angle mort !</li><li>Dans les deux cas, tu cèdes le passage aux <b>piétons</b> qui traversent la rue où tu t'engages.</li></ul>",
+      "tip": "Tourner = céder : à ceux d'en face (à gauche), aux cyclistes tout droit (à droite), et toujours aux piétons.",
+      "ref": "Art. 19.3, 3°, 19.4 et 19.5 AR 01/12/1975"
+    },
+    {
+      "title": "Trams et véhicules prioritaires",
+      "body": "<p><b>Le tram</b> (véhicule sur rails) passe <b>toujours</b> en premier, qu'il vienne de droite ou de gauche. Tu roules sur les rails et un tram arrive derrière toi ? Tu t'écartes <b>dès que possible</b>.</p><p><b>Véhicules prioritaires</b> (police, ambulance, pompiers…) : ils ont des feux bleus clignotants et une sirène (avertisseur sonore spécial).</p><ul><li>Dès que tu entends la <b>sirène</b>, tu dois <b>immédiatement dégager</b> et céder le passage ; au besoin, tu t'arrêtes.</li><li>Avec la sirène, il peut franchir un <b>feu rouge</b>, à vitesse modérée et sans mettre les autres en danger.</li><li>Feux bleus seuls, sans sirène ? L'obligation légale naît avec la sirène, mais reste très prudent et facilite-lui le passage.</li></ul>",
+      "tip": "La sirène crée l'obligation de dégager (art. 38). Le tram, lui, est prioritaire en permanence (art. 12.1).",
+      "ref": "Art. 12.1, 37 et 38 AR 01/12/1975"
+    },
+    {
+      "title": "Agents, feux et carrefours encombrés",
+      "body": "<p>Retiens l'ordre de force : d'abord l'<b>agent</b>, puis la <b>signalisation</b> (feux, panneaux), puis les <b>règles</b> (comme la priorité de droite).</p><ul><li><b>Bras levé verticalement</b> : arrêt pour tous, sauf pour ceux déjà dans le carrefour, qui doivent l'<b>évacuer</b>.</li><li><b>Bras tendus horizontalement</b> : arrêt pour ceux dont la direction <b>coupe</b> celle des bras (tu arrives face à lui ou dans son dos).</li><li>Un <b>signaleur</b> (course cycliste, chantier…) qui te montre un disque <b>C3</b> : tu t'arrêtes.</li></ul><p><b>Feux et panneaux ensemble</b> : quand les feux fonctionnent, les panneaux de priorité sur la même voie (B1, B5…) sont <b>sans effet</b>. Feu vert = tu passes. Mais si le feu <b>orange clignote</b>, tu redoubles de prudence et les panneaux reprennent leur valeur (ou la priorité de droite s'il n'y en a pas).</p><p><b>Carrefour bloqué</b> : même au vert, tu ne t'engages pas si tu risques de rester coincé au milieu et de bloquer la circulation transversale. Si tu es déjà engagé, tu peux dégager le carrefour.</p>",
+      "signs": [
+        "FEU-vert",
+        "FEU-orange-cligno",
+        "C3"
+      ],
+      "tip": "Orange clignotant = « débrouille-toi avec les panneaux » : il ne donne aucune priorité.",
+      "ref": "Art. 4.2, 6.1 à 6.3, 14, 41.3.2 et 64.1 AR 01/12/1975"
+    }
+  ],
+  "keypoints": [
+    "Sans signalisation : priorité de droite, quelle que soit la largeur de la route.",
+    "Pas de priorité de droite pour qui vient d'un sens interdit ou d'un chemin de terre, ni contre qui est dans le rond-point.",
+    "B5 (stop) : arrêt obligatoire à la ligne d'arrêt, même si la route est vide. B1 : arrêt seulement si nécessaire.",
+    "Rond-point : on cède pour entrer ; clignotant obligatoire seulement pour sortir.",
+    "Manœuvre (parking, garage, demi-tour, marche arrière) : tu cèdes à tout le monde.",
+    "Tram : toujours prioritaire. Sirène : dégager immédiatement, s'arrêter au besoin.",
+    "Agent, puis feux et panneaux, puis règles. Feux en marche = panneaux de priorité sans effet, sauf orange clignotant.",
+    "Même au vert, on ne s'engage pas dans un carrefour où l'on resterait bloqué."
+  ]
+}

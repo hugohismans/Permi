@@ -1,0 +1,94 @@
+{
+  "theme": "depassement",
+  "title": "Place sur la route, croisement et dépassement",
+  "intro": "Dépasser est une des manœuvres les plus dangereuses : un mauvais dépassement, c'est souvent un choc frontal. À l'examen, on te teste sur où te placer, quand tu peux dépasser, quand c'est interdit, et comment partager la route avec les cyclistes. Les règles sont logiques : si tu ne vois pas, tu ne dépasses pas.",
+  "sections": [
+    {
+      "title": "Ta place sur la chaussée",
+      "body": "<p>Règle de base : tu roules sur la chaussée, <b>le plus près possible du bord droit</b>. Exceptions :</p><ul><li>sur les places, ou si des flèches au sol (signaux F13/F15) t'indiquent une bande ;</li><li>dans l'<b>anneau d'un rond-point</b> : tu n'es pas obligé de serrer à droite, mais tu respectes les bandes marquées et tu prends celle qui convient le mieux à ta destination ;</li><li>en <b>agglomération</b>, sur une chaussée à sens unique en bandes ou à 2 × 2 bandes minimum, tu peux choisir la bande qui convient le mieux à ta destination.</li></ul><p>Si la route a <b>deux ou trois chaussées nettement séparées</b> (terre-plein), tu n'empruntes <b>jamais celle de gauche</b> (sauf réglementation locale) : ce serait rouler à contresens.</p><p>Bornes et îlots directionnels : tu les laisses <b>à ta gauche</b>, sauf si un panneau D1 t'indique un autre côté.</p>",
+      "signs": [
+        "D5",
+        "D1-downright"
+      ],
+      "tip": "Rond-point : pas d'obligation de serrer à droite dans l'anneau, mais les lignes de bande restent à respecter.",
+      "ref": "Art. 9.1 à 9.6 AR 01/12/1975"
+    },
+    {
+      "title": "Autoroute : couloir de secours et bande d'arrêt d'urgence",
+      "body": "<p>Un bouchon se forme ? Tu crées tout de suite un <b>couloir de secours</b> pour les secours :</p><ul><li><b>2 bandes</b> : bande de gauche serre à gauche, bande de droite serre à droite. Le couloir est au milieu.</li><li><b>Plus de 2 bandes</b> : seule la <b>bande de gauche serre à gauche</b>, <b>toutes les autres serrent à droite</b>. Le couloir se forme à côté de la bande de gauche.</li></ul><p>La <b>bande d'arrêt d'urgence</b> est interdite à la circulation, même dans un bouchon pour atteindre la sortie. Seuls y roulent : véhicules prioritaires en mission urgente, services requis par la police ou le parquet, dépanneuses (pour un incident, en cas de forte congestion).</p><p>Sur autoroute, il est aussi interdit de faire <b>demi-tour</b>, <b>marche arrière</b> ou de rouler à contresens. Sortie ratée ? Tu continues jusqu'à la suivante.</p>",
+      "signs": [
+        "F5"
+      ],
+      "tip": "Couloir de secours : « la gauche à gauche, tout le reste à droite ».",
+      "ref": "Art. 9.7, 9.8 et 21.4 AR 01/12/1975"
+    },
+    {
+      "title": "Le croisement",
+      "body": "<p>Un véhicule arrive en face. Le <b>croisement se fait à droite</b> :</p><ul><li>tu laisses une <b>distance latérale suffisante</b> et, au besoin, tu serres à droite ;</li><li>si la chaussée est trop étroite, tu peux utiliser l'<b>accotement de plain-pied</b> (ou la bande latérale), sans mettre en danger ceux qui s'y trouvent.</li></ul><p>Un obstacle (camionnette garée, travaux) est <b>sur ta moitié</b> de chaussée ? C'est <b>toi</b> qui ralentis et, au besoin, t'arrêtes pour laisser passer ceux d'en face.</p>",
+      "tip": "Obstacle de ton côté = tu laisses passer. Obstacle de leur côté = ils doivent te laisser passer.",
+      "ref": "Art. 15 AR 01/12/1975"
+    },
+    {
+      "title": "Comment dépasser correctement",
+      "body": "<p>Le <b>dépassement se fait à gauche</b>. Une seule exception : tu dépasses <b>par la droite</b> quand le conducteur devant a <b>annoncé qu'il tourne (ou se range) à gauche</b> et <b>s'est porté à gauche</b>. Une voiture lente sans clignoteur au milieu de sa bande ? Toujours par la gauche.</p><p>Avant de te déporter, vérifie que :</p><ol><li>la voie est libre sur une distance suffisante ;</li><li><b>personne derrière toi n'a commencé à te dépasser</b> (rétro + angle mort) ;</li><li>tu pourras reprendre ta place à droite sans gêner ;</li><li>le dépassement se fera <b>en un temps très court</b>.</li></ol><p>Puis : <b>clignoteur gauche</b>, tu t'écartes assez, et tu reviens à droite <b>dès que possible sans inconvénient</b>, avec ton <b>clignoteur droit</b>.</p><p>Sur une chaussée à <b>sens unique</b> (ex. autoroute) ou à 2 × 2 bandes minimum, tu peux rester à gauche pour enchaîner <b>aussitôt</b> un autre dépassement.</p><p><b>Tu te fais dépasser ?</b> Tu serres à droite et tu <b>n'accélères pas</b>.</p>",
+      "tip": "Ordre des vérifications : devant, derrière (rétro + angle mort), clignoteur, puis seulement tu déboîtes.",
+      "ref": "Art. 16 AR 01/12/1975"
+    },
+    {
+      "title": "Quand il est interdit de dépasser",
+      "body": "<p>Toujours interdit si tu <b>ne vois pas assez loin</b> les véhicules d'en face. Et interdit de dépasser par la gauche une voiture, une moto ou un véhicule attelé :</p><ul><li>à l'<b>approche d'un sommet de côte</b> ou dans un <b>virage</b> sans visibilité suffisante (sauf si tu restes sans franchir la ligne continue) ;</li><li>dans un <b>carrefour à priorité de droite</b> ;</li><li>dans les autres carrefours, <b>si tu dois céder le passage</b> (B1, B5, sortie d'un chemin de terre). Sur la route prioritaire (B9), le carrefour seul n'interdit pas le dépassement, s'il se fait sans danger ;</li><li>quand le véhicule devant <b>approche ou s'arrête devant un passage pour piétons ou cyclistes</b> non réglé par feux ou agent : il cache peut-être quelqu'un ;</li><li>sur un <b>passage à niveau</b> sans barrières ni feux (croix de Saint-André) ;</li><li>quand le véhicule devant <b>dépasse lui-même</b> (autre chose qu'un vélo, cyclomoteur ou moto à deux roues), sauf s'il y a au moins 3 bandes dans ton sens ;</li><li>sur un <b>dispositif surélevé</b> (ralentisseur).</li></ul><p>Et bien sûr : <b>jamais franchir une ligne continue</b>.</p>",
+      "signs": [
+        "B17",
+        "B1",
+        "B5",
+        "B9"
+      ],
+      "tip": "Retiens « je ne vois pas, je ne dépasse pas » : côte, virage, passage piétons, carrefour où tu n'es pas prioritaire.",
+      "ref": "Art. 17 et 72.2 AR 01/12/1975"
+    },
+    {
+      "title": "Le panneau « interdiction de dépasser »",
+      "body": "<p>Le panneau <b>C35</b> interdit de dépasser par la gauche un <b>véhicule attelé ou un véhicule à plus de deux roues</b> (voitures, camions…).</p><ul><li>Il vaut <b>jusqu'au prochain carrefour inclus</b>, ou jusqu'au panneau de fin <b>C37</b>.</li><li>Il ne vise <b>pas les deux-roues</b> : tu peux dépasser un cycliste ou une moto, sans danger et en respectant la distance latérale.</li></ul><p>Le <b>C46</b> met fin à toutes les interdictions locales, y compris celle-ci.</p>",
+      "signs": [
+        "C35",
+        "C46"
+      ],
+      "tip": "C35 : une voiture rouge à côté d'une noire. Pas de vélo dessus, donc le vélo peut être dépassé.",
+      "ref": "Art. 68 (C35, C37, C46) AR 01/12/1975"
+    },
+    {
+      "title": "Dépasser un cycliste",
+      "body": "<p>Le cycliste est fragile : un écart, un coup de vent, et il est sur ta trajectoire. Distance latérale minimale quand tu le dépasses :</p><ul><li><b>en agglomération : 1 mètre</b> ;</li><li><b>hors agglomération : 1,5 mètre</b>.</li></ul><p>Même règle pour les cyclomoteurs à deux roues. Redouble de prudence avec les enfants et les personnes âgées à vélo.</p><p>Les interdictions de dépasser dans les carrefours ne visent pas les vélos. Mais tu dois toujours dépasser sans danger.</p><p>Route étroite, <b>ligne continue</b> au milieu, impossible de laisser 1,5 m sans la franchir ? Tu <b>restes derrière</b> le cycliste jusqu'à pouvoir dépasser correctement.</p>",
+      "tip": "1 m en ville, 1,5 m hors ville. Pas la place ? Patience, tu restes derrière.",
+      "ref": "Art. 40ter, 17.2 et 72.2 AR 01/12/1975"
+    },
+    {
+      "title": "Changer de direction et manœuvrer",
+      "body": "<p>Avant de tourner, tu vérifies que tu peux le faire sans danger (pense à ceux qui te suivent), et tu mets ton <b>clignoteur à temps</b>.</p><p><b>Tourner à droite</b> : clignoteur droit, tu <b>serres le bord droit</b>, allure modérée, virage court.</p><p><b>Tourner à gauche</b> :</p><ul><li>chaussée à deux sens : tu te portes vers la gauche sans gêner ceux d'en face, et tu <b>leur cèdes le passage</b> ;</li><li>chaussée à <b>sens unique</b> : tu <b>serres le bord gauche</b>.</li></ul><p>En bandes ou en files : on ne tourne à droite que <b>depuis la bande de droite</b>, et à gauche que depuis celle de gauche.</p><p>En tournant, tu cèdes le passage aux piétons qui traversent et aux usagers (cyclistes…) qui circulent sur les autres parties de la voie.</p><p><b>Manœuvres</b> (marche arrière, demi-tour, sortir d'une allée ou d'une place de parking, changer de bande) : celui qui manœuvre <b>cède le passage à tous</b>.</p>",
+      "signs": [
+        "F19"
+      ],
+      "tip": "Rond-point : pas de clignoteur pour y entrer, clignoteur droit pour en sortir.",
+      "ref": "Art. 12.4, 13 et 19 AR 01/12/1975"
+    },
+    {
+      "title": "La tirette (fermeture éclair)",
+      "body": "<p>Bouchon, ta bande se termine plus loin (travaux, rétrécissement). Que faire ?</p><ul><li>Si la circulation est <b>fortement ralentie</b> : tu restes sur ta bande et tu t'intercales <b>seulement juste devant le rétrécissement</b>.</li><li>Ceux de la bande qui continue laissent passer <b>tour à tour</b> un conducteur qui s'intercale, juste devant le rétrécissement. Un de chaque côté, comme une fermeture éclair.</li><li>Si les deux bandes extérieures se terminent : priorité d'abord à celui de droite, puis à celui de gauche.</li></ul><p>Si la circulation est <b>fluide</b>, pas de tirette : changer de bande est une <b>manœuvre</b>, et c'est toi qui cèdes le passage.</p>",
+      "signs": [
+        "A7a"
+      ],
+      "tip": "Tirette = seulement quand ça bouchonne, et seulement au bout de la bande. Se rabattre trop tôt n'est pas « plus poli » : ça allonge le bouchon.",
+      "ref": "Art. 12bis et 12.4 AR 01/12/1975"
+    }
+  ],
+  "keypoints": [
+    "Tiens-toi le plus près possible du bord droit (sauf dans l'anneau d'un rond-point).",
+    "Couloir de secours : la bande de gauche serre à gauche, toutes les autres à droite. Bande d'arrêt d'urgence interdite.",
+    "Obstacle de ton côté : tu laisses passer ceux d'en face.",
+    "Dépassement à gauche ; à droite seulement si l'autre tourne à gauche et s'est porté à gauche.",
+    "Interdit de dépasser : côte ou virage sans visibilité, carrefour à priorité de droite, avant un passage piétons, ligne continue.",
+    "C35 : interdit de dépasser les véhicules à plus de 2 roues, jusqu'au prochain carrefour inclus.",
+    "Cycliste : 1 m en agglomération, 1,5 m hors agglomération.",
+    "Tirette : seulement en circulation fortement ralentie, juste devant le rétrécissement, tour à tour."
+  ]
+}

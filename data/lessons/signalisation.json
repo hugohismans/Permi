@@ -1,0 +1,128 @@
+{
+  "theme": "signalisation",
+  "title": "Panneaux, feux et marquages",
+  "intro": "À l'examen, beaucoup de questions te montrent un panneau ou un feu et te demandent quoi faire. La bonne nouvelle : la forme et la couleur d'un panneau te disent déjà sa famille avant même de lire le symbole. Apprends la logique, et tu reconnaîtras même les panneaux que tu n'as jamais vus.",
+  "sections": [
+    {
+      "title": "Qui commande ? La hiérarchie des signaux",
+      "body": "<p>Quand plusieurs indications se contredisent, retiens cet ordre :</p><ol><li>les <b>injonctions des agents qualifiés</b> (police…) ;</li><li>la <b>signalisation</b> : feux, panneaux, marquages ;</li><li>les <b>règles de circulation</b> (par exemple la priorité de droite).</li></ol><p>Exemples :</p><ul><li>Feu vert, mais l'agent lève le bras verticalement ? Tu <b>t'arrêtes</b> (sauf si tu es déjà dans le carrefour : tu l'évacues).</li><li>Tu roules sur une route avec un <b>B9</b> (voie prioritaire) ? Le panneau l'emporte sur la priorité de droite : tu as la priorité.</li><li>Quand les <b>feux fonctionnent</b>, les panneaux de priorité placés sur la même voie sont sans effet. Exception : le <b>feu orange clignotant</b>, qui laisse les panneaux s'appliquer.</li></ul><p>La signalisation routière se divise en trois catégories : <b>feux</b>, <b>panneaux</b> et <b>marques au sol</b>. Les panneaux, eux, forment six familles (A à F), détaillées ci-dessous.</p>",
+      "signs": [
+        "B9"
+      ],
+      "tip": "Agent, puis panneaux et feux, puis règles : celui qui est « vivant » commande toujours.",
+      "ref": "Art. 4.2, 6 et 60.1 AR 01/12/1975"
+    },
+    {
+      "title": "Les feux de signalisation",
+      "body": "<p>Ordre des feux : <b>vert → orange → rouge → vert</b>. Il n'y a pas d'orange entre le rouge et le vert.</p><ul><li><b>Rouge</b> : interdiction de franchir la ligne d'arrêt ou, s'il n'y en a pas, le feu lui-même.</li><li><b>Orange fixe</b> : même interdiction. Seule exception : tu es si près au moment où il s'allume que tu ne peux plus t'arrêter en sécurité. Tu passes alors la ligne, mais tu ne traverses le carrefour que sans mettre les autres en danger. À 60 m, tu as le temps : tu t'arrêtes.</li><li><b>Vert</b> : tu peux passer (mais pas si tu vas rester bloqué au milieu du carrefour).</li><li><b>Orange clignotant</b> : tu peux passer en <b>redoublant de prudence</b>. Il ne change pas les priorités : panneaux ou, à défaut, priorité de droite.</li><li><b>Flèche verte avec le feu rouge</b> : tu peux aller seulement dans la direction de la flèche, en cédant le passage aux conducteurs venant d'autres directions et aux piétons.</li><li><b>Flèche verte vers la gauche seule, à la sortie du carrefour</b> (flèche d'évacuation) : la circulation d'en face est arrêtée par un feu rouge, tu peux terminer ton virage à gauche.</li></ul><p>Le panneau <b>A33</b> annonce des feux plus loin.</p>",
+      "signs": [
+        "FEU-rouge",
+        "FEU-orange",
+        "FEU-vert",
+        "FEU-orange-cligno",
+        "A33"
+      ],
+      "tip": "Orange fixe = « stop si possible », pas « accélère ». Orange clignotant = feux hors service : regarde les panneaux.",
+      "ref": "Art. 61, 62 et 64.1 AR 01/12/1975"
+    },
+    {
+      "title": "A – Signaux de danger",
+      "body": "<p><b>Forme</b> : triangle pointe en haut, <b>bord rouge</b>, fond blanc, symbole noir. Ils t'<b>avertissent</b> d'un danger plus loin : ralentis et prépare-toi.</p><ul><li><b>A1a</b> : virage dangereux à gauche ; <b>A1b</b> : à droite.</li><li><b>A7a</b> : rétrécissement de la chaussée.</li><li><b>A33</b> : feux de signalisation.</li><li><b>A51</b> (point d'exclamation) : danger sans symbole spécial ; un panneau additionnel en dessous en précise la nature.</li></ul>",
+      "signs": [
+        "A1a",
+        "A1b",
+        "A7a",
+        "A33",
+        "A51"
+      ],
+      "tip": "Pour A1a/A1b, regarde où part le haut de la flèche : c'est le sens du premier virage.",
+      "ref": "Art. 66 AR 01/12/1975"
+    },
+    {
+      "title": "B – Signaux de priorité",
+      "body": "<p>Ce sont les seuls panneaux aux formes « spéciales », pour être reconnus même de dos ou sous la neige :</p><ul><li><b>B1</b> : triangle <b>pointe en bas</b> – cédez le passage (arrêt seulement si nécessaire).</li><li><b>B5</b> : <b>octogone rouge</b> STOP – arrêt obligatoire, même si personne n'arrive, puis céder le passage.</li><li><b>B9</b> : <b>losange jaune</b> bordé de blanc – voie prioritaire. <b>B11</b> : le même barré – fin de voie prioritaire (la priorité de droite revient).</li><li><b>B15</b> : triangle avec une flèche épaisse – priorité au <b>prochain</b> carrefour.</li><li><b>B17</b> : triangle avec une croix – carrefour à priorité de droite.</li><li><b>B19</b> (rond, bord rouge) : passage étroit, tu cèdes à ceux d'en face. <b>B21</b> (carré bleu) : passage étroit, tu as la priorité.</li></ul>",
+      "signs": [
+        "B1",
+        "B5",
+        "B9",
+        "B11",
+        "B15",
+        "B17",
+        "B19",
+        "B21"
+      ],
+      "tip": "B1 et B5 sont les deux panneaux à distinguer à coup sûr : B1 = on peut « glisser » si c'est libre, B5 = arrêt complet toujours.",
+      "ref": "Art. 67.3 AR 01/12/1975"
+    },
+    {
+      "title": "C – Signaux d'interdiction",
+      "body": "<p><b>Forme</b> : <b>rond à bord rouge</b> (fond blanc). Ils <b>interdisent</b> quelque chose.</p><ul><li><b>C1</b> (disque rouge, barre blanche) : <b>sens interdit</b>. Un panneau additionnel peut excepter les cyclistes.</li><li><b>C3</b> (rond blanc bordé de rouge, vide) : accès interdit <b>dans les deux sens</b> à tout conducteur.</li><li><b>C31a / C31b</b> : interdit de tourner à gauche / à droite au <b>prochain carrefour</b>.</li><li><b>C33</b> : demi-tour interdit jusqu'au prochain carrefour <b>inclus</b>.</li><li><b>C35</b> : interdit de dépasser par la gauche un véhicule à <b>plus de deux roues</b> ou attelé, jusqu'au prochain carrefour inclus. Une voiture : interdit. Une moto sans side-car : permis (si le reste des règles le permet).</li><li><b>C43</b> : vitesse maximale (30, 50, 70, 90, 120…). <b>C45</b> : fin de cette limitation (même chiffre).</li><li><b>C46</b> : fin de <b>toutes</b> les interdictions locales pour véhicules en mouvement (dépassement, vitesse…). Il ne concerne pas le stationnement.</li></ul><p>Un panneau d'interdiction peut être annoncé à l'avance par le même panneau avec un additionnel « 200 m » : l'interdiction commence à environ 200 m.</p>",
+      "signs": [
+        "C1",
+        "C3",
+        "C31a",
+        "C31b",
+        "C33",
+        "C35",
+        "C43-50",
+        "C45-50",
+        "C46"
+      ],
+      "tip": "Rond + bord rouge = interdit. Rond + bord rouge + barres noires/grises = fin d'interdiction.",
+      "ref": "Art. 68.2, 68.3 et 68.4 AR 01/12/1975"
+    },
+    {
+      "title": "D – Obligation et E – Arrêt et stationnement",
+      "body": "<p><b>D – Obligation</b> : <b>rond à fond bleu</b>, symbole blanc. Ils <b>imposent</b> quelque chose.</p><ul><li><b>D1</b> : suivre la direction de la flèche. Placé sur un <b>îlot</b> ou un obstacle, la flèche oblique t'indique de quel côté passer.</li><li><b>D5</b> : sens giratoire obligatoire (rond-point).</li></ul><p><b>E – Arrêt et stationnement</b> : rond à fond bleu et <b>bord rouge</b>, ou carré bleu.</p><ul><li><b>E1</b> (une barre rouge) : stationnement interdit. L'arrêt (déposer quelqu'un) reste permis.</li><li><b>E3</b> (deux barres en croix) : <b>arrêt ET stationnement</b> interdits. Même pas pour laisser descendre un passager.</li><li><b>E9a</b> (carré bleu « P ») : stationnement autorisé.</li></ul>",
+      "signs": [
+        "D1-up",
+        "D1-downright",
+        "D5",
+        "E1",
+        "E3",
+        "E9a"
+      ],
+      "tip": "Bleu = obligatoire ou autorisé ; rouge = interdit. Une barre (E1) = pas de stationnement ; une croix (E3) = pas même l'arrêt.",
+      "ref": "Art. 69.3 et 70.2.1 AR 01/12/1975"
+    },
+    {
+      "title": "F – Signaux d'indication et panneaux additionnels",
+      "body": "<p><b>Forme</b> : <b>rectangle ou carré</b>, souvent bleu. Ils t'<b>informent</b> ; les règles liées s'appliquent dès l'endroit du panneau.</p><ul><li><b>F1a</b> : début d'<b>agglomération</b>. <b>F3a</b> (nom barré) : fin d'agglomération. En agglomération : <b>50 km/h</b> en Wallonie et en Flandre, <b>30 km/h</b> à Bruxelles. Hors agglomération : <b>90 km/h</b> en Wallonie, <b>70 km/h</b> en Flandre (sauf panneau).</li><li><b>F4a</b> / <b>F4b</b> : début / fin de <b>zone 30</b>.</li><li><b>F5</b> / <b>F7</b> : début / fin d'<b>autoroute</b>.</li><li><b>F9</b> : <b>route pour automobiles</b> (sa fin : F11).</li><li><b>F19</b> : voie à <b>sens unique</b> (un additionnel peut indiquer que les cyclistes roulent dans les deux sens).</li><li><b>F45</b> : voie <b>sans issue</b> (F45b : sans issue sauf pour piétons et cyclistes).</li></ul><p><b>Panneau additionnel</b> : le petit rectangle sous un panneau (blanc sur bleu, ou noir sur blanc pour les vélos) <b>complète, précise ou limite</b> le signal : horaire, distance, catégorie de véhicules…</p>",
+      "signs": [
+        "F1a",
+        "F3a",
+        "F4a",
+        "F4b",
+        "F5",
+        "F7",
+        "F9",
+        "F19",
+        "F45"
+      ],
+      "tip": "Ne confonds pas F19 (carré bleu, sens unique : tu peux entrer) et C1 (rond rouge, sens interdit : tu ne peux pas entrer).",
+      "ref": "Art. 11, 65.2 et 71 AR 01/12/1975"
+    },
+    {
+      "title": "Les lignes sur la chaussée",
+      "body": "<ul><li><b>Ligne blanche continue</b> : personne ne la franchit. Si elle sépare les deux sens, tu ne roules pas à sa gauche. Même pour dépasser un tracteur lent : interdit.</li><li><b>Ligne discontinue</b> : tu la franchis seulement pour <b>dépasser, tourner à gauche, faire demi-tour ou changer de bande</b>. Rouler à cheval dessus : interdit.</li><li><b>Traits plus courts et plus rapprochés</b> : une ligne continue arrive. Ne commence plus de dépassement.</li><li><b>Continue + discontinue côte à côte</b> : tu suis seulement celle de <b>ton côté</b>. Si tu les as franchies pour dépasser, tu peux revenir à ta place.</li><li><b>Lignes orange</b> (travaux) : elles <b>annulent</b> les lignes blanches au même endroit et ont la même signification.</li><li><b>Ligne jaune discontinue</b> le long du bord : stationnement interdit à cet endroit.</li></ul>",
+      "tip": "Ligne continue = mur. Ligne discontinue = porte qu'on ouvre seulement pour une raison précise.",
+      "ref": "Art. 72, 73 et 75.1 AR 01/12/1975"
+    },
+    {
+      "title": "Marques transversales et autres marquages",
+      "body": "<ul><li><b>Ligne d'arrêt</b> (ligne blanche continue en travers) : là où tu t'arrêtes au <b>stop</b> ou au <b>feu</b>.</li><li><b>Ligne de triangles blancs</b> : là où tu t'arrêtes, si besoin, pour céder le passage (<b>B1</b>).</li><li><b>Passage pour piétons</b> : bandes blanches parallèles à l'axe de la route.</li><li><b>Flèches de sélection</b> : à l'approche d'un carrefour, tu dois suivre la direction indiquée sur <b>ta</b> bande. Flèche à droite = tu tournes à droite.</li><li><b>Flèches de rabattement</b> (obliques, le long d'une ligne discontinue) : le nombre de bandes diminue, rabats-toi.</li><li><b>Hachures obliques</b> (îlot, zone d'évitement) : ni circuler, ni s'arrêter, ni stationner.</li><li><b>Damier blanc</b> (site de bus/tram, passage à niveau) : arrêt et stationnement interdits.</li><li><b>Zone avancée vélo</b> (entre deux lignes d'arrêt avec un vélo dessiné) : en voiture, tu t'arrêtes devant la <b>première</b> ligne d'arrêt.</li></ul>",
+      "tip": "Au feu rouge avec zone vélo : la première ligne est pour toi, l'espace devant est pour les cyclistes.",
+      "ref": "Art. 76 et 77 AR 01/12/1975"
+    }
+  ],
+  "keypoints": [
+    "Ordre de force : agent, puis feux et panneaux, puis règles de circulation.",
+    "Triangle bord rouge = danger ; rond bord rouge = interdiction ; rond bleu = obligation ; rectangle = indication.",
+    "B5 octogone : arrêt toujours. B1 triangle pointe en bas : céder, arrêt si nécessaire. B9 losange jaune : prioritaire.",
+    "Feux : vert, orange, rouge. Orange fixe = arrêt sauf si trop près. Orange clignotant = prudence, priorités inchangées.",
+    "E1 = stationnement interdit ; E3 = arrêt et stationnement interdits.",
+    "Agglomération : 50 km/h (Wallonie, Flandre), 30 km/h à Bruxelles. Hors agglo : 90 (Wallonie), 70 (Flandre).",
+    "Ligne continue : jamais franchie. Lignes juxtaposées : seule celle de ton côté compte. Lignes orange > lignes blanches.",
+    "Hachures et damier : ni arrêt ni stationnement."
+  ]
+}

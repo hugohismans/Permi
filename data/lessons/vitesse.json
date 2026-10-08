@@ -1,0 +1,89 @@
+{
+  "theme": "vitesse",
+  "title": "La vitesse : limites, zones et distance de sécurité",
+  "intro": "La vitesse, c'est le thème où les pièges sont les plus nombreux : les limites changent selon la Région, le type de route et les panneaux. Et rouler trop vite près d'une école ou dans une zone de rencontre peut te coûter une faute grave. Retiens les chiffres clés et surtout une idée : la limite affichée est un maximum, pas un objectif.",
+  "sections": [
+    {
+      "title": "La limite n'est pas une obligation : adapte ta vitesse",
+      "body": "<p>Tu roules sur une route limitée à 90 km/h, mais il pleut fort et tu vois mal. Rouler à 90 serait légal… sur le papier seulement. Le code t'oblige à <b>régler ta vitesse</b> selon :</p><ul><li>la présence d'autres usagers, <b>surtout les plus vulnérables</b> (enfants, piétons, cyclistes) ;</li><li>la météo, la visibilité, l'état de la route ;</li><li>la disposition des lieux, l'encombrement, la densité du trafic ;</li><li>l'<b>état et le chargement de ton véhicule</b> (coffre plein, galerie de toit…).</li></ul><p>Ta vitesse ne peut jamais être une cause d'accident ni une gêne pour la circulation. Et en toute circonstance, tu dois <b>pouvoir t'arrêter devant un obstacle prévisible</b>. La nuit, en feux de croisement, ça veut dire rouler assez lentement pour t'arrêter dans la zone éclairée.</p>",
+      "signs": [
+        "C43-90"
+      ],
+      "tip": "À l'examen, si la question parle de pluie, de brouillard, d'enfants ou de chargement, la bonne réponse est presque toujours « adapter (réduire) sa vitesse », même si la limite est respectée.",
+      "ref": "Art. 10.1 AR 01/12/1975"
+    },
+    {
+      "title": "Ni trop lent, ni freinage brutal",
+      "body": "<p>Rouler trop doucement peut aussi être une faute :</p><ul><li>Tu ne peux pas gêner les autres en roulant <b>sans raison valable à une vitesse anormalement réduite</b> (ex. 30 km/h sur une route dégagée à 90).</li><li>Tu ne peux pas <b>freiner brusquement</b> sans raison de sécurité (« donner une leçon » à celui qui te suit est interdit et dangereux).</li><li>Pour ralentir fortement, tu le signales avec tes <b>feux-stop</b> (ou un geste du bras si le véhicule n'en a pas).</li></ul><p>Quelques cas particuliers :</p><ul><li>Tu approches de <b>chevaux, bétail ou animaux de trait</b> : tu ralentis. S'ils montrent des <b>signes de frayeur</b>, tu t'<b>arrêtes</b>.</li><li>Il est interdit d'<b>inciter ou provoquer</b> un conducteur à rouler trop vite : le passager qui te pousse à « tester la voiture » est en infraction.</li><li>Sur autoroute, sauf C43 plus bas, tu ne peux pas rouler <b>sous 70 km/h</b>.</li></ul>",
+      "tip": "Animal effrayé = arrêt, pas seulement ralentir. C'est un piège classique.",
+      "ref": "Art. 10.2, 10.3, 10.4 et 21.2 AR 01/12/1975"
+    },
+    {
+      "title": "En agglomération : 50 ou 30 selon la Région",
+      "body": "<p>L'agglomération commence au panneau F1 (nom de la commune) et se termine au panneau F3. Sans autre panneau, la limite est :</p><ul><li><b>Wallonie et Flandre : 50 km/h</b> ;</li><li><b>Bruxelles-Capitale : 30 km/h</b>.</li></ul><p>Un panneau C43 peut imposer une vitesse plus basse… ou permettre plus haut (ex. 70 sur une grande avenue).</p><p>Si un <b>C43 « 30 » est placé au-dessus du panneau de début d'agglomération</b>, le 30 vaut sur <b>toutes les voiries</b> de l'agglomération.</p>",
+      "signs": [
+        "F1a",
+        "F3a",
+        "C43-50",
+        "C43-30"
+      ],
+      "tip": "Bruxelles = 30 par défaut en ville ; Wallonie et Flandre = 50. Lis bien la Région citée dans la question.",
+      "ref": "Art. 11.1 et 68 (C43) AR 01/12/1975"
+    },
+    {
+      "title": "Hors agglomération et sur autoroute",
+      "body": "<p>Hors agglomération, sans panneau, pour une voiture :</p><ul><li><b>Autoroute : 120 km/h.</b></li><li><b>Route à 2 × 2 bandes minimum dont les sens sont séparés physiquement</b> (berme centrale, glissière) : <b>120 km/h</b>, comme sur autoroute.</li><li>Route ordinaire, ou 2 × 2 bandes séparées <b>seulement par des lignes au sol</b> :<ul><li><b>Wallonie : 90 km/h</b> (70 sur une chaussée à voie centrale) ;</li><li><b>Flandre : 70 km/h</b>, sauf si un C43 permet 90 ;</li><li><b>Bruxelles : 70 km/h</b>.</li></ul></li></ul><p>Véhicules de <b>plus de 3,5 tonnes</b> (masse maximale autorisée), autobus : <b>90 km/h</b> sur autoroute.</p><p>Une limitation plus basse imposée par un <b>C43 reste valable même sur autoroute</b> : zone de travaux à 70 = 70, pas 120.</p>",
+      "signs": [
+        "F5",
+        "C43-120",
+        "C43-90",
+        "C43-70"
+      ],
+      "tip": "Lignes peintes au milieu = route ordinaire (90 en Wallonie, 70 en Flandre). Berme ou glissière + 2 bandes par sens = 120.",
+      "ref": "Art. 11.2 AR 01/12/1975"
+    },
+    {
+      "title": "Jusqu'où vaut un panneau de vitesse ?",
+      "body": "<p>Tu passes un C43 « 70 » en ville, puis un carrefour. Que vaut la limite ? Un C43 (non zonal) vaut :</p><ul><li>jusqu'au <b>prochain carrefour inclus</b> ;</li><li>ou jusqu'à un autre C43 ;</li><li>ou jusqu'au début/fin d'agglomération, de zone résidentielle, de zone de rencontre ou de zone piétonne.</li></ul><p>Après le carrefour, la <b>limite générale</b> revient (50 en Wallonie/Flandre, 30 à Bruxelles en agglomération).</p><p>Le <b>C45</b> marque la fin de la limitation du C43 correspondant. Le <b>C46</b> annonce la fin de toutes les interdictions locales imposées aux véhicules en mouvement. Ensuite, ce sont les règles générales qui s'appliquent.</p>",
+      "signs": [
+        "C43-70",
+        "C45-50",
+        "C46"
+      ],
+      "tip": "C43 = « jusqu'au prochain carrefour ». Zone (F4a, zone de rencontre…) = « jusqu'au panneau de fin de zone », même après les carrefours.",
+      "ref": "Art. 68 (C43, C45, C46) et 71 (F1) AR 01/12/1975"
+    },
+    {
+      "title": "Zones 30, abords d'école et ralentisseurs",
+      "body": "<p>Le panneau <b>F4a</b> marque le début d'une <b>zone 30</b>. La limite vaut <b>jusqu'au F4b</b> (fin de zone), même après plusieurs carrefours.</p><p><b>Abords d'école</b> : zone autour d'un accès d'école, délimitée par <b>F4a et F4b</b>, avec le signal A23 (enfants) associé au F4a. Donc : <b>30 km/h maximum</b>. Et même à 30, à l'heure de sortie des classes, tu ralentis encore si nécessaire.</p><p><b>Dispositif surélevé</b> (ralentisseur, plateau) annoncé par la signalisation : tu l'approches prudemment et tu le franchis à <b>30 km/h maximum</b>. Il est aussi <b>interdit d'y dépasser</b>.</p>",
+      "signs": [
+        "F4a",
+        "F4b"
+      ],
+      "tip": "École = 30, ralentisseur = 30 max. Excès près d'une école : les enfants sont imprévisibles, l'examinateur ne pardonne pas.",
+      "ref": "Art. 2.37, 22ter, 22quater et 17.2.7° AR 01/12/1975"
+    },
+    {
+      "title": "Zones résidentielles et zones de rencontre : 20 km/h",
+      "body": "<p>Dans une <b>zone résidentielle</b> ou une <b>zone de rencontre</b> (panneau F12a) :</p><ul><li>la vitesse est limitée à <b>20 km/h</b> ;</li><li>les piétons peuvent utiliser <b>toute la largeur</b> de la rue, et les <b>jeux sont autorisés</b> ;</li><li>tu ne peux ni mettre en danger ni gêner les piétons ; <b>au besoin, tu t'arrêtes</b> ;</li><li>tu redoubles de prudence en présence d'enfants.</li></ul><p>Exemple : en Wallonie, un C43 te permettait 70. Tu entres dans une zone de rencontre : le C43 cesse au panneau de zone et tu passes à <b>20 km/h</b>.</p>",
+      "tip": "Zone résidentielle / de rencontre = 20 km/h et les piétons sont « chez eux ».",
+      "ref": "Art. 22bis et 68 (C43) AR 01/12/1975"
+    },
+    {
+      "title": "La distance de sécurité",
+      "body": "<p>Le code ne donne pas de chiffre pour les voitures : tu dois garder une <b>distance de sécurité suffisante compte tenu de ta vitesse</b>. Plus tu roules vite, plus elle doit être grande. Par temps de pluie ou de verglas, augmente-la encore.</p><p>Des chiffres précis existent pour les <b>gros véhicules</b> :</p><ul><li>Hors agglomération, véhicules de <b>plus de 7,5 tonnes</b> ou <b>plus de 7 mètres</b> de long : <b>50 mètres</b> minimum entre eux.</li><li>Hors agglomération, véhicules en <b>convoi</b> : 50 mètres minimum.</li><li>Sur les <b>ponts</b>, véhicules de plus de 7,5 tonnes : <b>15 mètres</b> minimum.</li></ul>",
+      "tip": "Conseil pratique (pas un article du code) : laisse au moins 2 secondes entre toi et la voiture devant. Compte « 1001, 1002 » quand elle passe un repère.",
+      "ref": "Art. 10.1, 2° et 18 AR 01/12/1975"
+    }
+  ],
+  "keypoints": [
+    "La limite est un maximum : adapte ta vitesse (météo, visibilité, enfants, chargement).",
+    "Agglomération : 50 km/h en Wallonie et Flandre, 30 km/h à Bruxelles.",
+    "Hors agglomération : 90 en Wallonie, 70 en Flandre et à Bruxelles ; 120 sur autoroute et 2×2 bandes à berme centrale.",
+    "Plus de 3,5 t sur autoroute : 90 km/h. Un C43 plus bas reste valable même sur autoroute.",
+    "C43 : valable jusqu'au prochain carrefour inclus ; zone F4a : jusqu'au F4b.",
+    "Zone 30 / abords d'école / ralentisseur : 30 km/h. Zone résidentielle ou de rencontre : 20 km/h.",
+    "Distance de sécurité suffisante selon ta vitesse ; poids lourds hors agglo : 50 m.",
+    "Animal effrayé : arrêt. Interdit de rouler anormalement lentement ou de freiner sans raison."
+  ]
+}

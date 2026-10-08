@@ -1,0 +1,71 @@
+{
+  "theme": "securite",
+  "title": "Sécurité : équipement, comportement et permis provisoire",
+  "intro": "Ce thème mélange plein de petites règles qui sauvent des vies : les feux, la ceinture, le GSM, l'alcool, la fatigue. À l'examen, ce sont souvent des fautes graves. Bonne nouvelle : avec quelques chiffres en tête, tu les réussis toutes.",
+  "sections": [
+    {
+      "title": "Les feux en roulant",
+      "body": "<p>Tu allumes tes feux <b>entre la tombée et le lever du jour</b>, et chaque fois que tu ne vois plus distinctement à environ <b>200 m</b> (grosse averse, brouillard…).</p><p><b>Feux de route → feux de croisement</b> :</p><ul><li>quand un usager arrive en face, assez tôt pour qu'il passe sans danger (et tout de suite s'il fait des appels de phares : il est ébloui) ;</li><li>quand tu suis un véhicule à <b>moins de 50 m</b> (sauf pendant un dépassement) ;</li><li>quand la route est éclairée de façon continue et que tu vois à environ <b>100 m</b>.</li></ul><p><b>Brouillard</b> :</p><ul><li>feux de brouillard <b>avant</b> : seulement par brouillard, neige ou forte pluie ;</li><li>feu de brouillard <b>arrière</b> : <b>obligatoire</b> (si ta voiture en a un) par brouillard ou neige avec visibilité <b>sous 100 m</b>, et par forte pluie. <b>Interdit</b> dans tous les autres cas : il éblouit ceux qui te suivent.</li></ul>",
+      "tip": "Les chiffres à retenir : 200 m (allumer), 100 m (brouillard arrière / route éclairée), 50 m (suivre quelqu'un).",
+      "ref": "Art. 30 AR 01/12/1975"
+    },
+    {
+      "title": "Feux à l'arrêt, feux de détresse et bus scolaire",
+      "body": "<p><b>Stationné la nuit</b> sur une route non éclairée : feux de <b>position</b> à l'avant et feux <b>rouges</b> à l'arrière.</p><ul><li><b>En agglomération</b>, garé parallèlement à la chaussée et sans remorque : un seul <b>feu de stationnement</b> suffit, celui du <b>côté de la chaussée</b>.</li><li>Si l'éclairage public permet de voir ta voiture à environ <b>100 m</b>, ces feux ne sont pas obligatoires.</li></ul><p><b>Feux de détresse</b> (tous les clignotants) : seulement pour une <b>panne</b>, un <b>chargement tombé</b>, un <b>bus scolaire</b> qui fait monter ou descendre des enfants, ou un <b>risque d'accident imminent</b> (ex. bouchon soudain sur l'autoroute).</p><p>Un bus scolaire arrêté avec tous ses clignotants ? Des enfants montent ou descendent : <b>ralentis fortement</b> et arrête-toi si nécessaire.</p>",
+      "tip": "Les feux de détresse ne servent pas à « se garer en double file deux minutes ».",
+      "ref": "Art. 31, 32bis et 39bis AR 01/12/1975"
+    },
+    {
+      "title": "Le klaxon",
+      "body": "<p>Le klaxon doit être <b>bref</b> et n'est permis que :</p><ul><li>pour <b>éviter un accident</b> ;</li><li><b>hors agglomération</b>, pour prévenir quelqu'un que tu vas le dépasser.</li></ul><p>En ville, pas de coup de klaxon pour dépasser un cycliste. Et jamais pour saluer un ami.</p><p><b>La nuit</b> (sauf danger imminent), remplace le klaxon par des <b>appels de phares</b> courts (feux de route / feux de croisement en alternance).</p>",
+      "tip": "Klaxon = accident à éviter, ou dépassement hors agglo de jour. C'est tout.",
+      "ref": "Art. 33 AR 01/12/1975"
+    },
+    {
+      "title": "Ceinture et transport des enfants",
+      "body": "<ul><li><b>Tout le monde</b> s'attache, devant comme derrière, même pour 2 km.</li><li>Enfant de <b>moins de 135 cm</b> (et moins de 18 ans) : <b>siège ou rehausseur adapté</b> à sa taille et son poids. C'est la <b>taille</b> qui compte, pas l'âge : à 1,45 m, ton frère de 12 ans peut s'asseoir devant avec la ceinture normale.</li><li><b>Siège bébé dos à la route</b> à l'avant : seulement si l'<b>airbag frontal est désactivé</b>. Sinon, l'airbag frappe le siège.</li><li>Pas plus d'occupants que de <b>places avec ceinture</b> : 5 ceintures = 5 personnes maximum.</li><li>Seule dispense utile pour toi : pendant une <b>marche arrière</b>, le conducteur peut détacher sa ceinture.</li></ul>",
+      "tip": "Retiens « 135 cm » : en dessous, rehausseur ; au-dessus, ceinture normale.",
+      "ref": "Art. 35 et 44.1 AR 01/12/1975"
+    },
+    {
+      "title": "GSM, fatigue et bonnes habitudes",
+      "body": "<ul><li>En roulant, interdit de <b>tenir en main ou manipuler</b> un appareil à écran (GSM, tablette…), même au pas dans un bouchon. Seule exception : l'appareil est <b>fixé dans un support</b> prévu pour ça (GPS par exemple).</li><li>Tu quittes ta voiture, même quelques minutes ? <b>Moteur coupé</b>, frein serré, <b>antivol</b> enclenché.</li><li>Ne laisse pas tourner le moteur à l'arrêt sans nécessité (en attendant devant l'école, par exemple).</li><li>Pluie forte : <b>réduis ta vitesse</b> et <b>augmente ta distance</b>. La limite affichée est un maximum, pas un objectif.</li></ul><p><b>Fatigue et médicaments</b> : tu dois toujours être <b>en état de conduire</b> et garder le <b>contrôle</b> de ta voiture.</p><ul><li>Tu bâilles, tes paupières sont lourdes ? <b>Arrête-toi</b> dans un endroit sûr (aire de repos) et repose-toi. Fenêtre ouverte et musique ne font gagner que quelques minutes.</li><li>Médicament qui donne de la <b>somnolence</b> (lis la notice) : ne conduis que si tu es vraiment en état. Conduire « comme ivre » à cause de médicaments est puni comme l'ivresse.</li></ul>",
+      "tip": "GSM : à l'arrêt ou dans un support (rouler au pas, ce n'est pas être à l'arrêt). Contre la fatigue, un seul remède : le repos.",
+      "ref": "Art. 8.3, 8.4, 8.5, 8.6 et 10.1 AR 01/12/1975 ; art. 35 Loi du 16/03/1968"
+    },
+    {
+      "title": "Chargement et remorque",
+      "body": "<ul><li>Le chargement ne doit masquer <b>ni les feux, ni la plaque</b>, ni gêner ta vue. Un porte-vélos qui cache la plaque : interdit.</li><li><b>À l'avant</b> : le chargement ne dépasse <b>jamais</b>.</li><li><b>À l'arrière</b> (voiture) : <b>1 m maximum</b> en général.</li><li>Dépassement de <b>plus de 1 m</b> à l'arrière : <b>panneau carré de 0,50 m</b> à bandes rouges et blanches. La nuit, ajoute un <b>feu rouge</b> vers l'arrière et des <b>catadioptres orange</b> sur les côtés.</li></ul><p><b>Remorque avec le permis B</b> : toujours permis si la remorque fait <b>750 kg</b> MMA maximum. Plus lourde : permis si l'<b>ensemble</b> voiture + remorque ne dépasse pas <b>3.500 kg</b> MMA (4.250 kg avec le code 96).</p>",
+      "tip": "Voiture 2.000 kg + remorque 1.000 kg = 3.000 kg : OK avec un permis B simple.",
+      "ref": "Art. 45, 46.2 et 47 AR 01/12/1975 ; AR 23/03/1998"
+    },
+    {
+      "title": "Panne, triangle et accident",
+      "body": "<p><b>À bord obligatoirement</b> : triangle de danger, extincteur et trousse de secours. Pneus : rainures d'au moins <b>1,6 mm</b>.</p><p><b>En panne</b> : range ta voiture comme pour un stationnement. Si c'est possible à un endroit autorisé, pas besoin de triangle. Si elle reste là où l'arrêt est interdit, place le <b>triangle</b> à au moins <b>30 m</b> derrière (<b>100 m</b> sur autoroute), visible à environ <b>50 m</b>. Sur autoroute et route pour automobiles : <b>veste fluo</b> dès que tu sors.</p><p><b>Accident sans blessé</b> : reste sur place, faites le <b>constat</b> ensemble (sinon, la police). Voiture abîmée sans son propriétaire ? Laisse ton <b>nom et adresse</b>, ou passe par la police au plus tôt.</p><p><b>Accident avec blessé</b> : sécurise, <b>porte secours</b>, reste sur place pour la police. Tu n'es pas obligé de déplacer ta voiture. Si aucun policier n'a pu venir, déclare l'accident dans les <b>24 heures</b>.</p>",
+      "tip": "Triangle : 30 m ailleurs, 100 m sur autoroute. Blessé : déclaration au plus tard 24 h.",
+      "ref": "Art. 51, 52 et 81 AR 01/12/1975"
+    },
+    {
+      "title": "Alcool et drogues",
+      "body": "<ul><li>Conducteur ordinaire : infraction dès <b>0,5 g/l de sang</b> = <b>0,22 mg/l d'air expiré</b>.</li><li>Dès 0,22 mg/l (ou si tu refuses le test) : <b>interdiction de conduire 12 heures</b> et permis remis à la police.</li><li>Amende : 200 à 4.000 € entre 0,22 et 0,35 mg/l ; <b>1.600 à 16.000 €</b> dès <b>0,35 mg/l</b> (0,8 g/l).</li><li>Chauffeurs de camion (C) et bus (D) : limite à <b>0,2 g/l</b> (0,09 mg/l).</li><li>Le <b>guide</b> qui t'accompagne est soumis aux <b>mêmes limites</b> que s'il conduisait.</li><li>Prêter tes clés à un ami visiblement ivre : <b>c'est toi aussi</b> qui commets une infraction.</li><li><b>Drogues</b> (cannabis, cocaïne, amphétamines…) : test salivaire positif = <b>12 heures</b> d'interdiction, même si tu te sens bien.</li></ul>",
+      "tip": "0,5 g/l de sang = 0,22 mg/l d'haleine. Le plus sûr : 0 verre si tu conduis.",
+      "ref": "Art. 34, 37, 37bis, 60, 61 et 61ter Loi du 16/03/1968"
+    },
+    {
+      "title": "Permis provisoire et guide",
+      "body": "<ul><li>Tu peux conduire avec un permis provisoire B dès <b>17 ans</b>.</li><li>Le <b>guide</b> : titulaire du permis B depuis au moins <b>8 ans</b>, pas de déchéance du droit de conduire ces <b>3 dernières années</b>, et <b>inscrit sur ton permis provisoire</b>.</li><li>À bord : uniquement ton ou tes <b>guides</b> et/ou un <b>instructeur</b>. Pas d'autre passager, même ton petit frère.</li><li><b>Pas de conduite de 22 h à 6 h</b> les nuits du vendredi, samedi, dimanche, la veille des jours fériés et les jours fériés.</li><li>Signe <b>« L » à l'arrière</b>, bien visible, et ton permis provisoire valide sur toi.</li></ul>",
+      "tip": "8 ans de permis pour le guide ; 22 h – 6 h le week-end : interdit.",
+      "ref": "Art. 3 et 6 AR 10/07/2006 ; art. 8.2 AR 01/12/1975"
+    }
+  ],
+  "keypoints": [
+    "Feux : allumer si visibilité < 200 m ; croisement si tu suis à < 50 m.",
+    "Brouillard arrière : seulement si visibilité < 100 m ou forte pluie.",
+    "Klaxon : pour éviter un accident ou dépasser hors agglo ; la nuit, appels de phares.",
+    "Enfant < 135 cm : siège adapté ; pas de siège dos à la route devant un airbag actif.",
+    "GSM en main interdit en roulant, même au pas.",
+    "Triangle : 30 m (100 m sur autoroute) ; accident avec blessé : déclaration dans les 24 h.",
+    "Alcool : 0,5 g/l = 0,22 mg/l → 12 h d'interdiction ; même règle pour le guide.",
+    "Permis provisoire : guide 8 ans de permis, pas de passager, pas de 22 h–6 h le week-end, « L » à l'arrière."
+  ]
+}

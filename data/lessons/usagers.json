@@ -1,0 +1,83 @@
+{
+  "theme": "usagers",
+  "title": "Piétons, cyclistes et autres usagers",
+  "intro": "Les piétons, cyclistes et enfants ne sont pas protégés par une carrosserie : une erreur envers eux est presque toujours une faute grave à l'examen. Retiens qui doit céder le passage, les distances latérales et les règles des zones spéciales, et tu as déjà la plupart des points de ce thème.",
+  "sections": [
+    {
+      "title": "Les piétons : quand dois-tu leur céder le passage ?",
+      "body": "<p>Tu arrives à un <b>passage pour piétons sans feux ni agent</b> : tu t'en approches à <b>allure modérée</b> et tu cèdes le passage aux piétons <b>déjà engagés</b> ou <b>sur le point de s'engager</b> (celui qui attend au bord, prêt à traverser).</p><ul><li><b>Avec des feux ou un agent</b> : même si ton feu passe au vert, tu laisses le piéton régulièrement engagé <b>finir sa traversée</b> à allure normale.</li><li>Au <b>feu rouge</b>, tu t'arrêtes <b>avant</b> le passage pour piétons, jamais dessus.</li><li><b>Bouchon</b> : tu ne t'engages pas sur le passage si tu risques d'y rester immobilisé.</li><li><b>Tu tournes</b> (à droite ou à gauche) : tu cèdes le passage aux piétons qui traversent la rue où tu entres, <b>même avec un feu vert</b> et <b>même sans passage pour piétons</b>.</li></ul>",
+      "signs": [
+        "FEU-vert",
+        "FEU-rouge"
+      ],
+      "tip": "Piège classique : « mon feu est vert, donc je passe ». Faux ! Quand tu tournes, le piéton qui traverse la rue où tu t'engages passe toujours avant toi.",
+      "ref": "Art. 19.5, 40.4 et 40.5 AR 01/12/1975"
+    },
+    {
+      "title": "Piétons sur la chaussée et personnes vulnérables",
+      "body": "<p>Pas de trottoir ? Le piéton marche sur la chaussée, <b>le plus près du bord</b>, en principe <b>à gauche</b> (face à toi), ou à droite si c'est plus sûr.</p><ul><li>Distance latérale minimale : <b>1 m en agglomération</b>, <b>1,5 m hors agglomération</b>. Impossible ? Tu roules à <b>l'allure du pas</b> et tu t'arrêtes au besoin.</li><li>Obstacle sur le trottoir (voiture mal garée, travaux) que les piétons contournent par la chaussée : laisse <b>1 m</b> le long de l'obstacle ; sinon, si un piéton est à sa hauteur, passe <b>au pas</b>.</li><li><b>Enfants, personnes âgées, personnes handicapées</b>, aveugle avec une <b>canne blanche ou jaune</b>, voiturette : tu <b>redoubles de prudence</b>, tu ralentis et au besoin tu t'arrêtes.</li></ul>",
+      "tip": "Canne blanche = « je ne te vois pas ». C'est toi qui t'adaptes : ralentis et prépare-toi à t'arrêter.",
+      "ref": "Art. 40.2, 40.6, 40.7 et 42.1 AR 01/12/1975"
+    },
+    {
+      "title": "Cyclistes, speed pedelecs et trottinettes",
+      "body": "<p>Tu dépasses un cycliste ? Laisse au moins <b>1 m en agglomération</b> et <b>1,5 m hors agglomération</b>. Les <b>trottinettes électriques</b> (engins de déplacement motorisés) sont <b>assimilées aux cyclistes</b> : mêmes règles envers elles.</p><ul><li>Les cyclistes peuvent rouler <b>à deux de front</b>, sauf si le croisement est impossible. <b>Hors agglomération</b>, ils se mettent en file quand un véhicule arrive derrière eux.</li><li>Un enfant de <b>moins de 10 ans</b> à vélo peut rouler sur le <b>trottoir</b>.</li><li><b>Speed pedelec</b> (vélo électrique rapide) : là où la vitesse autorisée dépasse <b>50 km/h</b>, il <b>doit</b> prendre la piste cyclable (D7 ou marquée) si elle existe et est praticable ; à <b>50 km/h ou moins</b>, il <b>peut</b> la prendre.</li><li>Sens unique avec panneau additionnel « vélo » (M4) : les cyclistes roulent <b>dans les deux sens</b> ; attends-toi à en croiser.</li><li>Panneau <b>B22</b> au feu : le cycliste peut tourner à droite au rouge ou à l'orange, en cédant le passage.</li></ul>",
+      "signs": [
+        "F19"
+      ],
+      "tip": "1 et 1,5 : le même chiffre vaut pour les piétons et les cyclistes. En agglo 1 m, hors agglo 1,5 m.",
+      "ref": "Art. 7bis, 9.1.2, 40ter, 43.2 et 71.3 AR 01/12/1975"
+    },
+    {
+      "title": "Pistes cyclables : céder le passage",
+      "body": "<p>Tu tournes à droite et un cycliste arrive <b>derrière toi</b> sur la piste cyclable pour continuer tout droit : <b>c'est toi qui cèdes</b>. Qui change de direction cède à ceux qui circulent sur les autres parties de la même voie publique (piste cyclable, trottoir).</p><ul><li>Tu sors de ton garage et tu traverses un <b>trottoir</b> ou une <b>piste cyclable</b> : tu cèdes le passage à ceux qui y circulent.</li><li><b>Zone avancée pour cyclistes</b> (vélo blanc peint entre deux lignes d'arrêt) : au rouge, tu t'arrêtes <b>devant la première ligne</b> ; la zone est pour les vélos et cyclomoteurs à deux roues.</li><li>Approche les <b>passages pour cyclistes</b> à allure modérée et ne t'y engage pas si tu risques d'y rester bloqué.</li></ul>",
+      "signs": [
+        "FEU-rouge"
+      ],
+      "tip": "Avant de tourner à droite : rétroviseur ET coup d'œil dans l'angle mort. Le cycliste à ta droite est prioritaire.",
+      "ref": "Art. 12.4bis, 19.4, 40ter et 77.6 AR 01/12/1975"
+    },
+    {
+      "title": "Zones résidentielles, piétonnes, cyclables et chemins réservés",
+      "body": "<ul><li><b>Zone résidentielle / de rencontre</b> : les piétons utilisent <b>toute la largeur</b>, les <b>jeux sont autorisés</b>. Vitesse max <b>20 km/h</b>. Tu ne mets personne en danger et tu t'arrêtes au besoin. Stationnement <b>interdit</b>, sauf sur les emplacements marqués d'un <b>« P »</b> ou là où un signal l'autorise.</li><li><b>Zone piétonne</b> : réservée aux piétons. Les véhicules admis (garage dans la zone, livraisons autorisées, secours, bus…) roulent <b>à l'allure du pas</b> et cèdent le passage aux piétons. Pour ton garage, il te faut un <b>laissez-passer du bourgmestre</b> derrière le pare-brise. Stationnement <b>toujours interdit</b>.</li><li><b>Zone cyclable</b> : les voitures peuvent y rouler mais <b>ne peuvent pas dépasser les cyclistes</b> (ni les speed pedelecs). Max <b>30 km/h</b>. Le cycliste peut prendre toute la largeur (sens unique) ou la moitié droite (double sens).</li><li><b>Chemin réservé</b> aux piétons, cyclistes, cavaliers et speed pedelecs : interdit aux voitures, sauf véhicules prioritaires en mission et véhicules autorisés par le gestionnaire (riverains, fournisseurs, entretien, immondices). Max <b>30 km/h</b>.</li></ul>",
+      "tip": "Résidentielle = 20 ; cyclable et chemin réservé = 30 ; piétonne = allure du pas.",
+      "ref": "Art. 22bis, 22quinquies, 22sexies et 22novies AR 01/12/1975"
+    },
+    {
+      "title": "Abords d'école et groupes d'enfants",
+      "body": "<p>Les <b>abords d'école</b> sont délimités par les signaux <b>F4a</b> (début, avec le panneau « enfants » A23) et <b>F4b</b> (fin) : vitesse limitée à <b>30 km/h</b>.</p><ul><li>Un <b>surveillant habilité</b> lève un disque rouge et blanc (signal <b>C3</b>) : tu <b>t'arrêtes</b> et tu obéis à ses indications.</li><li>Il est <b>interdit de couper</b> un groupe d'enfants, d'écoliers, de personnes âgées ou handicapées en rangs avec un guide, ou qui traverse avec un surveillant, même s'il reste un trou entre deux rangs.</li><li><b>Rue scolaire</b> : réservée aux piétons et cyclistes ; les véhicules autorisés y roulent <b>au pas</b>.</li></ul>",
+      "signs": [
+        "F4a",
+        "F4b",
+        "C3"
+      ],
+      "tip": "Le disque C3 du surveillant a la même valeur qu'un ordre d'agent : on s'arrête, point.",
+      "ref": "Art. 2.37, 22quater, 22undecies et 40bis AR 01/12/1975"
+    },
+    {
+      "title": "Bus, trams et transport scolaire",
+      "body": "<ul><li>Tu longes un bus, un car ou un tram <b>arrêté pour des voyageurs</b> : tu <b>modères ta vitesse</b>.</li><li>Arrêt <b>sans refuge</b> et tu roules du côté où les voyageurs montent ou descendent : tu <b>t'arrêtes</b> pour les laisser passer, puis tu repars à allure modérée.</li><li><b>En agglomération</b>, un bus met son clignotant pour quitter son arrêt : tu <b>ralentis</b> et au besoin tu t'arrêtes pour le laisser partir. Cette règle ne vaut <b>qu'en agglomération</b>.</li><li><b>Transport scolaire</b> (panneau spécial à l'avant et à l'arrière) : prudence redoublée. S'il allume <b>tous ses clignotants</b>, des enfants montent ou descendent : <b>ralentis fortement</b> et arrête-toi au besoin.</li></ul>",
+      "signs": [
+        "F1a"
+      ],
+      "tip": "Bus qui clignote pour repartir : priorité au bus, mais seulement en agglomération (panneau F1a).",
+      "ref": "Art. 39, 39bis et 40.3 AR 01/12/1975"
+    },
+    {
+      "title": "Animaux, cavaliers et courses cyclistes",
+      "body": "<ul><li><b>Cavaliers</b> : ils peuvent rouler <b>à deux de front</b> sur la chaussée. Dépasse-les calmement, avec une large marge.</li><li><b>Animaux</b> (troupeau, chevaux attelés) : leur conducteur doit rester près d'eux et les maîtriser ; en agglomération, interdit de les faire galoper. Toi, tu ralentis et tu évites de les effrayer.</li><li><b>Course cycliste</b> : à l'approche du véhicule au <b>drapeau rouge</b>, tu t'écartes, tu dégages la chaussée et tu <b>t'arrêtes</b>. Tu attends le passage du véhicule au <b>drapeau vert</b> pour repartir.</li></ul>",
+      "tip": "Drapeau rouge = je m'arrête ; drapeau vert = c'est fini, je peux repartir.",
+      "ref": "Art. 40quater et 55 AR 01/12/1975"
+    }
+  ],
+  "keypoints": [
+    "Passage pour piétons sans feux : céder aux piétons engagés ou sur le point de s'engager.",
+    "En tournant, on cède aux piétons qui traversent, même au feu vert.",
+    "Distance latérale piéton ou cycliste : 1 m en agglo, 1,5 m hors agglo.",
+    "Zone résidentielle 20 km/h ; zone cyclable, chemin réservé et abords d'école 30 km/h ; zone piétonne au pas.",
+    "Zone cyclable : interdit de dépasser les cyclistes.",
+    "En agglo, laisser repartir le bus qui clignote ; transport scolaire avec tous les clignotants = ralentir fortement.",
+    "Surveillant avec disque C3 : s'arrêter ; ne jamais couper un groupe d'enfants.",
+    "Course cycliste : arrêt du drapeau rouge au drapeau vert."
+  ]
+}

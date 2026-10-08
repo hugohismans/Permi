@@ -1,0 +1,80 @@
+{
+  "theme": "stationnement",
+  "title": "S'arrêter et stationner",
+  "intro": "Se garer, tout le monde pense savoir le faire… jusqu'à la question sur les 5 m, 15 m ou 20 m ! Ce thème est rempli de chiffres faciles à retenir : apprends-les une fois et tu prends des points faciles à l'examen.",
+  "sections": [
+    {
+      "title": "Arrêt ou stationnement ?",
+      "body": "<p>Tout part de cette différence :</p><ul><li><b>À l'arrêt</b> : ta voiture est immobilisée <b>juste le temps</b> de faire monter ou descendre quelqu'un, ou de charger ou décharger des choses.</li><li><b>En stationnement</b> : dès que tu restes <b>plus longtemps</b> que ça. Tu déposes un ami et tu repars : arrêt. Tu vas acheter ton pain : stationnement.</li><li>Faire le <b>plein</b> ou <b>recharger</b> une voiture électrique = <b>stationnement</b>.</li></ul>",
+      "tip": "Le chauffeur quitte la voiture pour une course ? C'est du stationnement, même pour 2 minutes.",
+      "ref": "Art. 2.22 et 2.23 AR 01/12/1975"
+    },
+    {
+      "title": "Où et comment te ranger",
+      "body": "<ul><li>En principe <b>à droite</b> par rapport à ton sens de marche. Sur une chaussée <b>à sens unique</b> : à droite <b>ou</b> à gauche.</li><li>D'abord <b>hors de la chaussée</b>, sur l'accotement de plain-pied (hors agglomération, sur tout accotement). Laisse aux piétons une bande d'au moins <b>1,50 m</b> côté extérieur.</li><li>Accotement trop étroit : en partie sur l'accotement, en partie sur la chaussée. Pas d'accotement praticable : sur la chaussée.</li><li>Sur la chaussée : <b>le plus loin possible de l'axe</b>, <b>parallèlement au bord</b> (sauf aménagement) et <b>en une seule file</b>.</li><li>Laisse <b>1 m</b> devant et derrière les autres véhicules, et au moins <b>3 m</b> de passage libre sur la chaussée.</li></ul>",
+      "signs": [
+        "F19"
+      ],
+      "tip": "1,50 m pour les piétons, 1 m entre deux voitures, 3 m pour la circulation.",
+      "ref": "Art. 23 et 25.1 AR 01/12/1975"
+    },
+    {
+      "title": "Arrêt ET stationnement interdits",
+      "body": "<p>Ici, tu ne peux <b>même pas t'arrêter</b> quelques secondes :</p><ul><li>sur les <b>trottoirs</b> et, en agglomération, les accotements en saillie (sauf réglementation locale) ;</li><li>sur les <b>pistes cyclables</b> et à moins de 5 m de l'endroit où les cyclistes y entrent ou en sortent ;</li><li>sur les <b>passages à niveau</b> ;</li><li>sur les passages pour piétons et pour cyclistes, et à moins de <b>5 m avant</b> ceux-ci ;</li><li>dans les <b>tunnels</b>, passages inférieurs et sous les ponts (sauf réglementation locale) ;</li><li>près du <b>sommet d'une côte</b> ou dans un <b>virage</b> sans visibilité suffisante ;</li><li>à moins de <b>5 m d'un carrefour</b> (mesurés depuis le prolongement du bord de la chaussée transversale) ;</li><li>à moins de <b>20 m avant un feu</b> ou un <b>panneau routier</b> ;</li><li>sur les <b>dispositifs surélevés</b> (casse-vitesse) et sur les <b>marques obliques blanches</b> (zones d'évitement).</li></ul><p>Exception pour les 20 m avant un panneau ou un feu hors carrefour : elle ne s'applique pas si ton véhicule fait <b>1,65 m de haut maximum</b> et que le bas du signal est à <b>2 m au moins</b> du sol.</p>",
+      "signs": [
+        "FEU-rouge"
+      ],
+      "tip": "5 m : passage piétons, carrefour, piste cyclable. 20 m : feux et panneaux (pour ne pas les cacher).",
+      "ref": "Art. 24 et 77.4 AR 01/12/1975"
+    },
+    {
+      "title": "Stationnement interdit (l'arrêt reste permis)",
+      "body": "<ul><li>À moins de <b>15 m de part et d'autre</b> d'un panneau d'arrêt de bus, trolleybus ou tram.</li><li>Devant une <b>entrée de garage</b>, sauf pour le véhicule dont la <b>plaque</b> est reproduite lisiblement sur l'accès.</li><li>Le long d'une <b>ligne jaune discontinue</b> au bord de la chaussée ou du trottoir.</li><li><b>Hors agglomération</b> sur la chaussée d'une <b>route prioritaire</b> (signal B9).</li><li>Sur une chaussée <b>divisée en bandes de circulation</b>, sauf là où un signal E9a (ou E9b) l'autorise.</li><li>Là où les piétons ou cyclistes doivent contourner un obstacle par la chaussée, ou si tu bloques un autre véhicule.</li><li>Sur un emplacement <b>réservé aux personnes handicapées</b>, si tu n'as pas la <b>carte spéciale</b> derrière le pare-brise, même pour 5 minutes.</li></ul>",
+      "signs": [
+        "B9",
+        "E9a"
+      ],
+      "tip": "Ligne jaune discontinue = pas de stationnement, mais tu peux t'arrêter pour déposer quelqu'un.",
+      "ref": "Art. 25.1, 27bis et 75.1.2° AR 01/12/1975"
+    },
+    {
+      "title": "Les panneaux E1, E3 et E9a",
+      "body": "<ul><li><b>E1</b> (rond bleu barré d'un trait) : <b>stationnement interdit</b>. L'arrêt pour charger ou décharger reste permis.</li><li><b>E3</b> (rond bleu barré d'une croix) : <b>arrêt et stationnement interdits</b>.</li><li><b>E9a</b> (« P » blanc sur fond bleu) : stationnement <b>autorisé</b>.</li><li>Ces signaux valent <b>du côté où ils sont placés</b>, depuis le panneau <b>jusqu'au prochain carrefour</b>. Une inscription peut limiter les jours ou les heures.</li></ul>",
+      "signs": [
+        "E1",
+        "E3",
+        "E9a"
+      ],
+      "tip": "Un trait = une interdiction (stationner). Une croix = deux interdictions (s'arrêter et stationner).",
+      "ref": "Art. 70.2.1 et 70.2.2 AR 01/12/1975"
+    },
+    {
+      "title": "Zone bleue et stationnement payant",
+      "body": "<p>En <b>zone bleue</b>, tu places ton <b>disque de stationnement</b> derrière le pare-brise.</p><ul><li>Sauf indication contraire : obligatoire <b>les jours ouvrables de 9 h à 18 h</b>, pour <b>2 heures maximum</b>.</li><li>La flèche se met sur le <b>trait qui suit</b> ton heure d'arrivée (traits par demi-heure). Arrivé à 10 h 05 ? Flèche sur <b>10 h 30</b>.</li><li>Interdit de tricher sur le disque ou de le modifier sans avoir quitté la place.</li><li><b>Parcmètre ou horodateur en panne</b> : tu utilises ton disque.</li><li>La carte communale (riverain…) ou la carte pour personnes handicapées remplace le disque.</li></ul>",
+      "tip": "Toujours arrondir vers le trait SUIVANT : tu gagnes au maximum une demi-heure.",
+      "ref": "Art. 27.1, 27.3 et 27.4 AR 01/12/1975"
+    },
+    {
+      "title": "Stationnement alterné semi-mensuel",
+      "body": "<p>Certaines communes l'imposent dans toute l'agglomération (panneau à l'entrée).</p><ul><li>Du <b>1er au 15</b> du mois : côté des numéros <b>impairs</b>.</li><li>Du <b>16 à la fin</b> du mois : côté des numéros <b>pairs</b>.</li><li>Tu changes de côté <b>le dernier jour de la période, entre 19 h 30 et 20 h</b>.</li></ul>",
+      "tip": "Début du mois = impair (1 est impair). Fin du mois = pair.",
+      "ref": "Art. 26 et 70.2.1.2° AR 01/12/1975"
+    },
+    {
+      "title": "Ouvrir ta portière en sécurité",
+      "body": "<p>Tu es garé le long du trottoir et tu veux sortir côté chaussée. Avant d'ouvrir, <b>regarde dans le rétroviseur et par-dessus ton épaule</b> : un cycliste ou un scooter arrive peut-être.</p><ul><li>Interdit d'ouvrir une portière, de la laisser ouverte, de monter ou de descendre <b>sans t'être assuré</b> que cela ne crée ni danger ni gêne, surtout pour les <b>piétons</b> et les <b>deux-roues</b>.</li></ul>",
+      "tip": "Astuce : ouvre la portière avec la main la plus éloignée (main droite pour le conducteur). Ton corps pivote et tu regardes naturellement derrière toi.",
+      "ref": "Art. 28 AR 01/12/1975"
+    }
+  ],
+  "keypoints": [
+    "Arrêt = juste le temps de charger ou décharger ; au-delà, plein ou recharge compris = stationnement.",
+    "Se ranger à droite (des deux côtés si sens unique), parallèlement, en une seule file.",
+    "5 m : passage piétons, carrefour. 20 m : feux et panneaux.",
+    "15 m de part et d'autre d'un arrêt de bus ; 1 m entre véhicules ; 3 m de passage libre ; 1,50 m pour les piétons.",
+    "E1 = stationnement interdit ; E3 = arrêt et stationnement interdits ; effet jusqu'au prochain carrefour.",
+    "Zone bleue : 9 h-18 h, jours ouvrables, 2 h max, flèche sur le trait suivant.",
+    "Alterné : impairs du 1 au 15, pairs du 16 à la fin ; changement entre 19 h 30 et 20 h.",
+    "Place PMR : uniquement avec la carte spéciale ; portière : regarder avant d'ouvrir."
+  ]
+}

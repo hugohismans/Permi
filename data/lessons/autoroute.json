@@ -1,0 +1,87 @@
+{
+  "theme": "autoroute",
+  "title": "L'autoroute et les routes pour automobiles",
+  "intro": "Sur l'autoroute, tout va vite : une erreur se paie cher. L'examen adore les pièges sur qui peut y entrer, la bande d'arrêt d'urgence et le couloir de secours. Retiens les quelques chiffres clés et tu gagnes des points faciles.",
+  "sections": [
+    {
+      "title": "Où commence et où finit l'autoroute",
+      "body": "<p>Les règles spéciales de l'autoroute s'appliquent <b>dès l'endroit où le signal F5</b> est placé (début ou accès d'autoroute). Elles cessent au signal <b>F7</b> (fin d'autoroute).</p><ul><li>Tu entres et tu sors <b>uniquement aux endroits aménagés</b> (bretelles d'accès et de sortie).</li><li>Le signal <b>F9</b> annonce une <b>route pour automobiles</b> : une route rapide, avec des règles très proches de l'autoroute (voir plus bas).</li></ul>",
+      "signs": [
+        "F5",
+        "F7",
+        "F9"
+      ],
+      "tip": "F5 = début, F7 = fin. Les règles s'appliquent à partir du panneau, pas à partir de la première bande de circulation.",
+      "ref": "Art. 2.3, 21.1 et 71 AR 01/12/1975"
+    },
+    {
+      "title": "Qui n'a pas le droit d'y aller ?",
+      "body": "<p>L'accès à l'autoroute est <b>interdit</b> :</p><ul><li>aux <b>piétons</b>, <b>cyclistes</b>, <b>cyclomoteurs</b> et conducteurs d'<b>animaux</b> ;</li><li>aux véhicules qui ne peuvent pas atteindre <b>70 km/h en palier</b> (sur route plate) ;</li><li>aux <b>quadricycles à moteur sans habitacle</b> (quads) ;</li><li>aux <b>véhicules agricoles</b> (même pour 2 km) ;</li><li>à un véhicule qui en <b>remorque un autre avec une attache de fortune</b> (corde, sangle…).</li></ul><p>Ta voiture est en panne ? Ton ami ne peut pas la tirer à la corde sur l'autoroute : appelle une dépanneuse.</p>",
+      "signs": [
+        "F5"
+      ],
+      "tip": "Pense « trop lent ou trop fragile » : piétons, vélos, cyclos, animaux, tracteurs, quads, et tout ce qui ne fait pas 70 km/h.",
+      "ref": "Art. 21.1 AR 01/12/1975"
+    },
+    {
+      "title": "Les vitesses : maximum 120, minimum 70",
+      "body": "<p>Sur autoroute, la vitesse maximale est de <b>120 km/h</b>, dans les trois Régions.</p><ul><li>Les véhicules de <b>plus de 3,5 t</b> et les autobus : <b>90 km/h</b>.</li><li><b>Vitesse minimale : 70 km/h</b>. Exception : un signal <b>C43</b> impose une limite plus basse (par ex. 50 km/h à un chantier) ; tu peux alors rouler en dessous de 70.</li><li>Tu dois toujours <b>adapter ta vitesse</b> : brouillard, pluie, bouchon… Le minimum de 70 ne t'oblige pas à foncer dans le brouillard.</li></ul><p><b>Route pour automobiles (F9)</b> : pas de vitesse minimale. Maximum <b>120 km/h</b> si elle a 2 bandes par sens séparées autrement que par des marques au sol (terre-plein, glissière). Sinon, c'est la limite hors agglomération de la Région : <b>90 km/h en Wallonie</b>, <b>70 km/h en Flandre</b> (et à Bruxelles), sauf C43.</p>",
+      "signs": [
+        "C43-120",
+        "C43-50"
+      ],
+      "tip": "Piège classique : « je roule à 50 sur autoroute au chantier, est-ce permis ? » Oui, si un C43 l'impose.",
+      "ref": "Art. 11.2 et 21.2 AR 01/12/1975"
+    },
+    {
+      "title": "Entrer, rouler, dépasser",
+      "body": "<ul><li><b>Insertion</b> : sur la bande d'accélération, prends de la vitesse, mets ton clignotant et <b>cède le passage</b> à ceux qui roulent déjà sur l'autoroute. Changer de bande est une manœuvre.</li><li><b>Garde ta droite</b> : même si les bandes du milieu et de gauche sont libres, tu roules sur la bande de droite. Après un dépassement, reviens à droite dès que possible.</li><li><b>On dépasse par la gauche</b>. Une voiture lente sur la bande de gauche ? Tu ne la dépasses pas par la droite.</li><li><b>Exception : la circulation en files</b>. Quand c'est dense et que tout le monde roule en files, une file qui avance plus vite que l'autre, ce n'est pas un dépassement.</li><li>Autoroute à <b>3 bandes ou plus</b> : les camions de plus de <b>3,5 t</b>, bus et autocars ne peuvent utiliser que les <b>deux bandes de droite</b>.</li></ul>",
+      "tip": "« Dépasser par la droite » est interdit, mais « la file de droite avance plus vite » dans un trafic dense ne l'est pas.",
+      "ref": "Art. 9.3.1, 9.5, 12.4, 13, 16 et 21.3 AR 01/12/1975"
+    },
+    {
+      "title": "La tirette : se rabattre juste devant le rétrécissement",
+      "body": "<p>Une bande se termine (travaux, accident) et la circulation est <b>fortement ralentie</b> ? Tu restes sur ta bande jusqu'au bout et tu t'intercales <b>juste devant le rétrécissement</b>.</p><p>Ceux qui roulent sur la bande libre laissent passer <b>tour à tour</b> une voiture qui s'insère. Comme une fermeture éclair : un de chaque côté.</p>",
+      "tip": "Se rabattre trop tôt n'est pas « plus poli » : la règle, c'est juste devant le rétrécissement, une voiture sur deux.",
+      "ref": "Art. 12bis AR 01/12/1975"
+    },
+    {
+      "title": "Interdit sur l'autoroute (et sur la route pour automobiles)",
+      "body": "<ul><li>Faire <b>demi-tour</b>.</li><li>Faire <b>marche arrière</b> ou rouler en <b>sens contraire</b>. Sortie manquée ? Tu continues jusqu'à la suivante.</li><li>Emprunter les <b>raccordements transversaux</b> (passages dans le terre-plein central) : réservés aux secours et à l'entretien.</li><li>T'<b>arrêter ou stationner</b>, sauf sur les <b>aires de stationnement</b> signalées par <b>E9a</b>. Fatigué ? Va jusqu'à l'aire. Un coup de téléphone n'est pas une raison de t'arrêter.</li><li><b>Remorquer</b> avec une attache de fortune.</li></ul><p>Ces interdictions valent aussi sur les <b>routes pour automobiles</b> (F9). Sur une route pour automobiles, même s'il y a une interruption du terre-plein, pas de demi-tour.</p>",
+      "signs": [
+        "E9a",
+        "F9"
+      ],
+      "tip": "Sur une route pour automobiles, les cyclos, véhicules agricoles, trains forains et quads sont aussi interdits.",
+      "ref": "Art. 21.4, 22.1 et 22.2 AR 01/12/1975"
+    },
+    {
+      "title": "Bande d'arrêt d'urgence et couloir de secours",
+      "body": "<p><b>Bande d'arrêt d'urgence</b> : interdit d'y rouler, même pour atteindre ta sortie dans un bouchon. Seuls peuvent l'utiliser :</p><ul><li>les <b>véhicules prioritaires</b> en mission urgente ;</li><li>les services requis par la police ou le parquet, et les <b>dépanneuses</b>, pour aller sur le lieu d'un incident quand le trafic est fortement ralenti ou arrêté.</li></ul><p><b>Couloir de secours</b> : à former <b>dès qu'une file se forme</b>, sans attendre d'entendre les sirènes.</p><ul><li><b>2 bandes</b> : bande de gauche → serre à gauche ; bande de droite → serre à droite.</li><li><b>3 bandes ou plus</b> : bande de gauche → serre à gauche ; <b>toutes les autres → serrent à droite</b>. Le couloir se trouve à côté de la bande de gauche.</li></ul><p>Le couloir est réservé aux secours et aux dépanneuses : tu ne l'empruntes jamais pour avancer.</p>",
+      "tip": "Gauche à gauche, tous les autres à droite. Tu es au milieu sur 3 bandes ? Tu serres à droite.",
+      "ref": "Art. 2.70, 9.7 et 9.8 AR 01/12/1975"
+    },
+    {
+      "title": "En panne sur l'autoroute",
+      "body": "<ol><li>Range-toi sur la <b>bande d'arrêt d'urgence</b> et allume tes <b>feux de détresse</b>.</li><li>Enfile ta <b>veste de sécurité rétroréfléchissante</b> <b>avant</b> de sortir (de jour comme de nuit).</li><li>Place le <b>triangle de danger</b> à au moins <b>100 m</b> derrière la voiture (30 m sur les routes ordinaires), visible à environ 50 m.</li></ol><p>Les feux de détresse ne <b>remplacent pas</b> le triangle : il est obligatoire quand ton véhicule est immobilisé là où l'arrêt est interdit.</p>",
+      "tip": "100 m sur autoroute, 30 m ailleurs. Veste dès que tu sors : obligatoire sur autoroute et route pour automobiles.",
+      "ref": "Art. 51.1, 51.2 et 51.4 AR 01/12/1975"
+    },
+    {
+      "title": "Les signaux lumineux au-dessus des bandes",
+      "body": "<ul><li><b>Croix rouge</b> : bande interdite. Quitte-la prudemment.</li><li><b>Flèche verte</b> pointée vers le bas : tu peux rouler sur cette bande.</li><li><b>Flèche orange oblique</b> (parfois clignotante) : bande interdite, sauf pour la <b>quitter dans le sens de la flèche</b>.</li></ul><p>Les véhicules prioritaires et dépanneuses en intervention peuvent quand même utiliser une bande fermée.</p>",
+      "tip": "Rouge = interdit, vert = autorisé, orange oblique = « dégage dans la direction de la flèche ».",
+      "ref": "Art. 62bis AR 01/12/1975"
+    }
+  ],
+  "keypoints": [
+    "Règles de l'autoroute dès le F5, jusqu'au F7.",
+    "Interdit : piétons, vélos, cyclos, animaux, tracteurs, quads, véhicules < 70 km/h, remorquage à la corde.",
+    "Maximum 120 km/h, minimum 70 km/h (sauf C43 plus bas).",
+    "Toujours à droite ; dépassement par la gauche, sauf circulation en files.",
+    "Jamais de demi-tour, marche arrière ni arrêt (sauf aire E9a) ; idem sur route pour automobiles.",
+    "Couloir de secours dès la file : gauche à gauche, tous les autres à droite.",
+    "Panne : veste avant de sortir, triangle à 100 m (30 m ailleurs).",
+    "Croix rouge = bande fermée ; flèche orange = quitte la bande."
+  ]
+}

@@ -1,0 +1,370 @@
+[
+ {
+  "id": "PHF-001",
+  "theme": "priorite",
+  "photo": "e9fd00f6-66e9-45db-9293-9e4f29a44e40",
+  "q": "J'arrive à ce carrefour. À droite se trouve un panneau triangulaire pointe en bas et une ligne de triangles blancs est tracée devant moi. Que dois-je faire ?",
+  "choices": [
+   "Je dois toujours marquer l'arrêt complet à la ligne de triangles",
+   "Je dois céder le passage aux usagers de la voie que j'aborde et ne m'arrêter que si c'est nécessaire",
+   "Je peux passer sans ralentir : la priorité de droite s'applique"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le signal B1 oblige à céder le passage à tous les conducteurs circulant sur la voie abordée. La ligne de triangles indique l'endroit où s'arrêter, s'il y a lieu : l'arrêt n'est obligatoire que si un usager doit passer (contrairement au STOP).",
+  "ref": "Art. 12.3.1 a) et 76.2 AR 01/12/1975",
+  "focus": "panneau triangulaire à droite et ligne de triangles au sol"
+ },
+ {
+  "id": "PHF-002",
+  "theme": "signalisation",
+  "photo": "c8beacdd-824b-440a-bb26-82f1800e324b",
+  "q": "Que signifie le panneau carré bleu avec une flèche blanche vers le haut, à droite de la rue ?",
+  "choices": [
+   "Obligation de continuer tout droit au prochain carrefour",
+   "Voie publique à sens unique",
+   "Route prioritaire"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal F19 (carré bleu, flèche blanche) est un signal d'indication : il annonce une voie publique à sens unique. À ne pas confondre avec le D1, rond bleu, qui impose une direction.",
+  "ref": "Art. 71 (F19) AR 01/12/1975",
+  "focus": "panneau carré bleu à droite"
+ },
+ {
+  "id": "PHF-003",
+  "theme": "stationnement",
+  "photo": "c8beacdd-824b-440a-bb26-82f1800e324b",
+  "q": "Cette rue est à sens unique. Puis-je y stationner du côté gauche de la chaussée ?",
+  "choices": [
+   "Oui, sur une chaussée à sens unique on peut se ranger de l'un ou de l'autre côté",
+   "Non, on doit toujours stationner à droite",
+   "Seulement la nuit"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "En règle générale, un véhicule à l'arrêt ou en stationnement est rangé à droite ; mais si la chaussée est à sens unique, il peut être rangé de l'un ou de l'autre côté (sauf signalisation contraire).",
+  "ref": "Art. 23.1.1° AR 01/12/1975",
+  "focus": "panneau de sens unique à droite"
+ },
+ {
+  "id": "PHF-004",
+  "theme": "stationnement",
+  "photo": "ecc5e0f7-30b9-4954-8bc4-a62aa88c66b0",
+  "q": "Puis-je stationner ma voiture sur la chaussée, 3 mètres avant le passage pour piétons devant moi ?",
+  "choices": [
+   "Oui, si je ne mords pas sur les bandes blanches",
+   "Non, le stationnement est interdit à moins de 5 mètres en deçà du passage",
+   "Oui, si je laisse mes feux de détresse allumés"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "L'arrêt et le stationnement sont interdits sur les passages pour piétons et sur la chaussée à moins de 5 mètres en deçà de ces passages, pour garder la visibilité entre conducteurs et piétons.",
+  "ref": "Art. 24, 4° AR 01/12/1975",
+  "focus": "passage pour piétons devant moi"
+ },
+ {
+  "id": "PHF-005",
+  "theme": "usagers",
+  "photo": "ecc5e0f7-30b9-4954-8bc4-a62aa88c66b0",
+  "q": "Aucun feu ne règle la circulation à ce passage pour piétons. Si un piéton attend au bord du trottoir et est sur le point de traverser, que dois-je faire ?",
+  "choices": [
+   "Klaxonner pour lui signaler mon passage",
+   "Continuer : il doit attendre que la chaussée soit libre",
+   "M'approcher à allure modérée et lui céder le passage"
+  ],
+  "answer": 2,
+  "grave": true,
+  "explain": "Là où la circulation n'est réglée ni par un agent ni par des feux, le conducteur ne peut s'approcher d'un passage pour piétons qu'à allure modérée et doit céder le passage aux piétons qui y sont engagés ou sur le point de s'y engager.",
+  "ref": "Art. 40.4.2 AR 01/12/1975",
+  "focus": "passage pour piétons devant moi"
+ },
+ {
+  "id": "PHF-006",
+  "theme": "signalisation",
+  "photo": "4f01e913-3a15-47b0-8771-6988111c8deb",
+  "q": "Le feu est vert. S'il passe à l'orange fixe alors que je suis encore assez loin de la ligne d'arrêt pour m'arrêter sans danger, que dois-je faire ?",
+  "choices": [
+   "M'arrêter avant la ligne d'arrêt",
+   "Accélérer pour passer avant le rouge",
+   "Continuer : l'orange autorise encore le passage"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le feu jaune-orange fixe interdit de franchir la ligne d'arrêt, sauf si le conducteur en est si près au moment où il s'allume qu'il ne peut plus s'arrêter dans des conditions de sécurité suffisantes.",
+  "ref": "Art. 61.1.2° AR 01/12/1975",
+  "focus": "feux verts et ligne d'arrêt blanche"
+ },
+ {
+  "id": "PHF-007",
+  "theme": "usagers",
+  "photo": "4f01e913-3a15-47b0-8771-6988111c8deb",
+  "q": "Le feu est vert pour moi. Si un piéton s'est régulièrement engagé sur le passage pour piétons devant moi, que dois-je faire ?",
+  "choices": [
+   "Passer, puisque le feu est vert pour moi",
+   "Lui permettre d'achever sa traversée",
+   "Klaxonner pour qu'il se dépêche"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Même si la circulation est ouverte dans son sens par un feu vert, le conducteur doit permettre aux piétons régulièrement engagés sur la chaussée d'achever leur traversée à allure normale.",
+  "ref": "Art. 40.4.1 AR 01/12/1975",
+  "focus": "passage pour piétons devant moi"
+ },
+ {
+  "id": "PHF-008",
+  "theme": "priorite",
+  "photo": "6fac39b6-d031-410a-b933-78f5850f5682",
+  "q": "Le feu face à moi est rouge et un panneau « cédez le passage » (B1) est fixé sous ce feu. Que dois-je faire ?",
+  "choices": [
+   "M'arrêter : tant que les feux fonctionnent, ils priment sur le panneau B1",
+   "Céder le passage puis passer si la voie est libre, malgré le rouge",
+   "Le B1 annule le feu rouge, je peux passer"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Le fonctionnement des feux rend sans effet les signaux de priorité placés sur la même voie. Le feu rouge interdit de franchir la ligne d'arrêt ou le signal. Le B1 ne s'applique que si les feux sont éteints ou à l'orange clignotant.",
+  "ref": "Art. 6.3 et 61.1.1° AR 01/12/1975",
+  "focus": "feu et panneau triangulaire sous le feu"
+ },
+ {
+  "id": "PHF-009",
+  "theme": "depassement",
+  "photo": "796e17fb-aa81-4c55-abfe-3dc7e8563f60",
+  "q": "Aucun feu ne règle ce passage pour piétons. La voiture qui me précède ralentit et s'arrête juste devant le passage. Puis-je la dépasser par la gauche ?",
+  "choices": [
+   "Oui, si personne ne vient en face",
+   "Oui, à allure réduite",
+   "Non, ce dépassement est interdit"
+  ],
+  "answer": 2,
+  "grave": true,
+  "explain": "Il est interdit de dépasser par la gauche un véhicule qui s'approche d'un passage pour piétons ou s'arrête devant celui-ci, là où la circulation n'est pas réglée par un agent ou des feux : un piéton masqué par ce véhicule pourrait être en train de traverser.",
+  "ref": "Art. 17.2, 5° AR 01/12/1975",
+  "focus": "passage pour piétons au premier plan"
+ },
+ {
+  "id": "PHF-010",
+  "theme": "vitesse",
+  "photo": "3204e8ff-39e0-47ad-bfea-090f8287b85e",
+  "q": "Je circule dans cette rue résidentielle de la Région de Bruxelles-Capitale, en agglomération, sans autre signal. Quelle est la vitesse maximale autorisée ?",
+  "choices": [
+   "30 km/h",
+   "50 km/h",
+   "70 km/h"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Dans la Région de Bruxelles-Capitale, la vitesse est limitée à 30 km/h dans les agglomérations, sauf si un signal C43 impose ou permet une autre limite.",
+  "ref": "Art. 11.1 (Région de Bruxelles-Capitale) AR 01/12/1975",
+  "focus": "rue bordée de voitures en stationnement"
+ },
+ {
+  "id": "PHF-011",
+  "theme": "stationnement",
+  "photo": "8debed6f-c572-41a0-97d3-3a70c9b8f571",
+  "q": "La bordure du trottoir à droite est marquée de traits jaunes discontinus. Puis-je stationner le long de cette bordure ?",
+  "choices": [
+   "Oui, si j'utilise mon disque de stationnement",
+   "Non, le stationnement y est interdit",
+   "Oui, mais seulement pendant 15 minutes"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Une ligne discontinue jaune tracée sur la bordure du trottoir ou le bord de la chaussée signifie que le stationnement est interdit sur la chaussée le long de cette ligne.",
+  "ref": "Art. 75.1.2° AR 01/12/1975",
+  "focus": "traits jaunes sur la bordure à droite"
+ },
+ {
+  "id": "PHF-012",
+  "theme": "priorite",
+  "photo": "9a5785e3-6efe-4908-aebf-14cf0bfada64",
+  "q": "J'arrive à ce carrefour signalé par un panneau B1 (triangle pointe en bas) au-dessus d'un panneau D5 (sens giratoire). Qui a la priorité ?",
+  "choices": [
+   "Les conducteurs qui circulent déjà sur l'anneau du rond-point",
+   "Moi, car les conducteurs sur l'anneau viennent de ma gauche",
+   "Celui qui vient de droite, comme à un carrefour ordinaire"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Un carrefour à sens giratoire signalé par D5 et dont l'accès porte un B1 est un rond-point au sens légal. Je débouche d'une voie pourvue d'un B1 : je dois céder le passage aux conducteurs circulant sur l'anneau.",
+  "ref": "Art. 2.39 et 12.3.1 a) AR 01/12/1975",
+  "focus": "panneaux B1 et D5 sur le poteau à droite"
+ },
+ {
+  "id": "PHF-013",
+  "theme": "signalisation",
+  "photo": "9a5785e3-6efe-4908-aebf-14cf0bfada64",
+  "q": "Dans ce rond-point, quand dois-je utiliser mon indicateur de direction ?",
+  "choices": [
+   "En entrant dans le rond-point",
+   "En sortant du rond-point",
+   "Jamais dans un rond-point"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Entrer dans un rond-point est un changement de direction qui n'implique pas l'usage des indicateurs de direction ; en sortir est un changement de direction qui l'implique : on met le clignoteur à droite pour sortir.",
+  "ref": "Art. 19.2.1° AR 01/12/1975",
+  "focus": "panneau D5 à droite"
+ },
+ {
+  "id": "PHF-014",
+  "theme": "signalisation",
+  "photo": "0a6617e1-c705-4da7-9628-8d3da34635e1",
+  "q": "Que signifie le panneau rond rouge à barre horizontale blanche, à droite ?",
+  "choices": [
+   "Accès interdit dans les deux sens à tout conducteur",
+   "Sens interdit pour tout conducteur : je ne peux pas m'engager dans la voie où ce panneau est placé",
+   "Arrêt et stationnement interdits"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le signal C1 indique un sens interdit pour tout conducteur. S'y engager reviendrait à circuler à contresens. Le C3 (rond blanc à bord rouge) interdit l'accès dans les deux sens.",
+  "ref": "Art. 68.3 (C1) AR 01/12/1975",
+  "focus": "panneau rond rouge à droite"
+ },
+ {
+  "id": "PHF-015",
+  "theme": "stationnement",
+  "photo": "5352e4d3-16d1-4897-a15a-5a753e67b548",
+  "q": "Que signifie le panneau carré bleu avec un « P » blanc, à droite ?",
+  "choices": [
+   "Stationnement interdit",
+   "Parking réservé aux véhicules de police",
+   "Stationnement autorisé (sous réserve des indications d'un éventuel panneau additionnel)"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le signal E9a indique que le stationnement est autorisé. Un panneau additionnel peut en préciser les modalités (disque, payant, catégories de véhicules, etc.).",
+  "ref": "Art. 70.2.1, 3° (E9a) AR 01/12/1975",
+  "focus": "panneau bleu « P » à droite"
+ },
+ {
+  "id": "PHF-016",
+  "theme": "signalisation",
+  "photo": "097c3226-4991-473c-aa4c-aa5996a2458e",
+  "q": "À gauche, devant l'îlot, une zone est marquée au sol par des lignes blanches obliques parallèles. Puis-je rouler ou m'arrêter sur cette zone ?",
+  "choices": [
+   "Non, il est interdit d'y circuler, de s'y arrêter et d'y stationner",
+   "Oui, pour dépasser un cycliste",
+   "Oui, pour m'y arrêter brièvement"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Les lignes parallèles obliques blanches marquent des îlots directionnels ou des zones d'évitement : les conducteurs ne peuvent ni y circuler, ni s'y arrêter, ni y stationner.",
+  "ref": "Art. 77.4 AR 01/12/1975",
+  "focus": "zone hachurée à gauche, devant l'îlot"
+ },
+ {
+  "id": "PHF-017",
+  "theme": "autoroute",
+  "photo": "5056cddc-9cac-4940-9347-2a62acdc56bc",
+  "q": "Sur cette autoroute en Wallonie, sans signal de vitesse particulier, quelle est la vitesse maximale autorisée pour le camion semi-remorque à droite (masse maximale autorisée supérieure à 3,5 t) ?",
+  "choices": [
+   "120 km/h",
+   "90 km/h",
+   "70 km/h"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Sur autoroute, la vitesse est limitée à 120 km/h, mais à 90 km/h pour les véhicules dont la masse maximale autorisée dépasse 3,5 tonnes et pour les autobus.",
+  "ref": "Art. 11.2, 1° a) (Région wallonne) AR 01/12/1975",
+  "focus": "camion sur la bande de droite"
+ },
+ {
+  "id": "PHF-018",
+  "theme": "autoroute",
+  "photo": "5368ceb3-4966-4074-98f2-c0f1fd3daa1f",
+  "q": "Je circule sur cette autoroute, sans signal de vitesse particulier. Sauf si les conditions m'obligent à ralentir, quelle vitesse minimale dois-je respecter ?",
+  "choices": [
+   "Il n'y a pas de vitesse minimale",
+   "50 km/h",
+   "70 km/h"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Sauf limitation inférieure imposée par un signal C43, aucun conducteur ne peut circuler sur autoroute à moins de 70 km/h ; il doit toutefois adapter sa vitesse aux circonstances (article 10.1).",
+  "ref": "Art. 21.2 AR 01/12/1975",
+  "focus": "autoroute"
+ },
+ {
+  "id": "PHF-019",
+  "theme": "signalisation",
+  "photo": "962e5e2c-d795-491d-b503-3243ac45cb08",
+  "q": "Le panneau rond au-dessus du tunnel indique « 3 m 10 ». Mon véhicule, chargement compris, mesure 3,30 m de haut. Puis-je passer ?",
+  "choices": [
+   "Oui, si je roule très lentement",
+   "Non, l'accès est interdit aux véhicules plus hauts que 3,10 m",
+   "Oui, la limite ne concerne que les camions"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal C29 interdit l'accès aux conducteurs de véhicules dont la hauteur, chargement compris, dépasse celle indiquée : ici 3,10 m.",
+  "ref": "Art. 68.3 (C29) AR 01/12/1975",
+  "focus": "panneau rond au-dessus de l'arche"
+ },
+ {
+  "id": "PHF-020",
+  "theme": "stationnement",
+  "photo": "962e5e2c-d795-491d-b503-3243ac45cb08",
+  "q": "Sauf réglementation locale, puis-je m'arrêter sur la chaussée sous ce pont (passage inférieur) pour déposer un passager ?",
+  "choices": [
+   "Non, l'arrêt et le stationnement y sont interdits",
+   "Oui, l'arrêt est toujours permis",
+   "Oui, si j'allume mes feux de détresse"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "L'arrêt et le stationnement sont interdits sur la chaussée dans les passages inférieurs, dans les tunnels et, sauf réglementation locale, sous les ponts.",
+  "ref": "Art. 24, 5° AR 01/12/1975",
+  "focus": "passage sous le pont"
+ },
+ {
+  "id": "PHF-021",
+  "theme": "autoroute",
+  "photo": "5f865595-bb6f-4dd9-b712-c47b3c8aa056",
+  "q": "Sur cette autoroute en travaux, des lignes de couleur orange (jaune-orange) sont tracées en plus des anciennes lignes blanches. Quelles lignes dois-je suivre ?",
+  "choices": [
+   "Les lignes blanches, qui restent prioritaires",
+   "Les lignes orange, qui rendent les lignes blanches sans effet",
+   "Je choisis librement"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Les marques provisoires de couleur orange, utilisées à l'occasion de travaux, ont la même signification que les lignes blanches et rendent sans effet les autres marques blanches tracées au même endroit.",
+  "ref": "Art. 73.1 et 73.4 AR 01/12/1975",
+  "focus": "lignes orange au sol"
+ },
+ {
+  "id": "PHF-022",
+  "theme": "autoroute",
+  "photo": "7f64d6a7-7ee9-469b-b958-70137f8e8819",
+  "q": "Sur cette autoroute, je voudrais faire une pause pour téléphoner. Puis-je m'arrêter sur la bande située à droite de la ligne blanche continue ?",
+  "choices": [
+   "Oui, si j'allume mes feux de détresse",
+   "Oui, pour une durée de moins de 5 minutes",
+   "Non, l'arrêt est interdit sur autoroute sauf sur les aires de stationnement signalées (E9a)"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Il est interdit sur les autoroutes de mettre un véhicule à l'arrêt ou en stationnement, sauf sur les aires de stationnement indiquées par le signal E9a. La bande de droite ne sert qu'en cas de panne ou de nécessité.",
+  "ref": "Art. 21.4, 4° AR 01/12/1975",
+  "focus": "bande à droite de la ligne continue"
+ },
+ {
+  "id": "PHF-023",
+  "theme": "securite",
+  "photo": "7f64d6a7-7ee9-469b-b958-70137f8e8819",
+  "q": "Je tombe en panne sur cette autoroute et ne peux pas quitter l'endroit où l'arrêt est interdit. À quelle distance minimale dois-je placer le triangle de danger derrière mon véhicule ?",
+  "choices": [
+   "30 mètres",
+   "50 mètres",
+   "100 mètres"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le triangle de danger est placé en deçà du véhicule à au moins 30 m sur les voies ordinaires et à au moins 100 m sur les autoroutes, visible à environ 50 m. Sur autoroute, je dois aussi porter une veste de sécurité rétroréfléchissante dès que je sors du véhicule.",
+  "ref": "Art. 51.2 et 51.4 AR 01/12/1975",
+  "focus": "autoroute"
+ }
+]
