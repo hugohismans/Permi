@@ -1,0 +1,322 @@
+[
+ {
+  "id": "PHK-001",
+  "theme": "signalisation",
+  "photo": "b669ca8c-a150-4634-a812-f1465480454a",
+  "q": "Sur l'îlot devant moi, un panneau rond bleu montre une flèche blanche droite, oblique, pointant vers le bas et la gauche. Que dois-je faire ?",
+  "choices": [
+   "Passer à droite de l'îlot",
+   "Passer à gauche de l'îlot",
+   "Tourner à gauche au prochain carrefour"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "C'est un signal D1 : placé sur un obstacle avec une flèche non coudée, il oblige à passer du côté indiqué par la flèche, ici à gauche de l'îlot.",
+  "ref": "Art. 69.3 (D1) AR 01/12/1975",
+  "focus": "panneau bleu sur l'îlot, à droite"
+ },
+ {
+  "id": "PHK-002",
+  "theme": "signalisation",
+  "photo": "bf87f03d-747f-4052-8e06-66c5edc56ae7",
+  "q": "À droite du chantier, un panneau triangulaire à bord rouge montre un ouvrier qui pellette. Que m'annonce-t-il ?",
+  "choices": [
+   "Une sortie de camions",
+   "Un passage pour piétons",
+   "Des travaux"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le signal de danger A31 annonce des travaux. J'adapte ma vitesse et je reste attentif aux ouvriers, aux engins et aux changements de tracé.",
+  "ref": "Art. 66.4 (A31) AR 01/12/1975",
+  "focus": "panneau triangulaire au-dessus du « 30 », à droite"
+ },
+ {
+  "id": "PHK-003",
+  "theme": "vitesse",
+  "photo": "bf87f03d-747f-4052-8e06-66c5edc56ae7",
+  "q": "Le panneau rond à bord rouge portant « 30 » est fixé sur la barrière du chantier. Si aucun autre signal ne la fait cesser avant, jusqu'où vaut cette limitation ?",
+  "choices": [
+   "Jusqu'au prochain carrefour inclus",
+   "Sur 150 mètres seulement",
+   "Jusqu'à la fin de l'agglomération, quoi qu'il arrive"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal C43 vaut à partir du signal jusqu'au prochain carrefour inclus. Il cesse aussi plus tôt si un autre signal C43 ou un signal de début ou de fin d'agglomération (ou de zone) est placé avant.",
+  "ref": "Art. 68.3 (C43) AR 01/12/1975",
+  "focus": "panneau « 30 » sur la barrière à droite"
+ },
+ {
+  "id": "PHK-004",
+  "theme": "stationnement",
+  "photo": "65fd35a7-9865-4125-bbff-269c91cd025a",
+  "q": "De chaque côté de la rue, une large ligne blanche continue est tracée sur la chaussée et les voitures sont garées au-delà. Que signifie ce marquage ?",
+  "choices": [
+   "Il délimite des pistes cyclables",
+   "Il marque le bord de la chaussée : la partie située au-delà est réservée à l'arrêt et au stationnement",
+   "Il interdit le stationnement le long de la ligne"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Une large ligne blanche continue tracée sur la chaussée en marque le bord fictif. La partie de la voie publique située au-delà est réservée à l'arrêt et au stationnement (sauf sur autoroute et route pour automobiles).",
+  "ref": "Art. 75.2 AR 01/12/1975",
+  "focus": "lignes blanches le long des voitures garées"
+ },
+ {
+  "id": "PHK-005",
+  "theme": "stationnement",
+  "photo": "65fd35a7-9865-4125-bbff-269c91cd025a",
+  "q": "Je veux me garer dans la bande de stationnement de droite, entre deux voitures. Quelle distance minimale dois-je laisser devant et derrière les autres véhicules ?",
+  "choices": [
+   "50 centimètres",
+   "2 mètres",
+   "1 mètre"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Il est interdit de stationner à moins de 1 mètre devant ou derrière un autre véhicule à l'arrêt ou en stationnement, ou à un endroit où l'on empêcherait un autre véhicule d'accéder ou de se dégager.",
+  "ref": "Art. 25.1.1° AR 01/12/1975",
+  "focus": "voitures garées à droite"
+ },
+ {
+  "id": "PHK-006",
+  "theme": "usagers",
+  "photo": "b812cc72-22e1-4831-b3c8-d2c954858c84",
+  "q": "Je roule en agglomération derrière ces deux cyclistes. Une fois le carrefour franchi, je veux les dépasser. Quelle distance latérale minimale dois-je laisser entre ma voiture et un cycliste ?",
+  "choices": [
+   "1 mètre",
+   "50 centimètres",
+   "2 mètres"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le conducteur doit laisser au moins 1 mètre de distance latérale en dépassant un cycliste en agglomération, et au moins 1,5 mètre hors agglomération. Si ce n'est pas possible, il attend pour dépasser.",
+  "ref": "Art. 40ter AR 01/12/1975",
+  "focus": "cyclistes devant"
+ },
+ {
+  "id": "PHK-007",
+  "theme": "depassement",
+  "photo": "e848acf1-87d0-45d0-90fb-37237b9790da",
+  "q": "Une ligne blanche continue sépare les deux sens de circulation dans ce virage. Si un véhicule lent me précédait, pourrais-je franchir cette ligne pour le dépasser ?",
+  "choices": [
+   "Oui, si je vois que personne n'arrive en face",
+   "Non, il est interdit de franchir une ligne continue",
+   "Oui, à condition de ne pas dépasser 50 km/h"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Une ligne blanche continue ne peut pas être franchie, et il est interdit de circuler à sa gauche lorsqu'elle sépare les deux sens. Dans un virage, la visibilité réduite rend en plus ce dépassement dangereux.",
+  "ref": "Art. 72.2 AR 01/12/1975",
+  "focus": "ligne continue au milieu de la chaussée"
+ },
+ {
+  "id": "PHK-008",
+  "theme": "priorite",
+  "photo": "f200da77-578b-4f54-94b6-7c392eeebab6",
+  "q": "Le feu à droite, au bout du passage pour piétons, est vert pour moi. Si la file de voitures était arrêtée juste après le carrefour, de sorte que je risque d'y rester bloqué, pourrais-je m'y engager ?",
+  "choices": [
+   "Oui, le feu vert m'autorise à passer",
+   "Oui, à condition d'allumer mes feux de détresse",
+   "Non, je ne peux pas m'engager si je risque d'y être immobilisé et de gêner la circulation transversale"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Même si le feu l'y autorise, un conducteur ne peut pas s'engager dans un carrefour si les embouteillages risquent de l'y immobiliser et de gêner ou bloquer la circulation venant des autres directions.",
+  "ref": "Art. 14.2 AR 01/12/1975",
+  "focus": "feu vert à droite"
+ },
+ {
+  "id": "PHK-009",
+  "theme": "signalisation",
+  "photo": "f200da77-578b-4f54-94b6-7c392eeebab6",
+  "q": "Il n'y a pas de ligne d'arrêt devant ce passage pour piétons, situé avant le feu. Si le feu passe au rouge à mon approche, où dois-je arrêter ma voiture ?",
+  "choices": [
+   "Sur le passage pour piétons, à hauteur du feu",
+   "Avant le passage pour piétons",
+   "Juste après le feu"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Quand la circulation est fermée dans mon sens et qu'il existe un passage pour piétons à cet endroit, je dois de toute manière m'arrêter avant ce passage, pour le laisser libre.",
+  "ref": "Art. 40.4.1 AR 01/12/1975",
+  "focus": "passage pour piétons et feu à droite"
+ },
+ {
+  "id": "PHK-010",
+  "theme": "stationnement",
+  "photo": "094d3ec0-163f-4099-8fdb-0cce82f6ac55",
+  "q": "Un panneau rond bleu bordé de rouge et barré (interdiction de stationnement) est placé sur le trottoir de gauche. Où s'applique cette interdiction ?",
+  "choices": [
+   "Des deux côtés de la rue, sur toute sa longueur",
+   "Uniquement sur le trottoir",
+   "Du côté de la voie publique où il est placé, du panneau jusqu'au prochain carrefour"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Les signaux E1 et E3 n'ont effet que du côté de la voie publique où ils sont placés, à partir du signal jusqu'au prochain carrefour. Ils valent sur la chaussée et sur l'accotement.",
+  "ref": "Art. 70.2.2 AR 01/12/1975",
+  "focus": "panneau rond à gauche"
+ },
+ {
+  "id": "PHK-011",
+  "theme": "stationnement",
+  "photo": "2723c985-09c7-464e-b4e1-0e637e773926",
+  "q": "Le panneau carré bleu à flèche blanche vers le haut, à droite, indique que je suis dans une rue à sens unique. Sauf signal contraire, de quel côté de la chaussée puis-je garer ma voiture ?",
+  "choices": [
+   "À droite ou à gauche",
+   "Uniquement à droite",
+   "Uniquement à gauche"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "En principe, on range son véhicule à droite par rapport au sens de marche. Sur une chaussée à sens unique, on peut toutefois le ranger d'un côté ou de l'autre.",
+  "ref": "Art. 23.1.1° AR 01/12/1975",
+  "focus": "panneau bleu à droite"
+ },
+ {
+  "id": "PHK-012",
+  "theme": "usagers",
+  "photo": "2723c985-09c7-464e-b4e1-0e637e773926",
+  "q": "Devant moi se trouve un passage pour piétons. Si la circulation était si dense que je risquais de rester arrêté dessus, pourrais-je m'y engager ?",
+  "choices": [
+   "Oui, si aucun piéton n'attend",
+   "Non, j'attends de pouvoir le franchir entièrement",
+   "Oui, si j'allume mes feux de détresse"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le conducteur ne peut pas s'engager sur un passage pour piétons si les embouteillages risquent de l'y immobiliser : il bloquerait la traversée des piétons.",
+  "ref": "Art. 40.5 AR 01/12/1975",
+  "focus": "passage pour piétons au premier plan"
+ },
+ {
+  "id": "PHK-013",
+  "theme": "usagers",
+  "photo": "aef5f971-abbd-4b2d-92a2-e46c58d3d49d",
+  "q": "Un piéton est engagé sur ce passage pour piétons, qui n'est réglé ni par des feux ni par un agent. Que dois-je faire en arrivant ?",
+  "choices": [
+   "Klaxonner et passer derrière lui",
+   "Continuer : il doit attendre que la voie soit libre",
+   "Lui céder le passage et m'arrêter au besoin"
+  ],
+  "answer": 2,
+  "grave": true,
+  "explain": "À un passage pour piétons qui n'est pas réglé par des feux ou un agent, je m'approche à allure modérée et je dois céder le passage aux piétons engagés ou sur le point de s'engager.",
+  "ref": "Art. 40.4.2 AR 01/12/1975",
+  "focus": "piéton sur le passage"
+ },
+ {
+  "id": "PHK-014",
+  "theme": "priorite",
+  "photo": "c6c530cf-fbc5-4d81-86b8-dfe62bfa4169",
+  "q": "Le panneau triangulaire montre une croix noire. Au carrefour qu'il annonce, si un cycliste arrive de la rue à ma droite, qui passe en premier ?",
+  "choices": [
+   "Le cycliste, car la priorité de droite vaut pour tous les conducteurs",
+   "Moi, car un cycliste doit céder le passage aux voitures",
+   "Moi, car je circule sur la rue la plus large"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Le signal B17 annonce un carrefour où la priorité de droite s'applique. Je dois céder le passage à tout conducteur venant de ma droite, cycliste compris.",
+  "ref": "Art. 67.3 (B17) et 12.3.1 AR 01/12/1975",
+  "focus": "panneau triangulaire à droite"
+ },
+ {
+  "id": "PHK-015",
+  "theme": "usagers",
+  "photo": "04775d20-bbf2-4402-8e0d-df8eddce59ff",
+  "q": "Un triangle avec deux enfants est peint sur la chaussée : il reprend le symbole d'un signal de danger. Que m'annonce-t-il ?",
+  "choices": [
+   "Une aire de jeux interdite aux voitures",
+   "Un endroit spécialement fréquenté par des enfants : je redouble de prudence",
+   "Un passage pour piétons réglé par un surveillant"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le symbole est celui du signal A23 : endroit spécialement fréquenté par des enfants. En présence d'enfants, je dois redoubler de prudence, ralentir et au besoin m'arrêter.",
+  "ref": "Art. 66.4 (A23) et 40.2 AR 01/12/1975",
+  "focus": "marquage triangulaire au sol"
+ },
+ {
+  "id": "PHK-016",
+  "theme": "priorite",
+  "photo": "3efa01de-9559-453a-ab59-e96a8c8454da",
+  "q": "Le panneau triangulaire à droite (croix noire) annonce un carrefour. Si une voiture arrive de ma gauche dans ce carrefour, qui doit céder le passage ?",
+  "choices": [
+   "Moi",
+   "La voiture venant de ma gauche",
+   "Personne : le premier arrivé passe"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal B17 annonce un carrefour où la priorité de droite s'applique. La voiture venant de ma gauche m'a à sa droite : c'est elle qui doit me céder le passage. Je reste prudent en abordant le carrefour.",
+  "ref": "Art. 67.3 (B17) et 12.3.1 AR 01/12/1975",
+  "focus": "panneau triangulaire à droite"
+ },
+ {
+  "id": "PHK-017",
+  "theme": "securite",
+  "photo": "427947e3-01ac-4972-aa37-cba9a2a57bfa",
+  "q": "J'entre dans ce rond-point, signalé par le triangle pointe en bas et le panneau bleu à flèches circulaires. Dans l'anneau, dois-je me tenir le plus près possible du bord droit ?",
+  "choices": [
+   "Oui, comme partout sur la chaussée",
+   "Non, je dois rouler au centre de l'anneau",
+   "Non, je n'y suis pas tenu, mais je respecte les bandes marquées éventuelles"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Sauf partie réservée, le conducteur n'est pas tenu de serrer le bord droit dans l'anneau d'un rond-point. S'il y a des bandes marquées, il les respecte et prend celle qui convient le mieux à sa destination.",
+  "ref": "Art. 9.3.1 AR 01/12/1975",
+  "focus": "panneaux B1 et D5 à droite"
+ },
+ {
+  "id": "PHK-018",
+  "theme": "signalisation",
+  "photo": "81626dcd-9308-4287-8ecc-972395de954c",
+  "q": "La ligne blanche continue sépare ma bande de celle des véhicules venant en sens inverse. Puis-je la franchir pour faire demi-tour ?",
+  "choices": [
+   "Non, il est interdit de franchir une ligne continue",
+   "Oui, si la voie est libre dans les deux sens",
+   "Oui, mais seulement en agglomération"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Il est interdit à tout conducteur de franchir une ligne blanche continue, quelle que soit la manœuvre (dépassement, demi-tour, virage à gauche).",
+  "ref": "Art. 72.2 AR 01/12/1975",
+  "focus": "ligne continue à gauche de ma bande"
+ },
+ {
+  "id": "PHK-019",
+  "theme": "usagers",
+  "photo": "d0fd80e9-9862-445d-8769-246ce58986cd",
+  "q": "Je roule en agglomération dans le même sens que ce bus arrêté à droite. S'il actionne ses clignotants pour quitter son arrêt, que dois-je faire ?",
+  "choices": [
+   "Accélérer pour passer avant lui",
+   "Le laisser quitter son arrêt en ralentissant et, au besoin, en m'arrêtant",
+   "Klaxonner pour lui signaler ma présence"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "En agglomération, je dois permettre à l'autobus de quitter son point d'arrêt lorsqu'il l'indique avec ses clignotants : je ralentis et, au besoin, je m'arrête.",
+  "ref": "Art. 39 AR 01/12/1975",
+  "focus": "bus jaune à droite"
+ },
+ {
+  "id": "PHK-020",
+  "theme": "usagers",
+  "photo": "ddfdd8d6-c515-4c90-8d92-9990a8bd3535",
+  "q": "Ces piétons marchent sur la chaussée devant moi, dans cette rue de Liège (en agglomération). Je veux les dépasser. Quelle règle dois-je respecter ?",
+  "choices": [
+   "Laisser au moins 50 cm et klaxonner",
+   "Laisser au moins 1 mètre ; si c'est impossible, rouler à l'allure du pas et au besoin m'arrêter",
+   "Laisser au moins 3 mètres, sinon il m'est interdit d'avancer"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Je dois laisser au moins 1 mètre entre ma voiture et un piéton qui circule sur la chaussée (1,5 mètre hors agglomération). Si cette distance ne peut pas être respectée, je roule à l'allure du pas et je m'arrête au besoin.",
+  "ref": "Art. 40.7 AR 01/12/1975",
+  "focus": "piétons sur la chaussée"
+ }
+]

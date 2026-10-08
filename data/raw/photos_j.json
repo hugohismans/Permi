@@ -1,0 +1,322 @@
+[
+ {
+  "id": "PHJ-001",
+  "theme": "signalisation",
+  "q": "Une grande flèche blanche oblique, pointée vers l'avant gauche, est peinte dans la bande de droite où je roule. Que m'annonce-t-elle ?",
+  "choices": [
+   "Que je dois tourner à gauche au prochain carrefour",
+   "Que le nombre de bandes utilisables va diminuer : je dois me déporter vers la gauche",
+   "Que la bande de droite est réservée aux bus"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Les flèches de rabattement blanches annoncent la réduction du nombre de bandes de circulation utilisables dans le sens suivi. Il faut changer de bande à temps, en cédant le passage.",
+  "ref": "Art. 77.2 AR 01/12/1975",
+  "photo": "98829ae6-22a3-43a3-a66b-b95b8c40d2f0",
+  "focus": "flèche oblique dans la bande de droite"
+ },
+ {
+  "id": "PHJ-002",
+  "theme": "priorite",
+  "q": "Une ligne de triangles blancs, pointes vers moi, est peinte en travers de ma bande avant la rue transversale. Que signifie-t-elle ?",
+  "choices": [
+   "Je dois toujours marquer l'arrêt complet à cette ligne",
+   "C'est un ralentisseur : je dois passer à 30 km/h",
+   "Je dois céder le passage et, s'il y a lieu, m'arrêter à hauteur de cette ligne"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "La ligne de triangles blancs indique l'endroit où le conducteur doit s'arrêter, s'il y a lieu, pour céder le passage (comme avec un signal B1). L'arrêt n'est obligatoire que si un usager prioritaire arrive.",
+  "ref": "Art. 76.2 AR 01/12/1975",
+  "photo": "1995a390-be92-4803-86f7-183a44d74e4f",
+  "focus": "ligne de triangles en travers de la bande"
+ },
+ {
+  "id": "PHJ-003",
+  "theme": "signalisation",
+  "q": "Le feu à droite est rouge. Je veux tourner à droite et aucun véhicule ni piéton n'est en vue. Puis-je franchir la ligne d'arrêt ?",
+  "choices": [
+   "Non, le feu rouge interdit de franchir la ligne d'arrêt (ou le feu), quelle que soit la direction",
+   "Oui, tourner à droite est toujours permis au feu rouge",
+   "Oui, si je roule au pas"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Le feu rouge interdit de franchir la ligne d'arrêt ou, à défaut, le signal lui-même. Seule une flèche verte supplémentaire allumée permettrait de poursuivre dans la direction indiquée.",
+  "ref": "Art. 61.1 AR 01/12/1975",
+  "photo": "6bf7e072-c721-40b2-832b-2cf4663fbbdb",
+  "focus": "feu à droite"
+ },
+ {
+  "id": "PHJ-004",
+  "theme": "stationnement",
+  "q": "À droite, un panneau rond bleu bordé de rouge, barré d'une croix rouge (E3), sans panneau additionnel. Puis-je m'arrêter un instant de ce côté pour déposer un passager ?",
+  "choices": [
+   "Oui, l'arrêt bref est toujours permis",
+   "Non, ce signal interdit l'arrêt et le stationnement",
+   "Oui, si je reste au volant"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal E3 (croix rouge) interdit l'arrêt et le stationnement, du côté où il est placé jusqu'au prochain carrefour. Déposer un passager est un arrêt, donc interdit. Le signal E1 (une seule barre) n'interdit que le stationnement.",
+  "ref": "Art. 70.2.1 et 70.2.2 AR 01/12/1975",
+  "photo": "73073d04-b5a6-484d-9026-4f0e085bdac2",
+  "focus": "panneau à croix rouge au premier plan"
+ },
+ {
+  "id": "PHJ-005",
+  "theme": "stationnement",
+  "q": "Le panneau rond bleu bordé de rouge, barré d'une seule diagonale (E1), est fixé sur la façade à droite, sans panneau additionnel. Où l'interdiction de stationner s'applique-t-elle ?",
+  "choices": [
+   "Des deux côtés de la rue, sur toute sa longueur",
+   "Uniquement sur 15 m autour du panneau",
+   "Du côté droit, à partir du panneau jusqu'au prochain carrefour"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Les signaux E1 et E3 ont effet du côté de la voie publique où ils sont placés, à partir du signal et jusqu'au prochain carrefour, sauf panneau additionnel indiquant autre chose.",
+  "ref": "Art. 70.2.2 AR 01/12/1975",
+  "photo": "514bfffa-6d7c-4bc6-a68d-8bd5aff97454",
+  "focus": "panneau sur la façade à droite"
+ },
+ {
+  "id": "PHJ-006",
+  "theme": "priorite",
+  "q": "Le feu sur l'îlot est vert pour moi. Juste en dessous se trouve un panneau STOP. Dois-je marquer l'arrêt ?",
+  "choices": [
+   "Non, quand les feux fonctionnent, ils rendent sans effet le panneau STOP placé sur la même voie",
+   "Oui, le STOP l'emporte toujours sur le feu",
+   "Oui, mais seulement si un véhicule arrive de droite"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Quand les signaux lumineux fonctionnent, ils rendent sans effet les signaux de priorité (comme B5) placés sur la même voie. Au vert, je peux franchir le signal, en restant attentif.",
+  "ref": "Art. 6.3 et 61.1 AR 01/12/1975",
+  "photo": "241319f5-6ec0-4a88-b4f7-515776c57573",
+  "focus": "feu et panneau STOP sur l'îlot"
+ },
+ {
+  "id": "PHJ-007",
+  "theme": "priorite",
+  "q": "Le feu sur l'îlot, au-dessus du panneau STOP, se met à clignoter à l'orange. Que dois-je faire ?",
+  "choices": [
+   "Passer sans m'arrêter, le feu orange clignotant me donne la priorité",
+   "Respecter le STOP : marquer l'arrêt et céder le passage",
+   "Attendre que le feu repasse au vert"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le feu jaune-orange clignotant ne modifie pas les règles de priorité et ne rend pas le signal de priorité sans effet : le STOP s'applique, il faut s'arrêter et céder le passage.",
+  "ref": "Art. 6.3 et 64.1 AR 01/12/1975",
+  "photo": "241319f5-6ec0-4a88-b4f7-515776c57573",
+  "focus": "feu et panneau STOP sur l'îlot"
+ },
+ {
+  "id": "PHJ-008",
+  "theme": "signalisation",
+  "q": "Le feu à droite est rouge et un panneau triangulaire pointe en bas (cédez le passage) est fixé sous ce feu. Si aucun véhicule n'arrive, puis-je passer ?",
+  "choices": [
+   "Oui, le panneau cédez le passage me permet de passer s'il n'y a personne",
+   "Oui, mais seulement au pas",
+   "Non, je dois m'arrêter : le feu rouge prévaut"
+  ],
+  "answer": 2,
+  "grave": true,
+  "explain": "Quand les feux fonctionnent, ils rendent sans effet les signaux de priorité placés sur la même voie. Le feu rouge interdit de franchir la ligne d'arrêt ou le feu.",
+  "ref": "Art. 6.3 et 61.1 AR 01/12/1975",
+  "photo": "affa70e1-c19b-4a2c-a646-f2243dd85b9e",
+  "focus": "feu et panneau sur le poteau à droite"
+ },
+ {
+  "id": "PHJ-009",
+  "theme": "vitesse",
+  "q": "Je roule en voiture sur cette autoroute. Un panneau rond « 90 » est placé à gauche et un autre à droite. Quelle est ma vitesse maximale ?",
+  "choices": [
+   "90 km/h",
+   "120 km/h",
+   "70 km/h"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal C43 impose une vitesse maximale, ici 90 km/h, même sur autoroute. Il prévaut sur la limite générale de 120 km/h.",
+  "ref": "Art. 6.2 et 68.3 (C43) AR 01/12/1975",
+  "photo": "0efbc9e5-637f-45ae-a2a2-0b193091dd12",
+  "focus": "panneaux « 90 » au fond, à gauche et à droite"
+ },
+ {
+  "id": "PHJ-010",
+  "theme": "autoroute",
+  "q": "Sur cette autoroute, une sortie se sépare sur la droite (zone hachurée). Si je la manque, que dois-je faire ?",
+  "choices": [
+   "Reculer prudemment sur la bande d'arrêt d'urgence",
+   "Continuer jusqu'à la sortie suivante",
+   "M'arrêter et attendre une occasion de traverser la zone hachurée"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Sur autoroute, il est interdit de faire marche arrière, de faire demi-tour et de s'arrêter en dehors des aires prévues. On ne peut pas non plus circuler sur les zones hachurées. Il faut continuer jusqu'à la sortie suivante.",
+  "ref": "Art. 21.4 et 77.4 AR 01/12/1975",
+  "photo": "0efbc9e5-637f-45ae-a2a2-0b193091dd12",
+  "focus": "zone hachurée à droite"
+ },
+ {
+  "id": "PHJ-011",
+  "theme": "autoroute",
+  "q": "Je roule sur la bande du milieu de cette autoroute. Une fois que j'aurai dépassé le camion à ma droite, que dois-je faire ?",
+  "choices": [
+   "Reprendre ma place à droite dès que je peux le faire sans inconvénient, en mettant mon clignotant",
+   "Rester au milieu, c'est la bande la plus sûre",
+   "Passer sur la bande de gauche"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Après un dépassement par la gauche, le conducteur doit reprendre sa place à droite aussitôt qu'il peut le faire sans inconvénient, en l'annonçant avec ses indicateurs de direction. Sur la chaussée, on se tient le plus près possible du bord droit.",
+  "ref": "Art. 16.6 et 9.3.1 AR 01/12/1975",
+  "photo": "a81e11c4-7d5c-4ebc-aff9-6d98fe6f99f8",
+  "focus": "camion à droite"
+ },
+ {
+  "id": "PHJ-012",
+  "theme": "autoroute",
+  "q": "Ma voiture tombe en panne sur cette autoroute et je ne peux l'arrêter que sur la bande d'arrêt d'urgence. À quelle distance minimale derrière la voiture dois-je placer le triangle de danger ?",
+  "choices": [
+   "30 mètres",
+   "50 mètres",
+   "100 mètres"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le triangle de danger se place en deçà du véhicule, à au moins 100 m sur autoroute (30 m sur les voies ordinaires), visible à environ 50 m.",
+  "ref": "Art. 51.1 et 51.2 AR 01/12/1975",
+  "photo": "b94899c4-b958-4726-9380-c0f27fb94746",
+  "focus": "bande d'arrêt d'urgence à droite"
+ },
+ {
+  "id": "PHJ-013",
+  "theme": "autoroute",
+  "q": "En panne sur la bande d'arrêt d'urgence de cette autoroute (panneau SOS à droite), je dois sortir de ma voiture. Qu'est-ce qui est obligatoire ?",
+  "choices": [
+   "Rien de particulier si je reste près de la voiture",
+   "Porter une veste de sécurité rétroréfléchissante dès que je sors",
+   "Allumer seulement mes feux de croisement"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Sur autoroute et route pour automobiles, le conducteur d'un véhicule en panne rangé là où l'arrêt et le stationnement sont interdits doit porter une veste de sécurité rétroréfléchissante dès qu'il sort.",
+  "ref": "Art. 51.4 AR 01/12/1975",
+  "photo": "b94899c4-b958-4726-9380-c0f27fb94746",
+  "focus": "panneau « SOS » à droite"
+ },
+ {
+  "id": "PHJ-014",
+  "theme": "autoroute",
+  "q": "Si la circulation ralentit sur cette autoroute, puis-je rouler sur la bande d'arrêt d'urgence, à droite de la ligne blanche continue, pour remonter la file ?",
+  "choices": [
+   "Oui, si je roule lentement",
+   "Oui, mais seulement pour rejoindre la sortie suivante",
+   "Non, c'est interdit"
+  ],
+  "answer": 2,
+  "grave": true,
+  "explain": "Les conducteurs doivent emprunter la chaussée, dont le bord est marqué par la ligne continue. Remonter une file par la bande d'arrêt d'urgence revient à dépasser par la droite, ce qui est interdit.",
+  "ref": "Art. 9.1.1 et 16.3 AR 01/12/1975",
+  "photo": "f2a6cdb6-07ec-4f36-994a-774a86ae36ab",
+  "focus": "ligne continue à droite"
+ },
+ {
+  "id": "PHJ-015",
+  "theme": "signalisation",
+  "q": "Le panneau rond blanc bordé de rouge (C3), à droite, est complété par un panneau additionnel « 50 m ». Que signifie-t-il ?",
+  "choices": [
+   "L'accès interdit à tout conducteur commence à environ 50 m",
+   "La vitesse est limitée à 50 km/h",
+   "L'accès est interdit aux véhicules de plus de 50 m de long"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Un signal d'interdiction peut être annoncé par un signal identique complété d'un panneau additionnel indiquant la distance approximative à laquelle l'interdiction commence. Le C3 interdit l'accès dans les deux sens à tout conducteur.",
+  "ref": "Art. 68.2 et 68.3 AR 01/12/1975",
+  "photo": "1d55496c-039e-4652-aaf3-8e07bd126614",
+  "focus": "panneau rond à droite avec « 50 m »"
+ },
+ {
+  "id": "PHJ-016",
+  "theme": "autoroute",
+  "q": "Sur cette autoroute, la voiture rouge roule sur la bande de gauche. Si la bande à sa droite est libre devant elle et qu'elle ne dépasse personne, que doit faire son conducteur ?",
+  "choices": [
+   "Rester à gauche, c'est permis sur autoroute",
+   "Se rabattre sur la droite, car on doit se tenir le plus près possible du bord droit",
+   "Accélérer pour libérer la bande"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Tout conducteur doit se tenir le plus près possible du bord droit de la chaussée. Sur autoroute, la bande de gauche sert au dépassement.",
+  "ref": "Art. 9.3.1 et 16.6 AR 01/12/1975",
+  "photo": "1c2e5ed2-5280-4528-9470-41fdba8a2c64",
+  "focus": "voiture rouge à gauche"
+ },
+ {
+  "id": "PHJ-017",
+  "theme": "autoroute",
+  "q": "Plus loin, des balises de chantier ferment une bande de cette autoroute. Si la circulation devient fortement ralentie et que je suis sur la bande qui se termine, quand dois-je passer sur la bande libre ?",
+  "choices": [
+   "Le plus tôt possible, dès que je vois les balises",
+   "Juste devant le rétrécissement, chacun à son tour (tirette)",
+   "Jamais : je dois attendre que la bande soit rouverte"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Quand la circulation est fortement ralentie, les conducteurs de la bande qui prend fin s'intercalent sur la bande libre seulement juste devant le rétrécissement. Ceux de la bande libre doivent les laisser passer tour à tour : c'est la tirette.",
+  "ref": "Art. 12bis AR 01/12/1975",
+  "photo": "6b7dc621-8063-4563-93b5-3c0a0ce9f1ff",
+  "focus": "balises sur la droite"
+ },
+ {
+  "id": "PHJ-018",
+  "theme": "autoroute",
+  "q": "Plus loin, des balises de chantier ferment une bande de cette autoroute. La circulation est fluide et je suis sur la bande qui se termine. Pour passer sur la bande voisine, ai-je la priorité ?",
+  "choices": [
+   "Oui, la bande voisine doit me laisser passer",
+   "Non, changer de bande est une manœuvre : je dois céder le passage",
+   "Oui, si j'ai mis mon clignotant"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Changer de bande est une manœuvre : le conducteur doit céder le passage aux autres usagers. La règle de la tirette ne s'applique que lorsque la circulation est fortement ralentie.",
+  "ref": "Art. 12.4 et 12bis AR 01/12/1975",
+  "photo": "6b7dc621-8063-4563-93b5-3c0a0ce9f1ff",
+  "focus": "balises sur la droite"
+ },
+ {
+  "id": "PHJ-019",
+  "theme": "autoroute",
+  "q": "Je roule sur la bande de gauche de cette autoroute, le long du terre-plein central. Je me rends compte que je vais dans la mauvaise direction. Puis-je faire demi-tour par un passage dans le terre-plein central ?",
+  "choices": [
+   "Non, il est interdit de faire demi-tour et d'emprunter les raccordements transversaux sur autoroute",
+   "Oui, si aucune voiture n'arrive",
+   "Oui, avec mes feux de détresse allumés"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Sur autoroute, il est interdit de faire demi-tour, de faire marche arrière et d'emprunter les raccordements transversaux. Il faut sortir à la prochaine sortie.",
+  "ref": "Art. 21.4 AR 01/12/1975",
+  "photo": "dbb3f112-bab7-4f43-8694-6e38d3c060af",
+  "focus": "terre-plein central à gauche"
+ },
+ {
+  "id": "PHJ-020",
+  "theme": "usagers",
+  "q": "Sur cette route de campagne étroite, sans marquage au sol, où dois-je circuler avec ma voiture ?",
+  "choices": [
+   "Au milieu, pour mieux voir dans le virage",
+   "Le plus près possible du bord droit de la chaussée",
+   "Où je veux, puisqu'il n'y a pas de marquage"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Tout conducteur circulant sur la chaussée doit se tenir le plus près possible du bord droit, surtout dans un virage où la visibilité est réduite.",
+  "ref": "Art. 9.3.1 AR 01/12/1975",
+  "photo": "262b110d-77f4-4774-9a7e-9c8574622d27",
+  "focus": "route étroite dans le virage"
+ }
+]
