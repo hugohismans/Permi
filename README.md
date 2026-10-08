@@ -2,6 +2,7 @@
 
 Petite web app gratuite et hors ligne pour réviser le **code de la route belge** :
 
+- **Cours** : un cours par thème (sections courtes, panneaux, astuces, « À retenir »), puis « Tester ce chapitre ».
 - **Examen blanc** : 50 questions avec le barème de l'examen (une erreur = −1, une faute grave = −5, réussite à 41/50).
 - **Vrai ou Faux** : une question et une réponse proposée ; swipe à droite si c'est vrai, à gauche si c'est faux.
 - **Défi chrono** : un maximum de Vrai/Faux en 60 secondes, pour battre ton record.

@@ -101,7 +101,7 @@
   "photo": "c485a029-cddd-4ccc-98cc-a0119a86177d",
   "q": "Le feu au-dessus de ma bande est rouge. Je veux tourner à droite et personne ne semble venir. Aucune flèche verte n'est allumée. Puis-je tourner ?",
   "choices": [
-   "Non, je dois rester à l'arrêt avant la ligne d'arrêt tant que le feu est rouge",
+   "Non, je dois rester à l'arrêt tant que le feu est rouge",
    "Oui, après un arrêt complet, si la voie est libre",
    "Oui, car le feu rouge ne concerne que ceux qui vont tout droit"
   ],
@@ -197,7 +197,7 @@
   "photo": "09583fdd-4ca5-42ef-a8cb-b8939de760a8",
   "q": "Dans cette zone bleue, j'arrive à 10 h 10. Sur quelle position dois-je placer la flèche de mon disque de stationnement ?",
   "choices": [
-   "Sur le trait qui suit l'heure de mon arrivée (10 h 30)",
+   "Sur le trait qui suit celui du moment de mon arrivée",
    "Sur l'heure à laquelle je compte repartir",
    "Sur 10 h 00, l'heure pleine précédant mon arrivée"
   ],
@@ -257,35 +257,19 @@
  },
  {
   "id": "PHL-017",
-  "theme": "stationnement",
+  "theme": "priorite",
   "photo": "b135ed9c-3ced-44f7-ac92-6170bd0eb455",
-  "q": "Le panneau carré bleu à droite (flèche blanche vers le haut) indique que la rue dans laquelle je m'engage est à sens unique. De quel côté puis-je y stationner (sans autre signal) ?",
+  "q": "Avant ce pont, le panneau carré bleu à droite montre une grande flèche blanche vers le haut et une flèche rouge vers le bas. Que signifie-t-il ?",
   "choices": [
-   "Uniquement à droite",
-   "D'un côté ou de l'autre",
-   "Uniquement à gauche"
+   "Je dois céder le passage aux conducteurs venant en sens inverse",
+   "J'ai la priorité de passage par rapport aux conducteurs venant en sens inverse",
+   "La rue est à sens unique"
   ],
   "answer": 1,
   "grave": false,
-  "explain": "Un véhicule à l'arrêt ou en stationnement doit en principe être rangé à droite, mais si la chaussée est à sens unique, il peut être rangé de l'un ou de l'autre côté.",
-  "ref": "Art. 23.1, 1° AR 01/12/1975",
-  "focus": "panneau carré bleu à droite"
- },
- {
-  "id": "PHL-018",
-  "theme": "priorite",
-  "photo": "b135ed9c-3ced-44f7-ac92-6170bd0eb455",
-  "q": "Dans cette rue à sens unique (panneau carré bleu à flèche blanche à droite), je veux tourner à gauche au prochain carrefour. Comment dois-je me placer ?",
-  "choices": [
-   "Serrer le plus possible le bord droit de la chaussée",
-   "Rester au milieu de la chaussée",
-   "Serrer le plus possible le bord gauche de la chaussée"
-  ],
-  "answer": 2,
-  "grave": false,
-  "explain": "Le conducteur qui tourne à gauche doit, sur une chaussée à sens unique, serrer le plus possible le bord gauche de celle-ci, après avoir mis son clignotant gauche suffisamment à temps.",
-  "ref": "Art. 19.3, 1° et 2° b) AR 01/12/1975",
-  "focus": "panneau carré bleu à droite"
+  "explain": "C'est le signal B21 (passage étroit) : j'ai la priorité de passage par rapport aux conducteurs venant en sens opposé. Ne le confonds pas avec F19 (sens unique), qui ne montre qu'une flèche blanche, ni avec B19, qui m'oblige à céder le passage.",
+  "ref": "Art. 67.3 (B21) AR 01/12/1975",
+  "focus": "panneau carré bleu à droite (flèche rouge à gauche)"
  },
  {
   "id": "PHL-019",
@@ -307,7 +291,7 @@
   "id": "PHL-020",
   "theme": "stationnement",
   "photo": "de658213-976f-4720-9ca8-e7a3ad6421f6",
-  "q": "Le panneau rond bleu bordé de rouge, barré d'une seule diagonale, est placé sur le trottoir de droite, sans panneau additionnel. Où le stationnement est-il interdit ?",
+  "q": "Le panneau rond bleu bordé de rouge, barré d'une seule diagonale, est placé sur le trottoir de droite. Si aucun panneau additionnel ne précise autre chose, où le stationnement est-il interdit ?",
   "choices": [
    "Des deux côtés de la rue, sur 100 mètres",
    "Uniquement juste à hauteur du panneau",

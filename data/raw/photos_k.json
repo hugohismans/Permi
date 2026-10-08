@@ -83,7 +83,7 @@
   "id": "PHK-006",
   "theme": "usagers",
   "photo": "b812cc72-22e1-4831-b3c8-d2c954858c84",
-  "q": "Je roule en agglomération derrière ces deux cyclistes. Une fois le carrefour franchi, je veux les dépasser. Quelle distance latérale minimale dois-je laisser entre ma voiture et un cycliste ?",
+  "q": "Je roule derrière ces deux cyclistes. Une fois le carrefour franchi, je veux les dépasser. Si je suis en agglomération, quelle distance latérale minimale dois-je laisser entre ma voiture et un cycliste ?",
   "choices": [
    "1 mètre",
    "50 centimètres",
@@ -115,7 +115,7 @@
   "id": "PHK-008",
   "theme": "priorite",
   "photo": "f200da77-578b-4f54-94b6-7c392eeebab6",
-  "q": "Le feu à droite, au bout du passage pour piétons, est vert pour moi. Si la file de voitures était arrêtée juste après le carrefour, de sorte que je risque d'y rester bloqué, pourrais-je m'y engager ?",
+  "q": "Le feu à droite, après le passage pour piétons, est vert pour moi. Si la file de voitures était arrêtée juste après le carrefour, de sorte que je risque d'y rester bloqué, pourrais-je m'y engager ?",
   "choices": [
    "Oui, le feu vert m'autorise à passer",
    "Oui, à condition d'allumer mes feux de détresse",
@@ -147,7 +147,7 @@
   "id": "PHK-010",
   "theme": "stationnement",
   "photo": "094d3ec0-163f-4099-8fdb-0cce82f6ac55",
-  "q": "Un panneau rond bleu bordé de rouge et barré (interdiction de stationnement) est placé sur le trottoir de gauche. Où s'applique cette interdiction ?",
+  "q": "Un panneau rond bleu bordé de rouge et barré (interdiction de stationnement ou d'arrêt) est placé sur le trottoir de gauche. Sauf panneau additionnel, où s'applique cette interdiction ?",
   "choices": [
    "Des deux côtés de la rue, sur toute sa longueur",
    "Uniquement sur le trottoir",
@@ -195,7 +195,7 @@
   "id": "PHK-013",
   "theme": "usagers",
   "photo": "aef5f971-abbd-4b2d-92a2-e46c58d3d49d",
-  "q": "Un piéton est engagé sur ce passage pour piétons, qui n'est réglé ni par des feux ni par un agent. Que dois-je faire en arrivant ?",
+  "q": "Un piéton est engagé sur ce passage pour piétons. Si ce passage n'est réglé ni par des feux ni par un agent, que dois-je faire en arrivant ?",
   "choices": [
    "Klaxonner et passer derrière lui",
    "Continuer : il doit attendre que la voie soit libre",
@@ -291,7 +291,7 @@
   "id": "PHK-019",
   "theme": "usagers",
   "photo": "d0fd80e9-9862-445d-8769-246ce58986cd",
-  "q": "Je roule en agglomération dans le même sens que ce bus arrêté à droite. S'il actionne ses clignotants pour quitter son arrêt, que dois-je faire ?",
+  "q": "Je roule en agglomération dans le même sens que ce bus, à droite. S'il est arrêté à son point d'arrêt et actionne ses clignotants pour le quitter, que dois-je faire ?",
   "choices": [
    "Accélérer pour passer avant lui",
    "Le laisser quitter son arrêt en ralentissant et, au besoin, en m'arrêtant",
