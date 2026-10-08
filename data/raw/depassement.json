@@ -1,0 +1,579 @@
+[
+  {
+    "id": "DEP-001",
+    "theme": "depassement",
+    "q": "Je circule sur une chaussée à deux sens, sans marquage au sol. Où dois-je me placer ?",
+    "choices": [
+      "Le plus près possible du bord droit de la chaussée",
+      "Au milieu de ma moitié de chaussée",
+      "Où je veux, s'il n'y a personne en face"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Sur la chaussée, tout conducteur doit se tenir le plus près possible du bord droit, sauf sur les places ou pour suivre les signaux F13/F15.",
+    "ref": "Art. 9.3.1 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-002",
+    "theme": "depassement",
+    "q": "Dans l'anneau d'un rond-point, suis-je obligé de rouler le plus près possible du bord droit ?",
+    "choices": [
+      "Oui, comme partout ailleurs",
+      "Non, mais je dois respecter les marques délimitant les bandes s'il y en a"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "D5",
+    "explain": "Dans l'anneau d'un rond-point, on n'est pas tenu de serrer le bord droit (sauf partie réservée). S'il y a des bandes marquées, on les respecte et on prend celle qui convient le mieux à sa destination.",
+    "ref": "Art. 9.3.1 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-003",
+    "theme": "depassement",
+    "q": "La voie publique comporte deux chaussées nettement séparées par un terre-plein central. Puis-je emprunter la chaussée de gauche par rapport à mon sens de marche ?",
+    "choices": [
+      "Oui, pour dépasser",
+      "Non, sauf réglementation locale",
+      "Oui, si elle est libre"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Quand la voie publique comporte deux ou trois chaussées nettement séparées, il est interdit d'emprunter la chaussée de gauche (sauf réglementation locale) : on roulerait à contresens.",
+    "ref": "Art. 9.2 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-004",
+    "theme": "depassement",
+    "q": "Bouchon sur une autoroute à trois bandes. Je suis sur la bande du milieu. Pour former le couloir de secours, je dois :",
+    "choices": [
+      "Passer sur la bande d'arrêt d'urgence",
+      "Serrer à gauche",
+      "Serrer à droite"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F5",
+    "explain": "Avec plus de deux bandes, seule la bande de gauche serre à gauche ; toutes les autres serrent à droite. Le couloir de secours se forme à côté de la bande de gauche.",
+    "ref": "Art. 9.8 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-005",
+    "theme": "depassement",
+    "q": "Sur l'autoroute, la circulation est presque à l'arrêt. Puis-je rouler sur la bande d'arrêt d'urgence pour avancer jusqu'à la prochaine sortie ?",
+    "choices": [
+      "Non",
+      "Oui, à vitesse réduite",
+      "Oui, si je mets mes feux de détresse"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "F5",
+    "explain": "Il est interdit de circuler sur la bande d'arrêt d'urgence, sauf pour les véhicules prioritaires en mission urgente, les services requis par la police et les dépanneuses dans certaines conditions.",
+    "ref": "Art. 9.7 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-006",
+    "theme": "depassement",
+    "q": "Sur une route étroite, un camion arrive en sens inverse. Que dois-je faire pour le croiser ?",
+    "choices": [
+      "Croiser par la gauche",
+      "Laisser une distance latérale suffisante et, au besoin, serrer à droite",
+      "Me placer au milieu pour qu'il me voie"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le croisement s'effectue à droite. Il faut laisser une distance latérale suffisante et serrer à droite si nécessaire ; si la chaussée est trop étroite, on peut utiliser l'accotement de plain-pied sans mettre en danger ceux qui s'y trouvent.",
+    "ref": "Art. 15.1, 15.2 et 15.3 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-007",
+    "theme": "depassement",
+    "q": "Une camionnette est en stationnement sur ma moitié de chaussée. Une voiture arrive en face. Qui doit laisser passer l'autre ?",
+    "choices": [
+      "Celui qui arrive le premier à hauteur de l'obstacle",
+      "La voiture qui arrive en face, car elle a de la place",
+      "Moi : je dois ralentir et, au besoin, m'arrêter"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le conducteur dont la progression est entravée par un obstacle doit ralentir et au besoin s'arrêter pour laisser passer les usagers venant en sens inverse.",
+    "ref": "Art. 15.2 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-008",
+    "theme": "depassement",
+    "q": "La voiture devant moi a enclenché son clignoteur gauche et s'est portée vers la gauche pour tourner à gauche. Comment puis-je la dépasser ?",
+    "choices": [
+      "Par la droite",
+      "Je ne peux pas la dépasser",
+      "Par la gauche"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le dépassement se fait en principe à gauche, mais il se fait à droite lorsque le conducteur à dépasser a annoncé son intention de tourner à gauche et s'est porté à gauche.",
+    "ref": "Art. 16.3 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-009",
+    "theme": "depassement",
+    "q": "Sur une route à deux sens, la voiture devant moi roule lentement au milieu de sa bande, sans clignoteur. Puis-je la dépasser par la droite en utilisant l'accotement ?",
+    "choices": [
+      "Oui, si je roule lentement",
+      "Non, le dépassement s'effectue à gauche",
+      "Oui, si l'accotement est de plain-pied"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le dépassement s'effectue à gauche. Le dépassement par la droite n'est permis que si le conducteur à dépasser a annoncé qu'il tournait (ou se rangeait) à gauche et s'est porté à gauche.",
+    "ref": "Art. 16.3 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-010",
+    "theme": "depassement",
+    "q": "Je veux dépasser un camion. Dans mon rétroviseur, je vois que la voiture qui me suit a déjà commencé à me dépasser. Que dois-je faire ?",
+    "choices": [
+      "Mettre mon clignoteur gauche pour qu'elle me laisse passer",
+      "Déboîter rapidement avant elle",
+      "Attendre qu'elle ait terminé son dépassement"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Avant de dépasser, il faut s'assurer notamment qu'aucun conducteur qui suit n'a commencé un dépassement, que la voie est libre sur une distance suffisante et qu'on pourra reprendre sa place à droite sans gêner.",
+    "ref": "Art. 16.4 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-011",
+    "theme": "depassement",
+    "q": "Je viens de dépasser une voiture sur une route à deux sens. Quand dois-je reprendre ma place à droite ?",
+    "choices": [
+      "Dès que je peux le faire sans inconvénient, en mettant mon clignoteur droit",
+      "Seulement quand une voiture arrive en face",
+      "Quand je veux, la bande de gauche est libre"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Après un dépassement par la gauche, il faut reprendre sa place à droite aussitôt qu'on peut le faire sans inconvénient, après l'avoir annoncé avec les feux indicateurs de direction.",
+    "ref": "Art. 16.6 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-012",
+    "theme": "depassement",
+    "q": "Sur l'autoroute, je viens de dépasser un camion et je veux aussitôt en dépasser un second, juste devant lui. Suis-je obligé de revenir d'abord sur la bande de droite ?",
+    "choices": [
+      "Oui, toujours",
+      "Non, je peux rester à gauche pour effectuer aussitôt ce nouveau dépassement"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F5",
+    "explain": "Sur les chaussées à sens unique (c'est le cas d'une chaussée d'autoroute), on n'est pas tenu de reprendre sa place à droite si on veut effectuer aussitôt un nouveau dépassement.",
+    "ref": "Art. 16.6 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-013",
+    "theme": "depassement",
+    "q": "Une voiture me dépasse par la gauche. Que dois-je faire ?",
+    "choices": [
+      "Accélérer pour qu'elle termine plus vite",
+      "Serrer à droite le plus possible et ne pas accélérer",
+      "Freiner brusquement"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le conducteur qui va être dépassé par la gauche doit serrer à droite le plus possible et ne peut pas accélérer.",
+    "ref": "Art. 16.7 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-014",
+    "theme": "depassement",
+    "q": "J'approche du sommet d'une côte, la visibilité est insuffisante. Une ligne discontinue sépare les deux sens. Puis-je dépasser la voiture qui me précède ?",
+    "choices": [
+      "Oui, si je klaxonne",
+      "Oui, puisque la ligne est discontinue",
+      "Non"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Le dépassement par la gauche est interdit à l'approche du sommet d'une côte et dans les virages lorsque la visibilité est insuffisante, sauf s'il peut se faire sans franchir la ligne continue séparant les deux sens.",
+    "ref": "Art. 17.2.3° AR 01/12/1975"
+  },
+  {
+    "id": "DEP-015",
+    "theme": "depassement",
+    "q": "J'approche d'un carrefour où la priorité de droite s'applique. Puis-je y dépasser la voiture qui me précède ?",
+    "choices": [
+      "Oui, si personne ne vient de droite",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": true,
+    "sign": "B17",
+    "explain": "Le dépassement par la gauche d'un véhicule à plus de deux roues, d'un deux-roues motorisé ou d'un véhicule attelé est interdit dans les carrefours où la priorité de droite est applicable.",
+    "ref": "Art. 17.2.2° AR 01/12/1975"
+  },
+  {
+    "id": "DEP-016",
+    "theme": "depassement",
+    "q": "Je circule sur une route prioritaire (signal B9). À l'approche d'un carrefour, la visibilité est bonne, la ligne est discontinue et aucun signal n'interdit le dépassement. Le carrefour, à lui seul, m'interdit-il de dépasser une voiture ?",
+    "choices": [
+      "Oui, on ne dépasse jamais dans un carrefour",
+      "Non, l'interdiction vise les conducteurs qui doivent céder le passage"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "B9",
+    "explain": "Dans les carrefours, le dépassement est interdit là où la priorité de droite s'applique et, dans les autres carrefours, pour les conducteurs qui doivent céder le passage. Sur la route prioritaire, le carrefour n'interdit pas à lui seul le dépassement, qui doit toutefois se faire sans danger.",
+    "ref": "Art. 17.2.2° AR 01/12/1975"
+  },
+  {
+    "id": "DEP-017",
+    "theme": "depassement",
+    "q": "Je vais déboucher d'une route munie d'un signal « cédez le passage » sur une autre route. Puis-je dépasser la voiture devant moi dans le carrefour ?",
+    "choices": [
+      "Non",
+      "Oui, si je la dépasse rapidement"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "B1",
+    "explain": "Dans les carrefours autres que ceux à priorité de droite, le dépassement est interdit aux conducteurs qui doivent céder le passage (signal B1 ou B5, chemin de terre).",
+    "ref": "Art. 17.2.2° AR 01/12/1975"
+  },
+  {
+    "id": "DEP-018",
+    "theme": "depassement",
+    "q": "Dans un carrefour à priorité de droite, un cycliste roule devant moi. L'interdiction de dépasser dans ce carrefour s'applique-t-elle à ce cycliste ?",
+    "choices": [
+      "Non, elle ne vise pas les bicyclettes ; je dois cependant dépasser sans danger et à au moins 1 m",
+      "Oui, comme pour une voiture"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "B17",
+    "explain": "L'interdiction de l'art. 17.2 vise les véhicules attelés, les véhicules à moteur à deux roues et les véhicules à plus de deux roues. Elle ne vise donc pas la bicyclette, mais le dépassement doit rester sans danger et respecter la distance latérale.",
+    "ref": "Art. 17.2 et 40ter AR 01/12/1975"
+  },
+  {
+    "id": "DEP-019",
+    "theme": "depassement",
+    "q": "La voiture devant moi ralentit à l'approche d'un passage pour piétons (sans feux ni agent). Puis-je la dépasser ?",
+    "choices": [
+      "Non",
+      "Oui, si je ne vois pas de piéton",
+      "Oui, en klaxonnant"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Il est interdit de dépasser un véhicule qui s'approche ou s'arrête devant un passage pour piétons (ou pour cyclistes) là où la circulation n'est pas réglée par un agent ou des feux : il peut cacher un piéton.",
+    "ref": "Art. 17.2.5° AR 01/12/1975"
+  },
+  {
+    "id": "DEP-020",
+    "theme": "depassement",
+    "q": "J'approche d'un passage à niveau sans barrières ni feux, annoncé par une croix de Saint-André (A45). Puis-je dépasser la voiture qui me précède ?",
+    "choices": [
+      "Non",
+      "Oui, si aucun train n'est visible"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Le dépassement est interdit sur un passage à niveau signalé par A45 ou A47, sauf s'il est muni de barrières ou réglé par des signaux lumineux.",
+    "ref": "Art. 17.2.1° AR 01/12/1975"
+  },
+  {
+    "id": "DEP-021",
+    "theme": "depassement",
+    "q": "Sur une route à une bande par sens, la voiture devant moi est elle-même en train de dépasser une camionnette. Puis-je la dépasser en même temps ?",
+    "choices": [
+      "Non",
+      "Oui, si la voie est libre"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Il est interdit de dépasser un conducteur qui dépasse lui-même un véhicule autre qu'un vélo, un cyclomoteur à deux roues ou une moto à deux roues, sauf s'il y a au moins trois bandes dans le sens suivi.",
+    "ref": "Art. 17.2.4° AR 01/12/1975"
+  },
+  {
+    "id": "DEP-022",
+    "theme": "depassement",
+    "q": "Je viens de passer ce signal. Une voiture lente roule devant moi. Puis-je la dépasser par la gauche ?",
+    "choices": [
+      "Non",
+      "Oui, si la visibilité est bonne"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "C35",
+    "explain": "Le signal C35 interdit de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues, à partir du signal jusqu'au prochain carrefour inclus.",
+    "ref": "Art. 68 (signal C35) AR 01/12/1975"
+  },
+  {
+    "id": "DEP-023",
+    "theme": "depassement",
+    "q": "Après ce signal, un cycliste roule devant moi. Le signal m'interdit-il de le dépasser ?",
+    "choices": [
+      "Non, le C35 ne vise que les véhicules attelés et les véhicules à plus de deux roues",
+      "Oui, il interdit tout dépassement"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "C35",
+    "explain": "Le C35 interdit seulement le dépassement par la gauche d'un véhicule attelé ou d'un véhicule à plus de deux roues. Un vélo peut être dépassé, à condition de le faire sans danger et en laissant la distance latérale minimale.",
+    "ref": "Art. 68 (signal C35) AR 01/12/1975"
+  },
+  {
+    "id": "DEP-024",
+    "theme": "depassement",
+    "q": "Jusqu'où vaut l'interdiction imposée par ce signal (sauf signal de fin C37 placé avant) ?",
+    "choices": [
+      "Sur 1 km",
+      "Jusqu'au prochain carrefour inclus",
+      "Jusqu'à la sortie de l'agglomération"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "C35",
+    "explain": "L'interdiction du C35 vaut à partir du signal jusqu'au prochain carrefour inclus. Le signal C37 indique la fin de l'interdiction.",
+    "ref": "Art. 68 (signaux C35 et C37) AR 01/12/1975"
+  },
+  {
+    "id": "DEP-025",
+    "theme": "depassement",
+    "q": "En agglomération, je dépasse un cycliste. Quelle distance latérale minimale dois-je laisser ?",
+    "choices": [
+      "2 mètres",
+      "50 cm",
+      "1 mètre"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le conducteur d'un véhicule automobile doit laisser une distance latérale d'au moins un mètre entre son véhicule et le cycliste ou le cyclomotoriste à deux roues ; hors agglomération, au moins 1,5 m.",
+    "ref": "Art. 40ter AR 01/12/1975"
+  },
+  {
+    "id": "DEP-026",
+    "theme": "depassement",
+    "q": "Hors agglomération, je dépasse un cycliste. Quelle distance latérale minimale dois-je laisser ?",
+    "choices": [
+      "1,5 mètre",
+      "2 mètres",
+      "1 mètre"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "En dehors des agglomérations, la distance latérale entre le véhicule et le cycliste doit être d'au moins un mètre et demi.",
+    "ref": "Art. 40ter AR 01/12/1975"
+  },
+  {
+    "id": "DEP-027",
+    "theme": "depassement",
+    "q": "Hors agglomération, sur une route étroite avec une ligne continue au milieu, je suis derrière un cycliste. Je ne peux pas laisser 1,5 m sans franchir la ligne. Que dois-je faire ?",
+    "choices": [
+      "Franchir la ligne continue, puisqu'il s'agit d'un vélo",
+      "Rester derrière lui jusqu'à ce que je puisse le dépasser correctement",
+      "Le dépasser en le frôlant pour ne pas toucher la ligne"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Il est interdit de franchir une ligne continue, et hors agglomération il faut laisser au moins 1,5 m en dépassant un cycliste. Si les deux ne sont pas possibles en même temps, on reste derrière.",
+    "ref": "Art. 72.2 et 40ter AR 01/12/1975"
+  },
+  {
+    "id": "DEP-028",
+    "theme": "depassement",
+    "q": "Une ligne continue et une ligne discontinue sont juxtaposées au milieu de la chaussée ; la ligne discontinue est de mon côté. Puis-je les franchir pour dépasser ?",
+    "choices": [
+      "Oui, je ne dois tenir compte que de la ligne de mon côté",
+      "Non, la ligne continue l'interdit"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Lorsqu'une ligne continue et une ligne discontinue sont juxtaposées, on ne tient compte que de la ligne qui se trouve de son côté.",
+    "ref": "Art. 72.4 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-029",
+    "theme": "depassement",
+    "q": "Je veux tourner à droite pour quitter la chaussée. Que dois-je faire ?",
+    "choices": [
+      "Tourner sans clignoteur s'il n'y a personne derrière moi",
+      "Mettre mon clignoteur droit à temps et serrer le plus possible le bord droit",
+      "Me déporter d'abord vers la gauche pour prendre de l'élan"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Pour tourner à droite : annoncer à temps avec le clignoteur droit, serrer le plus possible le bord droit, tourner à allure modérée et faire le mouvement aussi court que possible.",
+    "ref": "Art. 19.2 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-030",
+    "theme": "depassement",
+    "q": "Je tourne à droite et une piste cyclable longe la chaussée que je quitte. Un cycliste arrive tout droit sur cette piste. Que dois-je faire ?",
+    "choices": [
+      "Passer avant lui, je suis sur la chaussée",
+      "Lui céder le passage"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le conducteur qui change de direction doit céder le passage aux conducteurs et piétons qui circulent sur les autres parties de la même voie publique, notamment les cyclistes sur la piste cyclable.",
+    "ref": "Art. 19.4 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-031",
+    "theme": "depassement",
+    "q": "Je tourne dans une rue. Un piéton traverse cette rue dans laquelle je m'engage. Que dois-je faire ?",
+    "choices": [
+      "Klaxonner et passer",
+      "Passer, car il n'est pas sur un passage pour piétons",
+      "Lui céder le passage"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Le conducteur qui change de direction doit céder le passage aux piétons qui traversent la chaussée sur laquelle il va s'engager.",
+    "ref": "Art. 19.5 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-032",
+    "theme": "depassement",
+    "q": "Sur une chaussée à deux sens, je veux tourner à gauche. Que dois-je faire ?",
+    "choices": [
+      "Me porter vers la gauche sans gêner ceux d'en face et leur céder le passage",
+      "Tourner directement depuis le bord droit",
+      "Passer avant ceux d'en face si j'ai mis mon clignoteur à temps"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Pour tourner à gauche sur une chaussée à deux sens : clignoteur gauche à temps, se porter vers la gauche sans gêner le sens inverse, céder le passage aux conducteurs venant en sens inverse, allure modérée.",
+    "ref": "Art. 19.3 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-033",
+    "theme": "depassement",
+    "q": "Je circule sur une chaussée à sens unique et je veux tourner à gauche. Où dois-je me placer ?",
+    "choices": [
+      "Le plus possible contre le bord droit",
+      "Le plus possible contre le bord gauche",
+      "Au milieu de la chaussée"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F19",
+    "explain": "Sur une chaussée à sens unique, le conducteur qui tourne à gauche doit serrer le plus possible le bord gauche de celle-ci.",
+    "ref": "Art. 19.3.2°b AR 01/12/1975"
+  },
+  {
+    "id": "DEP-034",
+    "theme": "depassement",
+    "q": "Pour entrer dans un rond-point, l'usage du clignoteur est-il obligatoire ? Et pour en sortir ?",
+    "choices": [
+      "Obligatoire pour entrer, pas pour sortir",
+      "Obligatoire pour entrer et pour sortir",
+      "Pas obligatoire pour entrer, obligatoire pour sortir"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "D5",
+    "explain": "Entrer dans un rond-point est un changement de direction n'impliquant pas l'usage des indicateurs ; en sortir est un changement de direction impliquant leur usage.",
+    "ref": "Art. 19.2 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-035",
+    "theme": "depassement",
+    "q": "La circulation s'effectue en plusieurs files. Je suis dans la file de gauche et je veux tourner à droite au prochain carrefour. Puis-je tourner à droite depuis cette file ?",
+    "choices": [
+      "Oui, avec mon clignoteur",
+      "Non, je ne peux tourner à droite que depuis la file de droite"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Quand la circulation se fait en bandes ou en files (art. 9.4 et 9.5), on ne peut tourner à droite que depuis la bande ou la file de droite, et à gauche que depuis celle de gauche.",
+    "ref": "Art. 19.6 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-036",
+    "theme": "depassement",
+    "q": "Je fais marche arrière pour sortir d'une allée. Un cycliste arrive sur la chaussée. Qui a la priorité ?",
+    "choices": [
+      "Le cycliste : je fais une manœuvre et je dois céder le passage",
+      "Moi, car j'ai commencé ma manœuvre",
+      "Celui qui vient de droite"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Effectuer une marche arrière, un demi-tour ou sortir d'une propriété riveraine sont des manœuvres. Le conducteur qui manœuvre doit céder le passage aux autres usagers.",
+    "ref": "Art. 12.4 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-037",
+    "theme": "depassement",
+    "q": "Sur l'autoroute, j'ai manqué ma sortie. Puis-je faire marche arrière sur la bande d'arrêt d'urgence ?",
+    "choices": [
+      "Oui, si je mets mes feux de détresse",
+      "Non, c'est interdit",
+      "Oui, si la circulation est fluide"
+    ],
+    "answer": 1,
+    "grave": true,
+    "sign": "F5",
+    "explain": "Sur l'autoroute, il est interdit de faire demi-tour, de faire marche arrière ou de rouler en sens contraire. Il faut continuer jusqu'à la sortie suivante.",
+    "ref": "Art. 21.4 et 9.7 AR 01/12/1975"
+  },
+  {
+    "id": "DEP-038",
+    "theme": "depassement",
+    "q": "Je vois ce signal. Jusqu'où m'est-il interdit de faire demi-tour ?",
+    "choices": [
+      "Sur 100 mètres",
+      "Jusqu'au prochain carrefour, mais il est permis dans le carrefour",
+      "Jusqu'au prochain carrefour inclus"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "C33",
+    "explain": "Le signal C33 interdit le demi-tour à partir du signal jusqu'au prochain carrefour inclus.",
+    "ref": "Art. 68 (signal C33) AR 01/12/1975"
+  },
+  {
+    "id": "DEP-039",
+    "theme": "depassement",
+    "q": "La circulation est fortement ralentie et ma bande se termine plus loin. Où dois-je m'intercaler sur la bande voisine ?",
+    "choices": [
+      "Juste devant le rétrécissement",
+      "N'importe où, dès qu'il y a un trou",
+      "Dès que je vois le panneau annonçant le rétrécissement"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "A7a",
+    "explain": "Principe de la tirette : quand la circulation est fortement ralentie, les conducteurs dont la bande prend fin s'intercalent sur la bande libre seulement juste devant le rétrécissement.",
+    "ref": "Art. 12bis AR 01/12/1975"
+  },
+  {
+    "id": "DEP-040",
+    "theme": "depassement",
+    "q": "Bouchon : je roule sur la bande qui continue, une bande voisine se termine juste devant. Que dois-je faire au rétrécissement ?",
+    "choices": [
+      "Laisser passer tous les véhicules de l'autre bande",
+      "Laisser passer un conducteur de l'autre bande, tour à tour",
+      "Ne laisser passer personne : je suis sur la bande qui continue"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "A7a",
+    "explain": "Les conducteurs qui circulent sur la bande libre doivent céder tour à tour, juste devant le rétrécissement, la priorité à un conducteur qui s'intercale (fermeture éclair).",
+    "ref": "Art. 12bis AR 01/12/1975"
+  },
+  {
+    "id": "DEP-041",
+    "theme": "depassement",
+    "q": "La circulation est fluide (pas de ralentissement) et ma bande se termine. Je veux me placer sur la bande voisine. Qui doit céder le passage ?",
+    "choices": [
+      "Les conducteurs de la bande voisine, selon la tirette",
+      "Moi, car changer de bande est une manœuvre"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "La tirette ne s'applique que lorsque la circulation est fortement ralentie. Sinon, changer de bande est une manœuvre et le conducteur qui manœuvre doit céder le passage aux autres usagers.",
+    "ref": "Art. 12bis et 12.4 AR 01/12/1975"
+  }
+]

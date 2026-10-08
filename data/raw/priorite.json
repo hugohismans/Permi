@@ -1,0 +1,558 @@
+[
+  {
+    "id": "PRI-001",
+    "theme": "priorite",
+    "q": "J'arrive à un carrefour sans aucune signalisation. Une voiture arrive par ma droite. Que dois-je faire ?",
+    "choices": [
+      "Je passe, car je circule sur la route la plus large",
+      "Je lui cède le passage",
+      "Je passe si je roule plus vite qu'elle"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "En l'absence de signalisation, la règle générale est la priorité de droite : je dois céder le passage au conducteur qui vient de ma droite, quelle que soit la largeur de la route.",
+    "ref": "Art. 12.3.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-002",
+    "theme": "priorite",
+    "q": "À un carrefour sans signalisation, une voiture arrive par ma gauche et je continue tout droit. Qui a la priorité ?",
+    "choices": [
+      "Moi, car elle vient de ma gauche",
+      "Elle, car elle est arrivée la première"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "La priorité de droite joue en ma faveur : c'est le conducteur venant de gauche qui doit me céder le passage. Je reste toutefois prudent en abordant le carrefour.",
+    "ref": "Art. 12.2 et 12.3.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-003",
+    "theme": "priorite",
+    "q": "Je circule dans une rue à double sens. À un carrefour sans signalisation, une voiture débouche de ma droite… en sortant d'une rue à sens unique qu'elle a empruntée à contresens. Dois-je lui céder le passage ?",
+    "choices": [
+      "Non, celui qui vient d'un sens interdit ne bénéficie pas de la priorité de droite",
+      "Oui, la priorité de droite s'applique toujours"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "La priorité de droite ne s'applique pas au conducteur qui vient d'un sens interdit. Je reste néanmoins prudent pour éviter l'accident.",
+    "ref": "Art. 12.3.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-004",
+    "theme": "priorite",
+    "q": "Je sors d'un chemin de terre pour m'engager sur une route asphaltée. Une voiture arrive par ma gauche sur cette route. Que dois-je faire ?",
+    "choices": [
+      "Passer, car elle vient de ma gauche",
+      "Klaxonner pour signaler ma présence et passer",
+      "Lui céder le passage"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Le conducteur qui débouche d'un chemin de terre ou d'un sentier sur une voie publique pourvue d'une chaussée doit céder le passage à tous les conducteurs, qu'ils viennent de droite ou de gauche.",
+    "ref": "Art. 12.3.1, al. 2, b) AR 01/12/1975"
+  },
+  {
+    "id": "PRI-005",
+    "theme": "priorite",
+    "q": "Je quitte une place de stationnement le long du trottoir. Un cycliste arrive derrière moi sur la chaussée. Qui doit céder le passage ?",
+    "choices": [
+      "Moi, car quitter un emplacement de stationnement est une manœuvre",
+      "Le cycliste, car je suis déjà sur la chaussée"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Quitter un emplacement de stationnement est une manœuvre. Le conducteur qui effectue une manœuvre doit céder le passage à tous les autres usagers.",
+    "ref": "Art. 12.4 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-006",
+    "theme": "priorite",
+    "q": "Je sors du parking privé d'un supermarché (propriété riveraine) pour m'engager dans la rue. Une voiture arrive par ma gauche dans cette rue. Que dois-je faire ?",
+    "choices": [
+      "Lui céder le passage",
+      "Passer, car la priorité de droite joue en ma faveur"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Déboucher d'une propriété riveraine est une manœuvre : je dois céder le passage à tous les usagers circulant sur la voie publique, même ceux venant de gauche.",
+    "ref": "Art. 12.4 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-007",
+    "theme": "priorite",
+    "q": "Je sors de mon garage en marche arrière et je dois traverser le trottoir. Un piéton y circule. Que dois-je faire ?",
+    "choices": [
+      "Avertir le piéton au klaxon et continuer",
+      "Lui céder le passage",
+      "Continuer lentement, il doit s'écarter"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le conducteur qui traverse un trottoir doit céder le passage aux usagers qui y circulent régulièrement. La marche arrière est en plus une manœuvre qui oblige à céder le passage à tous.",
+    "ref": "Art. 12.4 et 12.4bis AR 01/12/1975"
+  },
+  {
+    "id": "PRI-008",
+    "theme": "priorite",
+    "q": "Le conducteur d'une voiture qui fait un demi-tour sur la chaussée…",
+    "choices": [
+      "a la priorité, car il a annoncé sa manœuvre au clignotant",
+      "a la priorité sur les véhicules venant de sa gauche",
+      "doit céder le passage aux autres usagers"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le demi-tour est une manœuvre. Le clignotant annonce la manœuvre mais ne donne aucune priorité : il faut céder le passage aux autres usagers.",
+    "ref": "Art. 12.4 et 13 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-009",
+    "theme": "priorite",
+    "q": "J'aborde un carrefour où mon chemin est pourvu de ce signal. Une voiture arrive par ma gauche sur la route transversale. Que dois-je faire ?",
+    "choices": [
+      "Lui céder le passage",
+      "Passer, car elle vient de ma gauche"
+    ],
+    "answer": 0,
+    "grave": true,
+    "sign": "B1",
+    "explain": "Le signal B1 (cédez le passage) m'oblige à céder le passage à tous les conducteurs circulant sur la voie que j'aborde, qu'ils viennent de droite ou de gauche.",
+    "ref": "Art. 12.3.1, al. 2, a) et 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-010",
+    "theme": "priorite",
+    "q": "Je m'approche de ce signal. Aucun véhicule n'est en vue sur la route transversale et la visibilité est parfaite. Dois-je m'arrêter ?",
+    "choices": [
+      "Non, je peux passer à allure réduite",
+      "Seulement s'il fait nuit",
+      "Oui, je dois marquer l'arrêt complet"
+    ],
+    "answer": 2,
+    "grave": true,
+    "sign": "B5",
+    "explain": "Le signal B5 (stop) signifie « marquer l'arrêt et céder le passage ». L'arrêt est obligatoire, même si aucun véhicule n'arrive.",
+    "ref": "Art. 67.3 (B5) AR 01/12/1975"
+  },
+  {
+    "id": "PRI-011",
+    "theme": "priorite",
+    "q": "Au signal stop, où dois-je marquer l'arrêt lorsqu'une ligne blanche continue est tracée en travers de ma bande ?",
+    "choices": [
+      "Au-delà de la ligne, là où je vois le mieux",
+      "À hauteur de cette ligne d'arrêt"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "B5",
+    "explain": "La ligne d'arrêt (ligne blanche continue perpendiculaire au bord de la chaussée) indique l'endroit où le conducteur doit marquer l'arrêt imposé par un signal B5.",
+    "ref": "Art. 76.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-012",
+    "theme": "priorite",
+    "q": "Que signifie une ligne transversale formée de triangles blancs peints sur la chaussée ?",
+    "choices": [
+      "L'endroit où je dois, s'il y a lieu, m'arrêter pour céder le passage (signal B1)",
+      "Un passage pour cyclistes",
+      "Un ralentisseur de vitesse"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "La ligne de triangles blancs indique l'endroit où les conducteurs doivent s'arrêter, si nécessaire, pour céder le passage en vertu d'un signal B1.",
+    "ref": "Art. 76.2 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-013",
+    "theme": "priorite",
+    "q": "Après avoir marqué l'arrêt au stop, je vois une voiture qui arrive assez vite de la gauche, à une distance que j'estime juste suffisante. Puis-je m'engager ?",
+    "choices": [
+      "Oui, j'ai fait mon arrêt, la priorité est rétablie",
+      "Seulement si je peux le faire sans risque d'accident, compte tenu de sa vitesse et de sa distance"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "B5",
+    "explain": "Le conducteur qui doit céder le passage ne peut poursuivre sa marche que s'il peut le faire sans risque d'accident, compte tenu de la position, de la vitesse et de la distance des autres usagers.",
+    "ref": "Art. 12.5 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-014",
+    "theme": "priorite",
+    "q": "Je circule sur une route pourvue de ce signal. À un carrefour, une voiture arrive par ma droite d'une rue pourvue d'un signal « cédez le passage ». Qui a la priorité ?",
+    "choices": [
+      "Moi",
+      "La voiture de droite"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "B9",
+    "explain": "Le signal B9 indique une voie prioritaire. Le conducteur qui débouche d'une voie pourvue d'un signal B1 ou B5 doit céder le passage à ceux qui circulent sur la voie qu'il aborde.",
+    "ref": "Art. 12.3.1 et 67.3 (B9) AR 01/12/1975"
+  },
+  {
+    "id": "PRI-015",
+    "theme": "priorite",
+    "q": "Que signifie ce signal ?",
+    "choices": [
+      "Voie prioritaire",
+      "Priorité au prochain carrefour uniquement",
+      "Fin de voie prioritaire"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "B9",
+    "explain": "Le signal B9 (losange jaune bordé de blanc) signale une voie prioritaire.",
+    "ref": "Art. 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-016",
+    "theme": "priorite",
+    "q": "Je viens de passer ce signal. À un carrefour sans autre signalisation un peu plus loin, une voiture arrive par ma droite. Que dois-je faire ?",
+    "choices": [
+      "Lui céder le passage",
+      "Passer : je viens d'une voie prioritaire",
+      "Passer si je suis arrivé le premier"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "B11",
+    "explain": "Le signal B11 marque la fin de la voie prioritaire. Sans autre signalisation, la règle générale de la priorité de droite s'applique à nouveau.",
+    "ref": "Art. 12.3.1 et 67.3 (B11) AR 01/12/1975"
+  },
+  {
+    "id": "PRI-017",
+    "theme": "priorite",
+    "q": "Que m'indique ce signal ?",
+    "choices": [
+      "J'ai la priorité au prochain carrefour",
+      "Je dois céder le passage au prochain carrefour",
+      "Je circule sur une voie prioritaire jusqu'au prochain signal B11"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "B15",
+    "explain": "Le signal B15 (priorité de passage) indique que j'ai priorité au carrefour qui suit ; la barre horizontale peut représenter la disposition des lieux.",
+    "ref": "Art. 67.3 (B15) AR 01/12/1975"
+  },
+  {
+    "id": "PRI-018",
+    "theme": "priorite",
+    "q": "Ce signal annonce un carrefour. Une camionnette y arrive par ma droite. Que dois-je faire ?",
+    "choices": [
+      "Passer, car le signal m'annonce un danger",
+      "Céder le passage à la camionnette"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "B17",
+    "explain": "Le signal B17 annonce un carrefour où la priorité de droite est applicable : je dois céder le passage à la camionnette qui vient de ma droite.",
+    "ref": "Art. 12.3.1 et 67.3 (B17) AR 01/12/1975"
+  },
+  {
+    "id": "PRI-019",
+    "theme": "priorite",
+    "q": "J'arrive à un passage étroit pourvu de ce signal. Une voiture s'y présente en sens inverse. Que dois-je faire ?",
+    "choices": [
+      "Lui céder le passage",
+      "M'engager le premier, car je suis plus proche"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "B19",
+    "explain": "Le signal B19 impose de céder le passage aux conducteurs venant en sens opposé dans le passage étroit.",
+    "ref": "Art. 67.3 (B19) AR 01/12/1975"
+  },
+  {
+    "id": "PRI-020",
+    "theme": "priorite",
+    "q": "J'arrive à un passage étroit pourvu de ce signal. Une voiture se présente en sens inverse, à l'autre extrémité. Qui a la priorité ?",
+    "choices": [
+      "La voiture venant en sens inverse",
+      "Celui qui roule le plus vite",
+      "Moi"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "B21",
+    "explain": "Le signal B21 donne la priorité de passage par rapport aux conducteurs venant en sens opposé. Je reste toutefois prudent si l'autre conducteur s'est déjà engagé.",
+    "ref": "Art. 67.3 (B21) AR 01/12/1975"
+  },
+  {
+    "id": "PRI-021",
+    "theme": "priorite",
+    "q": "Je circule dans l'anneau d'un rond-point signalé par le signal D5. Une voiture arrive par ma droite pour entrer dans le rond-point. Qui a la priorité ?",
+    "choices": [
+      "La voiture qui veut entrer, car elle vient de droite",
+      "Moi, car je circule dans le rond-point"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "D5",
+    "explain": "La priorité de droite ne s'applique pas au conducteur qui circule dans un rond-point. Les voies d'accès d'un rond-point sont d'ailleurs pourvues d'un signal B1 ou B5.",
+    "ref": "Art. 2.39 et 12.3.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-022",
+    "theme": "priorite",
+    "q": "J'entre dans un rond-point. Dois-je actionner mon clignotant ?",
+    "choices": [
+      "Oui, le clignotant droit",
+      "Oui, le clignotant gauche",
+      "Non, ce n'est pas exigé pour entrer"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Entrer dans un rond-point est un changement de direction qui n'implique pas l'usage des indicateurs de direction.",
+    "ref": "Art. 19.2, 1° AR 01/12/1975"
+  },
+  {
+    "id": "PRI-023",
+    "theme": "priorite",
+    "q": "Je vais quitter le rond-point à la prochaine sortie. Que dois-je faire ?",
+    "choices": [
+      "Mettre mon clignotant droit",
+      "Ne rien signaler, la sortie est évidente"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Sortir d'un rond-point est un changement de direction qui implique l'usage des indicateurs de direction (ici, à droite).",
+    "ref": "Art. 19.2, 1° AR 01/12/1975"
+  },
+  {
+    "id": "PRI-024",
+    "theme": "priorite",
+    "q": "Je veux entrer dans un rond-point. Une voiture y circule déjà et arrive par ma gauche. Que dois-je faire ?",
+    "choices": [
+      "Entrer, car elle vient de ma gauche",
+      "Lui céder le passage"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "B1",
+    "explain": "Les voies d'accès d'un rond-point sont pourvues d'un signal B1 ou B5 : je dois céder le passage aux conducteurs qui circulent déjà dans l'anneau.",
+    "ref": "Art. 2.39 et 12.3.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-025",
+    "theme": "priorite",
+    "q": "À un carrefour sans signalisation, un tram arrive par ma gauche alors que je veux continuer tout droit. Que dois-je faire ?",
+    "choices": [
+      "Passer, car j'ai la priorité de droite",
+      "Céder le passage au tram"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Tout usager doit céder le passage aux véhicules sur rails, quel que soit le côté d'où ils viennent, et s'écarter de la voie ferrée dès que possible.",
+    "ref": "Art. 12.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-026",
+    "theme": "priorite",
+    "q": "Je roule sur des rails de tram intégrés à la chaussée et un tram s'approche derrière moi. Que dois-je faire ?",
+    "choices": [
+      "Rester sur les rails, le tram attendra",
+      "Accélérer pour garder de l'avance",
+      "M'écarter de la voie ferrée dès que possible"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Tout usager doit céder le passage aux véhicules sur rails et, à cette fin, s'écarter de la voie ferrée dès que possible.",
+    "ref": "Art. 12.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-027",
+    "theme": "priorite",
+    "q": "J'entends la sirène (avertisseur sonore spécial) d'une ambulance qui approche derrière moi. Que dois-je faire ?",
+    "choices": [
+      "Dégager immédiatement et lui céder le passage, au besoin m'arrêter",
+      "Continuer normalement, elle me dépassera",
+      "Accélérer pour rester devant elle"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Dès que l'approche d'un véhicule prioritaire est signalée par l'avertisseur sonore spécial, tout usager doit immédiatement dégager et céder le passage ; au besoin, il doit s'arrêter.",
+    "ref": "Art. 38 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-028",
+    "theme": "priorite",
+    "q": "Un véhicule de pompiers utilisant son avertisseur sonore spécial arrive à un feu rouge. Peut-il le franchir ?",
+    "choices": [
+      "Non, jamais",
+      "Oui, à vitesse modérée et sans mettre en danger les autres usagers"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "FEU-rouge",
+    "explain": "Lorsque la circulation est réglée par des feux, le véhicule prioritaire utilisant l'avertisseur sonore spécial peut franchir le feu rouge à vitesse modérée, à condition qu'il n'en résulte pas de danger.",
+    "ref": "Art. 37.4 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-029",
+    "theme": "priorite",
+    "q": "Selon l'article 38 du code de la route, l'obligation de dégager immédiatement et de céder le passage à un véhicule prioritaire naît…",
+    "choices": [
+      "dès que son approche est signalée par l'avertisseur sonore spécial",
+      "dès que je vois un véhicule de police, même sans signaux"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "L'article 38 vise l'approche signalée par l'avertisseur sonore spécial (sirène). Un véhicule prioritaire avec feux bleus seuls mérite cependant une prudence accrue.",
+    "ref": "Art. 37 et 38 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-030",
+    "theme": "priorite",
+    "q": "Le feu est vert pour moi, mais la file de voitures devant moi est bloquée au milieu du carrefour. Puis-je m'engager ?",
+    "choices": [
+      "Oui, le feu est vert",
+      "Non, si je risque d'être immobilisé dans le carrefour",
+      "Oui, à condition d'actionner mes feux de détresse"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "FEU-vert",
+    "explain": "Même si les feux l'y autorisent, un conducteur ne peut s'engager dans un carrefour si l'encombrement est tel qu'il y serait vraisemblablement immobilisé, gênant la circulation transversale.",
+    "ref": "Art. 14.2 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-031",
+    "theme": "priorite",
+    "q": "Je tourne à gauche à un carrefour. Une voiture arrive en sens inverse et va tout droit. Que dois-je faire ?",
+    "choices": [
+      "Lui céder le passage",
+      "Tourner, car j'ai mis mon clignotant à temps"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Le conducteur qui tourne à gauche doit céder le passage aux conducteurs venant en sens inverse sur la chaussée qu'il s'apprête à quitter.",
+    "ref": "Art. 19.3, 3° AR 01/12/1975"
+  },
+  {
+    "id": "PRI-032",
+    "theme": "priorite",
+    "q": "Je tourne à droite. Un cycliste circule tout droit sur la piste cyclable longeant ma chaussée, à ma droite. Que dois-je faire ?",
+    "choices": [
+      "Tourner, car il est sur une piste séparée",
+      "Lui céder le passage"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le conducteur qui change de direction doit céder le passage aux conducteurs et piétons circulant sur les autres parties de la même voie publique, comme la piste cyclable.",
+    "ref": "Art. 19.4 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-033",
+    "theme": "priorite",
+    "q": "Je tourne dans une rue où des piétons sont en train de traverser la chaussée. Que dois-je faire ?",
+    "choices": [
+      "Céder le passage aux piétons",
+      "Passer devant eux, ils doivent attendre",
+      "Les avertir au klaxon puis passer"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Le conducteur qui change de direction doit céder le passage aux piétons qui traversent la chaussée sur laquelle il va s'engager.",
+    "ref": "Art. 19.5 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-034",
+    "theme": "priorite",
+    "q": "Un agent qualifié se tient au milieu du carrefour, le bras levé verticalement. Je suis déjà à l'intérieur du carrefour. Que dois-je faire ?",
+    "choices": [
+      "M'arrêter immédiatement là où je suis",
+      "Évacuer le carrefour"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le bras levé verticalement signifie arrêt pour tous les usagers, sauf pour ceux qui se trouvent déjà à l'intérieur du carrefour : ceux-ci doivent l'évacuer.",
+    "ref": "Art. 4.2, 1° AR 01/12/1975"
+  },
+  {
+    "id": "PRI-035",
+    "theme": "priorite",
+    "q": "Un agent qualifié a les deux bras tendus horizontalement. J'arrive face à lui (ma direction coupe celle de ses bras). Que dois-je faire ?",
+    "choices": [
+      "Passer, ses bras m'indiquent la voie",
+      "Tourner à droite uniquement",
+      "M'arrêter"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le ou les bras tendus horizontalement signifient arrêt pour les usagers qui viennent de directions coupant celles indiquées par les bras.",
+    "ref": "Art. 4.2, 2° AR 01/12/1975"
+  },
+  {
+    "id": "PRI-036",
+    "theme": "priorite",
+    "q": "Le feu est vert pour moi, mais un agent qualifié me fait signe de m'arrêter. Que dois-je faire ?",
+    "choices": [
+      "M'arrêter, l'injonction de l'agent prévaut",
+      "Passer, le feu vert prévaut"
+    ],
+    "answer": 0,
+    "grave": true,
+    "sign": "FEU-vert",
+    "explain": "Les injonctions des agents qualifiés prévalent sur la signalisation routière et sur les règles de circulation ; elles doivent être suivies immédiatement.",
+    "ref": "Art. 4.1 et 6.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-037",
+    "theme": "priorite",
+    "q": "À un carrefour, des feux tricolores fonctionnent normalement et un signal « cédez le passage » est placé sur ma route. Le feu est vert pour moi. Dois-je céder le passage aux véhicules de la route transversale ?",
+    "choices": [
+      "Oui, le signal B1 reste prioritaire",
+      "Non, quand les feux fonctionnent, le signal de priorité placé sur la même voie est sans effet"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "B1",
+    "explain": "Le fonctionnement des feux rend sans effet les signaux de priorité placés sur la même voie (sauf feu orange clignotant). Je reste attentif aux piétons et aux véhicules qui dégagent le carrefour.",
+    "ref": "Art. 6.3 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-038",
+    "theme": "priorite",
+    "q": "Le feu orange clignote à un carrefour où mon chemin est pourvu d'un signal « cédez le passage ». Que dois-je faire ?",
+    "choices": [
+      "Redoubler de prudence et respecter le signal B1 : céder le passage",
+      "Passer, le feu orange clignotant me donne la priorité"
+    ],
+    "answer": 0,
+    "grave": true,
+    "sign": "FEU-orange-cligno",
+    "explain": "Le feu jaune-orange clignotant autorise à franchir le signal en redoublant de prudence, mais il ne modifie pas les règles de priorité : le signal B1 reste d'application.",
+    "ref": "Art. 6.3 et 64.1 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-039",
+    "theme": "priorite",
+    "q": "Un signaleur habilité, lors d'une course cycliste, me présente un disque reproduisant le signal C3. Que dois-je faire ?",
+    "choices": [
+      "M'arrêter",
+      "Contourner prudemment le signaleur",
+      "Ralentir seulement"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "C3",
+    "explain": "Les signaleurs habilités font usage d'un disque représentant le signal C3 pour arrêter la circulation ; les usagers doivent obéir à leurs indications.",
+    "ref": "Art. 41.3.1 et 41.3.2 AR 01/12/1975"
+  },
+  {
+    "id": "PRI-040",
+    "theme": "priorite",
+    "q": "La circulation est fortement ralentie et ma bande se termine un peu plus loin. Où dois-je m'insérer sur la bande libre voisine ?",
+    "choices": [
+      "Le plus tôt possible, dès que je vois l'annonce",
+      "Seulement juste devant le rétrécissement, en alternance (tirette)"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "En circulation fortement ralentie, les conducteurs de la bande qui se termine ne peuvent s'intercaler que juste devant le rétrécissement ; ceux de la bande libre leur cèdent le passage tour à tour.",
+    "ref": "Art. 12bis AR 01/12/1975"
+  }
+]

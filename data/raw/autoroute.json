@@ -1,0 +1,497 @@
+[
+  {
+    "id": "AUT-001",
+    "theme": "autoroute",
+    "q": "Je conduis un cyclomoteur. Puis-je emprunter l'autoroute ?",
+    "choices": [
+      "Oui, si je reste sur la bande de droite",
+      "Non, jamais",
+      "Oui, mais seulement de jour"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F5",
+    "explain": "L'accès aux autoroutes est interdit aux piétons, aux cyclistes, aux conducteurs de cyclomoteurs et d'animaux.",
+    "ref": "Art. 21.1 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-002",
+    "theme": "autoroute",
+    "q": "Un véhicule qui ne peut pas atteindre 70 km/h sur une route plate peut-il accéder à l'autoroute ?",
+    "choices": [
+      "Oui, s'il allume ses feux de détresse",
+      "Oui, s'il reste sur la bande d'arrêt d'urgence",
+      "Non"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F5",
+    "explain": "L'accès à l'autoroute est interdit aux véhicules (ou trains de véhicules) qui ne peuvent atteindre en palier la vitesse de 70 km/h.",
+    "ref": "Art. 21.1 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-003",
+    "theme": "autoroute",
+    "q": "Un agriculteur veut emprunter l'autoroute avec son tracteur agricole sur 2 km. Est-ce permis ?",
+    "choices": [
+      "Non",
+      "Oui, à vitesse réduite",
+      "Oui, s'il roule sur la bande de droite"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "L'accès aux autoroutes est interdit aux conducteurs de véhicules agricoles.",
+    "ref": "Art. 21.1 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-004",
+    "theme": "autoroute",
+    "q": "Un quad (quadricycle à moteur sans habitacle) peut-il circuler sur l'autoroute ?",
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F5",
+    "explain": "Les quadricycles à moteur sans habitacle n'ont pas accès aux autoroutes, ni aux routes pour automobiles.",
+    "ref": "Art. 21.1 et 22.1 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-005",
+    "theme": "autoroute",
+    "q": "Ma voiture est en panne. Un ami peut-il la remorquer sur l'autoroute jusqu'au garage au moyen d'une corde ?",
+    "choices": [
+      "Oui, à 25 km/h maximum",
+      "Oui, si les feux de détresse sont allumés",
+      "Non, c'est interdit sur l'autoroute"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Remorquer un véhicule avec une attache de fortune ou une attache secondaire est interdit sur l'autoroute (et sur les routes pour automobiles).",
+    "ref": "Art. 21.1 et 21.4.5° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-006",
+    "theme": "autoroute",
+    "q": "Sur autoroute, en l'absence de signal particulier, quelle est la vitesse minimale à laquelle je dois rouler ?",
+    "choices": [
+      "50 km/h",
+      "70 km/h",
+      "90 km/h"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F5",
+    "explain": "Sauf limitation inférieure imposée par un signal C43, on ne peut pas rouler à moins de 70 km/h sur autoroute, tout en adaptant sa vitesse aux circonstances (brouillard, embouteillage…).",
+    "ref": "Art. 21.2 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-007",
+    "theme": "autoroute",
+    "q": "Sur autoroute, à hauteur d'un chantier, ce signal est placé. Je roule à 50 km/h. Est-ce autorisé ?",
+    "choices": [
+      "Oui",
+      "Non, la vitesse minimale sur autoroute est de 70 km/h"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "C43-50",
+    "explain": "La vitesse minimale de 70 km/h ne s'applique pas lorsqu'un signal C43 impose une limitation inférieure.",
+    "ref": "Art. 21.2 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-008",
+    "theme": "autoroute",
+    "q": "Je circule en voiture sur l'autoroute, sans signal particulier ni circonstance spéciale. Quelle est la vitesse maximale autorisée ?",
+    "choices": [
+      "100 km/h",
+      "130 km/h",
+      "120 km/h"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F5",
+    "explain": "Sur les autoroutes, la vitesse est limitée à 120 km/h (90 km/h pour les véhicules de plus de 3,5 t et les autobus), dans les trois Régions.",
+    "ref": "Art. 11.2.1° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-009",
+    "theme": "autoroute",
+    "q": "À partir de quel endroit les règles particulières des autoroutes s'appliquent-elles ?",
+    "choices": [
+      "À partir de l'endroit où ce signal est placé",
+      "À partir de la fin de la bande d'accélération",
+      "À partir du premier panneau de vitesse"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "F5",
+    "explain": "Le signal F5 indique le commencement d'une autoroute ou l'accès à une autoroute : les règles spéciales s'appliquent dès l'endroit où il est placé.",
+    "ref": "Art. 2.3 et 71 (F5) AR 01/12/1975"
+  },
+  {
+    "id": "AUT-010",
+    "theme": "autoroute",
+    "q": "Que signifie ce signal ?",
+    "choices": [
+      "Fin de la route pour automobiles",
+      "Fin de l'autoroute",
+      "Sortie d'autoroute dans 500 m"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F7",
+    "explain": "Le signal F7 indique la fin de l'autoroute : les règles spéciales des autoroutes cessent de s'appliquer.",
+    "ref": "Art. 2.3 et 71 (F7) AR 01/12/1975"
+  },
+  {
+    "id": "AUT-011",
+    "theme": "autoroute",
+    "q": "Je vois ce signal. Quel véhicule n'est PAS admis sur cette route ?",
+    "choices": [
+      "Une moto",
+      "Une voiture tractant une caravane",
+      "Un cyclomoteur"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F9",
+    "explain": "Le signal F9 indique une route pour automobiles, réservée aux véhicules à moteur et à leurs remorques, sauf les cyclomoteurs, les véhicules agricoles, les trains de véhicules forains et les quadricycles sans habitacle.",
+    "ref": "Art. 22.1 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-012",
+    "theme": "autoroute",
+    "q": "Sur une route pour automobiles, je me suis trompé de direction. Puis-je faire demi-tour en profitant d'une interruption du terre-plein ?",
+    "choices": [
+      "Non, le demi-tour y est interdit",
+      "Oui, si la route est dégagée",
+      "Oui, si je mets mon clignotant à temps"
+    ],
+    "answer": 0,
+    "grave": true,
+    "sign": "F9",
+    "explain": "Les interdictions de l'autoroute (demi-tour, marche arrière, raccordements transversaux, arrêt et stationnement hors des aires) s'appliquent aussi sur les routes pour automobiles.",
+    "ref": "Art. 22.2 et 21.4 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-013",
+    "theme": "autoroute",
+    "q": "J'ai manqué ma sortie d'autoroute de quelques mètres. Puis-je faire marche arrière sur la bande d'arrêt d'urgence pour la reprendre ?",
+    "choices": [
+      "Oui, si je mets mes feux de détresse",
+      "Non, je dois continuer jusqu'à la sortie suivante",
+      "Oui, si la circulation est faible"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Faire marche arrière ou rouler en sens contraire est interdit sur l'autoroute. Il faut continuer jusqu'à la sortie suivante.",
+    "ref": "Art. 21.4.3° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-014",
+    "theme": "autoroute",
+    "q": "Sur l'autoroute, je vois un passage aménagé dans le terre-plein central (raccordement transversal). Puis-je l'emprunter pour repartir dans l'autre sens ?",
+    "choices": [
+      "Oui, s'il n'y a personne",
+      "Oui, mais à moins de 30 km/h",
+      "Non"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Il est interdit sur autoroute d'emprunter les raccordements transversaux et de faire demi-tour. Ces passages sont réservés aux services de secours et d'entretien.",
+    "ref": "Art. 21.4.1° et 2° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-015",
+    "theme": "autoroute",
+    "q": "Je suis fatigué au volant sur l'autoroute. Où puis-je m'arrêter pour me reposer ?",
+    "choices": [
+      "Sur la bande d'arrêt d'urgence",
+      "Sur une aire de stationnement indiquée par ce signal",
+      "Sur la bande de droite, feux de détresse allumés"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "E9a",
+    "explain": "Sur autoroute, l'arrêt et le stationnement sont interdits, sauf sur les aires de stationnement indiquées par le signal E9a. La bande d'arrêt d'urgence est réservée aux situations de nécessité (panne).",
+    "ref": "Art. 21.4.4° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-016",
+    "theme": "autoroute",
+    "q": "Sur l'autoroute, mon téléphone sonne. Puis-je m'arrêter sur la bande d'arrêt d'urgence pour répondre ?",
+    "choices": [
+      "Non",
+      "Oui, si j'allume mes feux de détresse",
+      "Oui, pour un appel de moins de 5 minutes"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "L'arrêt sur autoroute est interdit sauf sur les aires indiquées par le signal E9a. Un appel téléphonique n'est pas une nécessité justifiant un arrêt sur la bande d'arrêt d'urgence.",
+    "ref": "Art. 21.4.4° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-017",
+    "theme": "autoroute",
+    "q": "Embouteillage sur l'autoroute. Ma sortie est à 300 m. Puis-je rouler sur la bande d'arrêt d'urgence pour l'atteindre ?",
+    "choices": [
+      "Oui, à vitesse réduite",
+      "Non",
+      "Oui, si je mets mes feux de détresse"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Il est interdit de circuler sur la bande d'arrêt d'urgence, sauf pour les véhicules prioritaires en mission urgente, les services requis par la police ou le parquet et les dépanneuses se rendant sur le lieu d'un incident.",
+    "ref": "Art. 9.7 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-018",
+    "theme": "autoroute",
+    "q": "La circulation sur l'autoroute est fortement ralentie. Qui peut circuler sur la bande d'arrêt d'urgence pour se rendre sur le lieu d'un accident ?",
+    "choices": [
+      "Tout conducteur qui transporte un malade",
+      "Une dépanneuse",
+      "Les autocars"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les dépanneuses peuvent emprunter la bande d'arrêt d'urgence pour se rendre sur le lieu d'un incident lorsque la circulation est fortement ralentie ou arrêtée, de même que les véhicules prioritaires en mission urgente.",
+    "ref": "Art. 9.7 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-019",
+    "theme": "autoroute",
+    "q": "Autoroute à deux bandes : je roule sur la bande de droite et une file se forme. Que dois-je faire ?",
+    "choices": [
+      "Serrer à gauche",
+      "Rester au milieu de ma bande",
+      "Serrer à droite"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "En cas de file, on forme un couloir de secours : sur une chaussée à deux bandes, ceux de gauche serrent à gauche et ceux de droite serrent à droite.",
+    "ref": "Art. 9.8.1° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-020",
+    "theme": "autoroute",
+    "q": "Autoroute à trois bandes : je roule sur la bande du milieu et une file se forme. Que dois-je faire ?",
+    "choices": [
+      "Serrer à droite",
+      "Serrer à gauche",
+      "Me rabattre sur la bande d'arrêt d'urgence"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Sur une chaussée de plus de deux bandes, ceux de la bande de gauche serrent à gauche et tous les autres serrent à droite : le couloir de secours se forme à côté de la bande de gauche.",
+    "ref": "Art. 9.8.2° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-021",
+    "theme": "autoroute",
+    "q": "Quand dois-je former un couloir de secours ?",
+    "choices": [
+      "Uniquement quand j'entends une sirène",
+      "Dès qu'une file se forme",
+      "Uniquement si la police me le demande"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le couloir de secours doit être formé dès la formation d'une file, sans attendre l'arrivée des véhicules de secours.",
+    "ref": "Art. 9.8 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-022",
+    "theme": "autoroute",
+    "q": "Le couloir de secours est formé. Puis-je l'emprunter pour avancer jusqu'à la prochaine sortie ?",
+    "choices": [
+      "Oui, à faible vitesse",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le couloir de secours est réservé aux véhicules prioritaires en mission, aux services requis par la police ou le parquet et aux dépanneuses qui se rendent sur le lieu d'un incident.",
+    "ref": "Art. 2.70 et 9.8 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-023",
+    "theme": "autoroute",
+    "q": "Autoroute à trois bandes, circulation fluide. Les bandes de droite et du milieu sont libres. Sur quelle bande dois-je rouler ?",
+    "choices": [
+      "Sur la bande de droite",
+      "Sur la bande du milieu",
+      "Sur celle que je veux"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Tout conducteur doit se tenir le plus près possible du bord droit de la chaussée. Après un dépassement, il doit reprendre sa place à droite dès que possible.",
+    "ref": "Art. 9.3.1 et 16.6 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-024",
+    "theme": "autoroute",
+    "q": "Circulation fluide sur l'autoroute. Une voiture roule lentement sur la bande de gauche. Puis-je la dépasser en passant par la bande de droite ?",
+    "choices": [
+      "Oui, si elle roule trop lentement",
+      "Oui, si je mets mon clignotant",
+      "Non"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Le dépassement s'effectue à gauche. Dépasser par la droite n'est permis que si le conducteur à dépasser s'est porté à gauche pour tourner à gauche, ce qui n'arrive pas sur autoroute.",
+    "ref": "Art. 16.3 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-025",
+    "theme": "autoroute",
+    "q": "Circulation dense sur l'autoroute : les véhicules roulent en files sur toutes les bandes. La file de droite avance plus vite que celle de gauche. Est-ce un dépassement interdit par la droite ?",
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Lorsque la circulation s'effectue en files, le fait qu'une file avance plus vite qu'une autre n'est pas considéré comme un dépassement.",
+    "ref": "Art. 9.5 et 16.2 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-026",
+    "theme": "autoroute",
+    "q": "Sur l'autoroute, je dois quitter la bande d'accélération pour m'insérer dans la circulation. Que dois-je faire ?",
+    "choices": [
+      "Céder le passage aux véhicules qui circulent sur l'autoroute",
+      "M'insérer : les véhicules sur l'autoroute doivent me laisser passer",
+      "M'arrêter au bout de la bande d'accélération dans tous les cas"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Changer de bande est une manœuvre : je dois céder le passage aux usagers qui circulent sur l'autoroute et ne m'insérer que si je peux le faire sans danger, après avoir mis mon clignotant.",
+    "ref": "Art. 12.4, 12.5 et 13 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-027",
+    "theme": "autoroute",
+    "q": "Sur l'autoroute, la bande de droite est fermée plus loin pour travaux. La circulation est fortement ralentie. Où dois-je me rabattre sur la bande de gauche ?",
+    "choices": [
+      "Le plus tôt possible",
+      "Juste devant le rétrécissement",
+      "Où je veux"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Lorsque la circulation est fortement ralentie, on applique le principe de la tirette : on s'intercale sur la bande libre seulement juste devant le rétrécissement, et les conducteurs de la bande libre cèdent tour à tour le passage.",
+    "ref": "Art. 12bis AR 01/12/1975"
+  },
+  {
+    "id": "AUT-028",
+    "theme": "autoroute",
+    "q": "Sur une autoroute à trois bandes, un camion de 20 tonnes peut-il circuler sur la bande de gauche (sans signal particulier) ?",
+    "choices": [
+      "Oui, pour dépasser",
+      "Non",
+      "Oui, si la circulation est fluide"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Sur une autoroute de trois bandes ou plus, les véhicules de plus de 3,5 t, les autobus et les autocars ne peuvent emprunter que les deux bandes de droite.",
+    "ref": "Art. 21.3 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-029",
+    "theme": "autoroute",
+    "q": "Ma voiture tombe en panne sur l'autoroute et je l'immobilise sur la bande d'arrêt d'urgence. À quelle distance minimale dois-je placer le triangle de danger ?",
+    "choices": [
+      "30 mètres",
+      "50 mètres",
+      "100 mètres"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le triangle se place en deçà du véhicule à au moins 100 m sur autoroute (30 m sur les voies ordinaires), de façon à être visible à environ 50 m.",
+    "ref": "Art. 51.2 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-030",
+    "theme": "autoroute",
+    "q": "En panne sur la bande d'arrêt d'urgence d'une autoroute, je dois sortir de ma voiture. Que dois-je faire ?",
+    "choices": [
+      "Enfiler une veste de sécurité rétroréfléchissante",
+      "Rien de particulier",
+      "Allumer mes feux de brouillard avant"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Sur autoroute et route pour automobiles, le conducteur d'un véhicule en panne rangé là où l'arrêt est interdit doit porter une veste de sécurité rétroréfléchissante dès qu'il sort du véhicule.",
+    "ref": "Art. 51.4 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-031",
+    "theme": "autoroute",
+    "q": "En panne sur la bande d'arrêt d'urgence de l'autoroute, j'allume mes feux de détresse. Est-ce suffisant pour signaler mon véhicule ?",
+    "choices": [
+      "Oui",
+      "Non, je dois aussi placer le triangle de danger"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le triangle de danger est obligatoire lorsque le véhicule est immobilisé à un endroit où l'arrêt est interdit. Les feux de détresse peuvent s'y ajouter, mais ne le remplacent pas.",
+    "ref": "Art. 51.1 AR 01/12/1975"
+  },
+  {
+    "id": "AUT-032",
+    "theme": "autoroute",
+    "q": "Au-dessus de ma bande de circulation sur l'autoroute s'allume une croix rouge. Que dois-je faire ?",
+    "choices": [
+      "Continuer : ce n'est qu'un avertissement",
+      "Quitter cette bande, car la circulation y est interdite",
+      "M'arrêter immédiatement sur ma bande"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Une croix rouge au-dessus d'une bande signifie que la circulation y est interdite : il faut la quitter en changeant de bande prudemment.",
+    "ref": "Art. 62bis.1° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-033",
+    "theme": "autoroute",
+    "q": "Au-dessus de ma bande s'allume une flèche orange oblique pointant vers le bas et vers la droite. Que signifie-t-elle ?",
+    "choices": [
+      "Je dois quitter cette bande vers la droite",
+      "La bande est ouverte, je peux continuer",
+      "Je dois serrer à gauche pour former un couloir de secours"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "La flèche orange oblique (éventuellement clignotante) signifie que la bande est interdite, sauf pour la quitter dans la direction indiquée par la flèche.",
+    "ref": "Art. 62bis.3° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-034",
+    "theme": "autoroute",
+    "q": "Au-dessus d'une bande de circulation, une flèche verte pointe vers le bas. Que signifie-t-elle ?",
+    "choices": [
+      "Bande réservée aux services de secours",
+      "Je peux circuler sur cette bande",
+      "Bande fermée plus loin"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "La flèche verte dirigée vers le bas signifie que la circulation est autorisée sur cette bande.",
+    "ref": "Art. 62bis.2° AR 01/12/1975"
+  },
+  {
+    "id": "AUT-035",
+    "theme": "autoroute",
+    "q": "Dans un tunnel, je souhaite m'arrêter quelques secondes sur la chaussée pour vérifier mon itinéraire. Est-ce permis ?",
+    "choices": [
+      "Oui, avec les feux de détresse",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "L'arrêt et le stationnement sont interdits sur la chaussée dans les tunnels (et dans les passages inférieurs).",
+    "ref": "Art. 24.5° AR 01/12/1975"
+  }
+]

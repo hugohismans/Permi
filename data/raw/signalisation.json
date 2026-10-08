@@ -1,0 +1,932 @@
+[
+  {
+    "id": "SIG-001",
+    "theme": "signalisation",
+    "q": "À un carrefour, le feu est vert pour moi, mais un agent qualifié me fait signe de m'arrêter en levant le bras verticalement. Que dois-je faire ?",
+    "choices": [
+      "M'arrêter",
+      "Passer, car le feu vert m'y autorise",
+      "Passer prudemment en klaxonnant"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Les injonctions des agents qualifiés prévalent sur la signalisation routière et sur les règles de circulation. Le bras levé verticalement signifie arrêt pour tous les usagers, sauf pour ceux déjà engagés dans le carrefour, qui doivent l'évacuer.",
+    "ref": "Art. 4.2 et 6.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-002",
+    "theme": "signalisation",
+    "q": "Je circule sur une route où ce panneau est placé. Au prochain carrefour, un véhicule arrive de ma droite. Qui a la priorité ?",
+    "choices": [
+      "Le véhicule venant de droite, car la priorité de droite s'applique toujours",
+      "Moi",
+      "Celui qui arrive le premier au carrefour"
+    ],
+    "answer": 1,
+    "grave": true,
+    "sign": "B9",
+    "explain": "Le signal B9 indique une voie prioritaire. La signalisation routière prévaut sur les règles de circulation : la priorité de droite ne s'applique donc pas aux carrefours de cette voie.",
+    "ref": "Art. 6.2 et 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-003",
+    "theme": "signalisation",
+    "q": "À un carrefour, les feux tricolores fonctionnent normalement (feu vert pour moi), mais un panneau « Cédez le passage » est aussi placé sur ma voie. Que dois-je respecter ?",
+    "choices": [
+      "Le feu : il rend sans effet le panneau de priorité",
+      "Le panneau : je dois céder le passage malgré le feu vert"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Lorsque des signaux lumineux fonctionnent à un endroit, ils rendent sans effet les signaux routiers relatifs à la priorité placés sur la même voie. Hiérarchie : agent > signaux lumineux > panneaux > règles.",
+    "ref": "Art. 6.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-004",
+    "theme": "signalisation",
+    "q": "Le feu de mon carrefour est orange clignotant. Ce panneau est placé sur ma voie. Que dois-je faire ?",
+    "choices": [
+      "Passer, car le feu orange clignotant annule le panneau",
+      "M'arrêter obligatoirement à la ligne d'arrêt",
+      "Céder le passage aux usagers de la voie que j'aborde"
+    ],
+    "answer": 2,
+    "grave": true,
+    "sign": "B1",
+    "explain": "Le feu jaune-orange clignotant autorise à passer en redoublant de prudence, mais il ne modifie pas les règles de priorité. Il ne rend pas sans effet les signaux de priorité : le B1 reste d'application.",
+    "ref": "Art. 6.3 et 64.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-005",
+    "theme": "signalisation",
+    "q": "Que signifie ce feu ?",
+    "choices": [
+      "Je peux franchir le signal en redoublant de prudence ; les règles de priorité restent d'application",
+      "J'ai la priorité sur tous les autres usagers",
+      "Je dois m'arrêter comme à un feu rouge"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "FEU-orange-cligno",
+    "explain": "Un feu jaune-orange clignotant signifie autorisation de franchir le signal en redoublant de prudence. Il ne modifie pas les règles de priorité (panneaux ou priorité de droite).",
+    "ref": "Art. 64.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-006",
+    "theme": "signalisation",
+    "q": "Le feu passe à cet état alors que je suis à 60 m de la ligne d'arrêt et que je peux freiner sans danger. Que dois-je faire ?",
+    "choices": [
+      "Accélérer pour passer avant le rouge",
+      "M'arrêter avant la ligne d'arrêt"
+    ],
+    "answer": 1,
+    "grave": true,
+    "sign": "FEU-orange",
+    "explain": "Le feu jaune-orange fixe interdit de franchir la ligne d'arrêt, sauf si le conducteur en est si près au moment où il s'allume qu'il ne peut plus s'arrêter en sécurité.",
+    "ref": "Art. 61.1.2° AR 01/12/1975"
+  },
+  {
+    "id": "SIG-007",
+    "theme": "signalisation",
+    "q": "Le feu devient orange fixe alors que je suis juste devant la ligne d'arrêt et qu'un freinage brusque serait dangereux. Je franchis la ligne. Puis-je traverser le carrefour ?",
+    "choices": [
+      "Non, je dois m'arrêter au milieu du carrefour",
+      "Oui, à condition de ne pas mettre en danger les autres usagers",
+      "Oui, et j'ai alors priorité sur tout le monde"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Si le conducteur ne pouvait plus s'arrêter dans des conditions de sécurité suffisantes, il peut franchir la ligne, mais il ne traverse le carrefour qu'à condition de ne pas mettre en danger les autres usagers.",
+    "ref": "Art. 61.1.2° AR 01/12/1975"
+  },
+  {
+    "id": "SIG-008",
+    "theme": "signalisation",
+    "q": "Où dois-je m'arrêter face à ce feu, à un carrefour où aucune ligne d'arrêt n'est tracée ?",
+    "choices": [
+      "Au milieu du carrefour",
+      "Juste avant le passage pour piétons situé après le carrefour",
+      "Avant le signal lui-même"
+    ],
+    "answer": 2,
+    "grave": true,
+    "sign": "FEU-rouge",
+    "explain": "Le feu rouge interdit de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt, le signal même.",
+    "ref": "Art. 61.1.1° AR 01/12/1975"
+  },
+  {
+    "id": "SIG-009",
+    "theme": "signalisation",
+    "q": "Le feu rouge est allumé et, en même temps, une flèche verte vers la droite est allumée. Je veux tourner à droite. Que puis-je faire ?",
+    "choices": [
+      "Tourner à droite en cédant le passage aux conducteurs venant régulièrement d'autres directions et aux piétons",
+      "Attendre que le feu rouge s'éteigne",
+      "Tourner à droite avec priorité sur les piétons"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Une flèche verte allumée avec le feu rouge autorise à poursuivre uniquement dans la direction indiquée, à condition de céder le passage aux conducteurs débouchant régulièrement d'autres directions et aux piétons.",
+    "ref": "Art. 61.1.5° AR 01/12/1975"
+  },
+  {
+    "id": "SIG-010",
+    "theme": "signalisation",
+    "q": "Dans quel ordre les feux tricolores se succèdent-ils ?",
+    "choices": [
+      "Vert, rouge, orange",
+      "Vert, orange, rouge",
+      "Rouge, orange, vert"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le feu jaune-orange apparaît après le vert, le rouge après le jaune-orange, et le vert après le rouge. Il n'y a donc pas de phase orange entre le rouge et le vert.",
+    "ref": "Art. 61.3.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-011",
+    "theme": "signalisation",
+    "q": "Le feu est vert, mais le carrefour est tellement encombré que je risque d'y rester bloqué. Puis-je m'y engager ?",
+    "choices": [
+      "Oui, le feu vert me le permet",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "FEU-vert",
+    "explain": "Même si les feux l'y autorisent, un conducteur ne peut s'engager dans un carrefour s'il risque d'y être immobilisé et de gêner la circulation transversale.",
+    "ref": "Art. 14.2 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-012",
+    "theme": "signalisation",
+    "q": "Je tourne à gauche dans un carrefour à feux. Une flèche verte orientée vers la gauche est placée seule à la sortie du carrefour et s'allume. Que signifie-t-elle ?",
+    "choices": [
+      "Je dois céder le passage aux véhicules venant en sens inverse",
+      "Le virage à gauche est interdit",
+      "La circulation venant en sens inverse est arrêtée par un feu rouge : je peux évacuer le carrefour"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Cette flèche d'évacuation signifie que la circulation venant en sens inverse est arrêtée par un feu rouge afin de faciliter l'évacuation du carrefour.",
+    "ref": "Art. 62 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-013",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Je dois marquer l'arrêt et céder le passage",
+      "Fin de route prioritaire",
+      "Je dois céder le passage, sans être obligé de m'arrêter si la voie est libre"
+    ],
+    "answer": 0,
+    "grave": true,
+    "sign": "B5",
+    "explain": "Le signal B5 (stop) impose de marquer l'arrêt et de céder le passage, même si aucun véhicule n'arrive. L'arrêt se fait à la ligne d'arrêt.",
+    "ref": "Art. 67.3 et 76.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-014",
+    "theme": "signalisation",
+    "q": "J'arrive à ce panneau. La route que j'aborde est entièrement dégagée et la visibilité est parfaite. Dois-je m'arrêter ?",
+    "choices": [
+      "Non, je peux continuer sans m'arrêter",
+      "Oui, je dois m'arrêter dans tous les cas"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "B1",
+    "explain": "Le signal B1 impose de céder le passage aux usagers de la voie abordée. Si personne n'arrive, l'arrêt n'est pas obligatoire, contrairement au stop (B5).",
+    "ref": "Art. 12.3.1 et 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-015",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Début d'une voie prioritaire",
+      "Fin de la voie prioritaire",
+      "Interdiction de dépasser"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "B11",
+    "explain": "Le signal B11 indique la fin de la voie prioritaire. Aux carrefours suivants, les règles générales (priorité de droite) s'appliquent sauf autre signalisation.",
+    "ref": "Art. 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-016",
+    "theme": "signalisation",
+    "q": "Ce panneau est placé avant un carrefour. Que signifie-t-il ?",
+    "choices": [
+      "Je dois céder le passage au prochain carrefour",
+      "La priorité de droite s'applique au prochain carrefour",
+      "J'ai la priorité de passage au prochain carrefour"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "B15",
+    "explain": "Le signal B15 annonce que j'ai la priorité de passage au carrefour suivant. La barre horizontale peut être adaptée pour représenter la disposition des lieux.",
+    "ref": "Art. 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-017",
+    "theme": "signalisation",
+    "q": "Ce panneau est placé avant un carrefour. Un véhicule arrive de ma droite. Que dois-je faire ?",
+    "choices": [
+      "Lui céder le passage",
+      "Continuer : j'ai la priorité",
+      "Klaxonner pour l'avertir"
+    ],
+    "answer": 0,
+    "grave": true,
+    "sign": "B17",
+    "explain": "Le signal B17 annonce un carrefour où la priorité de droite est applicable : je dois céder le passage à celui qui vient de ma droite.",
+    "ref": "Art. 12.3.1 et 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-018",
+    "theme": "signalisation",
+    "q": "J'arrive à un passage étroit signalé par ce panneau. Un véhicule s'y engage en sens inverse. Que dois-je faire ?",
+    "choices": [
+      "Passer en premier, j'ai la priorité",
+      "Le laisser passer"
+    ],
+    "answer": 1,
+    "grave": true,
+    "sign": "B19",
+    "explain": "Le signal B19 (passage étroit) impose de céder le passage aux conducteurs venant en sens opposé.",
+    "ref": "Art. 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-019",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau placé avant un passage étroit ?",
+    "choices": [
+      "Je dois céder le passage aux conducteurs venant en sens inverse",
+      "J'ai la priorité par rapport aux conducteurs venant en sens inverse",
+      "Circulation à double sens"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "B21",
+    "explain": "Le signal B21 (passage étroit) donne la priorité de passage par rapport aux conducteurs venant en sens opposé. Il faut néanmoins rester prudent si l'autre s'est déjà engagé.",
+    "ref": "Art. 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-020",
+    "theme": "signalisation",
+    "q": "Que m'annonce ce panneau ?",
+    "choices": [
+      "Un virage dangereux à droite",
+      "Une obligation de tourner à gauche",
+      "Un virage dangereux à gauche"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "A1a",
+    "explain": "Le triangle à bord rouge est un signal de danger. A1a annonce un virage dangereux à gauche (A1b : à droite).",
+    "ref": "Art. 66.4 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-021",
+    "theme": "signalisation",
+    "q": "Que m'annonce ce panneau ?",
+    "choices": [
+      "Un virage dangereux à droite",
+      "Une obligation de tourner à droite",
+      "Un double virage, le premier à gauche"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "A1b",
+    "explain": "A1b annonce un virage dangereux à droite. Il faut adapter sa vitesse avant d'entrer dans le virage.",
+    "ref": "Art. 66.4 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-022",
+    "theme": "signalisation",
+    "q": "Que m'annonce ce panneau ?",
+    "choices": [
+      "Un pont mobile",
+      "Un rétrécissement de la chaussée",
+      "Une route à sens unique"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "A7a",
+    "explain": "Le signal A7a annonce un rétrécissement de la chaussée. Il faut se préparer à croiser plus étroitement ou à laisser passer.",
+    "ref": "Art. 66.4 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-023",
+    "theme": "signalisation",
+    "q": "Que m'annonce ce panneau ?",
+    "choices": [
+      "Un passage à niveau",
+      "Un feu en panne",
+      "Des signaux lumineux de circulation"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "A33",
+    "explain": "Le signal de danger A33 annonce la présence de signaux lumineux de circulation (feux tricolores).",
+    "ref": "Art. 66.4 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-024",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Un danger non défini par un symbole spécial ; un panneau additionnel en indique la nature",
+      "Interdiction de circuler",
+      "Fin de toutes les interdictions"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "A51",
+    "explain": "Le signal A51 (point d'exclamation) annonce un danger qui n'a pas de symbole spécial. Un panneau additionnel indique la nature du danger.",
+    "ref": "Art. 66.4 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-025",
+    "theme": "signalisation",
+    "q": "Je veux entrer dans une rue dont l'entrée porte ce panneau. Est-ce autorisé ?",
+    "choices": [
+      "Oui, si je roule lentement",
+      "Non, c'est un sens interdit",
+      "Oui, si je n'y vais que pour quelques mètres"
+    ],
+    "answer": 1,
+    "grave": true,
+    "sign": "C1",
+    "explain": "Le signal C1 signifie sens interdit pour tout conducteur. Un panneau additionnel peut excepter certaines catégories (par exemple les cyclistes).",
+    "ref": "Art. 68.3 et 68.4 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-026",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Stationnement interdit",
+      "Sens interdit uniquement pour les camions",
+      "Accès interdit, dans les deux sens, à tout conducteur"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "C3",
+    "explain": "Le signal C3 interdit l'accès, dans les deux sens, à tout conducteur. À ne pas confondre avec C1 (sens interdit) ni avec les signaux de stationnement.",
+    "ref": "Art. 68.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-027",
+    "theme": "signalisation",
+    "q": "Ce panneau est placé peu avant un carrefour. Où s'applique l'interdiction ?",
+    "choices": [
+      "Au prochain carrefour",
+      "Sur tous les carrefours jusqu'à la fin de l'agglomération",
+      "Uniquement aux heures de pointe"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "C31a",
+    "explain": "Les signaux C31a et C31b interdisent de tourner, au prochain carrefour, dans le sens indiqué par la flèche (ici à gauche).",
+    "ref": "Art. 68.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-028",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Obligation de tourner à droite",
+      "Interdiction de tourner à droite au prochain carrefour",
+      "Virage dangereux à droite"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "C31b",
+    "explain": "C31b : au prochain carrefour, interdiction de tourner dans le sens indiqué par la flèche, ici à droite. Le cercle à bord rouge indique une interdiction.",
+    "ref": "Art. 68.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-029",
+    "theme": "signalisation",
+    "q": "Jusqu'où s'applique l'interdiction indiquée par ce panneau ?",
+    "choices": [
+      "Sur 100 mètres seulement",
+      "Jusqu'à la sortie de la commune",
+      "Jusqu'au prochain carrefour inclus"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "C33",
+    "explain": "Le signal C33 interdit de faire demi-tour à partir du signal jusqu'au prochain carrefour inclus.",
+    "ref": "Art. 68.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-030",
+    "theme": "signalisation",
+    "q": "Je roule en voiture sur une route où ce panneau est d'application. Devant moi roule lentement une motocyclette sans side-car. Puis-je la dépasser par la gauche (dans le respect des autres règles) ?",
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "C35",
+    "explain": "Le signal C35 interdit de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues. Une motocyclette à deux roues peut donc être dépassée, si les autres conditions du dépassement sont remplies.",
+    "ref": "Art. 68.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-031",
+    "theme": "signalisation",
+    "q": "Ce panneau est d'application. Puis-je dépasser par la gauche une voiture qui roule lentement devant moi ?",
+    "choices": [
+      "Non",
+      "Oui, si la visibilité est bonne",
+      "Oui, si elle roule à moins de 50 km/h"
+    ],
+    "answer": 0,
+    "grave": true,
+    "sign": "C35",
+    "explain": "Le signal C35 interdit de dépasser par la gauche un véhicule à plus de deux roues ou un véhicule attelé, ce qui inclut une voiture.",
+    "ref": "Art. 68.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-032",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Fin de l'autoroute",
+      "Fin de toutes les interdictions locales imposées aux véhicules en mouvement",
+      "Fin de l'interdiction de stationner"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "C46",
+    "explain": "Le signal C46 met fin à toutes les interdictions locales imposées aux véhicules en mouvement (par ex. interdiction de dépasser ou limitation de vitesse locale). Il ne concerne pas le stationnement.",
+    "ref": "Art. 68.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-033",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Vitesse minimale de 50 km/h",
+      "Fin d'agglomération",
+      "Fin de la limitation de vitesse à 50 km/h imposée par un signal C43"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "C45-50",
+    "explain": "Le signal C45 indique la fin de la limitation de vitesse imposée par le signal C43 portant le même chiffre.",
+    "ref": "Art. 68.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-034",
+    "theme": "signalisation",
+    "q": "Ce panneau est placé sur un îlot au milieu de la chaussée. Que dois-je faire ?",
+    "choices": [
+      "Passer à droite de l'îlot",
+      "Passer à gauche de l'îlot",
+      "Je peux passer d'un côté ou de l'autre"
+    ],
+    "answer": 0,
+    "grave": true,
+    "sign": "D1-downright",
+    "explain": "Le signal D1 impose de suivre la direction indiquée par la flèche. Placé sur un obstacle, il oblige à passer du côté indiqué par la flèche, ici à droite.",
+    "ref": "Art. 69.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-035",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau rond à fond bleu ?",
+    "choices": [
+      "Route prioritaire tout droit",
+      "Obligation de suivre la direction indiquée par la flèche (aller tout droit)",
+      "Sens unique"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "D1-up",
+    "explain": "Les panneaux ronds à fond bleu sont des signaux d'obligation. D1 impose de suivre la direction indiquée par la flèche.",
+    "ref": "Art. 69.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-036",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Interdiction de faire demi-tour",
+      "Fin de zone 30",
+      "Sens giratoire obligatoire"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "D5",
+    "explain": "Le signal D5 impose le sens giratoire. Un rond-point est signalé par des signaux D5 et ses accès sont pourvus de signaux B1 ou B5.",
+    "ref": "Art. 2 et 69.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-037",
+    "theme": "signalisation",
+    "q": "À l'endroit où ce panneau est placé, puis-je m'arrêter un instant pour laisser descendre un passager ?",
+    "choices": [
+      "Non",
+      "Oui"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "E3",
+    "explain": "Le signal E3 interdit à la fois l'arrêt et le stationnement. Même un arrêt bref pour déposer quelqu'un n'est pas permis.",
+    "ref": "Art. 70.2.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-038",
+    "theme": "signalisation",
+    "q": "Quelle est la différence entre ce panneau et le panneau E3 (barre en croix) ?",
+    "choices": [
+      "Celui-ci interdit seulement le stationnement ; E3 interdit l'arrêt et le stationnement",
+      "Il n'y en a aucune",
+      "Celui-ci interdit l'arrêt ; E3 interdit seulement le stationnement"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "E1",
+    "explain": "E1 (une barre oblique) signifie stationnement interdit ; E3 (deux barres en croix) signifie arrêt et stationnement interdits.",
+    "ref": "Art. 70.2.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-039",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Parking interdit",
+      "Stationnement autorisé",
+      "Poste de police"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "E9a",
+    "explain": "Le signal E9a indique que le stationnement est autorisé. Des inscriptions ou symboles peuvent préciser la catégorie de véhicules ou une réglementation particulière.",
+    "ref": "Art. 70.2.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-040",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Fin d'agglomération",
+      "Indication de direction vers une localité",
+      "Commencement d'une agglomération"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F1a",
+    "explain": "Le signal F1a indique le commencement d'une agglomération. Les règles propres aux agglomérations s'y appliquent (par ex. la vitesse maximale en agglomération).",
+    "ref": "Art. 71 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-041",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Fin d'une agglomération",
+      "Fin d'une zone 30",
+      "Rue barrée"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "F3a",
+    "explain": "Le signal F3a (nom de localité barré) indique la fin d'une agglomération.",
+    "ref": "Art. 71 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-042",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Vitesse conseillée de 30 km/h sur la prochaine rue",
+      "Commencement d'une zone où la vitesse est limitée à 30 km/h",
+      "Fin d'une zone 30"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F4a",
+    "explain": "Le signal F4a indique le commencement d'une zone dans laquelle la vitesse est limitée à 30 km/h, jusqu'au signal de fin de zone (F4b).",
+    "ref": "Art. 71 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-043",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Vitesse minimale de 30 km/h",
+      "Début d'une zone 30",
+      "Fin d'une zone où la vitesse est limitée à 30 km/h"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F4b",
+    "explain": "Le signal F4b est placé à chaque sortie d'une zone 30 et en indique la fin.",
+    "ref": "Art. 71 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-044",
+    "theme": "signalisation",
+    "q": "À partir d'où s'appliquent les règles spéciales de circulation annoncées par ce panneau ?",
+    "choices": [
+      "À partir de l'endroit où le signal est placé",
+      "À partir du premier péage",
+      "À 1 km après le signal"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "F5",
+    "explain": "Le signal F5 indique le commencement d'une autoroute ou un accès à une autoroute. Les règles spéciales des autoroutes s'appliquent à partir de l'endroit où il est placé.",
+    "ref": "Art. 71 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-045",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Autoroute en travaux",
+      "Fin d'autoroute",
+      "Sortie d'autoroute obligatoire pour les camions"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F7",
+    "explain": "Le signal F7 indique la fin de l'autoroute : les règles spéciales des autoroutes cessent de s'appliquer.",
+    "ref": "Art. 71 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-046",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Parking pour voitures",
+      "Autoroute",
+      "Route pour automobiles"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F9",
+    "explain": "Le signal F9 indique une route pour automobiles ; ses règles spéciales s'appliquent à partir de l'endroit où il est placé. Sa fin est indiquée par le signal F11.",
+    "ref": "Art. 71 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-047",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau rectangulaire à fond bleu ?",
+    "choices": [
+      "Voie publique à sens unique",
+      "Obligation de tourner dans le sens de la flèche",
+      "Direction de l'autoroute"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "F19",
+    "explain": "Le signal F19 est un signal d'indication : il informe que la voie publique est à sens unique. Un panneau additionnel peut indiquer que les cyclistes y circulent dans les deux sens.",
+    "ref": "Art. 65.2 et 71 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-048",
+    "theme": "signalisation",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Carrefour en T",
+      "Voie sans issue",
+      "Fin de route prioritaire"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F45",
+    "explain": "Le signal F45 indique une voie sans issue (impasse). Le F45b précise qu'elle n'est sans issue que pour les véhicules, les piétons et cyclistes pouvant passer.",
+    "ref": "Art. 71 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-049",
+    "theme": "signalisation",
+    "q": "Sous un panneau de signalisation est fixé un petit panneau rectangulaire à fond bleu avec une inscription blanche. À quoi sert-il ?",
+    "choices": [
+      "Il n'a qu'une valeur décorative",
+      "Il annule le signal",
+      "Il complète, précise ou limite la signification du signal"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole sur un panneau additionnel fixé en dessous (par ex. période de validité, catégorie de véhicules, distance).",
+    "ref": "Art. 65.2 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-050",
+    "theme": "signalisation",
+    "q": "Ce panneau est complété par un panneau additionnel « 200 m ». Que cela signifie-t-il ?",
+    "choices": [
+      "L'interdiction de dépasser commence à environ 200 m",
+      "L'interdiction de dépasser ne vaut que sur 200 m",
+      "On peut dépasser pendant encore 200 m maximum à vitesse réduite"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "C35",
+    "explain": "Un signal d'interdiction peut être annoncé par un signal identique complété par un panneau additionnel indiquant la distance approximative à laquelle commence l'interdiction.",
+    "ref": "Art. 68.2 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-051",
+    "theme": "signalisation",
+    "q": "Une ligne blanche continue sépare les deux sens de circulation. Puis-je la franchir pour dépasser un tracteur lent ?",
+    "choices": [
+      "Oui, si la visibilité est suffisante",
+      "Non, il est interdit de la franchir",
+      "Oui, si je rentre rapidement à droite"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Une ligne continue ne peut être franchie par aucun conducteur. Lorsqu'elle sépare les deux sens de circulation, il est en outre interdit de circuler à sa gauche.",
+    "ref": "Art. 72.2 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-052",
+    "theme": "signalisation",
+    "q": "Pour quelle manœuvre ne puis-je PAS franchir une ligne blanche discontinue ?",
+    "choices": [
+      "Pour dépasser",
+      "Pour tourner à gauche",
+      "Pour rouler à cheval sur la ligne afin d'avoir plus de place"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Une ligne discontinue ne peut être franchie que pour dépasser, tourner à gauche, faire demi-tour ou changer de bande. Il n'est pas permis d'y circuler à cheval.",
+    "ref": "Art. 72.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-053",
+    "theme": "signalisation",
+    "q": "Les traits de la ligne discontinue au milieu de la chaussée deviennent plus courts et plus rapprochés. Que cela annonce-t-il ?",
+    "choices": [
+      "L'approche d'une ligne continue",
+      "La fin de l'agglomération",
+      "Une bande réservée aux bus"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Des traits plus courts et plus rapprochés annoncent l'approche d'une ligne continue. Il ne faut donc plus entamer de dépassement.",
+    "ref": "Art. 72.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-054",
+    "theme": "signalisation",
+    "q": "Au milieu de la chaussée, une ligne continue et une ligne discontinue sont juxtaposées. La ligne discontinue est de mon côté. Puis-je franchir ces lignes pour dépasser ?",
+    "choices": [
+      "Non, la ligne continue l'interdit dans tous les cas",
+      "Oui, je ne dois tenir compte que de la ligne de mon côté"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Lorsque deux lignes sont juxtaposées, le conducteur ne tient compte que de celle qui se trouve de son côté. Celui qui les a franchies pour dépasser peut les refranchir pour reprendre sa place.",
+    "ref": "Art. 72.4 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-055",
+    "theme": "signalisation",
+    "q": "Dans une zone de travaux, des lignes orange sont tracées sur la chaussée en plus des anciennes lignes blanches. Lesquelles dois-je suivre ?",
+    "choices": [
+      "Les lignes blanches",
+      "Les lignes orange",
+      "Celles que je préfère"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les marques provisoires de couleur orange rendent sans effet les autres marques longitudinales blanches tracées au même endroit. Elles ont la même signification que les lignes blanches correspondantes.",
+    "ref": "Art. 73.1 et 73.4 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-056",
+    "theme": "signalisation",
+    "q": "Que signifie une ligne blanche continue tracée perpendiculairement au bord de la chaussée, devant un panneau stop ou un feu ?",
+    "choices": [
+      "C'est un passage pour piétons",
+      "C'est la fin d'une zone 30",
+      "C'est la ligne où je dois marquer l'arrêt"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "La ligne d'arrêt indique l'endroit où les conducteurs doivent marquer l'arrêt imposé par un signal B5 ou par un signal lumineux de circulation.",
+    "ref": "Art. 76.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-057",
+    "theme": "signalisation",
+    "q": "Que signifie une ligne transversale formée de triangles blancs tracée sur la chaussée à l'approche d'un carrefour ?",
+    "choices": [
+      "L'endroit où je dois, s'il y a lieu, m'arrêter pour céder le passage",
+      "Un dos d'âne",
+      "Une zone où l'arrêt est obligatoire dans tous les cas"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "La ligne de triangles blancs indique où il faut, s'il y a lieu, s'arrêter pour céder le passage en vertu d'un signal B1.",
+    "ref": "Art. 76.2 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-058",
+    "theme": "signalisation",
+    "q": "À l'approche d'un carrefour, je suis sur une bande marquée d'une flèche de sélection vers la droite. Puis-je continuer tout droit au carrefour ?",
+    "choices": [
+      "Oui, si personne n'arrive",
+      "Non, je dois suivre la direction indiquée sur ma bande",
+      "Oui, si je mets mon clignotant"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les flèches de sélection marquent la bande à suivre pour prendre la direction indiquée. Au carrefour, le conducteur doit suivre la ou une des directions indiquées sur la bande où il se trouve.",
+    "ref": "Art. 77.1 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-059",
+    "theme": "signalisation",
+    "q": "Des flèches blanches obliques (flèches de rabattement) apparaissent le long d'une ligne discontinue. Que m'annoncent-elles ?",
+    "choices": [
+      "Une sortie d'autoroute",
+      "Un sens giratoire",
+      "La réduction du nombre de bandes de circulation dans mon sens"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Les flèches de rabattement complètent la ligne discontinue annonçant une ligne continue et signalent la réduction du nombre de bandes utilisables dans le sens suivi.",
+    "ref": "Art. 77.2 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-060",
+    "theme": "signalisation",
+    "q": "Une zone d'évitement est marquée au sol par des lignes blanches parallèles obliques. Puis-je m'y arrêter un instant ?",
+    "choices": [
+      "Non, je ne peux ni y circuler, ni m'y arrêter, ni y stationner",
+      "Oui, si j'allume mes feux de détresse",
+      "Oui, pour moins de 2 minutes"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les îlots directionnels et zones d'évitement marqués par des lignes obliques ne peuvent être utilisés ni pour circuler, ni pour s'arrêter, ni pour stationner.",
+    "ref": "Art. 77.4 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-061",
+    "theme": "signalisation",
+    "q": "Des marques en damier composées de carrés blancs sont peintes sur le sol devant un passage à niveau. Puis-je m'arrêter sur ces marques ?",
+    "choices": [
+      "Non",
+      "Oui, si les barrières sont ouvertes"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Les marques en damier délimitent notamment un site spécial franchissable ou un passage à niveau. L'arrêt et le stationnement y sont interdits.",
+    "ref": "Art. 77.8 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-062",
+    "theme": "signalisation",
+    "q": "Au feu rouge, une zone située entre deux lignes d'arrêt porte le symbole d'une bicyclette. En voiture, où dois-je m'arrêter ?",
+    "choices": [
+      "Devant la seconde ligne d'arrêt, dans la zone vélo",
+      "Devant la première ligne d'arrêt",
+      "N'importe où, si aucun cycliste n'est présent"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "La zone avancée est réservée aux cyclistes et conducteurs de cyclomoteurs à deux roues pendant la phase rouge. Les autres conducteurs doivent s'arrêter devant la première ligne d'arrêt.",
+    "ref": "Art. 77.6 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-063",
+    "theme": "signalisation",
+    "q": "Les panneaux ronds à bord rouge, comme celui-ci, appartiennent à quelle catégorie ?",
+    "choices": [
+      "Signaux de danger",
+      "Signaux d'indication",
+      "Signaux d'interdiction"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "C43-70",
+    "explain": "Les signaux routiers se divisent en six catégories (danger, priorité, interdiction, obligation, arrêt et stationnement, indication). Le C43 (vitesse maximale) est un signal d'interdiction.",
+    "ref": "Art. 65.1 et 68.3 AR 01/12/1975"
+  },
+  {
+    "id": "SIG-064",
+    "theme": "signalisation",
+    "q": "Un agent qualifié tend les bras horizontalement face à moi alors que j'arrive dans une direction qui coupe celle indiquée par ses bras. Que dois-je faire ?",
+    "choices": [
+      "Passer, car il me montre le chemin",
+      "M'arrêter"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le ou les bras tendus horizontalement signifient arrêt pour les usagers venant des directions qui coupent celle indiquée par les bras. Les injonctions des agents priment sur toute autre signalisation.",
+    "ref": "Art. 4.2 et 6.1 AR 01/12/1975"
+  }
+]

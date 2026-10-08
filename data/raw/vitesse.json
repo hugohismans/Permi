@@ -1,0 +1,467 @@
+[
+  {
+    "id": "VIT-001",
+    "theme": "vitesse",
+    "q": "Vous roulez en voiture dans une agglomération en Wallonie. Aucun panneau de vitesse n'est placé. Quelle est la vitesse maximale autorisée ?",
+    "choices": [
+      "30 km/h",
+      "70 km/h",
+      "50 km/h"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F1a",
+    "explain": "En Région wallonne (comme en Flandre), la vitesse est limitée à 50 km/h dans les agglomérations, sauf autre limitation imposée par un signal C43.",
+    "ref": "Art. 11.1 AR 01/12/1975"
+  },
+  {
+    "id": "VIT-002",
+    "theme": "vitesse",
+    "q": "Vous circulez dans une agglomération de la Région de Bruxelles-Capitale, sans panneau de vitesse particulier. Vous pouvez rouler au maximum à…",
+    "choices": [
+      "50 km/h",
+      "30 km/h"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "En Région de Bruxelles-Capitale, la règle générale en agglomération est 30 km/h ; un C43 peut toutefois imposer ou permettre une autre vitesse sur certaines voies.",
+    "ref": "Art. 11.1 (Région de Bruxelles-Capitale) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-003",
+    "theme": "vitesse",
+    "q": "Hors agglomération en Wallonie, sur une route ordinaire à une bande par sens, sans panneau de vitesse. Ma vitesse maximale est de…",
+    "choices": [
+      "70 km/h",
+      "90 km/h",
+      "120 km/h"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "En Région wallonne, hors agglomération, la vitesse est limitée à 90 km/h sur les voies publiques ordinaires (en Flandre, la règle générale est 70 km/h).",
+    "ref": "Art. 11.2 (Région wallonne) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-004",
+    "theme": "vitesse",
+    "q": "Hors agglomération en Flandre, sur une route ordinaire sans aucun panneau de vitesse, quelle est la vitesse maximale ?",
+    "choices": [
+      "70 km/h",
+      "90 km/h"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "En Région flamande, hors agglomération, la vitesse est limitée à 70 km/h, sauf si un C43 permet 90 km/h.",
+    "ref": "Art. 11.2 (Région flamande) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-005",
+    "theme": "vitesse",
+    "q": "Je roule en voiture sur l'autoroute, sans panneau de vitesse particulier. Ma vitesse maximale est de…",
+    "choices": [
+      "100 km/h",
+      "130 km/h",
+      "120 km/h"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F5",
+    "explain": "Sur autoroute, la vitesse est limitée à 120 km/h pour les voitures, sauf limitation inférieure indiquée par un C43.",
+    "ref": "Art. 11.2.1° a) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-006",
+    "theme": "vitesse",
+    "q": "Hors agglomération, je roule sur une route à 2 x 2 bandes dont les sens de circulation sont séparés par une berme centrale (pas seulement par des marques). Ce n'est pas une autoroute. Ma vitesse maximale en voiture est de…",
+    "choices": [
+      "90 km/h",
+      "120 km/h",
+      "70 km/h"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Sur une route d'au moins 2 bandes par sens dont les sens sont séparés autrement que par des marques routières (berme, glissière), la limite est de 120 km/h, comme sur autoroute.",
+    "ref": "Art. 11.2.1° b) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-007",
+    "theme": "vitesse",
+    "q": "Hors agglomération en Wallonie, sur une route à 2 x 2 bandes dont les sens de circulation sont séparés uniquement par des lignes blanches au sol, quelle est la vitesse maximale en voiture ?",
+    "choices": [
+      "120 km/h",
+      "70 km/h",
+      "90 km/h"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Lorsque les sens de circulation ne sont séparés que par des marques routières, la limite est celle des routes ordinaires : 90 km/h en Wallonie.",
+    "ref": "Art. 11.2 (Région wallonne) 2° a) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-008",
+    "theme": "vitesse",
+    "q": "Sur l'autoroute, la circulation est fluide et aucun panneau ne limite la vitesse. Puis-je rouler à 60 km/h simplement parce que je ne suis pas pressé ?",
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Sur autoroute, il est interdit de rouler à moins de 70 km/h, sauf limitation inférieure imposée par un C43 ; la vitesse doit toutefois toujours être adaptée aux circonstances (brouillard, embouteillage…).",
+    "ref": "Art. 21.2 AR 01/12/1975"
+  },
+  {
+    "id": "VIT-009",
+    "theme": "vitesse",
+    "q": "Je conduis une camionnette dont la masse maximale autorisée est de 5 tonnes. Sur l'autoroute, ma vitesse maximale est de…",
+    "choices": [
+      "120 km/h",
+      "90 km/h",
+      "100 km/h"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Sur autoroute, les véhicules dont la masse maximale autorisée dépasse 3,5 tonnes sont limités à 90 km/h.",
+    "ref": "Art. 11.2.1° a) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-010",
+    "theme": "vitesse",
+    "q": "Vous entrez dans une zone signalée par ce panneau. Quelle est la vitesse maximale ?",
+    "choices": [
+      "30 km/h jusqu'au prochain carrefour",
+      "50 km/h, le panneau n'est qu'un conseil",
+      "30 km/h jusqu'au panneau de fin de zone"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "F4a",
+    "explain": "Le signal F4a marque le début d'une zone où la vitesse est limitée à 30 km/h ; la limite vaut jusqu'au signal F4b de fin de zone, même après les carrefours.",
+    "ref": "Art. 22quater et 71 AR 01/12/1975"
+  },
+  {
+    "id": "VIT-011",
+    "theme": "vitesse",
+    "q": "Je viens de passer un panneau C43 « 70 » en agglomération, puis je traverse un carrefour sans voir d'autre panneau. Que se passe-t-il ?",
+    "choices": [
+      "La limite de 70 km/h reste valable jusqu'à la sortie de l'agglomération",
+      "La limite générale de l'agglomération s'applique à nouveau après le carrefour",
+      "Je peux rouler à 90 km/h"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "C43-70",
+    "explain": "Un C43 (non zonal) vaut jusqu'au prochain carrefour inclus ; après, la vitesse générale de l'agglomération est de nouveau en vigueur.",
+    "ref": "Art. 68 (C43) et 71 (F1a) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-012",
+    "theme": "vitesse",
+    "q": "Que signifie ce panneau ?",
+    "choices": [
+      "Vitesse minimale de 50 km/h",
+      "Interdiction de rouler à plus de 50 km/h",
+      "Fin de la limitation de vitesse à 50 km/h imposée par un C43"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "C45-50",
+    "explain": "Le signal C45 indique la fin de la limitation de vitesse imposée par le signal C43 correspondant. Les règles générales de vitesse s'appliquent ensuite.",
+    "ref": "Art. 68 (C45) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-013",
+    "theme": "vitesse",
+    "q": "Ce panneau est placé sur une route. Jusqu'où vaut-il, s'il n'est pas à validité zonale ?",
+    "choices": [
+      "Jusqu'au prochain carrefour inclus ou jusqu'à un autre C43",
+      "Jusqu'à la fin de la commune",
+      "Sur 1 kilomètre exactement"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "C43-50",
+    "explain": "Le C43 interdit de dépasser la vitesse indiquée à partir du signal jusqu'au prochain carrefour inclus, jusqu'à un autre C43, ou jusqu'au signal de début ou de fin d'agglomération, de zone résidentielle, de rencontre ou piétonne.",
+    "ref": "Art. 68 (C43) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-014",
+    "theme": "vitesse",
+    "q": "Un panneau C43 « 30 » est placé au-dessus du panneau de début d'agglomération. Que signifie cette combinaison ?",
+    "choices": [
+      "30 km/h jusqu'au premier carrefour seulement",
+      "30 km/h uniquement près des écoles",
+      "30 km/h sur toutes les voiries de l'agglomération"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "C43-30",
+    "explain": "Le C43 « 30 » placé au-dessus du signal F1 (F1a/F1b) vaut sur l'ensemble des voiries comprises dans les limites de l'agglomération.",
+    "ref": "Art. 68 (C43) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-015",
+    "theme": "vitesse",
+    "q": "Je suis en voiture dans une zone résidentielle (ou zone de rencontre). Quelle est la vitesse maximale ?",
+    "choices": [
+      "30 km/h",
+      "20 km/h",
+      "Au pas"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Dans les zones résidentielles et de rencontre, la vitesse est limitée à 20 km/h ; les piétons peuvent utiliser toute la largeur de la voie publique.",
+    "ref": "Art. 22bis, 3° AR 01/12/1975"
+  },
+  {
+    "id": "VIT-016",
+    "theme": "vitesse",
+    "q": "Dans une zone de rencontre, des enfants jouent au milieu de la rue. Que dois-je faire ?",
+    "choices": [
+      "Klaxonner pour qu'ils s'écartent, car la chaussée est pour les véhicules",
+      "Les contourner à 20 km/h sans ralentir",
+      "Ne pas les mettre en danger ni les gêner et, au besoin, m'arrêter"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Dans les zones résidentielles et de rencontre, les jeux sont autorisés sur toute la largeur ; le conducteur ne peut mettre les piétons en danger ni les gêner, doit redoubler de prudence en présence d'enfants et s'arrêter au besoin.",
+    "ref": "Art. 22bis, 1° et 2° AR 01/12/1975"
+  },
+  {
+    "id": "VIT-017",
+    "theme": "vitesse",
+    "q": "Comment est délimitée une zone « abords d'école » ?",
+    "choices": [
+      "Par les signaux F4a et F4b, avec le signal A23 associé au F4a",
+      "Uniquement par un marquage jaune au sol",
+      "Par un signal C3"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "F4a",
+    "explain": "Les abords d'école sont délimités par les signaux F4a (début) et F4b (fin) ; le signal A23 est associé au F4a. La vitesse y est donc limitée à 30 km/h.",
+    "ref": "Art. 2.37 et 22quater AR 01/12/1975"
+  },
+  {
+    "id": "VIT-018",
+    "theme": "vitesse",
+    "q": "Je passe devant une école, dans une zone abords d'école délimitée par un F4a. Je peux rouler au maximum à…",
+    "choices": [
+      "50 km/h",
+      "20 km/h",
+      "30 km/h"
+    ],
+    "answer": 2,
+    "grave": true,
+    "sign": "F4a",
+    "explain": "Les abords d'école sont délimités par les signaux F4a et F4b : la vitesse y est limitée à 30 km/h. Excéder cette vitesse près d'une école met gravement en danger des enfants.",
+    "ref": "Art. 2.37 et 22quater AR 01/12/1975"
+  },
+  {
+    "id": "VIT-019",
+    "theme": "vitesse",
+    "q": "J'aborde un dispositif surélevé (ralentisseur) annoncé par la signalisation. À quelle vitesse maximale dois-je le franchir ?",
+    "choices": [
+      "30 km/h",
+      "50 km/h",
+      "20 km/h"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les conducteurs doivent approcher ces dispositifs avec prudence et à allure modérée, de manière à les franchir à une vitesse n'excédant pas 30 km/h.",
+    "ref": "Art. 22ter.1, 1° AR 01/12/1975"
+  },
+  {
+    "id": "VIT-020",
+    "theme": "vitesse",
+    "q": "La limite est de 90 km/h mais il pleut fortement et la visibilité est réduite. Que dois-je faire ?",
+    "choices": [
+      "Je peux rouler à 90 km/h puisque c'est autorisé",
+      "Je dois rouler exactement à 50 km/h",
+      "Je dois adapter ma vitesse aux conditions climatiques et à la visibilité"
+    ],
+    "answer": 2,
+    "grave": false,
+    "sign": "C43-90",
+    "explain": "La vitesse maximale n'est pas une vitesse obligatoire : tout conducteur doit régler sa vitesse selon les conditions climatiques, le champ de visibilité, l'état de la route, etc.",
+    "ref": "Art. 10.1, 1° AR 01/12/1975"
+  },
+  {
+    "id": "VIT-021",
+    "theme": "vitesse",
+    "q": "La nuit, sur une route de campagne non éclairée, je roule en feux de croisement. Je dois pouvoir m'arrêter…",
+    "choices": [
+      "Devant tout obstacle prévisible",
+      "Seulement si la route est éclairée",
+      "Dans une distance de 100 m quelle que soit ma vitesse"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Le conducteur doit en toute circonstance pouvoir s'arrêter devant un obstacle prévisible : la vitesse doit donc être adaptée à la portée de l'éclairage et au champ de visibilité.",
+    "ref": "Art. 10.1, 3° AR 01/12/1975"
+  },
+  {
+    "id": "VIT-022",
+    "theme": "vitesse",
+    "q": "J'approche d'une sortie d'école à l'heure où les enfants sortent. Même si la limite affichée est respectée, je dois…",
+    "choices": [
+      "Garder ma vitesse, puisque je respecte la limite",
+      "Klaxonner pour prévenir les enfants",
+      "Régler ma vitesse en tenant compte en particulier des usagers les plus vulnérables"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "La vitesse doit être réglée en fonction de la présence d'autres usagers et en particulier des plus vulnérables ; elle ne peut jamais être une cause d'accident.",
+    "ref": "Art. 10.1, 1° AR 01/12/1975"
+  },
+  {
+    "id": "VIT-023",
+    "theme": "vitesse",
+    "q": "Ma voiture est lourdement chargée (coffre plein et galerie de toit). Dois-je en tenir compte dans ma vitesse ?",
+    "choices": [
+      "Oui, l'état et le chargement du véhicule doivent être pris en compte",
+      "Non, seuls les panneaux comptent"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le code impose de régler sa vitesse notamment en fonction de l'état et du chargement du véhicule.",
+    "ref": "Art. 10.1, 1° AR 01/12/1975"
+  },
+  {
+    "id": "VIT-024",
+    "theme": "vitesse",
+    "q": "Quelle distance dois-je laisser avec le véhicule qui me précède ?",
+    "choices": [
+      "Toujours 5 mètres",
+      "Une distance de sécurité suffisante compte tenu de ma vitesse",
+      "Aucune distance n'est imposée aux voitures"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le conducteur doit, compte tenu de sa vitesse, maintenir une distance de sécurité suffisante avec le véhicule qui le précède. Plus on roule vite, plus cette distance doit être grande.",
+    "ref": "Art. 10.1, 2° AR 01/12/1975"
+  },
+  {
+    "id": "VIT-025",
+    "theme": "vitesse",
+    "q": "Sur une route dégagée, sans raison valable, je roule à 30 km/h là où la limite est 90 km/h et je gêne la file derrière moi. Est-ce permis ?",
+    "choices": [
+      "Non, je ne peux pas gêner la marche normale des autres en roulant anormalement lentement sans raison valable",
+      "Oui, rouler lentement est toujours plus sûr"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Aucun conducteur ne peut gêner la marche normale des autres en circulant sans raison valable à une vitesse anormalement réduite.",
+    "ref": "Art. 10.2 AR 01/12/1975"
+  },
+  {
+    "id": "VIT-026",
+    "theme": "vitesse",
+    "q": "Je freine brusquement sur une route fluide, sans aucune raison de sécurité, pour « donner une leçon » au conducteur qui me suit. Est-ce autorisé ?",
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Il est interdit de gêner les autres conducteurs par un freinage soudain non exigé par des raisons de sécurité. Ce comportement provoque des collisions par l'arrière.",
+    "ref": "Art. 10.2 AR 01/12/1975"
+  },
+  {
+    "id": "VIT-027",
+    "theme": "vitesse",
+    "q": "Je dois ralentir fortement. Ma voiture a des feux-stop en état de marche. Comment dois-je signaler mon intention ?",
+    "choices": [
+      "En allumant les feux de détresse obligatoirement",
+      "Je ne dois rien signaler",
+      "Par les feux-stop"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le conducteur qui veut ralentir de façon notable doit l'indiquer au moyen des feux-stop lorsque le véhicule en est pourvu.",
+    "ref": "Art. 10.2 AR 01/12/1975"
+  },
+  {
+    "id": "VIT-028",
+    "theme": "vitesse",
+    "q": "Sur une route de campagne, des chevaux montés approchent et l'un d'eux montre des signes de frayeur. Que dois-je faire ?",
+    "choices": [
+      "Les dépasser rapidement pour écourter la situation",
+      "M'arrêter",
+      "Klaxonner pour avertir le cavalier"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Il faut ralentir à l'approche d'animaux de trait, de charge, de monture ou de bestiaux, et s'arrêter lorsqu'ils montrent des signes de frayeur.",
+    "ref": "Art. 10.3 AR 01/12/1975"
+  },
+  {
+    "id": "VIT-029",
+    "theme": "vitesse",
+    "q": "Mon passager m'encourage à « tester » la puissance de la voiture en roulant bien au-delà de la limite. Son comportement est-il permis ?",
+    "choices": [
+      "Non, il est interdit d'inciter ou de provoquer un conducteur à circuler à une vitesse excessive",
+      "Oui, seul le conducteur est responsable"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le code interdit expressément d'inciter ou de provoquer un conducteur à circuler à une vitesse excessive.",
+    "ref": "Art. 10.4 AR 01/12/1975"
+  },
+  {
+    "id": "VIT-030",
+    "theme": "vitesse",
+    "q": "Je roule à 120 km/h sur l'autoroute et j'arrive dans une zone de travaux où un panneau C43 « 70 » est placé. Que dois-je faire ?",
+    "choices": [
+      "Garder 120 km/h, c'est une autoroute",
+      "Réduire seulement à 90 km/h",
+      "Réduire ma vitesse à 70 km/h maximum"
+    ],
+    "answer": 2,
+    "grave": true,
+    "sign": "C43-70",
+    "explain": "Les limitations inférieures imposées par un signal C43 restent d'application, même sur autoroute. Traverser une zone de travaux à pleine vitesse est très dangereux pour les ouvriers.",
+    "ref": "Art. 11.2.1° et 68 (C43) AR 01/12/1975"
+  },
+  {
+    "id": "VIT-031",
+    "theme": "vitesse",
+    "q": "Hors agglomération, je conduis un camion de 12 tonnes de masse maximale autorisée derrière un autre camion de plus de 7,5 tonnes. Quel intervalle minimum dois-je respecter ?",
+    "choices": [
+      "20 mètres",
+      "50 mètres",
+      "100 mètres"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "En dehors des agglomérations, les véhicules de plus de 7,5 tonnes ou de plus de 7 mètres de long doivent maintenir entre eux un intervalle d'au moins 50 mètres.",
+    "ref": "Art. 18.2 AR 01/12/1975"
+  },
+  {
+    "id": "VIT-032",
+    "theme": "vitesse",
+    "q": "Dans une agglomération en Wallonie, un C43 « 70 » m'autorise 70 km/h. J'entre ensuite dans une zone de rencontre. Quelle vitesse dois-je respecter ?",
+    "choices": [
+      "70 km/h",
+      "30 km/h",
+      "20 km/h"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le C43 cesse de valoir au signal de début de zone de rencontre ; dans une zone de rencontre ou résidentielle, la vitesse est limitée à 20 km/h.",
+    "ref": "Art. 68 (C43) et 22bis AR 01/12/1975"
+  },
+  {
+    "id": "VIT-033",
+    "theme": "vitesse",
+    "q": "Je circule dans une zone cyclable où plusieurs cyclistes roulent devant moi. Est-ce que je peux les dépasser ?",
+    "choices": [
+      "Non, les véhicules à moteur ne peuvent pas y dépasser les cyclistes",
+      "Oui, si je reste sous 30 km/h"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les véhicules à moteur ont accès aux zones cyclables mais ne peuvent pas y dépasser les cyclistes ; la vitesse n'y peut jamais dépasser 30 km/h.",
+    "ref": "Art. 22novies AR 01/12/1975"
+  }
+]

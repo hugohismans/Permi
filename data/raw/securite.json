@@ -1,0 +1,766 @@
+[
+  {
+    "id": "SEC-001",
+    "theme": "securite",
+    "q": "De nuit, hors agglomération, je roule avec mes feux de route. Une voiture arrive en sens inverse. Que dois-je faire ?",
+    "choices": [
+      "Garder mes feux de route jusqu'à ce qu'elle soit à ma hauteur",
+      "Éteindre tous mes feux un court instant",
+      "Passer en feux de croisement à une distance suffisante pour que l'autre conducteur puisse continuer sans danger"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "À l'approche d'un usager venant en sens inverse, les feux de route doivent être remplacés par les feux de croisement, à une distance suffisante pour qu'il puisse poursuivre sa route aisément et sans danger.",
+    "ref": "Art. 30.1.1° a) AR 01/12/1975"
+  },
+  {
+    "id": "SEC-002",
+    "theme": "securite",
+    "q": "De nuit, je suis une autre voiture à environ 40 mètres sur une route non éclairée. Je n'ai pas l'intention de la dépasser. Puis-je utiliser mes feux de route ?",
+    "choices": [
+      "Non, je dois utiliser mes feux de croisement",
+      "Oui, la route n'est pas éclairée"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Lorsqu'on suit un autre véhicule à moins de 50 mètres, les feux de route doivent être remplacés par les feux de croisement, sauf pendant un dépassement.",
+    "ref": "Art. 30.1.1° c) AR 01/12/1975"
+  },
+  {
+    "id": "SEC-003",
+    "theme": "securite",
+    "q": "Dans quelles circonstances puis-je allumer mes feux de brouillard avant ?",
+    "choices": [
+      "En cas de brouillard, de chute de neige ou de forte pluie",
+      "Dès la tombée du jour",
+      "Chaque fois que la route est sinueuse"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les feux de brouillard avant ne peuvent être utilisés qu'en cas de brouillard, de chute de neige ou de forte pluie. Ils peuvent alors remplacer les feux de croisement ou de route, ou être allumés en même temps.",
+    "ref": "Art. 30.1.1° AR 01/12/1975"
+  },
+  {
+    "id": "SEC-004",
+    "theme": "securite",
+    "q": "Il y a un épais brouillard : je ne vois qu'à 60 mètres environ. Ma voiture est équipée d'un feu de brouillard arrière. Que dit le code ?",
+    "choices": [
+      "Je peux l'allumer si je le souhaite",
+      "Je ne peux l'allumer que sur autoroute",
+      "Je dois l'allumer"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le feu de brouillard arrière doit être utilisé en cas de brouillard ou de chute de neige réduisant la visibilité à moins de 100 m environ, ainsi qu'en cas de forte pluie.",
+    "ref": "Art. 30.1.2° AR 01/12/1975"
+  },
+  {
+    "id": "SEC-005",
+    "theme": "securite",
+    "q": "De nuit, par temps sec et clair, je trouve que les autres me voient mal. Puis-je allumer mon feu de brouillard arrière ?",
+    "choices": [
+      "Oui, pour être plus visible",
+      "Non, il ne peut être utilisé que par brouillard, chute de neige (visibilité < 100 m environ) ou forte pluie"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "En dehors du brouillard ou de la neige réduisant la visibilité à moins de 100 m environ et de la forte pluie, le feu de brouillard arrière est interdit : il éblouit les conducteurs qui suivent.",
+    "ref": "Art. 30.1.2° AR 01/12/1975"
+  },
+  {
+    "id": "SEC-006",
+    "theme": "securite",
+    "q": "En plein jour, une averse réduit fortement la visibilité. À partir de quand dois-je allumer mes feux ?",
+    "choices": [
+      "Lorsque je ne vois plus distinctement jusqu'à environ 100 mètres",
+      "Lorsque je ne vois plus distinctement jusqu'à environ 200 mètres",
+      "Uniquement après la tombée du jour"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les feux doivent être allumés entre la tombée et le lever du jour, et en toute circonstance où l'on ne voit plus distinctement jusqu'à environ 200 mètres.",
+    "ref": "Art. 30 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-007",
+    "theme": "securite",
+    "q": "De nuit, je roule sur une route bien éclairée de façon continue : je vois distinctement à plus de 100 mètres. Quels feux avant dois-je utiliser ?",
+    "choices": [
+      "Les feux de croisement",
+      "Les feux de route",
+      "Les feux de brouillard avant"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Lorsque l'éclairage de la chaussée est continu et suffisant pour voir distinctement jusqu'à environ 100 mètres, les feux de route doivent être remplacés par les feux de croisement.",
+    "ref": "Art. 30.1.1° d) AR 01/12/1975"
+  },
+  {
+    "id": "SEC-008",
+    "theme": "securite",
+    "q": "De nuit, je roule en feux de route. Le conducteur qui vient en face allume et éteint rapidement ses feux de route plusieurs fois. Que signifie ce geste et que dois-je faire ?",
+    "choices": [
+      "Il est ébloui : je passe immédiatement en feux de croisement",
+      "Il me salue : je ne change rien",
+      "Il me signale un contrôle : je réponds par un appel de phares"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le conducteur qui allume et éteint rapidement ses feux de route fait comprendre qu'il est ébloui. Il faut alors passer en feux de croisement sans attendre.",
+    "ref": "Art. 30.1.1° a) AR 01/12/1975"
+  },
+  {
+    "id": "SEC-009",
+    "theme": "securite",
+    "q": "De nuit, je stationne ma voiture hors agglomération, le long d'une route non éclairée. Comment dois-je la signaler ?",
+    "choices": [
+      "Avec les feux de détresse",
+      "Aucun feu n'est nécessaire en stationnement",
+      "Avec les feux de position à l'avant et les feux rouges à l'arrière"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Un véhicule à moteur à l'arrêt ou en stationnement de nuit doit être signalé par un ou deux feux de position blancs ou jaunes à l'avant et un ou deux feux rouges à l'arrière.",
+    "ref": "Art. 31.1.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-010",
+    "theme": "securite",
+    "q": "De nuit, en agglomération, je stationne parallèlement à la chaussée dans une rue mal éclairée, sans remorque. Puis-je n'utiliser qu'un feu de stationnement ?",
+    "choices": [
+      "Oui, celui situé du côté du trottoir",
+      "Non, c'est interdit en agglomération",
+      "Oui, celui situé du côté de l'axe de la chaussée"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "En agglomération, un véhicule rangé parallèlement à l'axe de la chaussée et sans remorque peut être signalé par un feu de stationnement. Seul celui du côté de l'axe de la chaussée peut être utilisé.",
+    "ref": "Art. 31.1.1 3° AR 01/12/1975"
+  },
+  {
+    "id": "SEC-011",
+    "theme": "securite",
+    "q": "De nuit, ma voiture est stationnée sous un réverbère : l'éclairage public permet de la voir distinctement à environ 100 mètres. Dois-je laisser mes feux de position allumés ?",
+    "choices": [
+      "Non, ce n'est pas obligatoire dans ce cas",
+      "Oui, toujours"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les feux de stationnement ne sont obligatoires que si l'éclairage public ne permet pas d'apercevoir distinctement le véhicule à environ 100 mètres.",
+    "ref": "Art. 31.2 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-012",
+    "theme": "securite",
+    "q": "En agglomération, je m'apprête à dépasser un cycliste. Puis-je utiliser mon klaxon pour le prévenir ?",
+    "choices": [
+      "Non, le klaxon n'est autorisé que pour éviter un accident",
+      "Oui, c'est même recommandé"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "L'avertisseur sonore n'est autorisé que pour éviter un accident et, hors agglomération seulement, pour avertir qu'on va dépasser. En agglomération, klaxonner pour annoncer un dépassement est interdit.",
+    "ref": "Art. 33.2 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-013",
+    "theme": "securite",
+    "q": "Hors agglomération, à 23 h, je veux avertir le conducteur qui me précède que je vais le dépasser. Comment dois-je faire ?",
+    "choices": [
+      "Par un bref coup d'avertisseur sonore",
+      "Avec mes feux de détresse",
+      "Par l'emploi court et alterné des feux de route et des feux de croisement"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Entre la tombée et le lever du jour, sauf danger imminent, l'avertisseur sonore est remplacé par l'emploi court et alterné des feux de route et des feux de croisement.",
+    "ref": "Art. 33.3 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-014",
+    "theme": "securite",
+    "q": "Je croise un ami sur le trottoir. Puis-je donner un petit coup de klaxon pour le saluer ?",
+    "choices": [
+      "Oui, si le coup de klaxon est bref",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les avertissements sonores ne sont autorisés que pour éviter un accident (et, hors agglomération, pour annoncer un dépassement). Klaxonner pour saluer est interdit.",
+    "ref": "Art. 33.2 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-015",
+    "theme": "securite",
+    "q": "Dans quelle situation puis-je utiliser mes feux de détresse (tous les clignotants en même temps) ?",
+    "choices": [
+      "Pour m'arrêter brièvement en double file",
+      "Pour remercier un conducteur qui m'a laissé passer",
+      "Pour signaler aux usagers qui me suivent un risque d'accident imminent, par exemple un bouchon soudain sur autoroute"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Les feux de détresse ne peuvent être utilisés qu'en cas de panne ou de chargement tombé, par un bus scolaire qui embarque ou débarque des enfants, ou pour signaler un risque d'accident imminent.",
+    "ref": "Art. 32bis AR 01/12/1975"
+  },
+  {
+    "id": "SEC-016",
+    "theme": "securite",
+    "q": "Je tombe en panne sur l'autoroute et je ne peux pas quitter la bande d'arrêt d'urgence. À quelle distance minimale derrière mon véhicule dois-je placer le triangle de danger ?",
+    "choices": [
+      "30 mètres",
+      "50 mètres",
+      "100 mètres"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Sur autoroute, le triangle se place à au moins 100 mètres en deçà du véhicule (30 mètres sur les voies ordinaires), de façon à être visible à environ 50 mètres.",
+    "ref": "Art. 51.2 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-017",
+    "theme": "securite",
+    "q": "Hors agglomération, ma voiture tombe en panne à un endroit où le stationnement est interdit et je ne peux pas la déplacer. Où dois-je placer le triangle de danger ?",
+    "choices": [
+      "À au moins 30 mètres derrière le véhicule, visible à environ 50 mètres",
+      "Sur le toit du véhicule",
+      "À 5 mètres derrière le véhicule"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Sur les voies ordinaires, le triangle est placé en deçà du véhicule, en position presque verticale, à au moins 30 mètres et de manière à être visible à environ 50 mètres. Le placer sur le véhicule n'est admis qu'en agglomération, quand les 30 m sont impossibles.",
+    "ref": "Art. 51.2 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-018",
+    "theme": "securite",
+    "q": "Je suis en panne sur la bande d'arrêt d'urgence d'une autoroute. Je dois sortir de la voiture. Quelle obligation dois-je respecter ?",
+    "choices": [
+      "Porter une veste de sécurité rétroréfléchissante dès que je sors",
+      "Porter la veste uniquement la nuit",
+      "Aucune, si mes feux de détresse sont allumés"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Sur autoroute et route pour automobiles, le conducteur d'un véhicule en panne rangé là où l'arrêt et le stationnement sont interdits doit porter une veste de sécurité rétroréfléchissante dès qu'il sort du véhicule, de jour comme de nuit.",
+    "ref": "Art. 51.4 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-019",
+    "theme": "securite",
+    "q": "Ma voiture tombe en panne en journée. Je parviens à la pousser sur un emplacement où le stationnement est autorisé, en dehors de la circulation. Dois-je placer le triangle de danger ?",
+    "choices": [
+      "Non, le véhicule est rangé comme un véhicule en stationnement",
+      "Oui, dans tous les cas de panne"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le conducteur en panne doit ranger son véhicule comme un véhicule en stationnement. Le triangle n'est obligatoire que si le véhicule ne peut être déplacé ou ne peut être rangé qu'à un endroit où l'arrêt et le stationnement sont interdits.",
+    "ref": "Art. 51.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-020",
+    "theme": "securite",
+    "q": "Lequel de ces accessoires doit obligatoirement se trouver à bord de toute voiture ?",
+    "choices": [
+      "Une roue de secours",
+      "Un extincteur",
+      "Un câble de remorquage"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Tout véhicule automobile doit avoir à bord un triangle de danger, un ou deux extincteurs et une trousse (ou coffret) de secours, conformes au règlement technique.",
+    "ref": "Art. 81.2 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-021",
+    "theme": "securite",
+    "q": "Quelle est la profondeur minimale des rainures principales des pneus d'une voiture ?",
+    "choices": [
+      "1 mm",
+      "1,6 mm",
+      "3 mm"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les rainures principales des pneus doivent avoir une profondeur d'au moins 1,6 mm (1 mm pour les cyclomoteurs). En dessous, l'adhérence sur route mouillée diminue fortement.",
+    "ref": "Art. 81.4.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-022",
+    "theme": "securite",
+    "q": "Mon passager adulte, assis à l'arrière sur une place équipée d'une ceinture, ne veut pas la boucler pour un trajet de 2 km. Est-ce permis ?",
+    "choices": [
+      "Oui, la ceinture n'est obligatoire qu'à l'avant",
+      "Oui, pour un court trajet",
+      "Non, tous les occupants doivent porter la ceinture aux places qui en sont équipées"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le conducteur et tous les passagers d'une voiture en circulation doivent porter la ceinture de sécurité aux places qui en sont équipées, quelle que soit la longueur du trajet.",
+    "ref": "Art. 35.1.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-023",
+    "theme": "securite",
+    "q": "Je transporte dans ma voiture ma nièce de 10 ans, qui mesure 1,30 m. Comment doit-elle être attachée ?",
+    "choices": [
+      "Dans un dispositif de retenue pour enfants adapté (par ex. rehausseur)",
+      "Avec la ceinture seule, puisqu'elle a plus de 8 ans",
+      "Avec la ceinture seule, si elle est à l'arrière"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les enfants de moins de 18 ans qui mesurent moins de 135 cm doivent être transportés dans un dispositif de retenue pour enfants adapté à leur taille et leur poids.",
+    "ref": "Art. 35.1.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-024",
+    "theme": "securite",
+    "q": "Mon fils de 12 ans mesure 1,45 m. Peut-il s'asseoir à l'avant avec la ceinture de sécurité normale ?",
+    "choices": [
+      "Non, il doit s'asseoir à l'arrière jusqu'à 18 ans",
+      "Oui",
+      "Non, il doit utiliser un siège enfant jusqu'à 14 ans"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le critère est la taille : à partir de 135 cm, l'enfant peut utiliser la ceinture de sécurité normale, à l'avant comme à l'arrière.",
+    "ref": "Art. 35.1.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-025",
+    "theme": "securite",
+    "q": "Je veux installer le siège bébé dos à la route sur le siège passager avant. Ce siège est protégé par un airbag frontal. Est-ce autorisé ?",
+    "choices": [
+      "Oui, si le bébé est bien attaché",
+      "Non, sauf si l'airbag frontal est désactivé"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Un enfant ne peut pas être transporté dos à la route sur un siège passager protégé par un airbag frontal actif : en se déployant, l'airbag frapperait le siège et blesserait gravement l'enfant. L'airbag doit être désactivé.",
+    "ref": "Art. 35.1.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-026",
+    "theme": "securite",
+    "q": "Je fais une marche arrière pour me garer. Suis-je obligé de garder ma ceinture de sécurité bouclée ?",
+    "choices": [
+      "Non, le conducteur qui effectue une marche arrière en est dispensé",
+      "Oui, sans exception"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le conducteur qui effectue une marche arrière est dispensé de l'obligation de porter la ceinture, pour pouvoir se retourner facilement.",
+    "ref": "Art. 35.2.1 1° AR 01/12/1975"
+  },
+  {
+    "id": "SEC-027",
+    "theme": "securite",
+    "q": "Ma voiture compte 5 places équipées d'une ceinture. Puis-je transporter 6 personnes (moi compris) en me serrant à l'arrière ?",
+    "choices": [
+      "Non",
+      "Oui, pour un court trajet"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le nombre d'occupants ne peut pas dépasser le nombre de places équipées d'une ceinture ou d'un dispositif de retenue pour enfants homologué (et de celles qui ne doivent pas en être équipées).",
+    "ref": "Art. 44.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-028",
+    "theme": "securite",
+    "q": "Je roule en suivant le GPS de mon smartphone. À quelle condition est-ce autorisé ?",
+    "choices": [
+      "Si je le tiens d'une seule main",
+      "Ce n'est jamais autorisé",
+      "Si le smartphone est fixé au véhicule dans un support prévu à cet effet"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "En roulant, le conducteur ne peut utiliser, tenir en main ni manipuler un appareil électronique mobile à écran, sauf s'il est fixé au véhicule dans un support destiné à cet effet.",
+    "ref": "Art. 8.4 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-029",
+    "theme": "securite",
+    "q": "Je roule au pas dans un embouteillage. Puis-je prendre mon téléphone en main pour lire un message ?",
+    "choices": [
+      "Oui, car je roule très lentement",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Tant que le véhicule n'est pas à l'arrêt ou en stationnement, il est interdit de tenir en main ou de manipuler un téléphone, même à faible vitesse. Lire un message détourne le regard de la route.",
+    "ref": "Art. 8.4 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-030",
+    "theme": "securite",
+    "q": "Je conduis une voiture avec un permis B. À partir de quel taux d'alcool dans le sang suis-je en infraction ?",
+    "choices": [
+      "0,2 g/l",
+      "0,5 g/l",
+      "0,8 g/l"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Pour un conducteur ordinaire, la conduite est punissable à partir de 0,5 gramme d'alcool par litre de sang (soit 0,22 mg par litre d'air alvéolaire expiré).",
+    "ref": "Art. 34 §1 Loi du 16/03/1968"
+  },
+  {
+    "id": "SEC-031",
+    "theme": "securite",
+    "q": "Lors d'un contrôle, la police mesure l'alcool dans mon haleine. À partir de quelle concentration un conducteur de voiture ordinaire est-il en infraction ?",
+    "choices": [
+      "0,09 mg par litre d'air alvéolaire expiré",
+      "0,22 mg par litre d'air alvéolaire expiré",
+      "0,35 mg par litre d'air alvéolaire expiré"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "0,22 mg/l d'air alvéolaire expiré correspond à 0,5 g/l de sang : c'est le seuil général d'infraction.",
+    "ref": "Art. 34 §1 Loi du 16/03/1968"
+  },
+  {
+    "id": "SEC-032",
+    "theme": "securite",
+    "q": "Quel est le taux d'alcool maximal dans le sang pour un chauffeur de camion (permis C) ou d'autobus (permis D) ?",
+    "choices": [
+      "Moins de 0,2 g/l",
+      "Moins de 0,5 g/l",
+      "Moins de 0,8 g/l"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Pour les conducteurs de véhicules des catégories C et D (et ceux qui transportent des personnes soumis aux mêmes normes médicales), l'infraction commence à 0,2 g/l de sang, soit 0,09 mg/l d'air expiré.",
+    "ref": "Art. 34 §3 Loi du 16/03/1968"
+  },
+  {
+    "id": "SEC-033",
+    "theme": "securite",
+    "q": "Mon analyse d'haleine indique 0,25 mg d'alcool par litre d'air alvéolaire expiré. Que se passe-t-il immédiatement ?",
+    "choices": [
+      "Rien, je suis sous la limite",
+      "Une interdiction de conduire de 12 heures",
+      "Une interdiction de conduire de 1 heure"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Dès 0,22 mg/l d'air alvéolaire expiré (ou en cas de refus du test), la conduite est interdite pendant 12 heures à compter de la constatation, et le permis doit être remis à la police pour cette durée.",
+    "ref": "Art. 60 §3 et 61 Loi du 16/03/1968"
+  },
+  {
+    "id": "SEC-034",
+    "theme": "securite",
+    "q": "À partir de quelle concentration d'alcool dans l'air expiré l'amende pénale passe-t-elle de 200–4.000 € à 1.600–16.000 € ?",
+    "choices": [
+      "0,22 mg/l",
+      "0,35 mg/l",
+      "0,50 mg/l"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "De 0,22 à moins de 0,35 mg/l (0,5 à 0,8 g/l de sang), l'amende est de 200 à 4.000 €. À partir de 0,35 mg/l (0,8 g/l de sang), elle va de 1.600 à 16.000 €.",
+    "ref": "Art. 34 §1 et §2 Loi du 16/03/1968"
+  },
+  {
+    "id": "SEC-035",
+    "theme": "securite",
+    "q": "J'accompagne comme guide un candidat titulaire d'un permis provisoire. Les limites d'alcool s'appliquent-elles aussi à moi ?",
+    "choices": [
+      "Oui, comme si je conduisais",
+      "Non, seul le conducteur est concerné"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "La loi punit de la même manière la personne qui conduit et celle qui accompagne un conducteur en vue de l'apprentissage avec un taux d'alcool supérieur aux limites.",
+    "ref": "Art. 34 Loi du 16/03/1968"
+  },
+  {
+    "id": "SEC-036",
+    "theme": "securite",
+    "q": "Après une soirée, un ami visiblement ivre me demande les clés de ma voiture pour rentrer chez lui. Si je les lui donne…",
+    "choices": [
+      "Je commets moi-même une infraction",
+      "Je ne risque rien, c'est lui qui conduit"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Confier délibérément un véhicule à une personne qui montre des signes évidents d'imprégnation alcoolique ou d'ivresse est puni d'une amende de 1.600 à 16.000 €.",
+    "ref": "Art. 37 Loi du 16/03/1968"
+  },
+  {
+    "id": "SEC-037",
+    "theme": "securite",
+    "q": "Lors d'un contrôle, un test salivaire révèle la présence de cannabis (THC) au-delà du seuil légal. Je me sens pourtant en pleine forme. Quelle est la conséquence immédiate ?",
+    "choices": [
+      "Aucune, puisque je ne me sens pas influencé",
+      "Une interdiction de conduire de 12 heures",
+      "Un simple avertissement"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Un test salivaire positif (THC, amphétamine, MDMA, morphine/héroïne, cocaïne) entraîne une interdiction de conduire de 12 heures, et la conduite avec ces substances est punissable, quel que soit le ressenti du conducteur.",
+    "ref": "Art. 37bis et 61ter Loi du 16/03/1968"
+  },
+  {
+    "id": "SEC-038",
+    "theme": "securite",
+    "q": "Mon médecin me prescrit un médicament dont la notice signale qu'il provoque de la somnolence. Puis-je conduire ?",
+    "choices": [
+      "Oui, un médicament prescrit ne peut jamais m'être reproché",
+      "Seulement si je suis réellement en état de conduire ; sinon, je dois m'abstenir"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Tout conducteur doit être en état de conduire et garder constamment le contrôle de son véhicule. Conduire dans un état analogue à l'ivresse résultant de médicaments est punissable.",
+    "ref": "Art. 8.3 AR 01/12/1975 ; art. 35 Loi du 16/03/1968"
+  },
+  {
+    "id": "SEC-039",
+    "theme": "securite",
+    "q": "Sur l'autoroute, après trois heures de route de nuit, je bâille sans arrêt et mes paupières sont lourdes. Que dois-je faire ?",
+    "choices": [
+      "Ouvrir la fenêtre et monter le volume de la radio",
+      "Accélérer pour arriver plus vite",
+      "M'arrêter dans un endroit sûr (aire de repos) pour me reposer"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le conducteur doit être en état de conduire et garder constamment le contrôle de son véhicule. Face à la fatigue, seul le repos est efficace : air frais ou musique ne retardent l'endormissement que de quelques minutes.",
+    "ref": "Art. 8.3 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-040",
+    "theme": "securite",
+    "q": "Je viens d'avoir un accrochage sans blessé avec une autre voiture. Que dois-je faire ?",
+    "choices": [
+      "Rester sur place pour faire les constatations ensemble (par ex. constat amiable) ou, à défaut d'accord, permettre à la police de les faire",
+      "Partir si les dégâts sont légers",
+      "Partir après avoir pris une photo de sa plaque"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "En cas d'accident avec dégâts matériels, chaque personne impliquée doit rester sur place pour faire les constatations en commun ou, à défaut d'accord, permettre à un agent de les faire. Elle doit aussi présenter sa carte d'identité si on le lui demande.",
+    "ref": "Art. 52.2 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-041",
+    "theme": "securite",
+    "q": "Je suis impliqué dans un accident où une personne est blessée. Suis-je obligé de déplacer immédiatement mon véhicule pour dégager la route ?",
+    "choices": [
+      "Non, je dois surtout sécuriser les lieux, porter secours au blessé si nécessaire et rester sur place",
+      "Oui, toujours"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "En cas de dommages corporels, le déplacement du véhicule n'est pas obligatoire. Il faut sécuriser les lieux, porter secours aux blessés si nécessaire et rester sur place pour les constatations de la police.",
+    "ref": "Art. 52.1 et 52.3 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-042",
+    "theme": "securite",
+    "q": "En manœuvrant, j'abîme une voiture en stationnement. Son propriétaire est absent. Que dois-je faire ?",
+    "choices": [
+      "Rien, puisque personne ne m'a vu",
+      "Fournir mes nom et adresse sur place si possible, et en tout cas au plus tôt, directement ou par la police"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Si la personne lésée n'est pas présente, les personnes impliquées doivent, autant que possible, laisser sur place leurs nom et adresse et, en tout cas, les communiquer au plus tôt, directement ou par l'intermédiaire de la police.",
+    "ref": "Art. 52.2 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-043",
+    "theme": "securite",
+    "q": "Après un accident avec blessé, aucun policier n'a pu être joint dans un délai raisonnable. Dans quel délai dois-je déclarer l'accident à la police ?",
+    "choices": [
+      "Dans les 24 heures",
+      "Dans les 48 heures",
+      "Dans les 8 jours"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "En cas d'accident avec dommages corporels, si aucun agent n'a pu être touché dans un délai raisonnable, les personnes impliquées doivent déclarer l'accident au plus tard dans les 24 heures, au bureau de police le plus proche ou à celui de leur domicile.",
+    "ref": "Art. 52.3 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-044",
+    "theme": "securite",
+    "q": "Je transporte de longues planches dans ma voiture. Dans le cas général, de combien le chargement peut-il dépasser l'arrière du véhicule ?",
+    "choices": [
+      "De 0,50 mètre au maximum",
+      "De 3 mètres au maximum",
+      "De 1 mètre au maximum"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Pour une voiture, le chargement ne peut pas dépasser l'extrémité arrière du véhicule de plus d'un mètre (sauf exceptions, par ex. pièces indivisibles de grande longueur).",
+    "ref": "Art. 46.2.3 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-045",
+    "theme": "securite",
+    "q": "Je transporte une échelle sur la galerie de toit de ma voiture. Peut-elle dépasser à l'avant du véhicule ?",
+    "choices": [
+      "Oui, jusqu'à 1 mètre",
+      "Oui, jusqu'à 0,50 mètre",
+      "Non, jamais"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "En aucun cas le chargement ne peut dépasser l'extrémité avant du véhicule (seule exception : les porte-voitures).",
+    "ref": "Art. 46.2.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-046",
+    "theme": "securite",
+    "q": "En plein jour, mon chargement dépasse de plus d'un mètre l'arrière de ma camionnette. Comment dois-je le signaler ?",
+    "choices": [
+      "Avec un panneau carré de 0,50 m à bandes rouges et blanches",
+      "Avec un chiffon de couleur vive",
+      "Aucune signalisation n'est requise de jour"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Un chargement dépassant de plus d'un mètre l'arrière est signalé par un panneau carré de 0,50 m de côté à bandes alternées rouges et blanches rétroréfléchissantes. La nuit, on y ajoute un feu rouge vers l'arrière et des catadioptres orange sur les côtés.",
+    "ref": "Art. 47.1 et 47.2 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-047",
+    "theme": "securite",
+    "q": "Le vélo que je transporte sur un porte-vélos arrière cache partiellement ma plaque d'immatriculation et un feu arrière. Est-ce permis ?",
+    "choices": [
+      "Non, le chargement ne peut masquer ni les feux ni la plaque d'immatriculation",
+      "Oui, si le trajet est court"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le chargement doit être disposé de manière à ne pas masquer les feux, les catadioptres et le numéro d'immatriculation, ni nuire à la visibilité ou à la stabilité du véhicule.",
+    "ref": "Art. 45.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-048",
+    "theme": "securite",
+    "q": "J'ai un permis B sans code 96. Ma voiture a une masse maximale autorisée (MMA) de 2.000 kg. Puis-je tracter une remorque dont la MMA est de 1.000 kg ?",
+    "choices": [
+      "Oui, car la MMA de l'ensemble ne dépasse pas 3.500 kg",
+      "Non, une remorque de plus de 750 kg exige toujours le permis BE"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Avec le permis B, on peut toujours tracter une remorque de MMA ≤ 750 kg. Une remorque plus lourde est permise si la MMA de l'ensemble ne dépasse pas 3.500 kg (4.250 kg avec le code 96).",
+    "ref": "Art. 2 et 20 AR 23/03/1998"
+  },
+  {
+    "id": "SEC-049",
+    "theme": "securite",
+    "q": "Pour pouvoir être guide d'un candidat au permis B (permis provisoire avec guide), depuis combien de temps au moins faut-il être titulaire d'un permis B ?",
+    "choices": [
+      "3 ans",
+      "6 ans",
+      "8 ans"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le guide doit être titulaire depuis au moins 8 ans d'un permis B belge ou européen, ne pas avoir été déchu du droit de conduire au cours des 3 dernières années et être mentionné sur le permis provisoire.",
+    "ref": "Art. 3 §2 AR 10/07/2006 (permis cat. B)"
+  },
+  {
+    "id": "SEC-050",
+    "theme": "securite",
+    "q": "Je roule avec un permis provisoire B avec guide. Mon guide est assis à côté de moi. Puis-je emmener mon petit frère sur la banquette arrière ?",
+    "choices": [
+      "Oui, s'il porte sa ceinture",
+      "Non, seuls le ou les guides mentionnés et/ou un instructeur breveté peuvent m'accompagner"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le titulaire d'un permis provisoire B avec guide ne peut être accompagné que par le ou les guides mentionnés sur son permis provisoire et/ou par un instructeur breveté, à l'exclusion de tout autre passager.",
+    "ref": "Art. 3 §4 AR 10/07/2006 (permis cat. B)"
+  },
+  {
+    "id": "SEC-051",
+    "theme": "securite",
+    "q": "Je suis titulaire d'un permis provisoire B. Un samedi soir, puis-je conduire à 23 h ?",
+    "choices": [
+      "Non, c'est interdit de 22 h à 6 h les nuits du week-end et des jours fériés",
+      "Oui, si mon guide est à côté de moi"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le candidat ne peut pas conduire de 22 h à 6 h le lendemain le vendredi, le samedi, le dimanche, la veille des jours fériés légaux et les jours fériés légaux.",
+    "ref": "Art. 6 AR 10/07/2006 (permis cat. B)"
+  },
+  {
+    "id": "SEC-052",
+    "theme": "securite",
+    "q": "Je m'entraîne à la conduite avec un permis provisoire. Où doit se trouver le signe « L » ?",
+    "choices": [
+      "À l'arrière du véhicule, à un endroit apparent",
+      "Sur le pare-brise, côté passager",
+      "Nulle part si un guide m'accompagne"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le véhicule conduit sous le couvert d'un permis de conduire provisoire doit être muni du signe « L » à l'arrière, à un endroit apparent. Le candidat doit aussi être porteur de son permis provisoire en cours de validité.",
+    "ref": "Art. 6 AR 23/03/1998"
+  },
+  {
+    "id": "SEC-053",
+    "theme": "securite",
+    "q": "Je patiente cinq minutes, moteur au ralenti, devant l'école en attendant mon enfant. Que dit le code ?",
+    "choices": [
+      "Je dois éviter de laisser tourner le moteur au point mort sans nécessité",
+      "Je dois laisser tourner le moteur pour garder la batterie chargée",
+      "Le code ne dit rien à ce sujet"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le conducteur doit veiller à ne pas laisser le moteur en marche au point mort, sauf nécessité. Couper le moteur réduit la pollution, le bruit et la consommation.",
+    "ref": "Art. 8.6 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-054",
+    "theme": "securite",
+    "q": "Il pleut fortement sur une route hors agglomération en Wallonie où la vitesse est limitée à 90 km/h. Quelle est l'attitude correcte ?",
+    "choices": [
+      "Rouler à 90 km/h puisque c'est autorisé",
+      "Réduire ma vitesse et augmenter ma distance de sécurité",
+      "Rouler plus près du véhicule qui me précède pour profiter de ses traces"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "La vitesse doit être adaptée notamment aux conditions climatiques et à l'état de la route, et la distance de sécurité doit tenir compte de la vitesse. Sur route mouillée, la distance de freinage augmente.",
+    "ref": "Art. 10.1 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-055",
+    "theme": "securite",
+    "q": "Je laisse ma voiture quelques minutes devant un magasin. Que dois-je faire ?",
+    "choices": [
+      "Laisser le moteur tourner pour repartir plus vite",
+      "Prendre les précautions pour éviter tout accident et tout usage par un tiers (moteur coupé, frein serré, antivol enclenché)"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le conducteur ne peut quitter son véhicule sans prendre les précautions nécessaires pour éviter tout accident et tout usage abusif par un tiers. Si le véhicule a un dispositif antivol, il doit l'utiliser.",
+    "ref": "Art. 8.5 AR 01/12/1975"
+  },
+  {
+    "id": "SEC-056",
+    "theme": "securite",
+    "q": "Un bus scolaire signalé par le panneau « transport scolaire » est arrêté devant moi avec tous ses clignotants allumés. Que dois-je faire ?",
+    "choices": [
+      "Le dépasser rapidement avant que les enfants descendent",
+      "Klaxonner pour avertir les enfants",
+      "Ralentir fortement et, au besoin, m'arrêter : des enfants vont monter ou descendre"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Quand un véhicule de transport scolaire fait fonctionner tous ses indicateurs de direction, des enfants embarquent ou débarquent : il faut redoubler de prudence, ralentir fortement et s'arrêter si nécessaire.",
+    "ref": "Art. 39bis.2 AR 01/12/1975"
+  }
+]

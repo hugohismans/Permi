@@ -1,0 +1,616 @@
+[
+  {
+    "id": "USR-001",
+    "theme": "usagers",
+    "q": "Le feu est vert et je tourne à droite. Un piéton traverse la rue dans laquelle je m'engage. Que dois-je faire ?",
+    "choices": [
+      "Passer avant lui, car mon feu est vert",
+      "Lui céder le passage",
+      "Klaxonner pour qu'il se presse"
+    ],
+    "answer": 1,
+    "grave": true,
+    "sign": "FEU-vert",
+    "explain": "Le conducteur qui change de direction doit céder le passage aux piétons qui traversent la chaussée sur laquelle il va s'engager, même si son feu est vert.",
+    "ref": "Art. 19.5 AR 01/12/1975"
+  },
+  {
+    "id": "USR-002",
+    "theme": "usagers",
+    "q": "Je tourne à gauche à un carrefour. Un piéton traverse la chaussée dans laquelle je m'engage. Puis-je passer devant lui puisqu'il ne marche pas sur un passage pour piétons ?",
+    "choices": [
+      "Oui",
+      "Non, je dois lui céder le passage"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le conducteur qui change de direction doit céder le passage aux piétons qui traversent la chaussée sur laquelle il va s'engager, qu'il y ait ou non un passage pour piétons.",
+    "ref": "Art. 19.5 AR 01/12/1975"
+  },
+  {
+    "id": "USR-003",
+    "theme": "usagers",
+    "q": "J'approche d'un passage pour piétons sans feux ni agent. Un piéton attend au bord du trottoir, visiblement sur le point de traverser. Je dois…",
+    "choices": [
+      "continuer : il n'est pas encore engagé",
+      "ralentir, mais je reste prioritaire",
+      "lui céder le passage"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Aux passages pour piétons non réglés par des feux ou un agent, le conducteur s'approche à allure modérée et cède le passage aux piétons engagés ou sur le point de s'y engager.",
+    "ref": "Art. 40.4.2 AR 01/12/1975"
+  },
+  {
+    "id": "USR-004",
+    "theme": "usagers",
+    "q": "Mon feu passe au vert. Un piéton, engagé régulièrement pendant son feu vert, n'a pas encore fini de traverser devant moi. Que dois-je faire ?",
+    "choices": [
+      "Le laisser achever sa traversée",
+      "Démarrer : le piéton doit se dépêcher",
+      "Le contourner par l'arrière"
+    ],
+    "answer": 0,
+    "grave": true,
+    "sign": "FEU-vert",
+    "explain": "Même si la circulation est ouverte dans son sens, le conducteur doit permettre aux piétons régulièrement engagés d'achever leur traversée à allure normale.",
+    "ref": "Art. 40.4.1 AR 01/12/1975"
+  },
+  {
+    "id": "USR-005",
+    "theme": "usagers",
+    "q": "Je m'arrête à un feu rouge. Juste avant le carrefour se trouve un passage pour piétons. Où dois-je m'arrêter ?",
+    "choices": [
+      "Sur le passage pour piétons, au plus près du feu",
+      "En deçà du passage pour piétons",
+      "Peu importe, tant que je ne franchis pas le feu"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "FEU-rouge",
+    "explain": "Lorsque la circulation est fermée dans son sens, le conducteur doit de toute manière s'arrêter en deçà du passage pour piétons.",
+    "ref": "Art. 40.4.1 AR 01/12/1975"
+  },
+  {
+    "id": "USR-006",
+    "theme": "usagers",
+    "q": "La circulation est très dense : si j'avance, je risque d'être immobilisé sur le passage pour piétons. Puis-je m'y engager ?",
+    "choices": [
+      "Oui, si mon feu est vert",
+      "Non"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le conducteur ne peut s'engager sur un passage pour piétons si l'encombrement est tel qu'il y serait vraisemblablement immobilisé.",
+    "ref": "Art. 40.5 AR 01/12/1975"
+  },
+  {
+    "id": "USR-007",
+    "theme": "usagers",
+    "q": "En agglomération, un piéton marche sur la chaussée car il n'y a pas de trottoir. Quelle distance latérale minimale dois-je laisser en le dépassant ?",
+    "choices": [
+      "50 centimètres",
+      "2 mètres",
+      "1 mètre"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Le conducteur laisse au moins 1 mètre entre son véhicule et un piéton qui circule sur la chaussée (au moins 1,5 m hors agglomération). Sinon, il roule à l'allure du pas et s'arrête au besoin.",
+    "ref": "Art. 40.7 AR 01/12/1975"
+  },
+  {
+    "id": "USR-008",
+    "theme": "usagers",
+    "q": "Hors agglomération, je vais dépasser un cycliste. Quelle distance latérale minimale dois-je laisser ?",
+    "choices": [
+      "1,5 mètre",
+      "1 mètre",
+      "50 centimètres"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le conducteur laisse au moins 1 m entre son véhicule et le cycliste ; en dehors des agglomérations, cette distance est d'au moins 1,5 m.",
+    "ref": "Art. 40ter AR 01/12/1975"
+  },
+  {
+    "id": "USR-009",
+    "theme": "usagers",
+    "q": "Une voiture en stationnement occupe le trottoir et oblige les piétons à la contourner par la chaussée. Un piéton la contourne au moment où je passe et je ne peux pas laisser 1 mètre d'espace. Je dois…",
+    "choices": [
+      "passer à l'allure du pas",
+      "klaxonner et passer normalement",
+      "accélérer pour passer avant lui"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Près d'un obstacle que les piétons contournent par la chaussée, il faut laisser au moins 1 m ; si c'est impossible et qu'un piéton est à hauteur de l'obstacle, on ne passe qu'à l'allure du pas.",
+    "ref": "Art. 40.6 AR 01/12/1975"
+  },
+  {
+    "id": "USR-010",
+    "theme": "usagers",
+    "q": "Une personne munie d'une canne blanche se tient au bord du trottoir, près du carrefour que j'aborde. Que dois-je faire ?",
+    "choices": [
+      "Klaxonner pour la prévenir de mon arrivée",
+      "Redoubler de prudence, ralentir et au besoin m'arrêter",
+      "Rien de particulier si elle n'est pas sur un passage pour piétons"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le conducteur doit redoubler de prudence en présence de personnes handicapées, notamment les aveugles munis d'une canne blanche ou jaune ; il doit ralentir et au besoin s'arrêter.",
+    "ref": "Art. 40.2 AR 01/12/1975"
+  },
+  {
+    "id": "USR-011",
+    "theme": "usagers",
+    "q": "Un autobus est arrêté à un arrêt sans refuge, du côté où je roule. Des voyageurs descendent pour rejoindre le trottoir. Que dois-je faire ?",
+    "choices": [
+      "M'arrêter pour leur permettre de gagner le trottoir en sécurité",
+      "Le longer à vitesse modérée sans m'arrêter",
+      "Klaxonner pour signaler ma présence"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "S'il n'y a pas de refuge à l'arrêt, le conducteur qui circule du côté de l'embarquement ou du débarquement doit s'arrêter et ne repartir qu'à allure modérée.",
+    "ref": "Art. 40.3.2 AR 01/12/1975"
+  },
+  {
+    "id": "USR-012",
+    "theme": "usagers",
+    "q": "Je longe un tram arrêté pour l'embarquement des voyageurs ; un refuge sépare les voyageurs de ma voie. Je dois…",
+    "choices": [
+      "garder ma vitesse, les voyageurs sont protégés",
+      "modérer ma vitesse"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le conducteur doit modérer sa vitesse pour longer un autocar, un autobus, un trolleybus, un minibus ou un véhicule sur rails arrêté pour l'embarquement ou le débarquement des voyageurs.",
+    "ref": "Art. 40.3.1 AR 01/12/1975"
+  },
+  {
+    "id": "USR-013",
+    "theme": "usagers",
+    "q": "En agglomération, je roule dans le même sens qu'un autobus arrêté à son arrêt. Il actionne son clignotant gauche pour repartir. Que dois-je faire ?",
+    "choices": [
+      "Le dépasser rapidement avant qu'il ne démarre",
+      "Klaxonner : il doit me céder le passage",
+      "Ralentir et au besoin m'arrêter pour le laisser partir"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "En agglomération, le conducteur qui suit la même direction doit permettre à l'autobus ou au trolleybus de quitter son arrêt lorsqu'il l'a indiqué au moyen de ses clignotants.",
+    "ref": "Art. 39 AR 01/12/1975"
+  },
+  {
+    "id": "USR-014",
+    "theme": "usagers",
+    "q": "La règle qui oblige à laisser un autobus quitter son arrêt lorsqu'il a mis son clignotant s'applique…",
+    "choices": [
+      "partout",
+      "uniquement dans les agglomérations",
+      "uniquement sur les routes limitées à 50 km/h"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F1a",
+    "explain": "L'article 39 vise les conducteurs qui circulent dans les agglomérations ; il y déroge à l'obligation pour l'autobus de céder le passage lors de sa manœuvre.",
+    "ref": "Art. 39 AR 01/12/1975"
+  },
+  {
+    "id": "USR-015",
+    "theme": "usagers",
+    "q": "Je m'approche d'un véhicule de transport scolaire arrêté, portant le panneau réglementaire et dont tous les clignotants fonctionnent. Que signifie ce signal et que dois-je faire ?",
+    "choices": [
+      "Il est en panne : je le dépasse normalement",
+      "Il va repartir : je dois lui céder le passage",
+      "Des enfants vont monter ou descendre : je ralentis fortement et je m'arrête au besoin"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Quand le conducteur du véhicule de transport scolaire fait fonctionner tous les feux indicateurs de direction, les enfants vont embarquer ou débarquer : il faut redoubler de prudence, ralentir fortement et au besoin s'arrêter.",
+    "ref": "Art. 39bis.2 AR 01/12/1975"
+  },
+  {
+    "id": "USR-016",
+    "theme": "usagers",
+    "q": "Près d'une école, une surveillante habilitée lève un disque rouge et blanc (signal C3) pour faire traverser des enfants. Que dois-je faire ?",
+    "choices": [
+      "M'arrêter et obéir à ses indications",
+      "Passer si aucun enfant n'est encore sur la chaussée",
+      "Passer si mon feu est vert"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Les usagers doivent obéir aux indications des surveillants habilités qui assurent la traversée d'enfants ; pour arrêter la circulation, ceux-ci utilisent un disque reproduisant le signal C3.",
+    "ref": "Art. 40bis.2 et 40bis.3 AR 01/12/1975"
+  },
+  {
+    "id": "USR-017",
+    "theme": "usagers",
+    "q": "Un groupe d'écoliers en rangs, conduit par un guide, traverse la chaussée. Il reste un espace entre deux rangs. Puis-je y passer ?",
+    "choices": [
+      "Oui, si je roule lentement",
+      "Non, il est interdit de couper le groupe"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Il est interdit de couper un groupe d'enfants, d'écoliers, de personnes handicapées ou âgées en rangs sous la conduite d'un guide ou traversant sous la conduite d'un surveillant.",
+    "ref": "Art. 40bis.1 AR 01/12/1975"
+  },
+  {
+    "id": "USR-018",
+    "theme": "usagers",
+    "q": "Quelle est la vitesse maximale autorisée dans une zone résidentielle ou une zone de rencontre ?",
+    "choices": [
+      "20 km/h",
+      "30 km/h",
+      "L'allure du pas"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Dans les zones résidentielles et les zones de rencontre, la vitesse est limitée à 20 km/h.",
+    "ref": "Art. 22bis, 3° AR 01/12/1975"
+  },
+  {
+    "id": "USR-019",
+    "theme": "usagers",
+    "q": "Dans une zone de rencontre, des enfants jouent au ballon au milieu de la rue. Est-ce autorisé ?",
+    "choices": [
+      "Non, ils doivent rester sur le côté",
+      "Oui, les piétons peuvent utiliser toute la largeur et les jeux sont autorisés"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Dans ces zones, les piétons peuvent utiliser toute la largeur de la voie publique et les jeux sont autorisés. Les conducteurs ne peuvent ni les mettre en danger ni les gêner et doivent s'arrêter au besoin.",
+    "ref": "Art. 22bis, 1° et 2° AR 01/12/1975"
+  },
+  {
+    "id": "USR-020",
+    "theme": "usagers",
+    "q": "Dans une zone résidentielle, où puis-je stationner ?",
+    "choices": [
+      "Partout, du côté droit",
+      "Uniquement aux emplacements marqués d'un « P » ou là où un signal l'autorise",
+      "Nulle part, le stationnement y est toujours interdit"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le stationnement est interdit en zone résidentielle ou de rencontre, sauf aux emplacements délimités portant la lettre « P » et aux endroits où un signal l'autorise.",
+    "ref": "Art. 22bis, 4° AR 01/12/1975"
+  },
+  {
+    "id": "USR-021",
+    "theme": "usagers",
+    "q": "Je suis autorisé à circuler dans une zone piétonne pour une livraison. Comment dois-je rouler ?",
+    "choices": [
+      "À 20 km/h maximum",
+      "À 30 km/h maximum",
+      "À l'allure du pas, en cédant le passage aux piétons"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Dans une zone piétonne, les conducteurs admis circulent à l'allure du pas, cèdent le passage aux piétons et s'arrêtent au besoin.",
+    "ref": "Art. 22sexies.2 AR 01/12/1975"
+  },
+  {
+    "id": "USR-022",
+    "theme": "usagers",
+    "q": "Mon garage se trouve dans une zone piétonne et n'est accessible qu'en la traversant. Puis-je y accéder en voiture ?",
+    "choices": [
+      "Oui, avec un laissez-passer délivré par le bourgmestre ou son délégué apposé sur le pare-brise",
+      "Non, jamais",
+      "Oui, sans aucune formalité"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les conducteurs dont le garage n'est accessible qu'en traversant la zone piétonne peuvent y accéder, à condition d'apposer derrière le pare-brise un laissez-passer délivré par le bourgmestre ou son délégué.",
+    "ref": "Art. 22sexies.1 AR 01/12/1975"
+  },
+  {
+    "id": "USR-023",
+    "theme": "usagers",
+    "q": "Puis-je stationner dans une zone piétonne si je n'y gêne personne ?",
+    "choices": [
+      "Oui",
+      "Non, le stationnement y est interdit"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le stationnement est interdit dans les zones piétonnes.",
+    "ref": "Art. 22sexies.2 AR 01/12/1975"
+  },
+  {
+    "id": "USR-024",
+    "theme": "usagers",
+    "q": "Pour gagner du temps, je voudrais emprunter en voiture un chemin réservé aux piétons, cyclistes, cavaliers et speed pedelecs (signal F99a). Est-ce permis ?",
+    "choices": [
+      "Oui, à 30 km/h maximum",
+      "Non, sauf autorisation du gestionnaire (riverains, fournisseurs…) ou véhicule prioritaire en mission",
+      "Oui, si je cède le passage aux piétons"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Seuls les usagers dont le symbole figure sur le signal peuvent circuler sur ces chemins, outre les véhicules prioritaires en mission et certains véhicules autorisés par le gestionnaire (riverains, fournisseurs, entretien, immondices).",
+    "ref": "Art. 22quinquies.1 AR 01/12/1975"
+  },
+  {
+    "id": "USR-025",
+    "theme": "usagers",
+    "q": "Quelle est la vitesse maximale sur un chemin réservé aux piétons, cyclistes, cavaliers et conducteurs de speed pedelecs ?",
+    "choices": [
+      "20 km/h",
+      "50 km/h",
+      "30 km/h"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Sur ces chemins, la vitesse est limitée à 30 km/h.",
+    "ref": "Art. 22quinquies.4 AR 01/12/1975"
+  },
+  {
+    "id": "USR-026",
+    "theme": "usagers",
+    "q": "J'entre dans les abords d'une école, dont le début est indiqué par ce signal. Quelle est la vitesse maximale ?",
+    "choices": [
+      "50 km/h",
+      "30 km/h",
+      "20 km/h"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "F4a",
+    "explain": "Les abords d'école sont délimités par les signaux F4a et F4b ; dans les zones délimitées par ces signaux, la vitesse est limitée à 30 km/h.",
+    "ref": "Art. 2.37 et 22quater AR 01/12/1975"
+  },
+  {
+    "id": "USR-027",
+    "theme": "usagers",
+    "q": "Dans une zone cyclable, je roule derrière un cycliste qui avance à 20 km/h. Puis-je le dépasser ?",
+    "choices": [
+      "Oui, en laissant 1 mètre d'écart",
+      "Oui, s'il roule au milieu de la chaussée",
+      "Non"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Une zone cyclable est accessible aux véhicules à moteur, mais ceux-ci ne peuvent pas y dépasser les cyclistes (ni les conducteurs de speed pedelecs, qui leur sont assimilés).",
+    "ref": "Art. 22novies AR 01/12/1975"
+  },
+  {
+    "id": "USR-028",
+    "theme": "usagers",
+    "q": "Quelle est la vitesse maximale autorisée dans une zone cyclable ?",
+    "choices": [
+      "30 km/h",
+      "50 km/h",
+      "20 km/h"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Dans une zone cyclable, la vitesse ne peut jamais être supérieure à 30 km/h.",
+    "ref": "Art. 22novies AR 01/12/1975"
+  },
+  {
+    "id": "USR-029",
+    "theme": "usagers",
+    "q": "Dans une zone cyclable à double sens, quelle partie de la chaussée un cycliste peut-il utiliser ?",
+    "choices": [
+      "Uniquement le bord droit",
+      "La moitié droite de la chaussée",
+      "Toute la largeur de la chaussée"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le cycliste peut utiliser toute la largeur si la chaussée n'est ouverte qu'à son sens, et la moitié droite si elle est ouverte aux deux sens de circulation.",
+    "ref": "Art. 22novies AR 01/12/1975"
+  },
+  {
+    "id": "USR-030",
+    "theme": "usagers",
+    "q": "Au feu rouge, une zone avancée pour cyclistes (bicyclette peinte entre deux lignes d'arrêt) se trouve devant moi. Où dois-je m'arrêter ?",
+    "choices": [
+      "Devant la première ligne d'arrêt",
+      "Dans la zone, si aucun cycliste n'est présent",
+      "Devant la seconde ligne d'arrêt"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "FEU-rouge",
+    "explain": "Pendant la phase rouge, la zone avancée est réservée aux cyclistes et cyclomotoristes à deux roues ; les autres conducteurs s'arrêtent devant la première ligne d'arrêt.",
+    "ref": "Art. 77.6 AR 01/12/1975"
+  },
+  {
+    "id": "USR-031",
+    "theme": "usagers",
+    "q": "Je m'engage dans une rue à sens unique dont le signal est complété par un panneau additionnel montrant une bicyclette et deux flèches opposées. Que signifie-t-il ?",
+    "choices": [
+      "Les cyclistes peuvent y circuler dans les deux sens : je peux en croiser",
+      "Les cyclistes ne peuvent pas y entrer",
+      "Je peux circuler dans les deux sens si je suis prudent"
+    ],
+    "answer": 0,
+    "grave": false,
+    "sign": "F19",
+    "explain": "Le panneau additionnel M4 complète le signal F19 lorsque les cyclistes sont autorisés à circuler dans les deux sens ; il faut donc s'attendre à croiser des cyclistes.",
+    "ref": "Art. 71.3 et 65.2 AR 01/12/1975"
+  },
+  {
+    "id": "USR-032",
+    "theme": "usagers",
+    "q": "À un feu rouge muni d'un panneau B22, un cycliste tourne à droite sans attendre le vert. Est-ce permis ?",
+    "choices": [
+      "Non, le feu rouge s'impose à tous",
+      "Oui, à condition qu'il cède le passage aux autres usagers"
+    ],
+    "answer": 1,
+    "grave": false,
+    "sign": "FEU-rouge",
+    "explain": "Le panneau B22 autorise les cyclistes et les conducteurs de speed pedelecs à franchir le feu rouge ou jaune-orange pour tourner à droite, à condition de céder le passage aux autres usagers.",
+    "ref": "Art. 61.5 et 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "USR-033",
+    "theme": "usagers",
+    "q": "Je tourne à droite. Un cycliste arrive derrière moi sur la piste cyclable et continue tout droit. Qui doit céder le passage ?",
+    "choices": [
+      "Le cycliste, car il est à ma droite",
+      "Celui qui arrive en dernier au carrefour",
+      "Moi"
+    ],
+    "answer": 2,
+    "grave": true,
+    "explain": "Le conducteur qui change de direction doit céder le passage aux conducteurs qui circulent sur les autres parties de la même voie publique, dont la piste cyclable.",
+    "ref": "Art. 19.4 AR 01/12/1975"
+  },
+  {
+    "id": "USR-034",
+    "theme": "usagers",
+    "q": "Je sors de chez moi en voiture et je dois traverser une piste cyclable pour atteindre la chaussée. Un cycliste approche. Je dois…",
+    "choices": [
+      "lui céder le passage",
+      "passer avant lui, je suis déjà engagé",
+      "klaxonner pour le prévenir"
+    ],
+    "answer": 0,
+    "grave": true,
+    "explain": "Le conducteur qui traverse un trottoir ou une piste cyclable doit céder le passage aux usagers qui y circulent ; déboucher d'une propriété est en outre une manœuvre.",
+    "ref": "Art. 12.4 et 12.4bis AR 01/12/1975"
+  },
+  {
+    "id": "USR-035",
+    "theme": "usagers",
+    "q": "Puis-je m'arrêter quelques instants sur une piste cyclable pour déposer un passager ?",
+    "choices": [
+      "Oui, si je reste au volant",
+      "Oui, avec les feux de détresse",
+      "Non"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "L'arrêt et le stationnement sont interdits sur les pistes cyclables et à moins de 5 m de l'endroit où les cyclistes doivent passer de la piste à la chaussée ou inversement.",
+    "ref": "Art. 24, 2° AR 01/12/1975"
+  },
+  {
+    "id": "USR-036",
+    "theme": "usagers",
+    "q": "Garé le long du trottoir, je veux ouvrir ma portière côté chaussée. Que dois-je faire d'abord ?",
+    "choices": [
+      "M'assurer qu'aucun cycliste ou autre usager n'arrive",
+      "Rien, les cyclistes doivent garder leurs distances",
+      "Allumer mes feux de détresse"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Il est interdit d'ouvrir une portière sans s'être assuré qu'il ne peut en résulter ni danger ni gêne pour les autres usagers, en particulier les piétons et les conducteurs de deux-roues.",
+    "ref": "Art. 28 AR 01/12/1975"
+  },
+  {
+    "id": "USR-037",
+    "theme": "usagers",
+    "q": "En agglomération, deux cyclistes roulent côte à côte devant moi sur une chaussée large où l'on peut se croiser. Est-ce permis ?",
+    "choices": [
+      "Oui",
+      "Non, ils doivent toujours rouler en file"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les cyclistes peuvent rouler à deux de front sauf lorsque le croisement n'est pas possible. Hors agglomération, ils doivent se mettre en file à l'approche d'un véhicule venant de l'arrière.",
+    "ref": "Art. 43.2 AR 01/12/1975"
+  },
+  {
+    "id": "USR-038",
+    "theme": "usagers",
+    "q": "Un enfant de 8 ans roule à vélo sur le trottoir en agglomération. Est-ce autorisé ?",
+    "choices": [
+      "Non, le trottoir est réservé aux piétons",
+      "Oui"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les cyclistes âgés de moins de 10 ans peuvent emprunter en toutes circonstances les trottoirs et les accotements en saillie.",
+    "ref": "Art. 9.1.2, 5° AR 01/12/1975"
+  },
+  {
+    "id": "USR-039",
+    "theme": "usagers",
+    "q": "Je m'approche d'un cheval monté sur la route. L'animal se cabre et montre des signes de frayeur. Que dois-je faire ?",
+    "choices": [
+      "M'arrêter",
+      "Le dépasser rapidement pour m'éloigner",
+      "Klaxonner pour avertir le cavalier"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Tout conducteur doit ralentir à l'approche d'animaux de monture, de trait, de charge ou de bestiaux, et s'arrêter lorsque ces animaux montrent des signes de frayeur.",
+    "ref": "Art. 10.3 AR 01/12/1975"
+  },
+  {
+    "id": "USR-040",
+    "theme": "usagers",
+    "q": "Deux cavaliers circulent côte à côte sur la chaussée. Est-ce autorisé ?",
+    "choices": [
+      "Non, ils doivent circuler en file",
+      "Oui"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les cavaliers qui empruntent la chaussée peuvent circuler à deux de front.",
+    "ref": "Art. 55.4 AR 01/12/1975"
+  },
+  {
+    "id": "USR-041",
+    "theme": "usagers",
+    "q": "Je dépasse en agglomération l'utilisateur d'une trottinette électrique qui roule sur la chaussée. Quelles règles dois-je respecter à son égard ?",
+    "choices": [
+      "Celles applicables aux cyclistes, dont une distance latérale d'au moins 1 mètre",
+      "Celles applicables aux piétons uniquement",
+      "Aucune règle particulière : c'est un jouet"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les utilisateurs d'engins de déplacement motorisés (trottinettes électriques…) sont assimilés aux cyclistes ; les règles à respecter envers les cyclistes s'appliquent donc envers eux.",
+    "ref": "Art. 7bis et 40ter AR 01/12/1975"
+  },
+  {
+    "id": "USR-042",
+    "theme": "usagers",
+    "q": "Sur une route limitée à 70 km/h, une piste cyclable signalée par le signal D7 longe la chaussée. Le conducteur d'un speed pedelec…",
+    "choices": [
+      "doit emprunter cette piste cyclable",
+      "doit rouler sur la chaussée",
+      "a le libre choix"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Là où la vitesse autorisée dépasse 50 km/h, les conducteurs de speed pedelecs doivent emprunter la piste cyclable D7 (ou marquée) présente et praticable ; à 50 km/h ou moins, ils peuvent l'emprunter.",
+    "ref": "Art. 9.1.2, 2° AR 01/12/1975"
+  },
+  {
+    "id": "USR-043",
+    "theme": "usagers",
+    "q": "Hors agglomération, sur une route sans trottoir ni accotement praticable, de quel côté dois-je m'attendre à voir des piétons marcher sur la chaussée ?",
+    "choices": [
+      "En principe à gauche, face aux véhicules",
+      "Toujours à droite",
+      "Au milieu de la chaussée"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Sur la chaussée, les piétons se tiennent le plus près possible du bord et circulent à gauche par rapport à leur sens de marche, ou à droite si la sécurité le justifie.",
+    "ref": "Art. 42.1 AR 01/12/1975"
+  },
+  {
+    "id": "USR-044",
+    "theme": "usagers",
+    "q": "Un véhicule portant un drapeau rouge annonce une course cycliste qui arrive en face. Que dois-je faire ?",
+    "choices": [
+      "Continuer prudemment en serrant à droite",
+      "M'écarter, dégager la chaussée et m'arrêter jusqu'au passage du véhicule au drapeau vert",
+      "M'arrêter seulement si un signaleur me le demande"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "À l'approche du véhicule d'ouverture au drapeau rouge, tout usager doit s'écarter, dégager la chaussée et s'arrêter ; il reste à l'arrêt jusqu'au passage du véhicule de fermeture au drapeau vert.",
+    "ref": "Art. 40quater AR 01/12/1975"
+  }
+]
