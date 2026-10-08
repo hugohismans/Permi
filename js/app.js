@@ -50,6 +50,31 @@
   const pct = (n, d) => (d ? Math.round((100 * n) / d) : 0);
   const go = (hash) => { if (location.hash === hash) render(); else location.hash = hash; };
   const signHTML = (code) => (code && window.Signs && Signs.has(code) ? Signs.render(code) : '');
+  // Lien vers l'article officiel (codedelaroute.be) et signalement d'erreur (issue GitHub pré-remplie).
+  const AR_URL = 'https://www.codedelaroute.be/fr/reglementation/1975120109~hra8v386pu';
+  const LOI_URL = 'https://www.codedelaroute.be/fr/reglementation/1968031601~invynqx4tj';
+  const ISSUE_URL = 'https://github.com/hugohismans/Permi/issues/new';
+  function refURL(ref) {
+    if (!ref || /1998|2006/.test(ref)) return null;
+    const m = ref.match(/Art(?:icle)?\.?\s*(\d+)(bis|ter|quater|quinquies|sexies|septies|octies|novies|decies|undecies)?/i);
+    if (!m) return /1968/.test(ref) ? LOI_URL : AR_URL;
+    return (/1968/.test(ref) ? LOI_URL : AR_URL) + '#art-' + m[1] + (m[2] ? m[2].toLowerCase() : '');
+  }
+  function issueURL(title, lines) {
+    const body = lines.concat(['', '**Ce qui ne va pas (et source si tu en as une) :**', '']).join('\n');
+    return `${ISSUE_URL}?labels=${encodeURIComponent('erreur-contenu')}&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  }
+  function reportURL(q, mine) {
+    return issueURL(`Erreur possible : ${q.id}`, [
+      `**Question ${q.id}** (${THEME_LABEL[q.theme] || q.theme})`, '', `> ${q.q}`, '',
+      ...q.choices.map((c, k) => `- ${k === q.answer ? '✅' : '⬜'} ${LETTERS[k]}. ${c}${k === mine ? ' ← ma réponse' : ''}`), '',
+      `Explication de l'app : ${q.explain}`, `Référence : ${q.ref || '—'}`, q.photo ? `Photo : ${q.photo}` : '',
+    ]);
+  }
+  function refHTML(ref, report) {
+    const u = refURL(ref);
+    return `<div class="ref">${esc(ref || '')}${u ? ` · <a href="${u}" target="_blank" rel="noopener">📜 Lire l’article officiel</a>` : ''}${report ? ` · <a href="${report}" target="_blank" rel="noopener">🚩 Signaler une erreur</a>` : ''}</div>`;
+  }
   const plural = (n, w) => `${n} ${w}${n > 1 ? 's' : ''}`;
   function photoHTML(q, small) {
     if (!q.photo) return '';
@@ -228,7 +253,7 @@
       feedback = `<div class="feedback ${ok ? 'ok' : 'bad'}" role="status">
         <b>${ok ? pickCheer() : 'Pas tout à fait'}</b>${!ok ? ` — la bonne réponse était <b>${LETTERS[q.answer]}</b>.` : ''}
         ${q.focus ? `<p class="focus">👀 ${esc(q.focus)}</p>` : ''}
-        <p>${esc(q.explain)}</p><div class="ref">${esc(q.ref || '')}</div></div>`;
+        <p>${esc(q.explain)}</p>${refHTML(q.ref, reportURL(q, s.selected))}</div>`;
     }
 
     const action = isExam
@@ -314,7 +339,7 @@
         ${r.mine != null ? `<p class="ans bad">Ta réponse : ${esc(r.mine)}</p>` : ''}
         <p class="ans ok">Bonne réponse : ${esc(r.q.choices[r.q.answer])}</p>
         <p style="margin:6px 0 0">${esc(r.q.explain)}</p>
-        <div class="ref">${esc(r.q.ref || '')}</div>
+        ${refHTML(r.q.ref, reportURL(r.q, r.mineIdx))}
       </div>`).join('');
   }
 
@@ -361,7 +386,7 @@
         ${wrong.length ? '<button class="btn" id="redo">Refaire mes erreurs</button>' : ''}
         <button class="btn primary" id="again">${mode === 'exam' ? 'Nouvel examen' : 'Nouvelle série'}</button>
       </div>
-      ${wrong.length ? `<h2>Corrections (${wrong.length})</h2>${reviewList(wrong.map((r) => ({ q: r.q, mine: r.q.choices[r.a] })))}` : ''}`;
+      ${wrong.length ? `<h2>Corrections (${wrong.length})</h2>${reviewList(wrong.map((r) => ({ q: r.q, mine: r.q.choices[r.a], mineIdx: r.a })))}` : ''}`;
     document.getElementById('home').onclick = () => go('#/');
     document.getElementById('again').onclick = () => {
       if (mode === 'exam') startExam();
@@ -437,7 +462,7 @@
       fb = `<div class="feedback ${r.ok ? 'ok' : 'bad'}" role="status">
         <b>${r.ok ? pickCheer() : 'Raté !'}</b> Cette réponse était <b>${r.card.isTrue ? 'VRAIE' : 'FAUSSE'}</b>.
         ${r.card.isTrue ? '' : `<p>Bonne réponse : <b>${esc(r.card.q.choices[r.card.q.answer])}</b></p>`}
-        <p>${esc(r.card.q.explain)}</p><div class="ref">${esc(r.card.q.ref || '')}</div></div>
+        <p>${esc(r.card.q.explain)}</p>${refHTML(r.card.q.ref, reportURL(r.card.q))}</div>
         <div class="btn-row"><button class="btn primary" id="next">${s.i + 1 < s.cards.length ? 'Continuer' : 'Voir le bilan'}</button></div>`;
     }
 
@@ -580,7 +605,7 @@
         ${sec.signs && sec.signs.length ? `<div class="lesson-signs">${sec.signs.map((c) => `<figure>${signHTML(c)}<figcaption>${esc(Signs.label(c))}</figcaption></figure>`).join('')}</div>` : ''}
         <div class="lesson-body">${sec.body}</div>
         ${sec.tip ? `<div class="tip">💡 ${esc(sec.tip)}</div>` : ''}
-        ${sec.ref ? `<div class="ref">${esc(sec.ref)}</div>` : ''}`;
+        ${refHTML(sec.ref, issueURL(`Erreur possible dans le cours : ${L.title}`, [`**Cours** : ${L.title}`, `**Section** : ${sec.title}`, `Référence : ${sec.ref || '—'}`]))}`;
     } else {
       body = `<h2 class="lesson-h">🧠 À retenir</h2>
         <ul class="keypoints">${L.keypoints.map((k) => `<li>${esc(k)}</li>`).join('')}</ul>`;
@@ -729,7 +754,7 @@
 
   function viewMemo() {
     const sections = MEMO.map((m) => `<section class="card"><h3>${esc(m.title)}</h3><ul>${m.items.map((i) => `<li>${i}</li>`).join('')}</ul>
-      ${m.ref ? `<div class="ref">${esc(m.ref)}</div>` : ''}</section>`).join('');
+      ${m.ref ? refHTML(m.ref, issueURL(`Erreur possible dans le mémo : ${m.title}`, [`**Mémo** : ${m.title}`])) : ''}</section>`).join('');
     $app.innerHTML = `<div class="memo"><h1>Mémo</h1><p class="lead">Les règles et chiffres les plus demandés.</p>${sections}</div>`;
   }
 
@@ -812,6 +837,10 @@
         L’auteur est cité sous chaque photo ; les vues à 360° ont été recadrées en vue « conducteur ». Les plaques et visages sont floutés par Panoramax.</p>
         <p><b>Format de l’examen.</b> 50 questions à choix multiple ; une erreur coûte 1 point, une faute grave 5 points ; il faut au moins 41/50.
         Les modalités exactes (durée, centre, prix) dépendent de ta région : renseigne-toi auprès de ton centre d’examen.</p>
+        <p><b>Fiabilité.</b> Chaque question a été rédigée à partir du texte de loi, relue par un second relecteur, puis soumise à un
+        <b>audit à l’aveugle</b> : des relecteurs ont répondu à toutes les questions sans connaître la réponse attendue, uniquement avec le texte officiel ;
+        chaque désaccord a été réexaminé. Sous chaque explication, « 📜 Lire l’article officiel » ouvre l’article cité sur codedelaroute.be,
+        et « 🚩 Signaler une erreur » permet de signaler un problème (compte GitHub requis).</p>
         <p><b>Limites.</b> Outil d’entraînement non officiel : les panneaux sont des dessins simplifiés et une erreur reste possible.
         En cas de doute, le texte officiel fait foi. Un nouveau Code de la voie publique entre en vigueur le 1<sup>er</sup> juin 2027.</p>
       </div>`;
