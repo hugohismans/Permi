@@ -160,38 +160,6 @@
   "focus": "passage pour piétons"
  },
  {
-  "id": "PHG-011",
-  "theme": "stationnement",
-  "q": "Le panneau sur la barrière de chantier est un E1 (fond bleu, bord rouge, une barre oblique). Puis-je m'y arrêter le temps de décharger un colis ?",
-  "choices": [
-   "Oui, l'arrêt reste permis",
-   "Non, l'arrêt est interdit",
-   "Oui, mais seulement la nuit"
-  ],
-  "answer": 0,
-  "grave": false,
-  "explain": "Le signal E1 interdit le stationnement mais pas l'arrêt : je peux m'immobiliser le temps nécessaire pour charger ou décharger. C'est le signal E3 (deux barres croisées) qui interdit aussi l'arrêt.",
-  "ref": "Art. 70.2.1 et 2.22 AR 01/12/1975",
-  "photo": "cb81329e-71b2-4eb4-b4de-e07e78acef22",
-  "focus": "panneau sur la barrière à droite"
- },
- {
-  "id": "PHG-012",
-  "theme": "priorite",
-  "q": "Je vais m'engager sur la chaussée devant moi. Un panneau triangulaire pointe en bas et des triangles blancs sont peints au sol. Que dois-je faire ?",
-  "choices": [
-   "J'ai la priorité",
-   "Céder le passage aux conducteurs circulant sur la chaussée que j'aborde",
-   "Céder le passage seulement à ceux qui viennent de droite"
-  ],
-  "answer": 1,
-  "grave": true,
-  "explain": "Le signal B1 m'impose de céder le passage à tous les conducteurs sur la chaussée que j'aborde, qu'ils viennent de gauche ou de droite. La ligne de triangles blancs indique où m'arrêter si nécessaire.",
-  "ref": "Art. 12.3.1 a) et 76.2 AR 01/12/1975",
-  "photo": "d1896279-e792-41ba-b530-ce7f24352fd7",
-  "focus": "panneau B1 et triangles au sol"
- },
- {
   "id": "PHG-013",
   "theme": "signalisation",
   "q": "Puis-je rouler sur la zone à lignes obliques blanches à droite pour dépasser la file ?",

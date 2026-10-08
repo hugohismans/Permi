@@ -1,21 +1,5 @@
 [
  {
-  "id": "PHH-001",
-  "theme": "stationnement",
-  "photo": "d167b5b6-69fc-49a7-a0b3-cfd46cfa4353",
-  "q": "Je voudrais m'arrêter un instant juste avant ce passage pour piétons pour déposer un passager. Est-ce permis ?",
-  "choices": [
-   "Oui, si l'arrêt ne dure que le temps de faire descendre le passager",
-   "Non, l'arrêt est interdit sur le passage et à moins de 5 mètres en deçà",
-   "Oui, à condition d'allumer mes feux de détresse"
-  ],
-  "answer": 1,
-  "grave": false,
-  "explain": "L'arrêt et le stationnement sont interdits sur les passages pour piétons et sur la chaussée à moins de 5 mètres en deçà de ceux-ci, même pour un court instant.",
-  "ref": "Art. 24, 4° AR 01/12/1975",
-  "focus": "passage pour piétons à droite"
- },
- {
   "id": "PHH-002",
   "theme": "priorite",
   "photo": "74d6ba68-571e-42f4-a609-ac69533dbdee",
@@ -222,22 +206,6 @@
   "explain": "Le conducteur qui change de direction doit céder le passage aux conducteurs qui circulent sur les autres parties de la même voie publique, comme la piste cyclable, ainsi qu'aux piétons qui traversent la chaussée où il s'engage.",
   "ref": "Art. 19.4, 19.5 et 12.4bis AR 01/12/1975",
   "focus": "piste cyclable rouge à droite"
- },
- {
-  "id": "PHH-015",
-  "theme": "stationnement",
-  "photo": "9be9722a-d2eb-4a69-be6d-f0f93cdb0ee4",
-  "q": "Puis-je m'arrêter quelques instants sur la bande cyclable rouge (bordée de lignes blanches discontinues) au premier plan ?",
-  "choices": [
-   "Oui, si je reste au volant",
-   "Oui, pendant moins de 2 minutes",
-   "Non, l'arrêt y est interdit"
-  ],
-  "answer": 2,
-  "grave": false,
-  "explain": "L'arrêt et le stationnement sont interdits sur les pistes cyclables ainsi que sur les passages pour cyclistes et à moins de 5 mètres en deçà.",
-  "ref": "Art. 24, 2° et 4° AR 01/12/1975",
-  "focus": "bande cyclable rouge au premier plan"
  },
  {
   "id": "PHH-016",

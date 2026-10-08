@@ -22,10 +22,10 @@
     "q": "Dans l'anneau de ce rond-point (signalé par D5 et B1), aucune partie de la chaussée ne m'est réservée. Suis-je obligé de rouler le plus près possible du bord droit ?",
     "choices": [
       "Oui, comme sur toute chaussée",
-      "Non, dans l'anneau d'un rond-point je n'y suis pas tenu, mais je dois respecter les éventuelles marques de bandes",
-      "Non, je dois toujours rouler contre l'îlot central"
+      "Non, je dois toujours rouler contre l'îlot central",
+      "Non, dans l'anneau d'un rond-point je n'y suis pas tenu, mais je dois respecter les éventuelles marques de bandes"
     ],
-    "answer": 1,
+    "answer": 2,
     "grave": false,
     "explain": "Dans l'anneau d'un rond-point, le conducteur n'est pas tenu de serrer le bord droit (sauf partie réservée). S'il y a des bandes marquées, il peut choisir celle qui convient le mieux à sa destination.",
     "ref": "Art. 9.3.1 AR 01/12/1975",
@@ -44,7 +44,7 @@
     "answer": 0,
     "grave": false,
     "explain": "Ce symbole reproduit le signal A23 : endroit spécialement fréquenté par des enfants (par exemple les abords d'une école). Je ralentis et je suis prêt à m'arrêter.",
-    "ref": "Art. 66.4 (A23) AR 01/12/1975",
+    "ref": "Art. 66.3-66.4 (A23) AR 01/12/1975",
     "focus": "triangle peint sur la chaussée"
   },
   {
@@ -102,10 +102,10 @@
     "q": "Le panneau de stationnement interdit visible sur le poteau orange s'applique-t-il des deux côtés de la voie publique ?",
     "choices": [
       "Oui, des deux côtés jusqu'au prochain carrefour",
-      "Non, seulement du côté de la voie publique où il est placé, jusqu'au prochain carrefour",
-      "Non, seulement sur les 15 mètres qui suivent le panneau"
+      "Non, seulement sur les 15 mètres qui suivent le panneau",
+      "Non, seulement du côté de la voie publique où il est placé, jusqu'au prochain carrefour"
     ],
-    "answer": 1,
+    "answer": 2,
     "grave": false,
     "explain": "Les signaux E1, E3 et E9a à E9j ont effet du côté de la voie publique où ils sont placés, à partir du signal jusqu'au prochain carrefour (sauf panneau de fin).",
     "ref": "Art. 70.2.2, 1° AR 01/12/1975",
@@ -150,10 +150,10 @@
     "q": "Le panneau bleu montre un « P » et le symbole d'une voiture. Je conduis une camionnette. Puis-je y stationner ?",
     "choices": [
       "Oui, tous les véhicules peuvent y stationner",
-      "Non, ce stationnement est réservé aux motocyclettes, voitures, voitures mixtes et minibus",
-      "Oui, mais seulement la nuit"
+      "Oui, mais seulement la nuit",
+      "Non, ce stationnement est réservé aux motocyclettes, voitures, voitures mixtes et minibus"
     ],
-    "answer": 1,
+    "answer": 2,
     "grave": false,
     "explain": "Le signal E9b réserve le stationnement aux motocyclettes, voitures, voitures mixtes et minibus. Les camionnettes et camions ont leur propre signal (E9c).",
     "ref": "Art. 70.2.1, 3° (E9b) AR 01/12/1975",
@@ -214,10 +214,10 @@
     "q": "Le panneau blanc du haut porte la mention « ZONE » et un « P » bleu (début d'une zone de stationnement réglementé). Où s'applique cette réglementation ?",
     "choices": [
       "Seulement jusqu'au prochain carrefour",
-      "Dans toute la zone jusqu'au panneau de fin de zone, sauf aux emplacements où une autre réglementation est signalée",
-      "Uniquement du côté de la rue où le panneau est placé"
+      "Uniquement du côté de la rue où le panneau est placé",
+      "Dans toute la zone jusqu'au panneau de fin de zone, sauf aux emplacements où une autre réglementation est signalée"
     ],
-    "answer": 1,
+    "answer": 2,
     "grave": false,
     "explain": "Un signal à validité zonale a effet dans toute la zone délimitée, jusqu'au signal de fin de zone, sauf aux emplacements où une autre réglementation de stationnement est prévue par une signalisation.",
     "ref": "Art. 65.5.6 AR 01/12/1975",
@@ -245,11 +245,11 @@
     "photo": "fb859a14-813b-482f-b587-c78abc105246",
     "q": "Une piste cyclable (bande grise entre la chaussée et le trottoir) longe cette rue. Si je sors en voiture d'une propriété riveraine et dois traverser le trottoir et cette piste cyclable, qui a la priorité ?",
     "choices": [
-      "Moi, car je suis déjà engagé",
       "Les piétons et cyclistes qui circulent sur le trottoir et la piste cyclable",
+      "Moi, car je suis déjà engagé",
       "Les cyclistes seulement s'ils roulent à plus de 20 km/h"
     ],
-    "answer": 1,
+    "answer": 0,
     "grave": true,
     "explain": "Le conducteur qui traverse un trottoir ou une piste cyclable doit céder le passage aux usagers qui y circulent régulièrement. Déboucher d'une propriété riveraine est en outre une manœuvre.",
     "ref": "Art. 12.4 et 12.4bis AR 01/12/1975",
@@ -262,10 +262,10 @@
     "q": "Un bus arrive en sens inverse. Si des véhicules en stationnement de mon côté m'empêchent de croiser sans gêner le bus, que dois-je faire ?",
     "choices": [
       "Passer en premier : le bus doit s'arrêter",
-      "Ralentir et au besoin m'arrêter pour laisser passer le bus",
-      "Klaxonner pour qu'il se range"
+      "Klaxonner pour qu'il se range",
+      "Ralentir et au besoin m'arrêter pour laisser passer le bus"
     ],
-    "answer": 1,
+    "answer": 2,
     "grave": false,
     "explain": "Le conducteur dont la progression est entravée par un obstacle doit ralentir et au besoin s'arrêter pour laisser passer les usagers qui viennent en sens inverse.",
     "ref": "Art. 15.2 AR 01/12/1975",
