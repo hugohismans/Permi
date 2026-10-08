@@ -27,6 +27,20 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=09583fdd-4ca5-42ef-a8cb-b8939de760a8",
   "reprojected": false
  },
+ "097c3226-4991-473c-aa4c-aa5996a2458e": {
+  "author": "Mizuna",
+  "license": "CC-BY-SA-4.0",
+  "date": "2025-05-30",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=097c3226-4991-473c-aa4c-aa5996a2458e",
+  "reprojected": true
+ },
+ "0a6617e1-c705-4da7-9628-8d3da34635e1": {
+  "author": "Moosh",
+  "license": "CC-BY-SA-4.0",
+  "date": "2025-09-06",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=0a6617e1-c705-4da7-9628-8d3da34635e1",
+  "reprojected": true
+ },
  "0d3e8898-0086-4e1b-89c8-03b7ea3bae9a": {
   "author": "Moosh",
   "license": "CC-BY-SA-4.0",
@@ -188,6 +202,13 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=31f298a6-e9cb-41a2-a533-76790779a29d",
   "reprojected": false
  },
+ "3204e8ff-39e0-47ad-bfea-090f8287b85e": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2026-10-03",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=3204e8ff-39e0-47ad-bfea-090f8287b85e",
+  "reprojected": true
+ },
  "348b6a7c-80f0-4566-aba2-2ba2e2287195": {
   "author": "RaphaelPasloin",
   "license": "CC-BY-SA-4.0",
@@ -236,6 +257,13 @@
   "date": "2026-01-25",
   "url": "https://api.panoramax.xyz/#focus=pic&pic=3f7a2882-d7df-4844-b6d5-dcc5143517b3",
   "reprojected": false
+ },
+ "3feb490c-a4a9-46ff-8c69-8f6fb8948f14": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2024-04-13",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=3feb490c-a4a9-46ff-8c69-8f6fb8948f14",
+  "reprojected": true
  },
  "402fb3de-7d09-42e2-87c7-2b7115c07e6b": {
   "author": "Stem",
@@ -300,6 +328,13 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=4f01e913-3a15-47b0-8771-6988111c8deb",
   "reprojected": true
  },
+ "5056cddc-9cac-4940-9347-2a62acdc56bc": {
+  "author": "thetornado76",
+  "license": "CC-BY-SA-4.0",
+  "date": "2025-04-15",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=5056cddc-9cac-4940-9347-2a62acdc56bc",
+  "reprojected": false
+ },
  "50c68f8e-56c0-4545-83c4-64556ef6dc14": {
   "author": "Eebie",
   "license": "CC-BY-SA-4.0",
@@ -314,12 +349,26 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=51892c78-31cb-4588-a58f-b9f74605655d",
   "reprojected": true
  },
+ "5352e4d3-16d1-4897-a15a-5a753e67b548": {
+  "author": "Moosh",
+  "license": "CC-BY-SA-4.0",
+  "date": "2025-09-06",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=5352e4d3-16d1-4897-a15a-5a753e67b548",
+  "reprojected": true
+ },
  "53576ac0-e4be-4854-8fdd-a5700e498d4b": {
   "author": "Philippe Sampont",
   "license": "CC-BY-SA-4.0",
   "date": "2026-08-16",
   "url": "https://api.panoramax.xyz/#focus=pic&pic=53576ac0-e4be-4854-8fdd-a5700e498d4b",
   "reprojected": true
+ },
+ "5368ceb3-4966-4074-98f2-c0f1fd3daa1f": {
+  "author": "thetornado76",
+  "license": "CC-BY-SA-4.0",
+  "date": "2025-04-15",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=5368ceb3-4966-4074-98f2-c0f1fd3daa1f",
+  "reprojected": false
  },
  "539e8083-1b68-4562-8c33-5a4c19c28f55": {
   "author": "RaphaelPasloin",
@@ -433,6 +482,13 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=74d6ba68-571e-42f4-a609-ac69533dbdee",
   "reprojected": true
  },
+ "75223b02-bf2c-49bb-afb5-07376a9cc71d": {
+  "author": "Mizuna",
+  "license": "CC-BY-SA-4.0",
+  "date": "2025-09-27",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=75223b02-bf2c-49bb-afb5-07376a9cc71d",
+  "reprojected": true
+ },
  "75aa5c2e-13c0-4b88-8860-e4b18458b7ea": {
   "author": "Tbj",
   "license": "CC-BY-SA-4.0",
@@ -452,6 +508,13 @@
   "license": "CC-BY-SA-4.0",
   "date": "2026-09-24",
   "url": "https://api.panoramax.xyz/#focus=pic&pic=7880a546-9e7d-4f52-a6c1-f6b67d8c7f5e",
+  "reprojected": true
+ },
+ "796e17fb-aa81-4c55-abfe-3dc7e8563f60": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2024-04-11",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=796e17fb-aa81-4c55-abfe-3dc7e8563f60",
   "reprojected": true
  },
  "79cabdbc-c048-426f-a220-1f0e8b87306f": {
@@ -474,6 +537,13 @@
   "date": "2025-07-06",
   "url": "https://api.panoramax.xyz/#focus=pic&pic=7c34dd00-03d7-4c3e-955d-2a8aadbbaa20",
   "reprojected": false
+ },
+ "7d034afd-a718-4c62-8f90-07dee480cf98": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2024-06-25",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=7d034afd-a718-4c62-8f90-07dee480cf98",
+  "reprojected": true
  },
  "7dbfacc8-e241-4b64-82e1-b06b9c286c00": {
   "author": "Moosh",
@@ -524,6 +594,13 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=87bef780-4ba3-4de4-a54c-e2c843f15486",
   "reprojected": false
  },
+ "87ee6577-34cc-4d82-99d9-48ddcd107389": {
+  "author": "Stem",
+  "license": "CC-BY-SA-4.0",
+  "date": "2026-07-18",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=87ee6577-34cc-4d82-99d9-48ddcd107389",
+  "reprojected": true
+ },
  "88dd0d72-d6b7-4d64-9cb0-fafbf1ae91d2": {
   "author": "motocultrice",
   "license": "CC-BY-SA-4.0",
@@ -543,6 +620,13 @@
   "license": "CC-BY-SA-4.0",
   "date": "2025-05-08",
   "url": "https://api.panoramax.xyz/#focus=pic&pic=8c5ac9a1-f0a1-4c96-bb82-1c0f2dc31730",
+  "reprojected": true
+ },
+ "8debed6f-c572-41a0-97d3-3a70c9b8f571": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2023-11-09",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=8debed6f-c572-41a0-97d3-3a70c9b8f571",
   "reprojected": true
  },
  "8f32b4c6-c94c-41e3-bb27-e6565603e787": {
@@ -587,11 +671,25 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=96ac2f7b-fbb3-43cd-8595-09297b0e8de0",
   "reprojected": false
  },
+ "98a2a9d1-1cf4-4adb-b845-ce271771bed6": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2023-10-31",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=98a2a9d1-1cf4-4adb-b845-ce271771bed6",
+  "reprojected": true
+ },
  "994ea93e-788f-4643-af3c-7b9e71ebd4bf": {
   "author": "Stem",
   "license": "CC-BY-SA-4.0",
   "date": "2026-08-25",
   "url": "https://api.panoramax.xyz/#focus=pic&pic=994ea93e-788f-4643-af3c-7b9e71ebd4bf",
+  "reprojected": true
+ },
+ "9a5785e3-6efe-4908-aebf-14cf0bfada64": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2026-09-24",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=9a5785e3-6efe-4908-aebf-14cf0bfada64",
   "reprojected": true
  },
  "9ae2dd24-c6c0-4ad0-9505-3fd836501880": {
@@ -790,6 +888,13 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=d7eeda3e-3055-4b81-8b30-ced86983ec44",
   "reprojected": false
  },
+ "d9933225-9c3c-4d10-9ede-9c5abcb05fc3": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2024-04-05",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=d9933225-9c3c-4d10-9ede-9c5abcb05fc3",
+  "reprojected": true
+ },
  "dbe7719e-a4c7-448f-b7da-074f5b629f1f": {
   "author": "JeanRonse",
   "license": "CC-BY-SA-4.0",
@@ -809,6 +914,13 @@
   "license": "CC-BY-SA-4.0",
   "date": "2026-10-04",
   "url": "https://api.panoramax.xyz/#focus=pic&pic=decdf67c-2757-4289-9f45-15ff8eb89143",
+  "reprojected": true
+ },
+ "e0f88732-e4b4-47a9-99cf-409fd4f6e137": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2026-10-03",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=e0f88732-e4b4-47a9-99cf-409fd4f6e137",
   "reprojected": true
  },
  "e138bb0d-d029-4f58-acdd-90ed4fa41071": {
@@ -839,6 +951,13 @@
   "url": "https://api.panoramax.xyz/#focus=pic&pic=e8e4fe64-b2d1-440a-ad45-07c2c6165f03",
   "reprojected": true
  },
+ "e9fd00f6-66e9-45db-9293-9e4f29a44e40": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2024-04-06",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=e9fd00f6-66e9-45db-9293-9e4f29a44e40",
+  "reprojected": true
+ },
  "ebfaa109-0e2f-49d9-a913-fbad6a6309ba": {
   "author": "Stem",
   "license": "CC-BY-SA-4.0",
@@ -852,6 +971,13 @@
   "date": "2025-04-15",
   "url": "https://api.panoramax.xyz/#focus=pic&pic=ecab2e56-c29a-42a4-b680-2abb68274e72",
   "reprojected": false
+ },
+ "ecc5e0f7-30b9-4954-8bc4-a62aa88c66b0": {
+  "author": "RaphaelPasloin",
+  "license": "CC-BY-SA-4.0",
+  "date": "2026-10-03",
+  "url": "https://api.panoramax.xyz/#focus=pic&pic=ecc5e0f7-30b9-4954-8bc4-a62aa88c66b0",
+  "reprojected": true
  },
  "f1830314-1a47-4ab3-94e9-e07d41a50c4f": {
   "author": "RaphaelPasloin",
