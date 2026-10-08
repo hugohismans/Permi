@@ -7,6 +7,7 @@ Petite web app gratuite et hors ligne pour réviser le **code de la route belge*
 - **Défi chrono** : un maximum de Vrai/Faux en 60 secondes, pour battre ton record.
 - **Entraînement par thème** : correction immédiate, explication et article de loi (🥉 🥈 👑 selon ta maîtrise).
 - **Mes erreurs** : les questions ratées reviennent jusqu'à ce que tu les réussisses.
+- **Situations** : questions sur des photos de vraies rues belges, comme à l'examen (environ 12 photos par examen blanc).
 - **Panneaux** (galerie + devinettes) et **mémo** des chiffres clés.
 
 Gamification façon Duolingo : XP, objectif quotidien réglable, série de jours 🔥 avec gels de série 🧊, niveaux, combos, 19 badges, confettis, sons et statistiques.
@@ -26,6 +27,7 @@ Les questions ont été **rédigées pour ce projet**. Aucune n'est copiée d'un
 - [AR du 1er décembre 1975](https://www.codedelaroute.be/fr/reglementation/1975120109~hra8v386pu) : règlement général sur la police de la circulation routière, appelé « code de la route ».
 - [Loi du 16 mars 1968](https://www.codedelaroute.be/fr/reglementation/1968031601~invynqx4tj) relative à la police de la circulation routière (alcool, drogues).
 - AR du 23 mars 1998 et AR du 10 juillet 2006 sur le permis de conduire.
+- Photos de situation : [Panoramax](https://panoramax.fr), licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). Auteurs dans `data/photo_credits.json` et sous chaque photo ; les vues à 360° sont recadrées en vue conducteur, ces images restent donc sous CC BY-SA 4.0.
 
 ⚠️ Le **1er juin 2027**, un nouveau *Code de la voie publique* (fédéral, bruxellois, flamand, wallon) remplacera l'AR de 1975. L'app couvre les règles en vigueur aujourd'hui.
 

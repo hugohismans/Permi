@@ -8,6 +8,9 @@ import json, pathlib, re, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
 OUT = ROOT / "data" / "questions.js"
+PHOTO_DIR = ROOT / "img" / "photos"
+CREDITS_FILE = ROOT / "data" / "photo_credits.json"
+CREDITS = json.loads(CREDITS_FILE.read_text(encoding="utf-8")) if CREDITS_FILE.exists() else {}
 
 THEMES = [
     {"key": "priorite", "label": "Priorités", "desc": "Priorité de droite, panneaux B, carrefours"},
@@ -42,10 +45,15 @@ for f in sorted(RAW.glob("*.json")):
             errors.append(f"{where}: choix/réponse invalides")
         if q.get("sign") and q["sign"] not in SIGNS:
             errors.append(f"{where}: panneau inconnu {q['sign']}")
+        if q.get("photo"):
+            if not (PHOTO_DIR / f"{q['photo']}.jpg").exists():
+                errors.append(f"{where}: photo absente img/photos/{q['photo']}.jpg")
+            if q["photo"] not in CREDITS:
+                errors.append(f"{where}: crédit manquant pour la photo {q['photo']}")
         item = {k: q[k] for k in ("id", "theme", "q", "choices", "answer", "explain")}
         if q.get("grave"):
             item["grave"] = True
-        for k in ("sign", "ref"):
+        for k in ("sign", "photo", "focus", "ref"):
             if q.get(k):
                 item[k] = q[k]
         out.append(item)
@@ -54,12 +62,15 @@ if errors:
     print("\n".join(errors))
     sys.exit(1)
 
+used_photos = {q["photo"] for q in out if q.get("photo")}
+credits = {k: v for k, v in CREDITS.items() if k in used_photos}
 present = [t for t in THEMES if any(q["theme"] == t["key"] for q in out)]
 OUT.write_text(
     "/* Fichier généré par tools/build.py à partir de data/raw/*.json — ne pas modifier à la main. */\n"
     f"window.THEMES = {json.dumps(present, ensure_ascii=False, indent=1)};\n"
-    f"window.QUESTIONS = {json.dumps(out, ensure_ascii=False, separators=(',', ':'))};\n",
+    f"window.QUESTIONS = {json.dumps(out, ensure_ascii=False, separators=(',', ':'))};\n"
+    f"window.PHOTO_CREDITS = {json.dumps(credits, ensure_ascii=False, separators=(',', ':'))};\n",
     encoding="utf-8",
 )
 by = {t["key"]: sum(q["theme"] == t["key"] for q in out) for t in present}
-print(f"{len(out)} questions -> {OUT.relative_to(ROOT)}  {by}  graves={sum(1 for q in out if q.get('grave'))}")
+print(f"{len(out)} questions -> {OUT.relative_to(ROOT)}  {by}  graves={sum(1 for q in out if q.get('grave'))}  photos={len(used_photos)}")

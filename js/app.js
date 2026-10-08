@@ -7,12 +7,15 @@
   const MEMO = window.MEMO || [];
   const THEME_LABEL = Object.fromEntries(THEMES.map((t) => [t.key, t.label]));
   const G = window.Game;
+  const CREDITS = window.PHOTO_CREDITS || {};
+  const PHOTO_QS = QUESTIONS.filter((q) => q.photo);
 
   const EXAM_SIZE = 50;
   const PASS_MARK = 41;
   const TRAIN_SIZE = 20;
   const SWIPE_SIZE = 20;
   const CHRONO_SECONDS = 60;
+  const EXAM_PHOTOS = 12;
   const LETTERS = ['A', 'B', 'C', 'D'];
   const GOALS = [[20, 'Détente'], [50, 'Normal'], [100, 'Sérieux'], [150, 'Intense']];
 
@@ -47,6 +50,12 @@
   const go = (hash) => { if (location.hash === hash) render(); else location.hash = hash; };
   const signHTML = (code) => (code && window.Signs && Signs.has(code) ? Signs.render(code) : '');
   const plural = (n, w) => `${n} ${w}${n > 1 ? 's' : ''}`;
+  function photoHTML(q, small) {
+    if (!q.photo) return '';
+    const c = CREDITS[q.photo] || {};
+    return `<figure class="q-photo${small ? ' small' : ''}"><img src="img/photos/${esc(q.photo)}.jpg" alt="Photo de la situation" loading="lazy" data-zoom>
+      ${small ? '' : `<figcaption>Photo : ${esc(c.author || 'Panoramax')} · <a href="${esc(c.url || 'https://panoramax.fr')}" target="_blank" rel="noopener">Panoramax</a> · CC BY-SA 4.0</figcaption>`}</figure>`;
+  }
 
   function themeStats(key) {
     const qs = key ? QUESTIONS.filter((q) => q.theme === key) : QUESTIONS;
@@ -82,7 +91,17 @@
     });
     let rest = EXAM_SIZE - quotas.reduce((s, x) => s + x.n, 0);
     quotas.slice().sort((a, b) => b.frac - a.frac).forEach((x) => { if (rest > 0) { x.n++; rest--; } });
-    return shuffle(quotas.flatMap((x) => x.pool.slice(0, x.n)));
+    let picked = quotas.flatMap((x) => x.pool.slice(0, x.n));
+    // Comme à l'examen réel, une partie des questions s'appuie sur une photo.
+    const want = Math.min(EXAM_PHOTOS, PHOTO_QS.length);
+    const have = picked.filter((q) => q.photo).length;
+    if (have < want) {
+      const ids = new Set(picked.map((q) => q.id));
+      const extra = shuffle(PHOTO_QS.filter((q) => !ids.has(q.id))).slice(0, want - have);
+      const removable = shuffle(picked.filter((q) => !q.photo)).slice(0, extra.length).map((q) => q.id);
+      picked = picked.filter((q) => !removable.includes(q.id)).concat(extra);
+    }
+    return shuffle(picked);
   }
 
   // ---------- Effets : sons, toasts, confettis ----------
@@ -207,6 +226,7 @@
       const ok = s.selected === q.answer;
       feedback = `<div class="feedback ${ok ? 'ok' : 'bad'}" role="status">
         <b>${ok ? pickCheer() : 'Pas tout à fait'}</b>${!ok ? ` — la bonne réponse était <b>${LETTERS[q.answer]}</b>.` : ''}
+        ${q.focus ? `<p class="focus">👀 ${esc(q.focus)}</p>` : ''}
         <p>${esc(q.explain)}</p><div class="ref">${esc(q.ref || '')}</div></div>`;
     }
 
@@ -225,6 +245,7 @@
       <div class="quiz-sub"><span>${esc(s.title)}</span>${isExam ? '' : comboChip()}</div>
       <article class="card">
         ${q.grave && !isExam ? '<span class="grave-flag">Faute grave possible (−5 à l’examen)</span>' : ''}
+        ${photoHTML(q)}
         ${q.sign ? `<div class="q-sign">${signHTML(q.sign)}</div>` : ''}
         <p class="q-text">${esc(q.q)}</p>
         <div class="choices">${choices}</div>
@@ -286,6 +307,7 @@
     return items.map((r) => `
       <div class="card review-item">
         ${r.q.sign ? `<div class="mini-sign">${signHTML(r.q.sign)}</div>` : ''}
+        ${photoHTML(r.q, true)}
         ${r.q.grave ? '<span class="grave-flag">Faute grave</span>' : ''}
         <b>${esc(r.q.q)}</b>
         ${r.mine != null ? `<p class="ans bad">Ta réponse : ${esc(r.mine)}</p>` : ''}
@@ -423,6 +445,7 @@
       <div class="swipe-zone">
         ${s.feedback ? '' : `<div class="swipe-card" id="card" tabindex="0" aria-label="Carte : glisse à droite pour Vrai, à gauche pour Faux">
           <span class="stamp yes">VRAI</span><span class="stamp no">FAUX</span>
+          ${photoHTML(card.q, true)}
           ${card.q.sign ? `<div class="q-sign">${signHTML(card.q.sign)}</div>` : ''}
           <p class="q-text">${esc(card.q.q)}</p>
           <div class="proposal"><small>Réponse proposée</small>${esc(card.q.choices[card.shown])}</div>
@@ -572,6 +595,7 @@
         <button class="card mode m-chrono" id="chrono"><span class="mi">⏱️</span><strong>Défi chrono</strong><span>60 s · record ${G.state.chronoBest}</span></button>
         <button class="card mode m-train" data-go="themes"><span class="mi">📚</span><strong>Par thème</strong><span>${pct(st.mastered, st.total)} % maîtrisé</span></button>
         <button class="card mode m-err" id="review" ${errs ? '' : 'disabled'}><span class="mi">🩹</span><strong>Mes erreurs</strong><span>${errs ? plural(errs, 'question') + ' à revoir' : 'Rien à revoir'}</span></button>
+        ${PHOTO_QS.length ? `<button class="card mode m-photo" id="photos"><span class="mi">📸</span><strong>Situations</strong><span>${PHOTO_QS.length} photos de vraies rues belges</span></button>` : ''}
         <button class="card mode m-signs" data-go="signs"><span class="mi">🚸</span><strong>Panneaux</strong><span>Galerie & devinettes</span></button>
       </div>
 
@@ -588,6 +612,8 @@
     document.getElementById('swipe').onclick = () => startSwipe('swipe');
     document.getElementById('chrono').onclick = () => startSwipe('chrono');
     document.getElementById('review').onclick = startReview;
+    const ph = document.getElementById('photos');
+    if (ph) ph.onclick = () => startSession('train', pickForTraining(PHOTO_QS, 15), 'Situations en photo', '#/');
   }
 
   function viewThemes() {
@@ -709,6 +735,9 @@
         l’<a href="https://www.codedelaroute.be/fr/reglementation/1975120109~hra8v386pu" target="_blank" rel="noopener">arrêté royal du 1<sup>er</sup> décembre 1975</a>
         (règlement général sur la police de la circulation routière), publié sur codedelaroute.be, et, pour l’alcool et le permis, de la loi du 16 mars 1968, de l’AR du 23 mars 1998 et de l’AR du 10 juillet 2006 (permis B).
         Chaque question renvoie à l’article concerné. Aucune question n’est copiée d’une banque de questions commerciale.</p>
+        <p><b>Photos.</b> Les photos de situation proviennent de <a href="https://panoramax.fr" target="_blank" rel="noopener">Panoramax</a>,
+        une base libre d’images prises au niveau de la rue, sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="noopener">CC BY-SA 4.0</a>.
+        L’auteur est cité sous chaque photo ; les vues à 360° ont été recadrées en vue « conducteur ». Les plaques et visages sont floutés par Panoramax.</p>
         <p><b>Format de l’examen.</b> 50 questions à choix multiple ; une erreur coûte 1 point, une faute grave 5 points ; il faut au moins 41/50.
         Les modalités exactes (durée, centre, prix) dépendent de ta région : renseigne-toi auprès de ton centre d’examen.</p>
         <p><b>Limites.</b> Outil d’entraînement non officiel : les panneaux sont des dessins simplifiés et une erreur reste possible.
@@ -738,6 +767,12 @@
   }
 
   document.addEventListener('click', (e) => {
+    const z = e.target.closest('[data-zoom]');
+    if (z && !e.target.closest('.swipe-card')) {
+      const o = document.createElement('div');
+      o.className = 'lightbox'; o.innerHTML = `<img src="${z.getAttribute('src')}" alt="Photo agrandie">`;
+      o.onclick = () => o.remove(); document.body.appendChild(o); return;
+    }
     const t = e.target.closest('[data-go]');
     if (t) { e.preventDefault(); go('#/' + (t.dataset.go === 'home' ? '' : t.dataset.go)); }
   });
