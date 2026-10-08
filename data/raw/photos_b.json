@@ -1,0 +1,305 @@
+[
+  {
+    "id": "PHB-001",
+    "theme": "priorite",
+    "photo": "144dbb19-8ca6-49f9-be62-9c751cd90c0b",
+    "q": "J'arrive à ce carrefour, où un panneau triangulaire pointe en bas est placé à droite. Une voiture circule sur la rue que je vais aborder. Que dois-je faire ?",
+    "choices": [
+      "Je passe, car elle vient de ma gauche",
+      "Je lui cède le passage",
+      "Je klaxonne et je m'engage"
+    ],
+    "answer": 1,
+    "grave": true,
+    "focus": "panneau triangulaire à droite",
+    "explain": "Le signal B1 (cédez le passage) m'oblige à céder le passage à tous les conducteurs qui circulent sur la voie que j'aborde, qu'ils viennent de gauche ou de droite.",
+    "ref": "Art. 12.3.1 a) et 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "PHB-002",
+    "theme": "signalisation",
+    "photo": "144dbb19-8ca6-49f9-be62-9c751cd90c0b",
+    "q": "Devant ce panneau triangulaire pointe en bas, dois-je obligatoirement marquer l'arrêt complet, même si personne n'arrive ?",
+    "choices": [
+      "Non, je dois seulement céder le passage ; je m'arrête si nécessaire",
+      "Oui, l'arrêt est toujours obligatoire",
+      "Oui, mais seulement la nuit"
+    ],
+    "answer": 0,
+    "grave": false,
+    "focus": "panneau triangulaire à droite",
+    "explain": "Le B1 impose de céder le passage, pas de s'arrêter systématiquement. L'arrêt obligatoire est imposé par le signal B5 (STOP). Je ne poursuis ma route que si je peux le faire sans risque d'accident.",
+    "ref": "Art. 12.3.1, 12.5 et 67.3 AR 01/12/1975"
+  },
+  {
+    "id": "PHB-003",
+    "theme": "vitesse",
+    "photo": "65ca4a7f-3cec-4426-8313-e46aed8b1f36",
+    "q": "Je circule dans cette rue de Charleroi. À quelle vitesse maximale puis-je rouler après le panneau rond visible à droite ?",
+    "choices": [
+      "50 km/h",
+      "70 km/h",
+      "30 km/h"
+    ],
+    "answer": 2,
+    "grave": false,
+    "focus": "panneau rond à droite",
+    "explain": "Le signal C43 indique la vitesse maximale autorisée : ici 30 km/h. Il remplace la limite générale de 50 km/h applicable en agglomération en Wallonie.",
+    "ref": "Art. 11.1 (Région wallonne) et 68 (C43) AR 01/12/1975"
+  },
+  {
+    "id": "PHB-004",
+    "theme": "depassement",
+    "photo": "65ca4a7f-3cec-4426-8313-e46aed8b1f36",
+    "q": "La voiture qui me précède ralentit à l'approche du passage pour piétons (sans feux ni agent). Puis-je la dépasser ?",
+    "choices": [
+      "Oui, si aucun piéton n'est visible",
+      "Non, c'est interdit",
+      "Oui, à condition de klaxonner"
+    ],
+    "answer": 1,
+    "grave": true,
+    "focus": "passage pour piétons devant la voiture noire",
+    "explain": "Il est interdit de dépasser un véhicule qui s'approche d'un passage pour piétons ou s'arrête devant celui-ci lorsque la circulation n'y est pas réglée par des feux ou un agent : il peut masquer un piéton.",
+    "ref": "Art. 17.2.5° AR 01/12/1975"
+  },
+  {
+    "id": "PHB-005",
+    "theme": "priorite",
+    "photo": "9ae2dd24-c6c0-4ad0-9505-3fd836501880",
+    "q": "Le panneau triangulaire à droite contient une croix noire. Au prochain carrefour, un véhicule arrive de ma droite. Qui a la priorité ?",
+    "choices": [
+      "Le véhicule venant de ma droite",
+      "Moi, car je roule tout droit",
+      "Celui qui arrive le premier"
+    ],
+    "answer": 0,
+    "grave": true,
+    "focus": "panneau triangulaire à droite",
+    "explain": "Le signal B17 annonce un carrefour où la priorité de droite est applicable : je dois céder le passage à celui qui vient de ma droite.",
+    "ref": "Art. 12.3.1 et 67.3 (B17) AR 01/12/1975"
+  },
+  {
+    "id": "PHB-006",
+    "theme": "depassement",
+    "photo": "9ae2dd24-c6c0-4ad0-9505-3fd836501880",
+    "q": "Dans le carrefour annoncé par ce panneau (croix noire dans un triangle), puis-je dépasser la voiture qui me précède ?",
+    "choices": [
+      "Oui, si la voie est libre en face",
+      "Oui, mais uniquement par la droite",
+      "Non"
+    ],
+    "answer": 2,
+    "grave": true,
+    "focus": "panneau triangulaire à droite",
+    "explain": "Dans les carrefours où la priorité de droite est applicable, il est interdit de dépasser par la gauche un véhicule à plus de deux roues (ou un véhicule à moteur à deux roues). Seul le dépassement d'une bicyclette y reste possible.",
+    "ref": "Art. 17.2.2° a) AR 01/12/1975"
+  },
+  {
+    "id": "PHB-007",
+    "theme": "stationnement",
+    "photo": "0d3e8898-0086-4e1b-89c8-03b7ea3bae9a",
+    "q": "Un panneau bleu « P » est placé sur le trottoir de droite. De quel côté de la rue autorise-t-il le stationnement ?",
+    "choices": [
+      "Du côté droit, où il est placé, jusqu'au prochain carrefour",
+      "Des deux côtés de la rue",
+      "Uniquement du côté gauche"
+    ],
+    "answer": 0,
+    "grave": false,
+    "focus": "panneau P à droite",
+    "explain": "Les signaux E9a et les signaux d'interdiction de stationnement ont effet du côté de la voie publique où ils sont placés, à partir du signal jusqu'au prochain carrefour.",
+    "ref": "Art. 70.2.1 AR 01/12/1975"
+  },
+  {
+    "id": "PHB-008",
+    "theme": "stationnement",
+    "photo": "0d3e8898-0086-4e1b-89c8-03b7ea3bae9a",
+    "q": "Puis-je laisser ma voiture en stationnement sur la chaussée à 3 mètres avant le passage pour piétons visible au premier plan ?",
+    "choices": [
+      "Oui, puisque je ne suis pas sur les bandes blanches",
+      "Non, il faut être au moins à 5 mètres avant le passage",
+      "Oui, si mes feux de détresse sont allumés"
+    ],
+    "answer": 1,
+    "grave": false,
+    "focus": "passage pour piétons au premier plan",
+    "explain": "L'arrêt et le stationnement sont interdits sur les passages pour piétons et sur la chaussée à moins de 5 mètres en deçà de ceux-ci, pour préserver la visibilité des piétons.",
+    "ref": "Art. 24.4° AR 01/12/1975"
+  },
+  {
+    "id": "PHB-009",
+    "theme": "usagers",
+    "photo": "7b75ec09-4c75-44bc-a53f-6c35364b75d2",
+    "q": "Le panneau bleu « Fahrrad Zone » (zone cyclable) marque l'entrée de cette rue à Eupen. J'y roule en voiture derrière un cycliste. Puis-je le dépasser ?",
+    "choices": [
+      "Oui, si je laisse au moins 1 mètre",
+      "Oui, si je ne dépasse pas 30 km/h",
+      "Non, je dois rester derrière lui"
+    ],
+    "answer": 2,
+    "grave": true,
+    "focus": "panneau bleu « Fahrrad Zone » sur le poteau",
+    "explain": "Le signal F111 indique le début d'une zone cyclable. Les véhicules à moteur y sont admis mais ne peuvent pas dépasser les cyclistes, et la vitesse n'y est jamais supérieure à 30 km/h.",
+    "ref": "Art. 22novies et 71 (F111) AR 01/12/1975"
+  },
+  {
+    "id": "PHB-010",
+    "theme": "stationnement",
+    "photo": "7b75ec09-4c75-44bc-a53f-6c35364b75d2",
+    "q": "Le poteau jaune indique un arrêt de bus. Puis-je stationner ma voiture sur la chaussée à 10 mètres de ce panneau ?",
+    "choices": [
+      "Non, le stationnement est interdit à moins de 15 mètres de part et d'autre",
+      "Oui, l'interdiction ne vaut qu'à moins de 5 mètres",
+      "Oui, si aucun bus n'est en vue"
+    ],
+    "answer": 0,
+    "grave": false,
+    "focus": "poteau jaune « BUS »",
+    "explain": "Il est interdit de stationner à moins de 15 mètres de part et d'autre d'un panneau indiquant un arrêt d'autobus, de trolleybus ou de tram.",
+    "ref": "Art. 25.1.2° AR 01/12/1975"
+  },
+  {
+    "id": "PHB-011",
+    "theme": "priorite",
+    "photo": "41dfad6b-4819-4eaf-b298-b9245cf45337",
+    "q": "Je circule sur cette route où est placé un panneau en losange blanc et orange. Au prochain carrefour, une voiture arrive d'une rue à ma droite. Qui doit céder le passage ?",
+    "choices": [
+      "Moi, car la priorité de droite s'applique toujours",
+      "La voiture venant de droite",
+      "Personne, le premier arrivé passe"
+    ],
+    "answer": 1,
+    "grave": true,
+    "focus": "panneau losange en haut à droite",
+    "explain": "Le signal B9 indique une voie prioritaire : les conducteurs qui débouchent des voies transversales (pourvues d'un B1 ou d'un B5) doivent me céder le passage.",
+    "ref": "Art. 12.3.1 et 67.3 (B9) AR 01/12/1975"
+  },
+  {
+    "id": "PHB-012",
+    "theme": "stationnement",
+    "photo": "6e3fe9a7-0948-4838-bd3f-d0b9e6fe587a",
+    "q": "Un panneau rond bleu bordé de rouge, barré d'une seule diagonale, est fixé sur le mur à droite. Puis-je laisser ma voiture garée de ce côté pendant une heure ?",
+    "choices": [
+      "Oui, si je mets le disque de stationnement",
+      "Oui, si je reste dans la voiture",
+      "Non"
+    ],
+    "answer": 2,
+    "grave": false,
+    "focus": "panneau rond sur le mur à droite",
+    "explain": "Le signal E1 interdit le stationnement du côté où il est placé, jusqu'au prochain carrefour. Rester une heure immobilisé, c'est du stationnement.",
+    "ref": "Art. 2.23 et 70.2.1 (E1) AR 01/12/1975"
+  },
+  {
+    "id": "PHB-013",
+    "theme": "stationnement",
+    "photo": "6e3fe9a7-0948-4838-bd3f-d0b9e6fe587a",
+    "q": "Après le même panneau (rond bleu, bord rouge, une seule diagonale), puis-je m'arrêter à droite juste le temps de faire descendre un passager ?",
+    "choices": [
+      "Oui, l'arrêt reste permis",
+      "Non, l'arrêt est aussi interdit",
+      "Oui, mais seulement avec les feux de détresse"
+    ],
+    "answer": 0,
+    "grave": false,
+    "focus": "panneau rond sur le mur à droite",
+    "explain": "Le signal E1 interdit uniquement le stationnement. L'arrêt (le temps d'embarquer ou de débarquer des personnes ou des choses) reste autorisé, sauf s'il crée un danger. C'est le signal E3 (deux diagonales) qui interdit aussi l'arrêt.",
+    "ref": "Art. 2.22 et 70.2.1 (E1, E3) AR 01/12/1975"
+  },
+  {
+    "id": "PHB-014",
+    "theme": "stationnement",
+    "photo": "8c5ac9a1-f0a1-4c96-bb82-1c0f2dc31730",
+    "q": "La bordure du trottoir de droite est peinte d'une ligne jaune discontinue. Puis-je y stationner ma voiture ?",
+    "choices": [
+      "Oui, seulement le dimanche",
+      "Non, le stationnement y est interdit",
+      "Oui, la ligne jaune n'est qu'une décoration"
+    ],
+    "answer": 1,
+    "grave": false,
+    "focus": "bordure jaune à droite",
+    "explain": "Une ligne discontinue jaune tracée sur la bordure du trottoir signifie que le stationnement est interdit sur la chaussée le long de cette ligne.",
+    "ref": "Art. 75.1.2° et 25.1.10° AR 01/12/1975"
+  },
+  {
+    "id": "PHB-015",
+    "theme": "stationnement",
+    "photo": "8c5ac9a1-f0a1-4c96-bb82-1c0f2dc31730",
+    "q": "Le long de cette ligne jaune discontinue, puis-je m'arrêter brièvement pour décharger un colis ?",
+    "choices": [
+      "Non, ni arrêt ni stationnement",
+      "Oui, seulement si j'ai une camionnette",
+      "Oui, l'arrêt est permis si je ne crée pas de danger"
+    ],
+    "answer": 2,
+    "grave": false,
+    "focus": "bordure jaune à droite",
+    "explain": "La ligne jaune discontinue n'interdit que le stationnement. L'arrêt, limité au temps de charger ou décharger, reste possible s'il ne gêne ni ne met en danger les autres usagers.",
+    "ref": "Art. 2.22, 24 et 75.1.2° AR 01/12/1975"
+  },
+  {
+    "id": "PHB-016",
+    "theme": "depassement",
+    "photo": "994ea93e-788f-4643-af3c-7b9e71ebd4bf",
+    "q": "La ligne au milieu de cette chaussée est discontinue. Un véhicule lent me précède et je vois loin devant que personne n'arrive en face. Puis-je franchir cette ligne pour le dépasser ?",
+    "choices": [
+      "Oui",
+      "Non, une ligne au milieu ne peut jamais être franchie",
+      "Non, sauf pour tourner à gauche"
+    ],
+    "answer": 0,
+    "grave": false,
+    "focus": "ligne discontinue au milieu",
+    "explain": "Une ligne discontinue peut être franchie pour dépasser, tourner à gauche, faire demi-tour ou changer de bande, à condition de voir suffisamment loin pour dépasser sans risque.",
+    "ref": "Art. 72.3 et 17.1 AR 01/12/1975"
+  },
+  {
+    "id": "PHB-017",
+    "theme": "usagers",
+    "photo": "bea00f5f-6d81-40a8-ae4c-f5236eb39cd2",
+    "q": "J'approche de ce passage pour piétons, sans feux ni agent. Un piéton attend sur le trottoir, sur le point de traverser. Que dois-je faire ?",
+    "choices": [
+      "Continuer : il doit attendre que la rue soit libre",
+      "Lui céder le passage",
+      "Klaxonner pour l'avertir que je passe"
+    ],
+    "answer": 1,
+    "grave": true,
+    "focus": "passage pour piétons au fond",
+    "explain": "À un passage pour piétons non réglé, je dois m'approcher à allure modérée et céder le passage aux piétons qui y sont engagés ou sont sur le point de s'y engager.",
+    "ref": "Art. 40.4.2 AR 01/12/1975"
+  },
+  {
+    "id": "PHB-018",
+    "theme": "vitesse",
+    "photo": "bea00f5f-6d81-40a8-ae4c-f5236eb39cd2",
+    "q": "Je circule dans cette rue commerçante, en agglomération à Dinant (Wallonie). Je n'ai rencontré aucun panneau de limitation de vitesse. Quelle est la vitesse maximale ?",
+    "choices": [
+      "50 km/h",
+      "30 km/h",
+      "70 km/h"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "En Région wallonne, la vitesse est limitée à 50 km/h dans les agglomérations, sauf autre limitation imposée par un signal C43 ou une zone 30. (À Bruxelles, la règle générale en agglomération est 30 km/h.)",
+    "ref": "Art. 11.1 (Région wallonne) AR 01/12/1975"
+  },
+  {
+    "id": "PHB-019",
+    "theme": "stationnement",
+    "photo": "fdc63349-d486-4b70-9e89-2a048a932236",
+    "q": "Puis-je m'arrêter sur ce passage pour piétons, le temps de déposer un passager ?",
+    "choices": [
+      "Oui, si c'est très rapide",
+      "Oui, si aucun piéton n'attend",
+      "Non, l'arrêt y est interdit"
+    ],
+    "answer": 2,
+    "grave": false,
+    "focus": "passage pour piétons au premier plan",
+    "explain": "L'arrêt et le stationnement sont interdits sur les passages pour piétons et sur la chaussée à moins de 5 mètres en deçà de ceux-ci.",
+    "ref": "Art. 24.4° AR 01/12/1975"
+  }
+]

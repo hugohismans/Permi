@@ -1,0 +1,338 @@
+[
+ {
+  "id": "PHA-001",
+  "theme": "signalisation",
+  "photo": "0fd37312-d591-4b8a-902d-929db8078e00",
+  "q": "Je conduis une voiture particulière. À droite se trouve un panneau rond à bord rouge avec un camion, complété par « +10t » et « excepté circulation locale ». Puis-je continuer tout droit ?",
+  "choices": [
+   "Non, l'accès est interdit à tous les véhicules à moteur",
+   "Oui, l'interdiction ne vise que les véhicules de transport de marchandises de plus de 10 tonnes",
+   "Oui, mais uniquement si j'habite dans le quartier"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal C23 interdit l'accès aux véhicules conçus pour le transport de marchandises ; le panneau additionnel « +10t » limite l'interdiction à ceux dont la masse maximale autorisée dépasse 10 tonnes. Une voiture particulière n'est pas concernée.",
+  "ref": "Art. 68.3 (C23) AR 01/12/1975",
+  "focus": "panneau rond à droite et panneaux additionnels bleus"
+ },
+ {
+  "id": "PHA-002",
+  "theme": "vitesse",
+  "photo": "1923ca0a-504c-4ae7-868c-ade51ca5b70a",
+  "q": "Je viens de dépasser le panneau visible à droite. À quelle vitesse maximale puis-je rouler ?",
+  "choices": [
+   "30 km/h",
+   "50 km/h",
+   "70 km/h"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal C43 indique la vitesse maximale autorisée à partir du panneau : ici 30 km/h.",
+  "ref": "Art. 68.3 (C43) AR 01/12/1975",
+  "focus": "panneau rond à droite"
+ },
+ {
+  "id": "PHA-003",
+  "theme": "signalisation",
+  "photo": "31f298a6-e9cb-41a2-a533-76790779a29d",
+  "q": "Le feu est rouge. Sous le feu, un panneau triangulaire montre une bicyclette jaune et une flèche vers la droite. Avec ma voiture, puis-je tourner à droite ?",
+  "choices": [
+   "Oui, à condition de céder le passage",
+   "Non, ce panneau ne concerne que les cyclistes et les speed pedelecs",
+   "Oui, si aucun piéton ne traverse"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le panneau B22 autorise uniquement les cyclistes et les conducteurs de speed pedelecs à franchir le feu rouge pour tourner à droite, en cédant le passage. Pour un automobiliste, le feu rouge reste une interdiction de passer.",
+  "ref": "Art. 67.3 (B22) et 61.1 AR 01/12/1975",
+  "focus": "panneau triangulaire jaune sous le feu"
+ },
+ {
+  "id": "PHA-004",
+  "theme": "vitesse",
+  "photo": "5650e541-8ec7-4a2d-ba1a-e8ae9ff5aa12",
+  "q": "Je quitte la ville par cette route à une seule chaussée, en Wallonie. Je viens de passer le panneau visible à droite (nom de localité barré). Sauf autre signalisation, quelle est ma vitesse maximale ?",
+  "choices": [
+   "50 km/h",
+   "70 km/h",
+   "90 km/h"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le panneau F3a marque la fin de l'agglomération. En Wallonie, hors agglomération, la vitesse est limitée à 90 km/h sur ce type de route (hors autoroute et route à 2x2 bandes séparées physiquement).",
+  "ref": "Art. 11.2 (Région wallonne) et 71 (F3a) AR 01/12/1975",
+  "focus": "panneau blanc barré à droite"
+ },
+ {
+  "id": "PHA-005",
+  "theme": "vitesse",
+  "photo": "7158a66f-d956-4b80-94f7-6a9d4033b383",
+  "q": "Je roule dans la rue commerçante de cette ville wallonne, en pleine agglomération. Aucun panneau de vitesse n'est visible. À quelle vitesse maximale puis-je rouler ?",
+  "choices": [
+   "30 km/h",
+   "50 km/h",
+   "70 km/h"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "En Région wallonne, la vitesse est limitée à 50 km/h dans les agglomérations, sauf autre limitation imposée par un signal C43 ou une zone.",
+  "ref": "Art. 11.1 (Région wallonne) AR 01/12/1975",
+  "focus": "rue commerçante bordée de magasins"
+ },
+ {
+  "id": "PHA-006",
+  "theme": "vitesse",
+  "photo": "87bef780-4ba3-4de4-a54c-e2c843f15486",
+  "q": "Je roule en voiture en Wallonie, hors agglomération, sur cette route à deux bandes par sens, séparées par une berme centrale en béton. Aucun panneau de limitation n'est visible. Quelle est ma vitesse maximale ?",
+  "choices": [
+   "120 km/h",
+   "90 km/h",
+   "70 km/h"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Sur les autoroutes et sur les routes à quatre bandes ou plus dont les sens de circulation sont séparés autrement que par des marques routières (berme, glissière), la vitesse est limitée à 120 km/h pour une voiture.",
+  "ref": "Art. 11.2.1° (Région wallonne) AR 01/12/1975",
+  "focus": "berme centrale à gauche"
+ },
+ {
+  "id": "PHA-007",
+  "theme": "signalisation",
+  "photo": "96ac2f7b-fbb3-43cd-8595-09297b0e8de0",
+  "q": "Sur la droite de la chaussée se trouve une zone marquée de lignes blanches obliques. Puis-je y rouler ou m'y arrêter un instant ?",
+  "choices": [
+   "Oui, pour un arrêt bref",
+   "Oui, pour dépasser un véhicule lent",
+   "Non, ni circuler, ni s'arrêter, ni stationner"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Les lignes parallèles obliques blanches marquent une zone d'évitement : il est interdit d'y circuler, de s'y arrêter et d'y stationner.",
+  "ref": "Art. 77.4 AR 01/12/1975",
+  "focus": "zone hachurée à droite"
+ },
+ {
+  "id": "PHA-008",
+  "theme": "vitesse",
+  "photo": "12a6364e-00c7-4b92-ab21-702e40dfd95f",
+  "q": "Je roule dans cette rue en agglomération, en Région de Bruxelles-Capitale. Aucun panneau de vitesse n'est visible. Quelle est ma vitesse maximale ?",
+  "choices": [
+   "50 km/h",
+   "30 km/h",
+   "40 km/h"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "En Région de Bruxelles-Capitale, la vitesse est limitée à 30 km/h dans les agglomérations, sauf si un signal C43 indique une autre limite.",
+  "ref": "Art. 11.1 (Région de Bruxelles-Capitale) AR 01/12/1975",
+  "focus": "rue bruxelloise avec voies de tram"
+ },
+ {
+  "id": "PHA-009",
+  "theme": "stationnement",
+  "photo": "1a1e2e69-037b-4640-bcaf-344ac5b81998",
+  "q": "Je veux déposer quelqu'un. Puis-je m'arrêter sur la chaussée juste avant ce passage pour piétons, à 3 mètres de celui-ci ?",
+  "choices": [
+   "Non, l'arrêt est interdit sur le passage et à moins de 5 mètres en deçà",
+   "Oui, un arrêt bref est toujours permis",
+   "Oui, si je reste au volant avec les feux de détresse"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "L'arrêt et le stationnement sont interdits sur les passages pour piétons et sur la chaussée à moins de 5 mètres en deçà de ceux-ci, pour garder la visibilité sur les piétons.",
+  "ref": "Art. 24, 4° AR 01/12/1975",
+  "focus": "passage pour piétons au premier plan"
+ },
+ {
+  "id": "PHA-010",
+  "theme": "signalisation",
+  "photo": "202e1b01-cfbf-4e3c-9713-ce6eef77814b",
+  "q": "À l'entrée de cette rue, le panneau rond rouge à barre blanche est complété par un petit panneau montrant une bicyclette. Que signifie ce panneau additionnel ?",
+  "choices": [
+   "Que les cyclistes doivent mettre pied à terre",
+   "Que les cyclistes sont autorisés à entrer malgré le sens interdit",
+   "Que la rue est réservée aux cyclistes"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le panneau additionnel M2 sous le signal C1 indique que l'interdiction d'accès ne s'applique pas aux cyclistes : ils peuvent circuler à contresens. Les automobilistes, eux, ne peuvent pas entrer.",
+  "ref": "Art. 68.4 et 65.2 AR 01/12/1975",
+  "focus": "panneau à droite"
+ },
+ {
+  "id": "PHA-011",
+  "theme": "signalisation",
+  "photo": "68458974-2354-49d1-be0a-76840f04cb99",
+  "q": "Je voudrais entrer en voiture dans cette rue, à droite de laquelle se trouve le panneau visible. Est-ce permis ?",
+  "choices": [
+   "Non, c'est un accès interdit pour moi",
+   "Oui, si je roule au pas",
+   "Oui, car le panneau additionnel autorise tous les véhicules légers"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Le signal C1 interdit l'accès dans ce sens à tous les conducteurs. Le panneau additionnel avec une bicyclette n'exempte que les cyclistes. Entrer en voiture serait circuler à contresens.",
+  "ref": "Art. 68.3 (C1) et 68.4 AR 01/12/1975",
+  "focus": "panneau sens interdit à droite"
+ },
+ {
+  "id": "PHA-012",
+  "theme": "signalisation",
+  "photo": "1c483bce-a15a-44da-aa01-fe46a15e7b3a",
+  "q": "Le feu à droite est rouge. Aucune voiture ni aucun piéton n'est en vue. Que dois-je faire ?",
+  "choices": [
+   "Passer prudemment, puisque la voie est libre",
+   "M'arrêter et attendre le vert",
+   "Passer en klaxonnant"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le feu rouge interdit de franchir la ligne d'arrêt ou, à défaut, le signal lui-même, même si le carrefour semble libre.",
+  "ref": "Art. 61.1, 1° AR 01/12/1975",
+  "focus": "feu sur le poteau à droite"
+ },
+ {
+  "id": "PHA-013",
+  "theme": "priorite",
+  "photo": "1f2cad38-1822-422a-9af3-44b05a9033e0",
+  "q": "J'arrive à ce carrefour : un panneau triangulaire pointe en bas est placé à droite et une ligne de triangles blancs traverse ma bande. Un bus circule sur la voie que j'aborde. Que dois-je faire ?",
+  "choices": [
+   "Céder le passage au bus",
+   "Passer avant lui, car il vient de ma gauche",
+   "Passer, car les bus doivent toujours céder le passage"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Le signal B1 m'oblige à céder le passage à tous les usagers de la voie que j'aborde, quel que soit leur côté. La ligne de triangles blancs indique où m'arrêter si nécessaire.",
+  "ref": "Art. 12.3.1 a) et 76.2 AR 01/12/1975",
+  "focus": "panneau triangulaire et triangles au sol"
+ },
+ {
+  "id": "PHA-014",
+  "theme": "signalisation",
+  "photo": "348b6a7c-80f0-4566-aba2-2ba2e2287195",
+  "q": "Le feu est rouge pour moi. Où dois-je arrêter ma voiture ?",
+  "choices": [
+   "Sur le passage pour piétons, pour mieux voir",
+   "Juste avant le feu, même au-delà de la ligne blanche",
+   "Avant la ligne d'arrêt, donc avant le passage pour piétons"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le feu rouge interdit de franchir la ligne d'arrêt. Aux carrefours réglés par feux, il faut de toute façon s'arrêter en deçà du passage pour piétons quand la circulation est fermée.",
+  "ref": "Art. 61.1, 1° et 40.4.1 AR 01/12/1975",
+  "focus": "feu rouge à droite et ligne blanche au sol"
+ },
+ {
+  "id": "PHA-015",
+  "theme": "priorite",
+  "photo": "51892c78-31cb-4588-a58f-b9f74605655d",
+  "q": "À droite, avant le carrefour, se trouve un panneau triangulaire montrant une grosse flèche noire verticale traversée par un trait fin. Que signifie-t-il ?",
+  "choices": [
+   "J'ai la priorité au prochain carrefour",
+   "Je dois céder le passage aux véhicules venant de droite",
+   "Carrefour à sens giratoire"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal B15 m'indique que j'ai la priorité de passage au carrefour suivant. Je reste toutefois prudent en abordant le carrefour.",
+  "ref": "Art. 67.3 (B15) et 12.2 AR 01/12/1975",
+  "focus": "panneau triangulaire au centre"
+ },
+ {
+  "id": "PHA-016",
+  "theme": "priorite",
+  "photo": "54a76fe8-3d4c-48f8-aa10-c672e92a1b75",
+  "q": "J'arrive à l'entrée de ce rond-point, signalé par un panneau bleu à flèches circulaires sous un triangle pointe en bas. Un véhicule circule déjà sur l'anneau. Que dois-je faire ?",
+  "choices": [
+   "Entrer, car il vient de ma gauche",
+   "Lui céder le passage",
+   "Entrer en klaxonnant"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Les accès d'un rond-point sont pourvus du signal B1 : le conducteur qui y entre doit céder le passage à ceux qui circulent sur l'anneau.",
+  "ref": "Art. 2.39 et 12.3.1 a) AR 01/12/1975",
+  "focus": "panneaux au centre"
+ },
+ {
+  "id": "PHA-017",
+  "theme": "priorite",
+  "photo": "54a76fe8-3d4c-48f8-aa10-c672e92a1b75",
+  "q": "Pour entrer dans ce rond-point, dois-je enclencher mon clignotant ?",
+  "choices": [
+   "Oui, à gauche",
+   "Oui, à droite",
+   "Non, ce n'est pas obligatoire pour entrer"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Entrer dans un rond-point est un changement de direction qui n'implique pas l'usage des indicateurs de direction. En revanche, il faut mettre le clignotant pour en sortir.",
+  "ref": "Art. 19.2 AR 01/12/1975",
+  "focus": "panneaux au centre"
+ },
+ {
+  "id": "PHA-018",
+  "theme": "usagers",
+  "photo": "7880a546-9e7d-4f52-a6c1-f6b67d8c7f5e",
+  "q": "Je roule en voiture. Puis-je emprunter ce couloir coloré marqué d'un vélo, séparé de la chaussée par une bordure, pour éviter les véhicules garés ?",
+  "choices": [
+   "Oui, si aucun cycliste n'arrive",
+   "Oui, au pas",
+   "Non, je dois rester sur la chaussée"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Les conducteurs doivent emprunter la chaussée. La piste cyclable ne fait pas partie de la chaussée et est réservée aux cyclistes et cyclomotoristes classe A.",
+  "ref": "Art. 9.1.1 et 2.7 AR 01/12/1975",
+  "focus": "couloir marqué d'un vélo"
+ },
+ {
+  "id": "PHA-019",
+  "theme": "signalisation",
+  "photo": "decdf67c-2757-4289-9f45-15ff8eb89143",
+  "q": "Qu'indique le panneau carré bleu avec une flèche blanche vers le haut, visible à droite au fond de la rue ?",
+  "choices": [
+   "Une voie publique à sens unique",
+   "L'obligation de tourner à droite",
+   "Une route prioritaire"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal F19 indique une voie publique à sens unique : je peux y entrer dans le sens de la flèche.",
+  "ref": "Art. 71 (F19) AR 01/12/1975",
+  "focus": "panneau carré bleu à droite"
+ },
+ {
+  "id": "PHA-020",
+  "theme": "usagers",
+  "photo": "1b36356f-e1cc-4684-8859-02d71abebebf",
+  "q": "Je veux tourner à droite au carrefour. Une piétonne est engagée sur le passage pour piétons de la rue où je veux m'engager. Que dois-je faire ?",
+  "choices": [
+   "La laisser traverser avant de passer",
+   "Passer devant elle si j'ai le temps",
+   "Klaxonner pour l'avertir"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Le conducteur doit céder le passage aux piétons engagés sur un passage pour piétons et, aux carrefours à feux, leur permettre d'achever leur traversée même si la circulation est ouverte pour lui.",
+  "ref": "Art. 40.4.1 et 40.4.2 AR 01/12/1975",
+  "focus": "piétonne à droite"
+ },
+ {
+  "id": "PHA-021",
+  "theme": "priorite",
+  "photo": "44533adc-43d7-4638-9ca5-e2b6ca4e4fd7",
+  "q": "Les feux de ce carrefour sont éteints. Sous le feu de droite se trouve un panneau triangulaire pointe en bas. Quelle règle dois-je appliquer ?",
+  "choices": [
+   "La priorité de droite",
+   "Je dois céder le passage aux usagers de la voie que j'aborde",
+   "J'ai la priorité, car les feux sont hors service"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Les signaux de priorité ne sont sans effet que lorsque les feux fonctionnent. Feux éteints, le signal B1 s'applique : je cède le passage à tous les usagers de la voie que j'aborde.",
+  "ref": "Art. 6.3 et 12.3.1 a) AR 01/12/1975",
+  "focus": "panneau sous le feu à droite"
+ }
+]
