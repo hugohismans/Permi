@@ -227,7 +227,7 @@
   "id": "PHH-015",
   "theme": "stationnement",
   "photo": "9be9722a-d2eb-4a69-be6d-f0f93cdb0ee4",
-  "q": "Puis-je m'arrêter quelques instants sur la traversée cyclable rouge (bordée de pointillés blancs) devant moi ?",
+  "q": "Puis-je m'arrêter quelques instants sur la bande cyclable rouge (bordée de lignes blanches discontinues) au premier plan ?",
   "choices": [
    "Oui, si je reste au volant",
    "Oui, pendant moins de 2 minutes",
@@ -235,9 +235,9 @@
   ],
   "answer": 2,
   "grave": false,
-  "explain": "L'arrêt et le stationnement sont interdits sur les passages pour cyclistes et sur la chaussée à moins de 5 mètres en deçà, comme sur les passages pour piétons.",
-  "ref": "Art. 24, 4° et art. 76.4 AR 01/12/1975",
-  "focus": "traversée cyclable rouge au premier plan"
+  "explain": "L'arrêt et le stationnement sont interdits sur les pistes cyclables ainsi que sur les passages pour cyclistes et à moins de 5 mètres en deçà.",
+  "ref": "Art. 24, 2° et 4° AR 01/12/1975",
+  "focus": "bande cyclable rouge au premier plan"
  },
  {
   "id": "PHH-016",
@@ -332,14 +332,14 @@
   "answer": 1,
   "grave": false,
   "explain": "Le signal C3 interdit l'accès, dans les deux sens, à tout conducteur. Le panneau additionnel « EXCEPTÉ » vélo autorise seulement les cyclistes.",
-  "ref": "Art. 68.3 (C3) et art. 65.2 AR 01/12/1975",
+  "ref": "Art. 68.3 (C3) et art. 68.4.2° AR 01/12/1975",
   "focus": "panneau rond blanc bordé de rouge"
  },
  {
   "id": "PHH-022",
   "theme": "signalisation",
   "photo": "47756446-eff2-48bd-b1b4-23e46bf33ec4",
-  "q": "Le panneau carré bleu à droite montre notamment un piéton, un cycliste et un cavalier. Puis-je circuler sur ce chemin en voiture ?",
+  "q": "Le panneau carré bleu à droite représente les catégories d'usagers admises sur ce chemin (on y distingue notamment un cavalier) ; aucune voiture n'y figure. Puis-je circuler sur ce chemin avec ma voiture ?",
   "choices": [
    "Oui, à 30 km/h maximum",
    "Oui, si je roule au pas",
@@ -347,8 +347,8 @@
   ],
   "answer": 2,
   "grave": false,
-  "explain": "Le signal F99a indique un chemin réservé aux catégories d'usagers dont le symbole figure sur le panneau. Les voitures ne peuvent pas y circuler (sauf exceptions comme les véhicules prioritaires en mission ou autorisés).",
-  "ref": "Art. 22quinquies.1 et art. 71 (F99a) AR 01/12/1975",
+  "explain": "Les signaux F99 indiquent un chemin réservé aux catégories d'usagers dont le symbole figure sur le panneau. Les voitures ne peuvent pas y circuler (sauf exceptions, comme les véhicules prioritaires en mission ou les véhicules autorisés par le gestionnaire).",
+  "ref": "Art. 22quinquies.1 et art. 71 (F99) AR 01/12/1975",
   "focus": "panneau carré bleu à droite"
  },
  {

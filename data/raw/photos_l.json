@@ -1,0 +1,322 @@
+[
+ {
+  "id": "PHL-001",
+  "theme": "signalisation",
+  "photo": "84289201-1a23-49fb-b71b-6075aae743c8",
+  "q": "Je circule dans cette rue de Tubize (Wallonie). Que m'annonce le panneau triangulaire montrant un ouvrier avec une pelle, placé au-dessus du « 30 » ?",
+  "choices": [
+   "Un endroit fréquenté par des enfants",
+   "Des travaux sur la voie publique",
+   "La fin d'un chantier"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le signal de danger A31 (silhouette d'un ouvrier au travail) annonce des travaux. Je dois redoubler de prudence et adapter ma vitesse.",
+  "ref": "Art. 66.4 (A31) AR 01/12/1975",
+  "focus": "panneau triangulaire à droite"
+ },
+ {
+  "id": "PHL-002",
+  "theme": "vitesse",
+  "photo": "84289201-1a23-49fb-b71b-6075aae743c8",
+  "q": "Je dépasse le panneau rond « 30 » placé à droite, sans mention « ZONE ». Jusqu'où cette limitation s'applique-t-elle (sauf autre signal de vitesse, d'agglomération ou de zone) ?",
+  "choices": [
+   "Jusqu'au prochain carrefour inclus",
+   "Sur une distance de 1 km",
+   "Jusqu'à la sortie de la commune"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal C43 interdit de dépasser la vitesse indiquée à partir du signal jusqu'au prochain carrefour inclus, ou jusqu'à un autre signal C43 ou un signal de début ou de fin d'agglomération ou de zone.",
+  "ref": "Art. 68.3 (C43) AR 01/12/1975",
+  "focus": "panneau rond « 30 » à droite"
+ },
+ {
+  "id": "PHL-003",
+  "theme": "vitesse",
+  "photo": "4d68d95a-6dea-472a-9533-6befd70395ce",
+  "q": "À droite, le panneau rectangulaire blanc porte la mention « ZONE » au-dessus d'un panneau rond « 30 ». Jusqu'où dois-je respecter cette limite de 30 km/h ?",
+  "choices": [
+   "Jusqu'au prochain carrefour seulement",
+   "Jusqu'au panneau qui indique la fin de cette zone",
+   "Uniquement aux heures d'entrée et de sortie des écoles"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Un signal C43 à validité zonale (mention « ZONE ») s'applique dans toute la zone : de ce signal jusqu'au signal de fin de zone, et non seulement jusqu'au prochain carrefour.",
+  "ref": "Art. 65.5.10 (Région wallonne) AR 01/12/1975",
+  "focus": "panneau « ZONE 30 » à droite"
+ },
+ {
+  "id": "PHL-004",
+  "theme": "priorite",
+  "photo": "cdd9a2ac-45b4-40be-8661-ca0a54dffc73",
+  "q": "Après le passage pour piétons, un panneau triangulaire blanc bordé de rouge, pointe vers le bas, est placé à droite avant le carrefour. À qui dois-je céder le passage ?",
+  "choices": [
+   "Seulement aux conducteurs venant de ma droite",
+   "À tous les conducteurs circulant sur la voie que j'aborde, quelle que soit leur direction",
+   "À personne : j'ai la priorité car je roule tout droit"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Le signal B1 m'oblige à céder le passage à tout conducteur circulant sur la voie publique ou la chaussée que j'aborde, qu'il vienne de gauche ou de droite.",
+  "ref": "Art. 12.3.1 a) AR 01/12/1975",
+  "focus": "triangle pointe en bas à droite"
+ },
+ {
+  "id": "PHL-005",
+  "theme": "signalisation",
+  "photo": "cdd9a2ac-45b4-40be-8661-ca0a54dffc73",
+  "q": "Que signifie le panneau carré bleu, à droite, montrant un piéton sur des bandes dans un triangle blanc ?",
+  "choices": [
+   "Il indique l'emplacement d'un passage pour piétons",
+   "Il annonce un danger : passage pour piétons à environ 150 m",
+   "Il interdit l'accès aux piétons"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal F49 (carré bleu) indique l'endroit même d'un passage pour piétons. Le signal de danger A21, triangulaire, l'annonce à l'avance.",
+  "ref": "Art. 71 (F49) et Art. 66.4 (A21) AR 01/12/1975",
+  "focus": "panneau carré bleu à droite"
+ },
+ {
+  "id": "PHL-006",
+  "theme": "signalisation",
+  "photo": "2996d606-76df-465d-a904-eb4dd9281763",
+  "q": "La rue est fermée par des barrières pour un marché. Sur l'une d'elles est fixé un panneau rond blanc bordé de rouge, sans symbole. Puis-je entrer avec ma voiture dans la partie fermée ?",
+  "choices": [
+   "Oui, au pas, en faisant attention aux piétons",
+   "Oui, si je suis riverain",
+   "Non, l'accès y est interdit à tout conducteur, dans les deux sens"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le signal C3 signifie accès interdit, dans les deux sens, à tout conducteur. Sans panneau additionnel prévoyant une exception, personne ne peut y entrer avec un véhicule.",
+  "ref": "Art. 68.3 (C3) AR 01/12/1975",
+  "focus": "panneau rond blanc sur la barrière"
+ },
+ {
+  "id": "PHL-007",
+  "theme": "signalisation",
+  "photo": "c485a029-cddd-4ccc-98cc-a0119a86177d",
+  "q": "Le feu au-dessus de ma bande est rouge. Je veux tourner à droite et personne ne semble venir. Aucune flèche verte n'est allumée. Puis-je tourner ?",
+  "choices": [
+   "Non, je dois rester à l'arrêt avant la ligne d'arrêt tant que le feu est rouge",
+   "Oui, après un arrêt complet, si la voie est libre",
+   "Oui, car le feu rouge ne concerne que ceux qui vont tout droit"
+  ],
+  "answer": 0,
+  "grave": true,
+  "explain": "Le feu rouge interdit de franchir la ligne d'arrêt (ou, à défaut, le signal), quelle que soit la direction. Seule une flèche verte supplémentaire allumée autorise un mouvement dans la direction indiquée.",
+  "ref": "Art. 61.1, 1° et 5° AR 01/12/1975",
+  "focus": "feu sur la potence"
+ },
+ {
+  "id": "PHL-008",
+  "theme": "signalisation",
+  "photo": "ce2b792c-eb31-4140-92f5-951162e80f5f",
+  "q": "Que m'annonce le panneau triangulaire montrant deux enfants, fixé sur le poteau à droite ?",
+  "choices": [
+   "Un passage pour piétons",
+   "Une aire de jeux interdite aux véhicules",
+   "Un endroit spécialement fréquenté par des enfants"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le signal A23 annonce un endroit spécialement fréquenté par des enfants (école, plaine de jeux…). En présence d'enfants, je dois redoubler de prudence, ralentir et au besoin m'arrêter.",
+  "ref": "Art. 66.4 (A23) et Art. 40.2 AR 01/12/1975",
+  "focus": "panneau triangulaire à droite"
+ },
+ {
+  "id": "PHL-009",
+  "theme": "signalisation",
+  "photo": "dbe7719e-a4c7-448f-b7da-074f5b629f1f",
+  "q": "Le panneau triangulaire à droite, avec un point d'exclamation, est complété par un panneau additionnel « RALENTISSEUR ». Que signifie cet ensemble ?",
+  "choices": [
+   "Un danger signalé : un ralentisseur sur la chaussée, je dois adapter ma vitesse",
+   "La fin d'une zone 30",
+   "Une interdiction de dépasser les cyclistes"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal A51 annonce un danger non défini par un symbole spécial ; un panneau additionnel en indique la nature, ici un ralentisseur.",
+  "ref": "Art. 66.4 (A51) AR 01/12/1975",
+  "focus": "panneau triangulaire à droite"
+ },
+ {
+  "id": "PHL-010",
+  "theme": "usagers",
+  "photo": "f25e0806-9669-4417-87b3-c38c24d37e6e",
+  "q": "Ces deux cyclistes roulent côte à côte sur la chaussée devant moi. Je suis en agglomération et le croisement avec les véhicules venant en sens inverse reste possible. Est-ce permis ?",
+  "choices": [
+   "Non, les cyclistes doivent toujours rouler l'un derrière l'autre",
+   "Oui, les cyclistes peuvent rouler à deux de front sauf lorsque le croisement n'est pas possible",
+   "Oui, mais seulement s'ils sont plus de quinze"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Les cyclistes circulant sur la chaussée peuvent rouler à deux de front, sauf lorsque le croisement n'est pas possible. Hors agglomération, ils doivent en outre se mettre en file à l'approche d'un véhicule venant de l'arrière.",
+  "ref": "Art. 43.2 AR 01/12/1975",
+  "focus": "cyclistes devant moi"
+ },
+ {
+  "id": "PHL-011",
+  "theme": "depassement",
+  "photo": "f25e0806-9669-4417-87b3-c38c24d37e6e",
+  "q": "Je veux dépasser ces cyclistes, en agglomération. Quelle distance latérale minimale dois-je laisser entre ma voiture et eux ?",
+  "choices": [
+   "50 centimètres",
+   "1 mètre",
+   "2 mètres"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "En dépassant un cycliste, le conducteur doit laisser une distance latérale d'au moins 1 mètre ; hors agglomération, au moins 1,5 mètre. Il doit redoubler de prudence en présence d'enfants cyclistes.",
+  "ref": "Art. 40ter AR 01/12/1975",
+  "focus": "cyclistes devant moi"
+ },
+ {
+  "id": "PHL-012",
+  "theme": "stationnement",
+  "photo": "09583fdd-4ca5-42ef-a8cb-b8939de760a8",
+  "q": "À droite, un panneau blanc « ZONE » montre un « P » bleu et le symbole d'un disque de stationnement. J'y stationne un jour ouvrable à 10 h, sans autre indication. Combien de temps puis-je rester ?",
+  "choices": [
+   "Sans limite, le stationnement est gratuit",
+   "Au maximum 2 heures, avec le disque de stationnement apposé derrière le pare-brise",
+   "Au maximum 15 minutes, feux de détresse allumés"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "J'entre dans une zone bleue (stationnement à durée limitée). Sauf modalités particulières indiquées, le disque est obligatoire de 9 h à 18 h les jours ouvrables, pour une durée maximale de deux heures.",
+  "ref": "Art. 27.1.1 et 27.1.2 AR 01/12/1975",
+  "focus": "panneau « ZONE P » à droite"
+ },
+ {
+  "id": "PHL-013",
+  "theme": "stationnement",
+  "photo": "09583fdd-4ca5-42ef-a8cb-b8939de760a8",
+  "q": "Dans cette zone bleue, j'arrive à 10 h 10. Sur quelle position dois-je placer la flèche de mon disque de stationnement ?",
+  "choices": [
+   "Sur le trait qui suit l'heure de mon arrivée (10 h 30)",
+   "Sur l'heure à laquelle je compte repartir",
+   "Sur 10 h 00, l'heure pleine précédant mon arrivée"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le conducteur doit positionner la flèche du disque sur le trait qui suit celui du moment de son arrivée. Il est interdit d'y faire apparaître des indications inexactes.",
+  "ref": "Art. 27.1.2 et 27.1.3 AR 01/12/1975",
+  "focus": "panneau « ZONE P » à droite"
+ },
+ {
+  "id": "PHL-014",
+  "theme": "priorite",
+  "photo": "75aa5c2e-13c0-4b88-8860-e4b18458b7ea",
+  "q": "Je vais entrer dans ce carrefour giratoire : un panneau bleu rond à flèches circulaires est placé sur l'îlot central et un triangle pointe en bas à droite. Si un véhicule circule déjà sur l'anneau, qui a la priorité ?",
+  "choices": [
+   "Moi, car il vient de ma gauche",
+   "Le véhicule qui circule sur l'anneau",
+   "Celui qui roule le plus vite"
+  ],
+  "answer": 1,
+  "grave": true,
+  "explain": "Avec le signal D5 sur l'îlot et un signal B1 sur la voie d'accès, il s'agit d'un rond-point. Celui qui y entre doit céder le passage aux conducteurs qui circulent sur l'anneau ; la priorité de droite ne s'applique pas à ceux qui circulent dans le rond-point.",
+  "ref": "Art. 2.39 et Art. 12.3.1 AR 01/12/1975",
+  "focus": "îlot central et triangle à droite"
+ },
+ {
+  "id": "PHL-015",
+  "theme": "priorite",
+  "photo": "75aa5c2e-13c0-4b88-8860-e4b18458b7ea",
+  "q": "Une fois dans l'anneau de ce rond-point (sans bandes marquées), suis-je obligé de me tenir le plus près possible du bord droit de la chaussée ?",
+  "choices": [
+   "Oui, comme partout ailleurs",
+   "Oui, sauf si je sors à la première sortie",
+   "Non, je n'y suis pas tenu dans l'anneau d'un rond-point"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le conducteur n'est pas tenu de se tenir le plus près possible du bord droit de la chaussée dans l'anneau d'un rond-point, sauf si une partie lui est réservée. S'il y a des bandes marquées, il peut emprunter celle qui convient le mieux à sa destination.",
+  "ref": "Art. 9.3.1 AR 01/12/1975",
+  "focus": "carrefour giratoire au fond"
+ },
+ {
+  "id": "PHL-016",
+  "theme": "signalisation",
+  "photo": "e3cadd8d-ad4a-4b04-af53-6b9759d90732",
+  "q": "Que m'annonce le panneau triangulaire montrant deux flèches verticales de sens opposé, placé à droite ?",
+  "choices": [
+   "Une circulation dans les deux sens après une section à sens unique",
+   "Une route prioritaire",
+   "Une obligation de rouler sur deux files"
+  ],
+  "answer": 0,
+  "grave": false,
+  "explain": "Le signal A39 annonce que la circulation est admise dans les deux sens après une section de chaussée à sens unique : je dois m'attendre à croiser des véhicules venant en face.",
+  "ref": "Art. 66.4 (A39) AR 01/12/1975",
+  "focus": "panneau triangulaire à droite"
+ },
+ {
+  "id": "PHL-017",
+  "theme": "stationnement",
+  "photo": "b135ed9c-3ced-44f7-ac92-6170bd0eb455",
+  "q": "Le panneau carré bleu à droite (flèche blanche vers le haut) indique que la rue dans laquelle je m'engage est à sens unique. De quel côté puis-je y stationner (sans autre signal) ?",
+  "choices": [
+   "Uniquement à droite",
+   "D'un côté ou de l'autre",
+   "Uniquement à gauche"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Un véhicule à l'arrêt ou en stationnement doit en principe être rangé à droite, mais si la chaussée est à sens unique, il peut être rangé de l'un ou de l'autre côté.",
+  "ref": "Art. 23.1, 1° AR 01/12/1975",
+  "focus": "panneau carré bleu à droite"
+ },
+ {
+  "id": "PHL-018",
+  "theme": "priorite",
+  "photo": "b135ed9c-3ced-44f7-ac92-6170bd0eb455",
+  "q": "Dans cette rue à sens unique (panneau carré bleu à flèche blanche à droite), je veux tourner à gauche au prochain carrefour. Comment dois-je me placer ?",
+  "choices": [
+   "Serrer le plus possible le bord droit de la chaussée",
+   "Rester au milieu de la chaussée",
+   "Serrer le plus possible le bord gauche de la chaussée"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le conducteur qui tourne à gauche doit, sur une chaussée à sens unique, serrer le plus possible le bord gauche de celle-ci, après avoir mis son clignotant gauche suffisamment à temps.",
+  "ref": "Art. 19.3, 1° et 2° b) AR 01/12/1975",
+  "focus": "panneau carré bleu à droite"
+ },
+ {
+  "id": "PHL-019",
+  "theme": "usagers",
+  "photo": "84e3a01a-58d3-4dc4-87a5-c53b3477dade",
+  "q": "Un passage pour piétons se trouve juste devant moi. Si la file qui me précède s'arrête et que je risque de rester immobilisé sur le passage, puis-je m'y engager ?",
+  "choices": [
+   "Oui, si aucun piéton n'est en vue",
+   "Non, je dois attendre en deçà du passage",
+   "Oui, à condition d'allumer mes feux de détresse"
+  ],
+  "answer": 1,
+  "grave": false,
+  "explain": "Le conducteur ne peut s'engager sur un passage pour piétons si l'encombrement de la circulation est tel qu'il serait vraisemblablement immobilisé sur ce passage.",
+  "ref": "Art. 40.5 AR 01/12/1975",
+  "focus": "passage pour piétons devant moi"
+ },
+ {
+  "id": "PHL-020",
+  "theme": "stationnement",
+  "photo": "de658213-976f-4720-9ca8-e7a3ad6421f6",
+  "q": "Le panneau rond bleu bordé de rouge, barré d'une seule diagonale, est placé sur le trottoir de droite, sans panneau additionnel. Où le stationnement est-il interdit ?",
+  "choices": [
+   "Des deux côtés de la rue, sur 100 mètres",
+   "Uniquement juste à hauteur du panneau",
+   "Du côté où le panneau est placé, à partir du panneau jusqu'au prochain carrefour"
+  ],
+  "answer": 2,
+  "grave": false,
+  "explain": "Le signal E1 interdit le stationnement. Il a effet du côté de la voie publique où il est placé, à partir du signal jusqu'au prochain carrefour.",
+  "ref": "Art. 70.2.1 (E1) et 70.2.2 AR 01/12/1975",
+  "focus": "panneau rond à droite"
+ }
+]

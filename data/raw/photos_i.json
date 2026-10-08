@@ -1,0 +1,274 @@
+[
+  {
+    "id": "PHI-001",
+    "theme": "priorite",
+    "photo": "f1830314-1a47-4ab3-94e9-e07d41a50c4f",
+    "q": "Je suis entré dans ce rond-point (panneau triangulaire pointe en bas à l'entrée et panneau bleu à flèches circulaires sur l'îlot). Je circule dans l'anneau et une voiture arrive par une autre entrée, située à ma droite. Qui a la priorité ?",
+    "choices": [
+      "La voiture qui arrive de ma droite, priorité de droite oblige",
+      "Moi, car je circule déjà dans le rond-point",
+      "Celui qui roule le plus vite"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "La priorité de droite ne s'applique pas à celui qui circule dans un rond-point. Les conducteurs qui y entrent par une branche munie d'un signal B1 doivent céder le passage à ceux qui circulent dans l'anneau.",
+    "ref": "Art. 12.3.1 AR 01/12/1975",
+    "focus": "triangle à droite et panneau bleu rond sur l'îlot"
+  },
+  {
+    "id": "PHI-002",
+    "theme": "signalisation",
+    "photo": "f1830314-1a47-4ab3-94e9-e07d41a50c4f",
+    "q": "Dans l'anneau de ce rond-point (signalé par D5 et B1), aucune partie de la chaussée ne m'est réservée. Suis-je obligé de rouler le plus près possible du bord droit ?",
+    "choices": [
+      "Oui, comme sur toute chaussée",
+      "Non, dans l'anneau d'un rond-point je n'y suis pas tenu, mais je dois respecter les éventuelles marques de bandes",
+      "Non, je dois toujours rouler contre l'îlot central"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Dans l'anneau d'un rond-point, le conducteur n'est pas tenu de serrer le bord droit (sauf partie réservée). S'il y a des bandes marquées, il peut choisir celle qui convient le mieux à sa destination.",
+    "ref": "Art. 9.3.1 AR 01/12/1975",
+    "focus": "anneau du rond-point"
+  },
+  {
+    "id": "PHI-003",
+    "theme": "usagers",
+    "photo": "cdbc8c13-ad09-419b-8578-3bce929dd2d1",
+    "q": "Un triangle rouge et blanc montrant des enfants est peint sur la chaussée devant moi. Que m'annonce-t-il ?",
+    "choices": [
+      "Un endroit spécialement fréquenté par des enfants : je redouble de prudence",
+      "Une aire de jeux où la circulation automobile est interdite",
+      "Un passage pour piétons réglé par des feux"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Ce symbole reproduit le signal A23 : endroit spécialement fréquenté par des enfants (par exemple les abords d'une école). Je ralentis et je suis prêt à m'arrêter.",
+    "ref": "Art. 66.4 (A23) AR 01/12/1975",
+    "focus": "triangle peint sur la chaussée"
+  },
+  {
+    "id": "PHI-004",
+    "theme": "signalisation",
+    "photo": "6133cd8e-db24-4ef3-998e-fba6685b8d7a",
+    "q": "Que signifie le panneau carré bleu, à droite, montrant un triangle blanc avec une bosse noire ?",
+    "choices": [
+      "Un passage pour piétons",
+      "Un ou plusieurs dispositifs surélevés (ralentisseurs)",
+      "Une chaussée en mauvais état"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le signal F87 indique l'emplacement d'un ou plusieurs dispositifs surélevés. Je dois les aborder prudemment, à allure modérée.",
+    "ref": "Art. 71 (F87) et art. 22ter AR 01/12/1975",
+    "focus": "panneau carré bleu à droite"
+  },
+  {
+    "id": "PHI-005",
+    "theme": "stationnement",
+    "photo": "6133cd8e-db24-4ef3-998e-fba6685b8d7a",
+    "q": "Ce panneau carré bleu (F87) indique un dispositif surélevé. Sauf réglementation locale, puis-je mettre ma voiture à l'arrêt ou en stationnement sur ce dispositif ?",
+    "choices": [
+      "Oui, s'il n'y a pas de ligne jaune",
+      "Oui, mais seulement à l'arrêt, feux de détresse allumés",
+      "Non, l'arrêt et le stationnement y sont interdits"
+    ],
+    "answer": 2,
+    "grave": false,
+    "explain": "Sauf réglementation locale, il est interdit de mettre un véhicule à l'arrêt ou en stationnement sur les dispositifs surélevés.",
+    "ref": "Art. 24, 11° AR 01/12/1975",
+    "focus": "panneau carré bleu à droite"
+  },
+  {
+    "id": "PHI-006",
+    "theme": "stationnement",
+    "photo": "ae015167-a2ba-49cf-930f-f48edd48fd66",
+    "q": "Le panneau de stationnement interdit (rond bleu bordé de rouge, une barre oblique) est complété par un panneau additionnel qui limite l'interdiction à certains jours et heures (jour de marché). En dehors de cette période, puis-je stationner à cet endroit ?",
+    "choices": [
+      "Oui, l'interdiction ne s'applique que pendant la période indiquée",
+      "Non, l'interdiction s'applique en permanence",
+      "Oui, mais seulement avec un disque de stationnement"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Une inscription sous les signaux E1 ou E3 peut indiquer la période pendant laquelle l'interdiction est applicable. En dehors de cette période, l'interdiction ne joue pas.",
+    "ref": "Art. 70.2.1, 1° AR 01/12/1975",
+    "focus": "panneau sur le poteau orange à gauche"
+  },
+  {
+    "id": "PHI-007",
+    "theme": "stationnement",
+    "photo": "ae015167-a2ba-49cf-930f-f48edd48fd66",
+    "q": "Le panneau de stationnement interdit visible sur le poteau orange s'applique-t-il des deux côtés de la voie publique ?",
+    "choices": [
+      "Oui, des deux côtés jusqu'au prochain carrefour",
+      "Non, seulement du côté de la voie publique où il est placé, jusqu'au prochain carrefour",
+      "Non, seulement sur les 15 mètres qui suivent le panneau"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les signaux E1, E3 et E9a à E9j ont effet du côté de la voie publique où ils sont placés, à partir du signal jusqu'au prochain carrefour (sauf panneau de fin).",
+    "ref": "Art. 70.2.2, 1° AR 01/12/1975",
+    "focus": "panneau sur le poteau orange"
+  },
+  {
+    "id": "PHI-008",
+    "theme": "stationnement",
+    "photo": "115cb0e5-9735-4257-8276-ea1895850b97",
+    "q": "Le panneau bleu « P » à droite autorise le stationnement. Jusqu'où vaut-il, en l'absence de panneau indiquant la fin ?",
+    "choices": [
+      "Jusqu'au prochain carrefour",
+      "Sur 100 mètres seulement",
+      "Jusqu'à la sortie de l'agglomération"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Le signal E9a a effet du côté de la voie publique où il est placé, à partir du signal jusqu'au prochain carrefour, sauf si un signal de fin le précède.",
+    "ref": "Art. 70.2.2, 1° AR 01/12/1975",
+    "focus": "panneau P à droite"
+  },
+  {
+    "id": "PHI-009",
+    "theme": "priorite",
+    "photo": "79cabdbc-c048-426f-a220-1f0e8b87306f",
+    "q": "Un véhicule de police, feux bleus clignotants allumés, se trouve devant moi. S'il fait aussi retentir son avertisseur sonore spécial, que dois-je faire ?",
+    "choices": [
+      "Continuer normalement : il doit attendre que la voie soit libre",
+      "Dégager immédiatement et lui céder le passage, au besoin en m'arrêtant",
+      "Le suivre de près pour profiter du passage qu'il ouvre"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Dès que l'approche d'un véhicule prioritaire est signalée par l'avertisseur sonore spécial, tout usager doit immédiatement dégager et céder le passage ; au besoin, il doit s'arrêter.",
+    "ref": "Art. 38 AR 01/12/1975",
+    "focus": "voiture de police au centre"
+  },
+  {
+    "id": "PHI-010",
+    "theme": "stationnement",
+    "photo": "026a9e9a-7bb2-4bf9-b480-e86b57d07621",
+    "q": "Le panneau bleu montre un « P » et le symbole d'une voiture. Je conduis une camionnette. Puis-je y stationner ?",
+    "choices": [
+      "Oui, tous les véhicules peuvent y stationner",
+      "Non, ce stationnement est réservé aux motocyclettes, voitures, voitures mixtes et minibus",
+      "Oui, mais seulement la nuit"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le signal E9b réserve le stationnement aux motocyclettes, voitures, voitures mixtes et minibus. Les camionnettes et camions ont leur propre signal (E9c).",
+    "ref": "Art. 70.2.1, 3° (E9b) AR 01/12/1975",
+    "focus": "panneau P sur le poteau"
+  },
+  {
+    "id": "PHI-011",
+    "theme": "stationnement",
+    "photo": "026a9e9a-7bb2-4bf9-b480-e86b57d07621",
+    "q": "Sous le panneau « P » se trouve un panneau blanc avec une seule flèche noire pointant vers le haut. Que signifie-t-elle ?",
+    "choices": [
+      "Le début de la réglementation de stationnement, valable à partir du panneau",
+      "La fin de la réglementation de stationnement",
+      "Le stationnement est obligatoire sur le trottoir"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Les signaux de stationnement peuvent être complétés par des panneaux blancs à flèche noire : une flèche vers le haut indique le début de la réglementation, qui vaut ensuite jusqu'au prochain carrefour (sauf panneau de fin).",
+    "ref": "Art. 70.2.2, 1° AR 01/12/1975",
+    "focus": "flèche sous le panneau P"
+  },
+  {
+    "id": "PHI-012",
+    "theme": "signalisation",
+    "photo": "9e1f578b-012b-4c65-871f-314989b8fe32",
+    "q": "Je roule sur la bande marquée « BUS » (avec un vélo). Je veux tourner à droite au carrefour qui se trouve juste devant. Puis-je utiliser cette bande à l'approche immédiate du carrefour ?",
+    "choices": [
+      "Non, jamais",
+      "Oui, pour changer de direction à l'approche immédiate du carrefour",
+      "Oui, sur toute sa longueur si la circulation est fluide"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Les véhicules non autorisés peuvent circuler sur la bande bus pour changer de direction à l'approche immédiate d'un carrefour, pour contourner un obstacle, ou la traverser pour accéder à une propriété ou un emplacement de stationnement.",
+    "ref": "Art. 72.5, 3° AR 01/12/1975",
+    "focus": "inscription BUS sur la chaussée"
+  },
+  {
+    "id": "PHI-013",
+    "theme": "stationnement",
+    "photo": "178b7d07-85ff-46a5-a09b-d0238b2eabd7",
+    "q": "Que signifie le panneau blanc « ZONE » avec un « P », barré d'une bande noire, à droite ?",
+    "choices": [
+      "La fin d'une zone où le stationnement est réglementé",
+      "Le début d'une zone où le stationnement est interdit",
+      "Un parking réservé aux riverains"
+    ],
+    "answer": 0,
+    "grave": false,
+    "explain": "Un signal de zone barré (validité zonale) indique la fin de la zone où la réglementation de stationnement s'appliquait.",
+    "ref": "Art. 65.5 AR 01/12/1975",
+    "focus": "panneau barré à droite"
+  },
+  {
+    "id": "PHI-014",
+    "theme": "stationnement",
+    "photo": "b5f92e6c-448f-46a0-b49b-1ec1f38037a7",
+    "q": "Le panneau blanc du haut porte la mention « ZONE » et un « P » bleu (début d'une zone de stationnement réglementé). Où s'applique cette réglementation ?",
+    "choices": [
+      "Seulement jusqu'au prochain carrefour",
+      "Dans toute la zone jusqu'au panneau de fin de zone, sauf aux emplacements où une autre réglementation est signalée",
+      "Uniquement du côté de la rue où le panneau est placé"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Un signal à validité zonale a effet dans toute la zone délimitée, jusqu'au signal de fin de zone, sauf aux emplacements où une autre réglementation de stationnement est prévue par une signalisation.",
+    "ref": "Art. 65.5.6 AR 01/12/1975",
+    "focus": "panneau du haut sur le poteau à gauche"
+  },
+  {
+    "id": "PHI-015",
+    "theme": "priorite",
+    "photo": "539e8083-1b68-4562-8c33-5a4c19c28f55",
+    "q": "Des rails de tram sont posés dans la chaussée où je roule. Si un tram arrive derrière moi alors que je circule sur les rails, que dois-je faire ?",
+    "choices": [
+      "Continuer : le tram doit attendre que je tourne",
+      "Lui céder le passage et m'écarter de la voie ferrée dès que possible",
+      "Accélérer pour garder mon avance"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Tout usager doit céder le passage aux véhicules sur rails ; il doit s'écarter de la voie ferrée dès que possible.",
+    "ref": "Art. 12.1 AR 01/12/1975",
+    "focus": "rails au centre de la chaussée"
+  },
+  {
+    "id": "PHI-016",
+    "theme": "usagers",
+    "photo": "fb859a14-813b-482f-b587-c78abc105246",
+    "q": "Une piste cyclable (bande grise entre la chaussée et le trottoir) longe cette rue. Si je sors en voiture d'une propriété riveraine et dois traverser le trottoir et cette piste cyclable, qui a la priorité ?",
+    "choices": [
+      "Moi, car je suis déjà engagé",
+      "Les piétons et cyclistes qui circulent sur le trottoir et la piste cyclable",
+      "Les cyclistes seulement s'ils roulent à plus de 20 km/h"
+    ],
+    "answer": 1,
+    "grave": true,
+    "explain": "Le conducteur qui traverse un trottoir ou une piste cyclable doit céder le passage aux usagers qui y circulent régulièrement. Déboucher d'une propriété riveraine est en outre une manœuvre.",
+    "ref": "Art. 12.4 et 12.4bis AR 01/12/1975",
+    "focus": "piste cyclable au centre"
+  },
+  {
+    "id": "PHI-017",
+    "theme": "usagers",
+    "photo": "666fc75e-e81a-4065-a44d-2428c517209d",
+    "q": "Un bus arrive en sens inverse. Si des véhicules en stationnement de mon côté m'empêchent de croiser sans gêner le bus, que dois-je faire ?",
+    "choices": [
+      "Passer en premier : le bus doit s'arrêter",
+      "Ralentir et au besoin m'arrêter pour laisser passer le bus",
+      "Klaxonner pour qu'il se range"
+    ],
+    "answer": 1,
+    "grave": false,
+    "explain": "Le conducteur dont la progression est entravée par un obstacle doit ralentir et au besoin s'arrêter pour laisser passer les usagers qui viennent en sens inverse.",
+    "ref": "Art. 15.2 AR 01/12/1975",
+    "focus": "bus au fond"
+  }
+]

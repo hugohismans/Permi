@@ -1,21 +1,5 @@
 [
  {
-  "id": "PHE-001",
-  "theme": "vitesse",
-  "photo": "402fb3de-7d09-42e2-87c7-2b7115c07e6b",
-  "q": "Je viens de passer le panneau visible à droite (cercle rouge « 30 » sur fond blanc, avec l'inscription « ZONE »). À quelle vitesse maximale puis-je rouler ?",
-  "choices": [
-   "50 km/h",
-   "30 km/h",
-   "30 km/h, mais uniquement aux heures d'école"
-  ],
-  "answer": 1,
-  "grave": false,
-  "explain": "Ce signal F4a marque le début d'une zone 30 : la vitesse y est limitée à 30 km/h sur toutes les voies de la zone, en permanence, jusqu'au signal F4b qui en marque la fin.",
-  "ref": "Art. 22quater et 71 (F4a) AR 01/12/1975",
-  "focus": "panneau carré à droite, sous les fleurs"
- },
- {
   "id": "PHE-002",
   "theme": "signalisation",
   "photo": "402fb3de-7d09-42e2-87c7-2b7115c07e6b",
@@ -30,22 +14,6 @@
   "explain": "Un signal zonal vaut pour toutes les voies publiques de la zone, carrefours compris, jusqu'au signal F4b qui marque la fin de la zone.",
   "ref": "Art. 22quater AR 01/12/1975",
   "focus": "panneau carré à droite"
- },
- {
-  "id": "PHE-003",
-  "theme": "stationnement",
-  "photo": "17e8b400-a4c7-402b-8dd5-4c39be931f73",
-  "q": "Le panneau rond à droite (fond bleu, bord rouge et une seule barre rouge) est un signal E1. Puis-je m'arrêter juste après ce panneau, de ce côté, le temps de faire descendre un passager ?",
-  "choices": [
-   "Oui, l'arrêt reste autorisé : seul le stationnement est interdit",
-   "Non, l'arrêt et le stationnement sont interdits",
-   "Oui, mais seulement avec les feux de détresse allumés"
-  ],
-  "answer": 0,
-  "grave": false,
-  "explain": "Le signal E1 interdit le stationnement, pas l'arrêt. Un véhicule « à l'arrêt » est immobilisé le temps de faire monter ou descendre des personnes ou de charger ou décharger des choses. C'est le signal E3 (deux barres croisées) qui interdit aussi l'arrêt.",
-  "ref": "Art. 2.22, 2.23 et 70.2.1 (E1) AR 01/12/1975",
-  "focus": "panneau rond bleu et rouge à droite"
  },
  {
   "id": "PHE-004",
@@ -64,122 +32,10 @@
   "focus": "panneau rond à droite sur le trottoir"
  },
  {
-  "id": "PHE-005",
-  "theme": "depassement",
-  "photo": "87ee6577-34cc-4d82-99d9-48ddcd107389",
-  "q": "Sur ce pont, une ligne blanche continue sépare ma voie de celle des véhicules qui viennent en sens inverse. Puis-je la franchir pour dépasser un véhicule lent ?",
-  "choices": [
-   "Oui, si personne n'arrive en face",
-   "Oui, si le véhicule lent roule à moins de 30 km/h",
-   "Non, il est interdit de franchir une ligne continue"
-  ],
-  "answer": 2,
-  "grave": true,
-  "explain": "Une ligne blanche continue ne peut être franchie par aucun conducteur ; quand elle sépare les deux sens de circulation, il est aussi interdit de circuler à sa gauche.",
-  "ref": "Art. 72.2 AR 01/12/1975",
-  "focus": "ligne continue à gauche de ma voie"
- },
- {
-  "id": "PHE-006",
-  "theme": "priorite",
-  "photo": "75223b02-bf2c-49bb-afb5-07376a9cc71d",
-  "q": "J'arrive à l'entrée de ce carrefour giratoire, signalé par le panneau bleu D5 (flèches en cercle) et par le triangle B1 placé dessous. Qui a la priorité ?",
-  "choices": [
-   "Les conducteurs qui circulent déjà sur l'anneau",
-   "Moi, car je viens de droite par rapport à eux",
-   "Le plus rapide des deux"
-  ],
-  "answer": 0,
-  "grave": true,
-  "explain": "Avec les signaux D5 et B1, c'est un rond-point au sens légal. Je dois céder le passage aux conducteurs qui circulent sur l'anneau : la priorité de droite ne joue pas en faveur de celui qui entre.",
-  "ref": "Art. 2.39 et 12.3.1 AR 01/12/1975",
-  "focus": "panneaux à droite (D5 et B1) et triangles au sol"
- },
- {
-  "id": "PHE-007",
-  "theme": "signalisation",
-  "photo": "75223b02-bf2c-49bb-afb5-07376a9cc71d",
-  "q": "J'entre dans ce rond-point (signaux D5 et B1). Quand dois-je mettre mon clignotant ?",
-  "choices": [
-   "En entrant, à gauche si je vais à gauche",
-   "Pas en entrant ; en sortant, je dois mettre mon clignotant à droite",
-   "Jamais dans un rond-point"
-  ],
-  "answer": 1,
-  "grave": false,
-  "explain": "Entrer dans un rond-point est un changement de direction qui n'exige pas le clignotant. En revanche, il faut mettre le clignotant pour en sortir.",
-  "ref": "Art. 19.2 AR 01/12/1975",
-  "focus": "panneau D5 à droite"
- },
- {
-  "id": "PHE-008",
-  "theme": "signalisation",
-  "photo": "3feb490c-a4a9-46ff-8c69-8f6fb8948f14",
-  "q": "Les feux tricolores devant moi sont au rouge. Où dois-je m'arrêter ?",
-  "choices": [
-   "Au milieu du carrefour, pour être prêt à repartir",
-   "Je peux passer lentement si personne ne vient",
-   "Avant la ligne d'arrêt ou, s'il n'y en a pas, avant le feu"
-  ],
-  "answer": 2,
-  "grave": true,
-  "explain": "Le feu rouge interdit de franchir la ligne d'arrêt ou, s'il n'y a pas de ligne d'arrêt, le signal lui-même.",
-  "ref": "Art. 61.1, 1° AR 01/12/1975",
-  "focus": "feux tricolores à gauche et à droite"
- },
- {
-  "id": "PHE-009",
-  "theme": "usagers",
-  "photo": "3feb490c-a4a9-46ff-8c69-8f6fb8948f14",
-  "q": "À ce carrefour réglé par des feux, si le feu passe au vert alors qu'un piéton est encore en train de traverser régulièrement la chaussée devant moi, que dois-je faire ?",
-  "choices": [
-   "Le laisser terminer sa traversée à allure normale",
-   "Klaxonner pour qu'il se dépêche",
-   "Démarrer : le feu vert me donne la priorité"
-  ],
-  "answer": 0,
-  "grave": true,
-  "explain": "Aux endroits réglés par des feux, même quand la circulation est ouverte dans mon sens, je dois permettre aux piétons engagés régulièrement sur la chaussée d'achever leur traversée à allure normale.",
-  "ref": "Art. 40.4.1 AR 01/12/1975",
-  "focus": "feux et chaussée devant moi"
- },
- {
-  "id": "PHE-010",
-  "theme": "priorite",
-  "photo": "e0f88732-e4b4-47a9-99cf-409fd4f6e137",
-  "q": "Derrière le passage pour piétons, une ligne de triangles blancs traverse ma voie. Que signifie-t-elle ?",
-  "choices": [
-   "Elle annonce un ralentisseur",
-   "C'est l'endroit où je dois, s'il y a lieu, m'arrêter pour céder le passage",
-   "Elle délimite une zone de stationnement"
-  ],
-  "answer": 1,
-  "grave": true,
-  "explain": "Une ligne de triangles blancs indique l'endroit où le conducteur doit, si nécessaire, s'arrêter pour céder le passage, comme le prévoit le signal B1.",
-  "ref": "Art. 76.2 AR 01/12/1975",
-  "focus": "triangles blancs au-delà du passage pour piétons"
- },
- {
-  "id": "PHE-011",
-  "theme": "usagers",
-  "photo": "e0f88732-e4b4-47a9-99cf-409fd4f6e137",
-  "q": "J'approche de ce passage pour piétons, qui n'est réglé ni par des feux ni par un agent. Comment dois-je l'aborder ?",
-  "choices": [
-   "À allure modérée, prêt à céder le passage aux piétons qui y sont engagés ou sur le point de s'y engager",
-   "À la vitesse maximale autorisée s'il n'y a personne dessus",
-   "En klaxonnant pour prévenir les piétons"
-  ],
-  "answer": 0,
-  "grave": false,
-  "explain": "À un passage pour piétons non réglé, le conducteur ne peut s'approcher qu'à allure modérée et doit céder le passage aux piétons qui y sont engagés ou sont sur le point de s'y engager.",
-  "ref": "Art. 40.4.2 AR 01/12/1975",
-  "focus": "passage pour piétons devant moi"
- },
- {
   "id": "PHE-012",
   "theme": "usagers",
   "photo": "e138bb0d-d029-4f58-acdd-90ed4fa41071",
-  "q": "Je veux continuer tout droit dans la rue en face. Un piéton avec un chien est engagé sur le passage pour piétons qui traverse cette rue (à gauche). Que dois-je faire ?",
+  "q": "Je veux continuer tout droit dans la rue en face. Un piéton avec un chien est engagé sur le passage pour piétons (sans feux) qui traverse cette rue, à gauche. Que dois-je faire ?",
   "choices": [
    "Passer derrière lui sans ralentir",
    "Klaxonner et passer",
@@ -190,38 +46,6 @@
   "explain": "Le conducteur doit céder le passage aux piétons engagés sur un passage pour piétons non réglé, ou sur le point de s'y engager, et donc s'arrêter si nécessaire.",
   "ref": "Art. 40.4.2 AR 01/12/1975",
   "focus": "piéton sur le passage, à gauche"
- },
- {
-  "id": "PHE-013",
-  "theme": "stationnement",
-  "photo": "d9933225-9c3c-4d10-9ede-9c5abcb05fc3",
-  "q": "Je cherche une place dans cette rue. Puis-je stationner sur la chaussée à 3 mètres avant le passage pour piétons visible devant moi ?",
-  "choices": [
-   "Oui, si je ne touche pas les bandes blanches",
-   "Oui, pour moins de 15 minutes",
-   "Non, c'est interdit sur le passage et à moins de 5 mètres avant celui-ci"
-  ],
-  "answer": 2,
-  "grave": false,
-  "explain": "L'arrêt et le stationnement sont interdits sur les passages pour piétons et sur la chaussée à moins de 5 mètres avant ceux-ci, pour que les piétons restent bien visibles.",
-  "ref": "Art. 24, 4° AR 01/12/1975",
-  "focus": "passage pour piétons devant moi"
- },
- {
-  "id": "PHE-014",
-  "theme": "stationnement",
-  "photo": "7d034afd-a718-4c62-8f90-07dee480cf98",
-  "q": "Ce poteau signale un arrêt d'autobus le long de la chaussée. Puis-je stationner ma voiture sur la chaussée à 10 mètres de ce poteau ?",
-  "choices": [
-   "Oui, si aucun bus n'est en vue",
-   "Oui, mais uniquement le dimanche",
-   "Non, c'est interdit à moins de 15 mètres de part et d'autre du panneau d'arrêt"
-  ],
-  "answer": 2,
-  "grave": false,
-  "explain": "Le stationnement est interdit à moins de 15 mètres de part et d'autre d'un panneau qui indique un arrêt d'autobus, de trolleybus ou de tram.",
-  "ref": "Art. 25.1, 2° AR 01/12/1975",
-  "focus": "poteau d'arrêt de bus au premier plan"
  },
  {
   "id": "PHE-015",
@@ -238,22 +62,6 @@
   "explain": "Tout usager doit céder le passage aux véhicules sur rails et, pour cela, s'écarter de la voie ferrée dès que possible.",
   "ref": "Art. 12.1 AR 01/12/1975",
   "focus": "rails de tram au premier plan"
- },
- {
-  "id": "PHE-016",
-  "theme": "vitesse",
-  "photo": "e8e4fe64-b2d1-440a-ad45-07c2c6165f03",
-  "q": "Je roule dans cette rue d'une commune de la Région de Bruxelles-Capitale, en agglomération. Aucun panneau de vitesse n'est visible. Quelle est la vitesse maximale autorisée ?",
-  "choices": [
-   "30 km/h",
-   "50 km/h",
-   "20 km/h"
-  ],
-  "answer": 0,
-  "grave": false,
-  "explain": "En Région de Bruxelles-Capitale, la vitesse est limitée à 30 km/h dans les agglomérations, sauf si un signal C43 impose ou permet une autre limite.",
-  "ref": "Art. 11.1 (Région de Bruxelles-Capitale) AR 01/12/1975",
-  "focus": "rue bordée de voitures en stationnement"
  },
  {
   "id": "PHE-017",
@@ -291,49 +99,17 @@
   "id": "PHE-019",
   "theme": "usagers",
   "photo": "66c0d31e-7d35-4764-a98c-adb22e292085",
-  "q": "La partie de la voie publique délimitée par deux lignes blanches discontinues parallèles avec un symbole de vélo, devant moi, est une piste cyclable. Puis-je y rouler avec ma voiture ?",
+  "q": "Devant moi, une partie de la voie publique est délimitée par deux lignes blanches discontinues parallèles, avec un symbole de vélo. Que constitue-t-elle ?",
   "choices": [
-   "Oui, si aucun cycliste n'y circule",
-   "Oui, pour dépasser par la droite",
-   "Non, elle est réservée aux cyclistes et aux cyclomoteurs classe A et ne fait pas partie de la chaussée"
-  ],
-  "answer": 2,
-  "grave": false,
-  "explain": "Ces marques désignent une piste cyclable, qui ne fait pas partie de la chaussée. Les conducteurs de voitures doivent rouler sur la chaussée.",
-  "ref": "Art. 2.7, 9.1.1 et 74 AR 01/12/1975",
-  "focus": "bande entre les deux lignes discontinues, symbole vélo"
- },
- {
-  "id": "PHE-020",
-  "theme": "stationnement",
-  "photo": "66c0d31e-7d35-4764-a98c-adb22e292085",
-  "q": "Puis-je arrêter brièvement ma voiture sur cette piste cyclable (deux lignes discontinues et symbole vélo) pour décharger un colis ?",
-  "choices": [
-   "Oui, pendant moins de 2 minutes",
-   "Oui, avec les feux de détresse",
-   "Non, l'arrêt et le stationnement sont interdits sur les pistes cyclables"
-  ],
-  "answer": 2,
-  "grave": false,
-  "explain": "Il est interdit de mettre un véhicule à l'arrêt ou en stationnement sur une piste cyclable, même brièvement.",
-  "ref": "Art. 24, 2° AR 01/12/1975",
-  "focus": "piste cyclable marquée devant moi"
- },
- {
-  "id": "PHE-021",
-  "theme": "signalisation",
-  "photo": "98a2a9d1-1cf4-4adb-b845-ce271771bed6",
-  "q": "À droite, une zone est marquée au sol par des lignes blanches obliques parallèles. Puis-je rouler ou m'arrêter sur cette zone ?",
-  "choices": [
-   "Oui, pour m'arrêter brièvement",
-   "Non, il est interdit d'y circuler, de s'y arrêter et d'y stationner",
-   "Oui, mais seulement pour dépasser"
+   "Une bande de circulation ordinaire, que je peux emprunter en voiture",
+   "Une piste cyclable : elle ne fait pas partie de la chaussée et je ne peux pas y circuler en voiture",
+   "Une zone de stationnement"
   ],
   "answer": 1,
   "grave": false,
-  "explain": "Les lignes obliques parallèles marquent des îlots directionnels ou des zones d'évitement : on ne peut ni y circuler, ni s'y arrêter, ni y stationner.",
-  "ref": "Art. 77.4 AR 01/12/1975",
-  "focus": "zone hachurée au sol, à droite"
+  "explain": "La partie de la voie publique délimitée par deux lignes blanches discontinues parallèles, trop étroite pour les véhicules automobiles, constitue une piste cyclable. Elle ne fait pas partie de la chaussée : avec ma voiture, je dois circuler sur la chaussée.",
+  "ref": "Art. 74, 2.7 et 9.1.1 AR 01/12/1975",
+  "focus": "bande entre les deux lignes discontinues, symbole vélo"
  },
  {
   "id": "PHE-022",
